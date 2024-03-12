@@ -1,0 +1,4 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,n_amount,n_amount_unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows annual castor bean meal treatment,nil,1852-2022,castor bean meal exposure,,0.0,,0,,,,
+Factor level shows annual castor bean meal treatment. Castor bean meal replaced rape cake in 1941. Applied in autumn usually to stubble of previous crop. Amount applied adjusted so that total application was equivalent to approximately 96kgN/ha. Not applied to forage maize. ,C,1852-1988,castor bean meal exposure,http://purl.obolibrary.org/obo/PECO_0001067,2.1,tonnes castor bean meal ha-1,96,kg N ha-1,annual ,castor bean meal,http://aims.fao.org/aos/agrovoc/c_18705
+Castor bean meal previously applied 1852-1988. ,(C) ,1989-2000,castor bean meal exposure,,0.0,,0,,,,

@@ -1,0 +1,38 @@
+{
+    "administrative": {
+        "name": "Rothamsted Met station",
+        "identifier": null,
+        "type": "research met station ",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "Contact Andy Macdonald",
+        "description": "Description of the Met Station",
+        "management": "More desctiption of met station / related to managment"
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude":  -0.360137,
+            "pointLatitude": 51.806876
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    
+    "climate": {
+        "name": null,
+        "description": "Descri",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

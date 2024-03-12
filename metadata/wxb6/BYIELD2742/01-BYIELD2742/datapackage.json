@@ -1,0 +1,387 @@
+{
+  "resources": [
+    {
+      "path": "crop_data.csv",
+      "name": "crop_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "5d5cb1a187948cd15e517fd73d0a6e01",
+        "bytes": 50217,
+        "fields": 21,
+        "rows": 468
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested."
+          },
+          {
+            "name": "crop",
+            "type": "string",
+            "format": "default",
+            "title": "Crop in this harvest year",
+            "rdfType": "https://schema.org/name",
+            "description": "Crop grown in this harvest year. Fallow (no crop) yields shown as blank cells"
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Original plots established in 1877"
+          },
+          {
+            "name": "sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub-plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "Some plots were divided into a and b halves from 1882-1907 to test different treatments. See plans"
+          },
+          {
+            "name": "sub_sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub sub-plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000449",
+            "description": "Some sub-plots were divided into i and ii halves, from 1905-1915 to test different treatments. Sub-plot a divided into i and ii (formerly known as aa), sub-plot b into i and ii (formerly known as bb).  See plans for details"
+          },
+          {
+            "name": "old_plot_notation",
+            "type": "string",
+            "format": "default",
+            "title": "Original plot notation",
+            "rdfType": "https://schema.org/name",
+            "description": "Original plot name from Russell and Voelcker (1936) data tables. This was updated to current plot names to make sub-plots clearer."
+          },
+          {
+            "name": "fertilizer_code",
+            "type": "string",
+            "format": "default",
+            "title": "fertilizer code",
+            "rdfType": "https://schema.org/name",
+            "description": "Code describing the fertilizer applied in that harvest year: 1931 and 1932 limited plots only,  1941 and 1942 all plots."
+          },
+          {
+            "name": "fertilizer_n_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Total inorganic nitrogen fertilizer applied in this harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fertilizer_n_type",
+            "type": "string",
+            "format": "default",
+            "title": "Fertilizer N type",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Type of nitrogen fertilizer applied, ammonium sulphate or sodium nitrate.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fertilizer_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date fertilizer N applied",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the nitrogen fertilizer was applied",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fertilizer_p_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Fertilizer P amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Total inorganic phosphorous fertilizer applied in this harvest year, as superphosphate. 1931 and 1932 only.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fertilizer_k_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Fertilizer K amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Total inorganic potassium fertilizer applied in this harvest year, as potassium sulphate. 1931 and 1932 only",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "sow_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Sowing date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was sown, in the spring of the year the crop was harvested.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "harvest_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Harvest date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was harvested",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cultivar",
+            "type": "string",
+            "format": "default",
+            "title": "Cultivar",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Barley cultivar (variety) grown in this harvest year",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "plot_area",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Plot area",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_330588",
+            "description": "Plot area. Each full plot was 0.10 hectare, some were then divided into a and b halves (0.05 hectare) and quarters (i and ii) (0.025 hectare).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "bushel_weight",
+            "type": "number",
+            "format": "default",
+            "title": "Bushel weight",
+            "rdfType": "http://purl.obolibrary.org/obo/UO_01200000",
+            "description": "Bushel weight. The weight in kg of a bushel of grain at threshing. A bushel is a volume measurement, assumed to be 36.369 litres",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "hectolitre_weight",
+            "type": "number",
+            "format": "default",
+            "title": "Hectolitre weight",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C69106",
+            "description": "Hectolitre weight, kg of grain per 100 litres.  A measure of grain quality. Calculated from bushel weight, assuming 1 bushel is 36.369 litres",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "grain_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Grain yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested barley grain yield at 85% dry matter. Fallow (no crop) yields shown as blank cell. If a crop was sown but it failed, yield shown as 0.0",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "straw_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Straw yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested barley straw yield at 85% dry matter. This does not include stubble. Fallow (no crop) yields shown as blank cell. If a crop was sown but it failed, yield shown as 0.0",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Whether notes are applied or not. See notes_data for details"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop yield data",
+      "description": "The main data table containing annual spring barley grain and straw yield data for all plots and sub-plots  of the Woburn Continuous Barley experiment, 1927-1942. Also grain bushel weights and hectolitre weights, a measure of grain quality. With details of fertilizer applied, and other agronomic information, including sowing date, plot size and cultivars. No fertilizer was applied 1927-1940 (except to some plots in 1931 and 1932), and the experiment was used to look at the residual effects of fertilizer applied from 1877-1926. In 1941 and 1942, basal N fertilizer was applied at the same rate to all plots.  The plots were divided in half in 1931 and 1932 to test two spring barley cultivars. The whole experiment was fallowed (no crop sown) in 1927, 1928, 1934 and 1935 (yields shown as blank cells).  See notes for more details. This experiment is a companion to the Woburn Continuous Wheat experiment. "
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "651577d5834d128fa6f91c932ff3600d",
+        "bytes": 1546,
+        "fields": 2,
+        "rows": 10
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the crop_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the crop_data table"
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi.org/10.23637/wxb6-yield2742-01",
+  "name": "woburn-continuous-barley-experiment-yields-1927-1942",
+  "title": "Woburn Continuous Barley Experiment yields 1927-1942",
+  "version": "1.0.0",
+  "keywords": [
+    "long term experiments",
+    "barley",
+    "Rothamsted Research",
+    "arable farming",
+    "grain yield"
+  ],
+  "description": "### Abstract\nAnnual spring barley grain and straw yields for all plots and sub-plots of the Woburn Continuous Barley Experiment, 1927-1942, with treatment details. Also grain hectolitre weights, a measure of grain quality. This experiment is a companion to the Woburn Continuous Wheat experiment.\n### Methods\nThe Woburn Continuous Barley Experiment was started in 1877, with a range of fertilizer and manure treatments applied until 1926. No fertilizer was applied 1927-1940 (except to some plots in 1931 and 1932), and during this period the experiment was used to look at the residual effects of fertilizer applied from 1877-1926. In 1941 and 1942, basal N fertilizer was applied at the same rate to all plots.  The plots were divided in half in 1931 and 1932 to test two spring barley cultivars. The whole experiment was fallowed (no crop sown) in 1927, 1928, 1934 and 1935.\n### Technical Info\nHarvested barley grain and straw yields at 85% dry matter. Fallow (no crop) yields shown as blank cell. If a crop was sown but it failed, yield shown as 0.0.  Straw yield does not include the stubble or all the chaff. Hectolitre weight, kg of grain per 100 litres, calculated from bushel weight, assuming 1 bushel is 36.369 litres.\n### Provenance\nIndividual plot yields were taken from Rothamsted Experimental Station Annual Reports, 1927-1938 and Yield Books 1939-1942.  Agronomic information (sow dates, cultivar, etc) taken from Annual Reports, Yield Books, plans and descriptions in the Rothamsted Library archives.  The frictionless dataset of combined yields and treatment data was compiled by Daniel Philcox and checked by June Kimori and Margaret Glendining, July 2022.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued.  This procedure avoided visual checking of data, which can be very inaccurate.\n",
+  "contributors": [
+    {
+      "title": "Daniel Philcox",
+      "organization": "University of Reading"
+    },
+    {
+      "title": "June Kimori",
+      "organization": "University of Reading"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Simon Willcock",
+      "path": "https://orcid.org/0000-0001-9534-9114",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

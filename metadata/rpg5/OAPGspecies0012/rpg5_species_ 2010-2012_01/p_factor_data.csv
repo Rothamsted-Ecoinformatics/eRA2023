@@ -1,0 +1,6 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no P applied,1965-2018,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,0,0,kg P ha-1 yr-1,not applied,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+Amount shows annual P applied. The P rate between 1965 and 2016 was 35 kg P.,1965-2016,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,P,35,kg P ha-1 yr-1,annual in winter,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+Amount shows annual P applied. The P rate since 2017 was reduced to 17 kgP.  ,2017-2018,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,P,17,kg P ha-1 yr-1,annual in winter,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+"Indicates P previously applied but no longer applied. In 2013 Plot 7 divided, 7-1 stopped receiving P, 7-2 continued to receive P",2013-2018,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,(P),0,,no longer applied,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+Amount shows annual P applied  to plot 20,1965-2018,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,P*,15,kg P ha-1 yr-1,annual in winter except when FYM applied,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521

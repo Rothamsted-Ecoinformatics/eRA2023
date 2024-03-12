@@ -1,0 +1,17 @@
+%0 Dataset
+%T Woburn Continuous Wheat Experiment soil data 1876-1932 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2022 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G None 
+%U https://doi.org/10.23637/wxw6-soil7632-01 
+%R 10.23637/wxw6-soil7632-01 
+%A Glendining, Margaret 
+%K wheat; Rothamsted Research; soil pH; long term experiments; soil organic carbon; nitrogen content; Woburn Continuous Wheat experiment; 
+%X This dataset contains the soil pH, percentage of total soil carbon (C) nitrogen (N) phosphorus (P) and exchangeable calcium (Ca) in the topsoil (0-23cm) of the Woburn Continuous Wheat experiment, 1876 to 1932. Baseline measurements were taken in November 1876 before the start of the experiment. The soil was then sampled from each plot in 1888, 1927 and 1932. Selected plots were also sampled in 1898 and 1919. The dataset also contains details of the fertilizer, manure and lime treatments applied 1876-1926. No fertilizer, manure or lime was applied after 1926. 
+The soil at Woburn contained little free calcium carbonate, and soil pH was 6.1 in 1876. Consequently, where ammonium sulphate was applied (plots 2, 5 and 8) the soil soon became acidic and yields declined markedly within 20 years. These were the first experiments in the UK where lime was applied to try to correct soil acidity.
+
+Data from Crowther (1936) and Mattingly et al (1975), see Resource Provenance.  

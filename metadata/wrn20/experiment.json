@@ -1,0 +1,88 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Woburn Erosion Reference Experiment",
+        "localIdentifier": "W/RN/20",
+        "name": "Woburn Erosion Reference Experiment",
+        "url": null,
+        "description": "Eight plots situated on a slope of about 5 degrees, (7-13%), each separated by a grass bank. The eroded soil and runoff were collected in tanks at the end of each plot after recent erosion. Four plots were cultivated and drilled parallel to the contour, and four up and down the slope. All plots grew the same crops each year, in a rotation typical of the sand soil of Bedfordshire. Four plots received standard cultivation and four minimal tillage.",
+        "disambiguatingDescription": "To assess the effects of minimal tillage and contour cultivation on soil erosion, surface runoff, soil loss and crop yield on a sandy soil at Woburn, England"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available online with registration",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To assess the effects of minimal tillage and contour cultivation on soil erosion, surface runoff, soil loss and crop yield on a sandy soil at Woburn, England",
+        "correctionsPolicy": "To assess the effects of minimal tillage and contour cultivation on soil erosion, surface runoff, soil loss and crop yield on a sandy soil at Woburn, England",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1988,
+    "dateEPEnd": null,
+    "dateEnd": 1998,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/j.1475-2743.1998.tb00636.x",
+            "sameAs": "https://doi.org/10.1111/j.1475-2743.1998.tb00636.x",
+            "citation": "Phosphorus losses from arable land in England. Catt et al, 1998",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1111/j.1475-2743.2004.tb00379.x",
+            "sameAs": "https://doi.org/10.1111/j.1475-2743.2004.tb00379.x",
+            "citation": "The effects of minimal tillage and contour cultivation on surface runoff, soil loss and crop yield in the long-term Woburn Erosion Reference Experiment. Quinton and Catt, 2004.",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1016/j.agee.2005.07.005",
+            "sameAs": "https://doi.org/10.1016/j.agee.2005.07.005",
+            "citation": "Soil carbon losses by water erosion: Experimentation and modelling at field and national scales in the UK. Quinton et al, 2006",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.2134/jeq2001.302538x",
+            "sameAs": "https://doi.org/10.2134/jeq2001.302538x",
+            "citation": "The selective removal of P from soil: Is event size important? Quinton et al, 2021",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ws-soil-maps-01",
+            "sameAs": "https://doi.org/10.23637/ws-soil-maps-01",
+            "citation": "Woburn Experimental Farm Soil and Field Maps. Watts et al, 2017",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1021/es062147h",
+            "sameAs": "https://doi.org/10.1021/es062147h",
+            "citation": "Enrichment of Heavy Metals in Sediment Resulting from Soil Erosion on Agricultural Fields. Quinton et al, 2007",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/wrn20-yield-01",
+            "sameAs": "https://doi.org/10.23637/wrn20-yield-01",
+            "citation": "Woburn Erosion Reference Experiment crop yields. Glendining et al, 2024",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
+}

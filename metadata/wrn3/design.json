@@ -1,0 +1,1028 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 1",
+            "localIdentifier": "Period 1",
+            "name": "Period 1",
+            "url": "Period 1",
+            "description": "40 pairs of main plots in 5 blocks, phased in over a 5 year period. Each block had four different three-year rotations, followed by two arable test crops: in four plots in each block the rotation was repeated every five years (continuous) and in four plots in each block the rotations alternated every five years, on a 20-year cycle of all four arable and ley-arable rotations. The main plots are in pairs, one of each pair received FYM (farmyard manure) applied every fifth year, to the first test crop, 1941-1967 (the split plots)."
+        },
+        "design": {
+            "dateStart": 1938,
+            "dateEnd": 1972,
+            "description": "40 pairs of main plots in 5 blocks with four types of rotation. Each rotation had three years of 'treatment' crops followed by two years of arable 'test' crops.  The rotations were: 3-year grass grass/clover ley (L),  a 3-year lucerne (alfalfa) ley (Lu), a 3-year arable rotation which included a 1-yr hay crop (Ah) and a 3-year arable rotation which included root crops (Ar). The effect of these four 'treatments' was compared on the yield of two arable 'test' crops. The test crops were potatoes followed by spring barley. Sugar beet replaced potatoes in 1956. Sainfoin replaced lucerne in 1965.",
+            "designType": "Split-plot",
+            "designTypeLabel": "Split-plot",
+            "studyDesign": "Period 1",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": 5,
+            "numberOfSubplots": 2,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 26873,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26874,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26875,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26876,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26877,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26878,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26879,
+                "name": "winter rye",
+                "sameAs": "winter rye",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26880,
+                "name": "kale",
+                "sameAs": "kale",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26881,
+                "name": "one-year hay",
+                "sameAs": "one-year hay",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26882,
+                "name": "carrots",
+                "sameAs": "carrots",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26883,
+                "name": "oats",
+                "sameAs": "oats",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26884,
+                "name": "beans",
+                "sameAs": "beans",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26885,
+                "name": "lucerne (alfalfa)",
+                "sameAs": "lucerne (alfalfa)",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26886,
+                "name": "sainfoin",
+                "sameAs": "sainfoin",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "Ar arable with roots",
+                "dateStart": 1938,
+                "dateEnd": 1972,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26875,
+                        "description": "Treatment crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26878,
+                        "description": "Treatment crop 2: replaced by winter rye 1949"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26876,
+                        "description": "Treatment crop 3: (kale 1940-45) replaced by carrots 1956"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26875,
+                        "description": "Test crop 1: replaced by sugar beet 1956-67, barley 1968-1970, potatoes 1971-75"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26877,
+                        "description": "Test crop 2: replaced by winter wheat 1972"
+                    }
+                ]
+            },
+            {
+                "name": "Ah arable with hay",
+                "dateStart": 1938,
+                "dateEnd": 1972,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26875,
+                        "description": "Treatment crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26878,
+                        "description": "Treatment crop 2: replaced by winter rye from 1949"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26881,
+                        "description": "Treatment crop 3"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26875,
+                        "description": "Test crop 1; replaced by sugar beet 1956-67, barley 1968-1970, potatoes 1971-75"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26877,
+                        "description": "Test crop 2: replaced by winter wheat from 1972"
+                    }
+                ]
+            },
+            {
+                "name": "L grass/cover ley",
+                "dateStart": 1938,
+                "dateEnd": 1972,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26873,
+                        "description": "Treatment crop year 1: grazed by sheep until1968 then cut"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26873,
+                        "description": "Treatment crop year 2: grazed by sheep until1968 then cut"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26873,
+                        "description": "Treatment crop year 2: grazed by sheep until1968 then cut"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26875,
+                        "description": "Test crop 1: replaced by sugar beet 1956-67, barley 1968-1970, potatoes 1971-75"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26877,
+                        "description": "Test crop 2: replaced by winter wheat from 1972"
+                    }
+                ]
+            },
+            {
+                "name": "Lu legume ley",
+                "dateStart": 1938,
+                "dateEnd": 1972,
+                "phasing": null,
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26885,
+                        "description": "Treatment crop year 1; sainfoin replaced lucerne from 1964"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26885,
+                        "description": "Treatment crop year 2; sainfoin replaced lucerne from 1964"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26885,
+                        "description": "Treatment crop year 3; sainfoin replaced lucerne from 1964"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26875,
+                        "description": "Test crop 1: replaced by sugar beet 1956-67, barley 1968-1970, potatoes 1971-75"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26877,
+                        "description": "Test crop 2: replaced by winter wheat from 1972"
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 15051,
+                "name": "farmyard manure exposure",
+                "description": "The main plots are in pairs, one of each pair received FYM (farmyard manure) applied every fifth year, to the first test crop, 1941-1967.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "test crop yield",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annual",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Test crop yields - potatoes, wheat, barley, sugar beet.",
+                "crop": null
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": null,
+                "unitText": "%",
+                "collectionFrequency": "every five years",
+                "scale": null,
+                "material": "Soil",
+                "description": "The soil in each block was sampled regularly every five years from 1955, to coincide with the end of the third treatment year",
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 2",
+            "localIdentifier": "Period 2",
+            "name": "Period 2",
+            "url": "Period 2",
+            "description": "40 pairs of main plots in 5 blocks, phased in over a 5 year period. Each block had four different three-year rotations, followed by two arable test crops: in four plots in each block the rotation was repeated every five years (continuous) and in four plots in each block the rotations alternated every five years, on a 20-year cycle of all four arable and ley-arable rotations. The main plots are in pairs, one of each pair received FYM (farmyard manure) applied every fifth year, to the first test crop, 1941-1967 (the split plots). \nThe treatments were: AB (all arable rotation); AF (arable rotation with roots or fallow); LN3 (3-year grass ley with fertilizer N); LC3 (3-year legume or grass/clover ley).  The alternating rotations were replaced by eight-year grass or grass/clover leys in the mid-1970s: LN8 (8-year grass leys with fertilizer N, followed by two arable test crops); LC8 (8-year grass/clover leys, followed by two arable test crops). The rotations are phased in over a five-year period in the five different blocks, so that each year of the five-year rotation is present each year. The eight-year leys were also phased in, the first cycle starting 1973-77, the second cycle 1978-82.  The test crops had  four N treatments (split-split plots)."
+        },
+        "design": {
+            "dateStart": 1973,
+            "dateEnd": 2007,
+            "description": "Major changes made to the experiment in 1973-78. Grazed leys were replaced with cut grass or grass/clover leys. The Alternating rotations were stopped and two cycles of 8-year leys followed by the 2-yr test crops were introduced, the first cycle started in 1973, the second in 1978.",
+            "designType": "Split split plot",
+            "designTypeLabel": "Split split plot",
+            "studyDesign": "Period 2",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": 5,
+            "numberOfSubplots": 8,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 26887,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26888,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26889,
+                "name": "winter rye",
+                "sameAs": "winter rye",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26890,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26891,
+                "name": "fallow",
+                "sameAs": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26892,
+                "name": "oats",
+                "sameAs": "oats",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26893,
+                "name": "winter beans",
+                "sameAs": "winter beans",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26894,
+                "name": "carrots",
+                "sameAs": "carrots",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26895,
+                "name": "forage maize",
+                "sameAs": "forage maize",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26896,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26897,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26898,
+                "name": "red clover",
+                "sameAs": "red clover",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "AB/ABe (all arable rotation)",
+                "dateStart": 1973,
+                "dateEnd": 2007,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Treatment crop 1 (potatoes 1973-76); replaced by rye 1998"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Treatment crop 2; replaced by forage maize 1999"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26892,
+                        "description": "Treatment crop 3 (one year hay 1973); replaced by beans 1981"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26887,
+                        "description": "Test crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Test crop 2; replaced by rye 1992"
+                    }
+                ]
+            },
+            {
+                "name": "AF/AM (all arable rotation with fallow)",
+                "dateStart": 1973,
+                "dateEnd": 2007,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26891,
+                        "description": "Treatment crop 1 (potatoes 1973-76); replaced by rye 1998"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26891,
+                        "description": "Treatment crop 2; replaced by winter beans 1999"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26892,
+                        "description": "Treatment crop 3 (spring barley 1973); replaced by beans 1981"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26887,
+                        "description": "Test crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Test crop 2; replaced by rye 1992"
+                    }
+                ]
+            },
+            {
+                "name": "Ln3",
+                "dateStart": 1973,
+                "dateEnd": 2007,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 1: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 2: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 3; grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26887,
+                        "description": "Test crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Test crop 2; replaced by rye 1992"
+                    }
+                ]
+            },
+            {
+                "name": "Lc3",
+                "dateStart": 1973,
+                "dateEnd": 2007,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 2"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 3"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26887,
+                        "description": "Test crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Test crop 2: replaced by rye 1992"
+                    }
+                ]
+            },
+            {
+                "name": "Lln8",
+                "dateStart": 1973,
+                "dateEnd": 2007,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 1; grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 2: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 3: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 4: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 5: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 6: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 7: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26897,
+                        "description": "Treatment crop 8: grass ley with fertilizer N"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26887,
+                        "description": "Test crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Test crop 2: replaced by rye 1992"
+                    }
+                ]
+            },
+            {
+                "name": "Llc8",
+                "dateStart": 1973,
+                "dateEnd": 2007,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 2"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 3"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 4"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 5"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 6"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 7"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26896,
+                        "description": "Treatment crop 8"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26887,
+                        "description": "Test crop 1"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26888,
+                        "description": "Test crop 2: : replaced by rye 1992"
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 15052,
+                "name": "nitrogen fertilizer exposure",
+                "description": "4 levels of N fertilizer applied to wheat and barley/rye test crops. Split-spilt plots",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 15053,
+                "name": "potassium fertilizer exposure",
+                "description": "Corrective K applications to 1st test wheat. 4 levels.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 15054,
+                "name": "split nitrogen fertilizer exposure",
+                "description": "Split v single N applications to wheat test crop, tested 2001-2005, split plots. Applied to Farmyard manure residue split plots, last applied in 1960s.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 15055,
+                "name": "residue of farmyard manure exposure",
+                "description": "Farmyard manure residue, last applied 1966. Split-plots.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "Grain yield",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Grain yields for test crops (wheat and spring barley)",
+                "crop": 26887
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 3",
+            "localIdentifier": "Period 3",
+            "name": "Period 3",
+            "url": "Period 3",
+            "description": "40 main plots, divided over five blocks. Half the plots have been in four continuous five-year arable or ley-arable rotations since 1938: three years of treatment crops followed by two arable test crops. \nThe other 20 plots were in alternating rotations from 1938 to the mid-1970s: a 20-year cycle of all four arable and ley-arable rotations. These were replaced by eight-year grass or grass/clover leys from the mid-1970s until 2007. From 2008 all plots were in five-year rotations of three years of treatment crops and two years of test crops.:  AO (continuous arable with oats); ABe (continuous arable with beans); Ln3 (three-year grass leys with nitrogen); Lc3 (three-year grass/clover leys). In 2021 winter beans (BE) were replaced with winter barley (WB), and all arable rotations followed the same rotation, R, WB, O, W and R. Rotation ABe became AO in 2021, so there are now one arable rotation and two ley/arable rotations, with different histories."
+        },
+        "design": {
+            "dateStart": 2008,
+            "dateEnd": null,
+            "description": "Major changes to the experiment in 2006-2007. The 8-year leys were ended once both cycles had completed three 10-year rotations. In 2008 plots previously in the 1st cycle of 8-year leys started to follow the same rotations as the two continuous arable rotation, whilst those in the second cycle went into a 3-year grass +N or 3-year grass/clover rotation, i.e. the same four rotations as the 'continuous' plots but with more SOM.",
+            "designType": "Split split plot",
+            "designTypeLabel": "Split split plot",
+            "studyDesign": "Period 3",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": 5,
+            "numberOfSubplots": 8,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 26899,
+                "name": "winter wheat (W)",
+                "sameAs": "winter wheat (W)",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26900,
+                "name": "winter rye (R)",
+                "sameAs": "winter rye (R)",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26901,
+                "name": "beans (BE)",
+                "sameAs": "beans (BE)",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26902,
+                "name": "winter oats (O)",
+                "sameAs": "winter oats (O)",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26903,
+                "name": "winter barley (WB)",
+                "sameAs": "winter barley (WB)",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26904,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 26905,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "Ln3",
+                "dateStart": 2008,
+                "dateEnd": null,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26905,
+                        "description": "1st treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26905,
+                        "description": "2nd treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26905,
+                        "description": "3rd treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26899,
+                        "description": "1st test crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "2nd test crop"
+                    }
+                ]
+            },
+            {
+                "name": "Lc3",
+                "dateStart": 2008,
+                "dateEnd": null,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26905,
+                        "description": "1st treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26905,
+                        "description": "2nd treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26905,
+                        "description": "3rd treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26899,
+                        "description": "1st test crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "2nd test crop"
+                    }
+                ]
+            },
+            {
+                "name": "(ABe) ABe",
+                "dateStart": 2008,
+                "dateEnd": 2020,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "1st treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26902,
+                        "description": "2nd treatment crop; replaced by winter barley (WB) from 2021"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26901,
+                        "description": "3rd treatment crop; replaced by oats from 2021"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26899,
+                        "description": "1st test crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "2nd test crop"
+                    }
+                ]
+            },
+            {
+                "name": "(AM) AO",
+                "dateStart": 2008,
+                "dateEnd": 2020,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "1st treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26901,
+                        "description": "2nd treatment crop; replaced by winter barley (WB) from 2021"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26902,
+                        "description": "3rd treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26899,
+                        "description": "1st test crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "2nd test crop"
+                    }
+                ]
+            },
+            {
+                "name": "AO",
+                "dateStart": 2021,
+                "dateEnd": null,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "1st treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26903,
+                        "description": "2nd treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26902,
+                        "description": "3rd treatment crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26899,
+                        "description": "1st test crop"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 26900,
+                        "description": "2nd test crop"
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 15056,
+                "name": "nitrogen fertilizer exposure",
+                "description": "4 rates of N fertilizer applied to test crops Split-spilt plots",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 15057,
+                "name": "Residue farmyard manure exposure,",
+                "description": "Farmyard manure residues, last applied in 1960s, split plots. Used to test split N 2001-2005.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "grain yield for test crops (winter wheat and winter rye)",
+                "crop": 26899
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": null,
+                "crop": null
+            }
+        ]
+    }
+]

@@ -1,0 +1,393 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Text",
+    "identifier": "10.23637/rrn2-FLAsuppinfo-01",
+    "name": "Fosters Ley-arable experiment supplementary information 1949 onwards",
+    "shortName": "",
+    "url": "https://www.era.rothamsted.ac.uk/metadata/rrn2/FLAsuppinfo.pdf",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "Summary of cropping systems, field plan layout and grass/clover seed mixtures for the Fosters Ley-Arable experiment, since 1949.\r\n\r\nThis summary was assembled by Fergus Blyth in 2022 and 2023 as part of a year spent on placement for an MSci degree from the University of Glasgow.\r\n\r\nThis work was supported by the Natural Environment Research Council [NE/S007423/1], through the ENVISION Doctoral Training Partnership, Research Experience Placement scheme. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": " "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "arable farming",
+        "arable soils",
+        "crop rotation",
+        "cropping system",
+        "experimental design",
+        "ley farming",
+        "leys",
+        "long term experiments",
+        "permanent grassland",
+        "Fosters ley-arable rotation experiment"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Fergus Blyth",
+            "givenName": "Fergus",
+            "familyName": "Blyth",
+            "sameAs": "https://orcid.org/0009-0002-6733-9992",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Fergus Blyth",
+            "givenName": "Fergus",
+            "familyName": "Blyth",
+            "sameAs": "https://orcid.org/0009-0002-6733-9992",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "csv ",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": 0.0,
+            "latitude": 0.0
+        },
+        "name": "Fosters Field"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rrn2-FLAsoc5014-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Fosters Ley-arable experiment soil chemical properties 1948-2014 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rrn2-OARFLAsoc-1",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted Ley Arable Soil Organic Carbon 1948-2008; Fosters ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-192",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-Term Experiments up to 1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-193",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-term Experiments 1968-1973",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "https://www.era.rothamsted.ac.uk/eradoc/article/PS-Fosters-Ley-Arable-1-20-1",
+            "relatedIdentifierType": "URL",
+            "name": "Collection of Plans for the Fosters Ley-Arable Experiment",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "ENVISION Doctoral Training Partnership",
+            "alternateName": "NE/S007423/1",
+            "url": "https://tinyurl.com/grantS007432",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Natural Environment Research Council",
+                "url": "https://ror.org/02b5d8509"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Fosters Ley Arable cropping systems supplementary information 1949 onwards",
+            "URL": "FLAsuppinfo.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "1384 kilobytes"
+        }
+    ],
+    "image": [],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "OA"
+}

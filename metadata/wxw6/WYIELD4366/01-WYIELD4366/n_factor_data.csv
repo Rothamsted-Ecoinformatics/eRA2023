@@ -1,0 +1,6 @@
+description,factor_level_name,years_range,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows annual nitrogen fertilizer treatment.,N1,1943-1955,nitrogen fertilizer exposure,http://purl.obolibrary.org/obo/PECO_0007102 ,39,kg N ha-1,annual,calcium ammonium nitrate,http://aims.fao.org/aos/agrovoc/c_23997 
+Factor level shows annual nitrogen fertilizer treatment. ,N2,1943-1955,nitrogen fertilizer exposure,http://purl.obolibrary.org/obo/PECO_0007102 ,78,kg N ha-1,annual,calcium ammonium nitrate,http://aims.fao.org/aos/agrovoc/c_23997 
+Factor level shows annual nitrogen fertilizer treatment. ,N3,1943-1955,nitrogen fertilizer exposure,http://purl.obolibrary.org/obo/PECO_0007102 ,118,kg N ha-1,annual,calcium ammonium nitrate,http://aims.fao.org/aos/agrovoc/c_23997 
+Basal fertilizer N applied to all plots  1959-1961 (barley and wheat),basalN,1959-1961,nitrogen fertilizer exposure,http://purl.obolibrary.org/obo/PECO_0007102 ,114,kg N ha-1,annual,calcium ammonium nitrate,http://aims.fao.org/aos/agrovoc/c_23997 
+Basal fertilizer N applied to all plots in 1962 (oats),basalN,1962,nitrogen fertilizer exposure,http://purl.obolibrary.org/obo/PECO_0007102 ,63,kg N ha-1,annual,calcium ammonium nitrate,http://aims.fao.org/aos/agrovoc/c_23997 

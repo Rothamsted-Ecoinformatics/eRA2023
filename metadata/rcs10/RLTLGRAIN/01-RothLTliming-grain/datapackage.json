@@ -1,0 +1,1162 @@
+{
+  "resources": [
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "2793e39b536c4ec7fc3b24ae1b4067a0",
+        "bytes": 245,
+        "fields": 3,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "Crop name",
+            "rdfType": "https://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "Latin name",
+            "rdfType": "https://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop types",
+      "description": "List of crops grown with Latin names and AGROVOC concepts."
+    },
+    {
+      "path": "grain_data.csv",
+      "name": "grain_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "eb7ee4bc93ee5fafd657d3ba38950275",
+        "bytes": 17868,
+        "fields": 34,
+        "rows": 96
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "site",
+            "type": "string",
+            "format": "default",
+            "title": "Site",
+            "rdfType": "https://schema.org/name",
+            "description": "Rothamsted or Woburn"
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Plot number.  1-32 at Rothamsted, 33-64 at Woburn"
+          },
+          {
+            "name": "block",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Block",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000303",
+            "description": "Block number 1 or 2"
+          },
+          {
+            "name": "sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub-plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "All plots divided into two sub-plots in 1974-1980 to test Mg,  and again to test Mn (1987-1990) and S (1991-1996). There are no sub-plots in the other years."
+          },
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year crop harvested. It may have been sown the previous autumn, if it is a winter crop."
+          },
+          {
+            "name": "crop_type",
+            "type": "string",
+            "format": "default",
+            "title": "Crop type grown",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_1972.html",
+            "description": "Name of crop grown in this harvest year"
+          },
+          {
+            "name": "liming_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Lime treatment",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_200.html",
+            "description": "The four different lime treatments applied"
+          },
+          {
+            "name": "p_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "P treatment between 1962 and 1980, and 1981-1996",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007397",
+            "description": "The different phosphorus treatments applied 1962-1980, and 1981-1996"
+          },
+          {
+            "name": "k_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "K treatment between 1962 and 1980",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007293",
+            "description": "Whether potassium treatment is applied or not, 1962-1980"
+          },
+          {
+            "name": "mn_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Mn treatment between 1987 and 1990",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007387",
+            "description": "Whether foliar manganese treatment is applied or not, 1987-1990"
+          },
+          {
+            "name": "k_basal_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of basal fertilizer K applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Basal fertilizer K applied in this harvest year, to all plots. Amount depends on crop type. This is not a treatment. Applied between 1981 and 1986 but not in all years."
+          },
+          {
+            "name": "yield",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Crop yield",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0000371",
+            "description": "Yield of harvested grain at 85% dry matter",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "%_dry_matter",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Percent dry matter",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_2398",
+            "description": "Percent dry matter of harvested produce",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "ca",
+            "type": "number",
+            "format": "default",
+            "title": "Ca grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0006047",
+            "description": "Ca grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "k",
+            "type": "number",
+            "format": "default",
+            "title": "K grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_6139",
+            "description": "K grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "mg",
+            "type": "number",
+            "format": "default",
+            "title": "Mg grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_4517",
+            "description": "Mg grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "na",
+            "type": "number",
+            "format": "default",
+            "title": "Na grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_7145",
+            "description": "Na grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "p",
+            "type": "number",
+            "format": "default",
+            "title": "P grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_5804",
+            "description": "P grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "s",
+            "type": "number",
+            "format": "default",
+            "title": "S grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_7514",
+            "description": "S grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "al",
+            "type": "number",
+            "format": "default",
+            "title": "Al grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0000995",
+            "description": "Al grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "as",
+            "type": "number",
+            "format": "default",
+            "title": "As grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0006054",
+            "description": "As grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cd",
+            "type": "number",
+            "format": "default",
+            "title": "Cd grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0006059",
+            "description": "Cd grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "co",
+            "type": "number",
+            "format": "default",
+            "title": "Co grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0001044",
+            "description": "Co grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cr",
+            "type": "number",
+            "format": "default",
+            "title": "Cr grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0001045",
+            "description": "Cr grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cu",
+            "type": "number",
+            "format": "default",
+            "title": "Cu grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0020092",
+            "description": "Cu grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fe",
+            "type": "number",
+            "format": "default",
+            "title": "Fe grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0020089",
+            "description": "Fe grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "mn",
+            "type": "number",
+            "format": "default",
+            "title": "Mn grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_4570",
+            "description": "Mn grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "mo",
+            "type": "number",
+            "format": "default",
+            "title": "Mo grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_4901",
+            "description": "Mo grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "ni",
+            "type": "number",
+            "format": "default",
+            "title": "Ni grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_5172",
+            "description": "Ni grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "pb",
+            "type": "number",
+            "format": "default",
+            "title": "Pb grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0001047",
+            "description": "Pb grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "se",
+            "type": "number",
+            "format": "default",
+            "title": "Se grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_6953",
+            "description": "Se grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "ti",
+            "type": "number",
+            "format": "default",
+            "title": "Ti grain concentration",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_32704",
+            "description": "Ti grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), open tube digestion a solution of HNO3/HClO4. 0.500g in 25ml. Concentration determined by ICP-OES (inductively coupled plasma-optical emission spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "zn",
+            "type": "number",
+            "format": "default",
+            "title": "Zn grain concentration",
+            "rdfType": "http://purl.obolibrary.org/obo/TO_0020090",
+            "description": "Zn grain concentration, measured in 2019 and 2020 on archived ground dried grain (<0.5mm), microwave digestion with HNO3/H2O2. Concentration determined by ICP-MS (inductively coupled plasma mass spectrometry).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note",
+            "description": "Whether notes are applied or not"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "crop_type",
+            "reference": {
+              "resource": "crop_types_data",
+              "fields": "crop_name"
+            }
+          },
+          {
+            "fields": "liming_factor_level",
+            "reference": {
+              "resource": "liming_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "p_factor_level",
+            "reference": {
+              "resource": "p_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "k_factor_level",
+            "reference": {
+              "resource": "k_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "mn_factor_level",
+            "reference": {
+              "resource": "mn_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "note",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Grain mineral data",
+      "description": "The main data table containing grain mineral concentrations in barley, oats and wheat, 1978, 1981 and 1995. Includes treatments and crop yields. "
+    },
+    {
+      "path": "k_factor_data.csv",
+      "name": "k_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "3d7bf2eb21917f29294639186a604037",
+        "bytes": 892,
+        "fields": 12,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "https://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "title": "Amount of treatment factor applied",
+            "description": "The annual amount of the treatment applied over the relevant period"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The annual rate at which the treatment is applied over the relevant period"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "title": "Total amount of treatment factor applied over experiment",
+            "description": "The total amount of the treatment applied over the course of the experiment"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total amount applied unit",
+            "description": "The rate at which the total amount of treatment is applied over the course of the experiment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "K treatment factor level descriptions",
+      "description": "Describes the different K treatment factor levels used, 1962-1978"
+    },
+    {
+      "path": "liming_factor_data.csv",
+      "name": "liming_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "d860e0530fea37b0fbbc3fc4449f0228",
+        "bytes": 1417,
+        "fields": 10,
+        "rows": 4
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "https://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the lime treatment factor is applied, eg annually, infrequently"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Total amount of lime applied over experiment",
+            "description": "Total amount of lime applied over the course of the experiment"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total amount applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the total amount of lime is applied over the course of the experiment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Liming treatment factor level descriptions",
+      "description": "Describes the different liming treatment factor levels used, showing the total amounts applied over the experiment. "
+    },
+    {
+      "path": "mn_factor_data.csv",
+      "name": "mn_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "480d04b051a79df37c6ba49dd23e7db1",
+        "bytes": 782,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "https://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "title": "Amount of treatment factor applied",
+            "description": "The rate at which the factor level is applied"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Actual amount of treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Mn treatment factor level descriptions",
+      "description": "Describes the different Mn treatment factor levels used, 1987-1990"
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "6be6ab53f6e82df6f22dea1b503a22a7",
+        "bytes": 169,
+        "fields": 2,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Additional explanatory notes for records in the crop_data_table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the crop_data table"
+    },
+    {
+      "path": "p_factor_data.csv",
+      "name": "p_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "5be6b5cfe6c9bb6bd50285bd6b57872b",
+        "bytes": 2421,
+        "fields": 13,
+        "rows": 6
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "treatment_factor_group",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor group",
+            "description": "P applied at different rates for the two different phases of the experiment. This groups comparable P rates applied at different phases of the experiment."
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "https://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount of treatment factor applied",
+            "description": "The annual amount of P applied over the relevant period"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the amount is applied over the relevant period (1 or 2)"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of P treatment, annual (Period 1) or infrequent (Period 2)"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Total application over relevant period (1 or 2)",
+            "description": "Total amount of P applied over the relevant period (1 or 2)"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total application unit over the relevant period (1 or 2)",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the total amount is applied over the relevant period (1 or 2)"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "P treatment factor level descriptions",
+      "description": "Describes the different P treatment factor levels used: Period 1 (1962-1980) when two P rates (0 and P) were applied annually; Period 2 (1981-1996) when four P treatments (P0, P1, P2 and P3) were applied three or four times only.  "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "10.23637/rcs10-rltlgrain-01",
+  "name": "rothamsted-long-term-liming-experiment-grain-mineral-composition",
+  "title": "Rothamsted long-term liming experiment grain mineral composition",
+  "version": "1.0.0",
+  "keywords": [
+    "wheat",
+    "Rothamsted Research",
+    "soil pH",
+    "long term experiments",
+    "phosphorous",
+    "liming",
+    "barley",
+    "mineral content",
+    "trace elements",
+    "oats"
+  ],
+  "description": "### Abstract\nThe experiment tests the effects of four different amounts of lime (creating a soil pH range for approximately 4.5 to 7.5) with and without fertilizer P, on the grain mineral composition of three arable crops. The site is a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. The dataset contains grain mineral composition for 20 different minerals (mg/kg dry soil), for individual plots, measured in 1978, 1981  and 1995. It includes details  of the lime and fertilizer treatments, and crop yield.  \r\n\r\n\r\nThere was a parallel experiment on a sandy loam soil at Woburn Experimental Farm. This experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele.\n### Methods\nGrain mineral composition was determined, in 2019 and 2020, on archived ground samples grown in 1978 (barley), 1981 (oats) and 1995 (wheat). Macro-nutrients (Ca, K, Mg, Na, P, S) and Al, Fe and Ti were determined by open tube digestion with HNO<sub>3</sub>/HClO<sub>4</sub> and measured with ICP-OES. Micro-nutrients and trace elements (As, Cd, Co, Cr, Cu, Mn, Mo, Ni, Pb, Se, and Zn) were determined with microwave digestion with HNO<sub>3</sub>/H<sub>2</sub>O<sub>2</sub>, then measured with ICP-MS.\n### Technical Info\n\n### Other\n\n### Provenance\nThe original archived grain samples were stored in the Rothamsted Sample Archive. The chemical analysis was carried out in the Analytical Unit of Rothamsted Research in 2019 and 2020.\n### Quality\n\n",
+  "contributors": [
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Ruth Skilton",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Steve McGrath",
+      "path": "https://orcid.org/0000-0003-0952-8947",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Jonathan Holland",
+      "path": "https://orcid.org/0000-0001-6661-0168",
+      "organization": "The James Hutton Institute"
+    },
+    {
+      "title": "Lionel Jordan_Meille",
+      "path": "https://orcid.org/0000-0003-1169-7002",
+      "organization": "Bordeaux Sciences Agro"
+    },
+    {
+      "title": "Cathy Thomas",
+      "path": "https://orcid.org/0000-0002-6320-9923",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Stephan Haefele",
+      "path": "https://orcid.org/0000-0003-0389-8373",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Mark Durenkamp",
+      "path": "https://orcid.org/0000-0002-2195-1855",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Chloe Garwood",
+      "path": "https://orcid.org/0000-0002-2831-6854",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

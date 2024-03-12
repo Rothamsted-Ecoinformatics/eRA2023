@@ -1,0 +1,25 @@
+******************************************************
+
+         Barnfield (R/BN/7) 
+
+******************************************************
+
+
+
+
+DESCRIPTION
+    Barnfield was the first of the Classical Experiments, with treatments applied in spring 1843 for a crop of turnips sown in July. The treatments and cropping, although mainly roots, differed until 1876 when a period of continuous cropping with mangolds was started that lasted until 1959 (sugar beet were also grown, on half-plots, from 1946).
+
+Treatments during the first two years were on long narrow plots, as on Broadbalk. After various modification, the design was settled in 1856 when the strips testing minerals and FYM, including FYM + PK, were crossed at right angles by series comparing no N fertilizer with both inorganic and organic forms of N supplying 96 kg ha-1. Before 1968 this was the only Classical in which N was applied with both FYM and FYM + PK fertilizer.
+
+Because yields of continuous roots were declining, perhaps because of increasing numbers of cyst nematodes (Heterodera schachtii), the cropping has been progressively modified since 1959 and has included a range of arable crops, with an increased range of N dressings, and grass. From 1977 to 1983 the series that had never received N fertilizer was kept fallow. It was sown to a grass-clover ley in 1984. The remainder has been in grass since 1975.
+
+No treatments have been applied and no yields taken since 2001, although the site is currently still available. Recently soil from the site was used in a study investigating the response of wheat roots to soil P supply (Yuan et al, 2016).
+    Effects of fertilizers and organic manures on root crops, arable crops and grass & clover.
+
+    Experiment start = 1843
+
+    Experiment end = 2001
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

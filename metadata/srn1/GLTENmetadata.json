@@ -1,0 +1,672 @@
+{
+    "id": 6593,
+    "experiment_type_term": null,
+    "experiment_id": 52,
+    "people": [
+        {
+            "id": 7989,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": ""
+                }
+            ],
+            "role_term": null,
+            "title": "Dr",
+            "name": "Sarah Perryman",
+            "affiliation": "Rothamsted Research",
+            "department": "Intelligent Data Ecosystems",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "data managers"
+        },
+        {
+            "id": 7990,
+            "contacts": [],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andrew Gregory",
+            "affiliation": "Rothamsted Research",
+            "department": "Protecting Crops and the Environment",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 7991,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "res.e-ra@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Intelligent Data Ecosystems",
+            "orcid": "0000-0002-6466-4629",
+            "is_contact": true,
+            "role_label": "data manager"
+        },
+        {
+            "id": 7992,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "nathan.morris@niab.com"
+                }
+            ],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Nathan Morris",
+            "affiliation": "NIAB",
+            "department": "Soils and Farming Systems",
+            "orcid": null,
+            "is_contact": true,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 7993,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "david.clarke@niab.com"
+                }
+            ],
+            "role_term": "principal investigator",
+            "title": null,
+            "name": "David Clarke",
+            "affiliation": "NIAB",
+            "department": "Soils and Farming Systems",
+            "orcid": "0000-0002-3905-5725",
+            "is_contact": false,
+            "role_label": "principal investigator"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 7296,
+            "contacts": [],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        },
+        {
+            "id": 7297,
+            "contacts": [
+                {
+                    "contact_type": "URL",
+                    "value": "https://tmaf.co.uk/saxmundham/"
+                }
+            ],
+            "role_term": "research organisation",
+            "name": "The Morley Agricultural Foundation",
+            "name_uri": null,
+            "abbreviation": "TMAF",
+            "role_label": "research organisation"
+        }
+    ],
+    "periods": [
+        {
+            "id": 8871,
+            "design_type_term": "Randomized complete block design",
+            "crops": [
+                {
+                    "id": 23456,
+                    "crop_term": "wheat",
+                    "crop_label": "wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23457,
+                    "crop_term": "root vegetables",
+                    "crop_label": "root vegetables",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23458,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23459,
+                    "crop_term": "feed legumes",
+                    "crop_label": "feed legumes",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [
+                {
+                    "id": 6549,
+                    "phases": [
+                        {
+                            "crop_id": 23456,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 23457,
+                            "notes": "Swedes or turnips in the early years, then mangolds or beetroot",
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 23458,
+                            "notes": null,
+                            "same_phase": false
+                        },
+                        {
+                            "crop_id": 23459,
+                            "notes": "Normally beans but sometimes clover or peas",
+                            "same_phase": false
+                        }
+                    ],
+                    "name": "Norfolk Rotation",
+                    "phasing": "Complete",
+                    "start_year": 1899,
+                    "end_year": 1962,
+                    "is_treatment": false
+                }
+            ],
+            "factors": [
+                {
+                    "id": 14061,
+                    "factor_term": "fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 33349,
+                            "factor_variant_term": "farmyard manure",
+                            "factor_variant_label": "farmyard manure",
+                            "amount": "15",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 33350,
+                            "factor_variant_term": "bone meal",
+                            "factor_variant_label": "bone meal",
+                            "amount": "0.5",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 33351,
+                            "factor_variant_term": "nitrogen",
+                            "factor_variant_label": "nitrogen",
+                            "amount": "100",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "sodium nitrate",
+                            "chemical_form_label": "sodium nitrate"
+                        },
+                        {
+                            "id": 33352,
+                            "factor_variant_term": "phosphorous",
+                            "factor_variant_label": "phosphorous",
+                            "amount": "40",
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 33353,
+                            "factor_variant_term": "potassium",
+                            "factor_variant_label": "potassium",
+                            "amount": "63",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "potassium chloride",
+                            "chemical_form_label": "potassium chloride"
+                        }
+                    ],
+                    "factor_label": "fertilizer exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33349,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "D",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33350,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "BM",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33351,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "N",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33352,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "P",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33353,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "K",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [],
+                    "name": "O",
+                    "description": "No fertilizer",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33352,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33353,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "PK",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33351,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33353,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "NK",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33351,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33352,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "NP",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33351,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33352,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 14061,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 33353,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "NPK",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "measurements": [],
+            "start_year": 1899,
+            "end_year": 1965,
+            "ongoing": false,
+            "name": "First Period",
+            "design_type_label": "Randomized complete block design",
+            "number_of_blocks": 4,
+            "number_of_plots": 40,
+            "number_of_subplots": null,
+            "number_of_replicates": 4,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": "Four blocks of ten plots each, with a four-course rotation, with different crops grown in each block each year. Originally the crops of a typical Norfolk four-course rotation (roots, spring barley, legume and winter wheat. Different fertilizer and manure treatments in the 10 plots.",
+            "description": "A factorial test of N, P and K plus bone meal and FYM treatments on a four crop rotation.",
+            "factorial": true
+        },
+        {
+            "id": 8872,
+            "design_type_term": "Randomized complete block design",
+            "crops": [
+                {
+                    "id": 23460,
+                    "crop_term": "alfalfa",
+                    "crop_label": "alfalfa",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23461,
+                    "crop_term": "winter wheat",
+                    "crop_label": "winter wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23462,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23463,
+                    "crop_term": "faba beans",
+                    "crop_label": "faba beans",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23464,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 23465,
+                    "crop_term": "grass leys",
+                    "crop_label": "grass leys",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1966,
+            "end_year": 2010,
+            "ongoing": false,
+            "name": "Second period",
+            "design_type_label": "Randomized complete block design",
+            "number_of_blocks": null,
+            "number_of_plots": 10,
+            "number_of_subplots": null,
+            "number_of_replicates": 4,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "The four-course rotation of wheat, sugar beet, barley and beans was continued until the 1969 harvest. In 1970 the northern half of each plot was sown to lucerne and the southern to a grass ley mixture.",
+            "description": "The response of various crops to fresh and residual P and their interactions with N, particularly with high rates of N applied to high yielding wheat cultivars of bread making quality.",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": null,
+    "site_soil_properties": [],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [
+        {
+            "id": 5772,
+            "variable_term": "precipitation",
+            "unit_term": "mm",
+            "variable_label": "precipitation",
+            "year_from": 1968,
+            "year_to": 1984,
+            "mean_value": 611.0,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "millimeter"
+        },
+        {
+            "id": 5773,
+            "variable_term": "air temperature",
+            "unit_term": "degC",
+            "variable_label": "air temperature",
+            "year_from": 1969,
+            "year_to": 1984,
+            "mean_value": 9.6,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "degree Celsius"
+        }
+    ],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-27",
+            "title": "Saxmundham Experimental Station 1989-1986 A review of the achievements during 1965-1986. Johnston, 1987",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-34801",
+            "title": "Williams, R. J. B. and Cooke, G. W. (1971) \"Results of the Rotation I experiment at Saxmundham",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2023-07-31T11:11:19.799800Z",
+    "name": "Saxmundham Rotation I",
+    "local_identifier": "S/RN/1",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1899,
+    "end_year": null,
+    "ongoing": true,
+    "establishment_period_end": null,
+    "objective": "To test N, P, K and manure treatments on crop rotations on a heavy sandy clay loam site. More recently to look at crop responses to P and K, and their interactions with N on high-yielding wheat cultivars.",
+    "description": "Two rotation experiments were started at Saxmundham in 1899 by East Suffolk County Council. The experiments consisted of four blocks so that a fully phased typical Norfolk 4-course rotation could be grown. The Rotation I experiment had a factorial test of nitrogen, phosphorous, potassium plus bone meal and farmyard manure. Rothamsted assumed control of the experiments in 1965 and reviewed and modified the experiments. Rothamsted relinquished the site in 2010.  The site is currently supported by The Morley Agricultural Foundation and delivered by NIAB.",
+    "site_name": "Harwood's Piece",
+    "site_local_code": "S/RN/1",
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Saxmundham",
+    "site_region": "Suffolk",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 52.220964,
+    "site_centroid_longitude": 1.466048,
+    "site_elevation": 36.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": false,
+    "site_visiting_arrangements": "None",
+    "site_history": "The Saxmundham experimental site is currently supported by The Morley Agricultural Foundation and delivered by NIAB.",
+    "site_management": null,
+    "site_soil_type_label": "Eutric gleysol",
+    "site_soil_description": "Sandy clay loam developed over drift over Chalky Boulder Clay, Beccles Series.",
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": false,
+    "sample_archive": false,
+    "samples_available": false,
+    "data_access_statement": "Contact e-RA curators: era@rothamsted.ac.uk"
+}

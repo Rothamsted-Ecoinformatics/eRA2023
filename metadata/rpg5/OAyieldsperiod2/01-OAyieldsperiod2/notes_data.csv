@@ -1,0 +1,10 @@
+note_id,description
+1,"In 1903 plots 1-13 (except 5-1, 5-2, 6 and 12) and 16 were divided into two and the effects of lime were tested (L, limed vs U, unlimed)"
+2,"In 1920, these three plots (14, 15 and 17) were divided into two and the effects of lime were tested (L, limed vs U, unlimed); until 1919 both L and U plots were unlimed"
+3,"In 1920, these three plots (18, 19 and 20) were divided into three subplots to test three different lime rates ( U unlimed, HL high limed, LL low limed); until 1919 both HL and LL plots as well as U plots were unlimed"
+4,"Farmyard manure (FYM), was introduced on these three plots (13, 19 and 20) in 1905, then applied every four years (alternately with FM in plot 13)"
+5,Fishmeal (FM) was introduced  on plot 13 in 1907 then applied once every four years (alternately with FYM)
+6,"1960-1964; since 1960 yields are estimated immediately from strips cut with a forage harvester and not left to dry in field therefore there are no start_cart and end_cart dates (prior to this, 1903-1959, hay was left to dry in field and later carted and weighed);  a correction factor is used for post-1960 data for cut 1 to give yield values equivalent to pre-1960 values. The remainder of the plot is mown and made into hay in the usual way, continuing earlier management and ensuring the return of seed."
+7,"A second cut was not taken every year, and not from every plot each year, if there was insufficient herbage to sample - no second cut always taken 1903, 1904, 1906-1914, 1916, 1917, 1921, 1924, 1933, 1934, 1943, 1949"
+8,"The second cut was often taken from the whole plot, not the L and U halves, years 1903-1917, except 1915"
+9,"The first cut yields were on rare occasions of the whole plot, not the L and U halves (1905-1908, plots 1, 4, 9 and 10)"

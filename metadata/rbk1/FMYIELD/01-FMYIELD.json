@@ -1,0 +1,324 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1-fmyield9717-01",
+    "name": "Broadbalk forage maize yields 1997-2017",
+    "shortName": "FMYIELD",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-FMYIELD",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "Annual forage maize (*Zea mays*) whole-crop yields for each treatment plot of the Broadbalk Experiment, with details of all fertilizer and manure applications. Also other agronomic information, including sowing and harvest dates, and maize cultivars. Forage maize was grown for whole-crop silage as part of the five-year wheat>wheat>wheat>oats>maize rotation on Broadbalk rotational Sections 2-5 and 7, from 1997-2017.  \r\n\r\nIn 2013, forage maize yields may have been reduced, due to the accidental application of herbicide to the crop in June/July 2013. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "The [Broadbalk Wheat Experiment](experiment/rbk1)  was started in autumn 1843 to investigate the effects of fertilizers containing N, P, K, Na and Mg in various combinations, and organic manure, on the yield of winter wheat grown continuously. The treatment STRIPS extend the whole length of the field; each strip tests a different fertilizer or manure treatment. In 1926 the strips were divided into five SECTIONS (I-V), bare fallowed in sequence to control weeds. There were further divisions in 1955 making seven Sections (IA-VB). Each PLOT is a unique strip\\section combination.  In 1968 the experiment was divided into ten SECTIONS (0-9), to allow the comparison of wheat grown continuously with wheat in a three or five-year rotation. Wheat is grown in rotation with other arable crops (forage maize, beans, potatoes or oats) and fallow in Sections 2-5 and 7. Wheat only is grown in the other sections.  Strip 1 was added in 1968, on Sections 2-7 only.  \r\n\r\nYields from wheat and non-wheat crops are published separately. See section_names.pdf for full details of layout and the cropping plans for details of the different crop rotations. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "An Excel file, 01-BKfmyield9717.xlsx, contains the Broadbalk forage maize yield components and treatment details, for 1997-2017. Frictionless CSV files are provided for users who prefer CSV over Excel files.  A README file contains extensive metadata information.\r\nSection_names.pdf which shows the changes in the Broadbalk sections over time. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "Forage maize yields are shown at 100% dry matter. The percentage dry matter of the crop at harvest is also given, this ranges from 17-41%. The whole crop was cut, apart from the stubble.  \r\nMaize received the same fertilizer applications as wheat. The split N applications were divided into two applications, in seedbed and post-emergence (rather than three). No autumn N was applied on strips 17-18, 1985-2000. \r\n\r\nCurrent strip 21 is also known as 2.1, 2a and 2A; current strip 22 is also known as 2.2, 2b and 2B. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "We thank the many other [Rothamsted staff](info/credits) who have been involved in the production of this data, including farm staff, field recorders, laboratory staff and data recorders, too numerous to mention. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "Whole-crop yields are from the BKFMAIZE dataset in the e-RA database. Treatment details were taken from the Rothamsted Yield Books, published each year with details of each experiment. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate. Once the data were entered into e-RA, they were independently back-checked against the original data sheets. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "crop yield",
+        "long term experiments",
+        "Rothamsted Research",
+        "maize"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Suzanne Clark",
+            "givenName": "Suzanne",
+            "familyName": "Clark",
+            "sameAs": "https://orcid.org/0000-0002-3684-1253",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rbk1-FertTreats-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Fertilizer and Manure Treatments 1852-2021 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-plan1968-2017-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat plan and cropping 1968-2017 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-yld6822-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat annual grain and straw yields 1968-2022 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk section names ",
+            "URL": "section_names.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "128 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk forage maize yields 1997-2017",
+            "URL": "01-BKfmyield9717.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "139 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Frictionless data package including all data as csv",
+            "URL": "01_FMYIELD.zip",
+            "encodingFormat": "zip",
+            "fileSize": "279 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Example of the Broadbalk forage maize yield data",
+            "URL": "fmyield.png",
+            "encodingFormat": "png",
+            "fileSize": "20 kilobytes"
+        }
+    ],
+    "grade": 2,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

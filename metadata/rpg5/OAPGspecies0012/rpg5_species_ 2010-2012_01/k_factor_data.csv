@@ -1,0 +1,4 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no K applied,1965-2018,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,0,0,kg K ha-1 yr-1,none applied,potassium sulphate,http://aims.fao.org/aos/agrovoc/c_6142
+Amount shows annual K applied ,1965-2018,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,K,225,kg K ha-1 yr-1,annual in winter,potassium sulphate,http://aims.fao.org/aos/agrovoc/c_6142
+Amount shows annual K applied  to plot 20,1965-2018,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,K*,45,kg K ha-1 yr-1,annual in winter except when FYM applied,potassium sulphate,http://aims.fao.org/aos/agrovoc/c_6142

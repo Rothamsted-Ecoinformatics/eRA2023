@@ -1,0 +1,4 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows no Mn treatment applied. ,1987-1990,manganese nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007387,0,0.0,,none,,
+"Factor level shows annual Mn treatment applied. Liquid Mn foliar fertilizer applied at fourth leaf stage (usually May/June) and before flowering (usually June/July). Amounts vary from year to year, see mn_rate_annual for amounts applied. First application only in 1990 as crop failed.",1987-1990,manganese nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007387,Mn,0.3,kg Mn ha-1 yr-1,annual,Foliar manganese,http://aims.fao.org/aos/agrovoc/c_27438
+No treatment factor used,,,,-,,,,,

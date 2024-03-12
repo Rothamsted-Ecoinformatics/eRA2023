@@ -1,0 +1,19 @@
+%0 Dataset
+%T Woburn long-term liming experiment crop yields 1962-1996 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2020 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G None 
+%U https://doi.org/10.23637/wcs10-wltlyields-01 
+%R 10.23637/wcs10-wltlyields-01 
+%A Glendining, Margaret 
+%A Holland, Jonathan 
+%A McGrath, Steve 
+%A Goulding, Keith 
+%K Rothamsted Research; soil pH; arable farming; long term experiments; crop yield; phosphorous; liming; 
+%X The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a sandy loam soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There was a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997. The dataset contains plot and sub-plot yields for all plots and years, 1962-1996, details of all treatments applied (lime, P, K, Mg, Mn and S) and agronomic details (crop variety, sowing and harvest dates, basal fertilizer).  
+
+This work was partially funded by the BBSRC Institute Strategic Programme - Soil to Nutrition (BBS/E/C/00010310).  

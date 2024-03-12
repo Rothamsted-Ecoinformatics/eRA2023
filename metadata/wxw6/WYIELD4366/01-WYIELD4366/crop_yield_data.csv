@@ -1,0 +1,446 @@
+harvest_year,crop,previous_crop,plot,sub_plot,sub_sub_plot,old_plot_notation,fertilizer_code,fertilizer_n_amount,fertilizer_n_date,sow_date,harvest_date,cultivar,plot_area,grain_yield,straw_yield,note_id
+1943,winter wheat,winter wheat,1,*,*,1,N2,78.470,*,*,*,Red Standard,0.101,*,*,1.000
+1943,fallow,winter wheat,2,*,*,2,*,0.000,*,*,*,*,0.101,*,*,1.000
+1943,winter wheat,winter wheat,3,*,*,3,N1,39.235,*,*,*,Red Standard,0.101,*,*,1.000
+1943,winter wheat,winter wheat,4,*,*,4,N3,117.705,*,*,*,Red Standard,0.101,*,*,1.000
+1943,fallow,winter wheat,5,*,*,5,*,0.000,*,*,*,*,0.101,*,*,1.000
+1943,winter wheat,winter wheat,6,*,*,6,N1,39.235,*,*,*,Red Standard,0.101,*,*,1.000
+1943,winter wheat,winter wheat,7,*,*,7,N3,117.705,*,*,*,Red Standard,0.101,*,*,1.000
+1943,fallow,winter wheat,8,*,*,8,*,0.000,*,*,*,*,0.101,*,*,1.000
+1943,winter wheat,winter wheat,9,*,*,9,N2,78.470,*,*,*,Red Standard,0.101,*,*,1.000
+1943,winter wheat,winter wheat,10,a,*,10a,N2,78.470,*,*,*,Red Standard,0.051,*,*,1.000
+1943,winter wheat,winter wheat,10,b,*,10b,N3,117.705,*,*,*,Red Standard,0.051,*,*,1.000
+1943,winter wheat,winter wheat,11,a,*,11a,N1,39.235,*,*,*,Red Standard,0.051,*,*,1.000
+1943,winter wheat,winter wheat,11,b,1,11b,N3,117.705,*,*,*,Red Standard,0.017,*,*,1.000
+1943,winter wheat,winter wheat,11,b,2,11b,N1,39.235,*,*,*,Red Standard,0.017,*,*,1.000
+1943,winter wheat,winter wheat,11,b,3,11b,N2,78.470,*,*,*,Red Standard,0.017,*,*,1.000
+1944,winter wheat,winter wheat,1,*,*,1,N2,78.470,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.101,2.221,5.476,*
+1944,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1944,winter wheat,winter wheat,3,*,*,3,N1,39.235,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.101,2.535,6.063,*
+1944,winter wheat,winter wheat,4,*,*,4,N3,117.705,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.101,2.358,4.898,*
+1944,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1944,winter wheat,winter wheat,6,*,*,6,N1,39.235,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.101,2.597,6.207,*
+1944,winter wheat,winter wheat,7,*,*,7,N3,117.705,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.101,2.795,6.492,*
+1944,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1944,winter wheat,winter wheat,9,*,*,9,N2,78.470,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.101,4.062,7.599,*
+1944,winter wheat,winter wheat,10,a,*,10a,N2,78.470,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.051,2.521,6.325,*
+1944,winter wheat,winter wheat,10,b,*,10b,N3,117.705,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.051,2.363,5.558,*
+1944,winter wheat,winter wheat,11,a,*,11a,N1,39.235,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.051,2.806,8.871,*
+1944,winter wheat,winter wheat,11,b,1,11b,N3,117.705,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.017,2.098,5.411,*
+1944,winter wheat,winter wheat,11,b,2,11b,N1,39.235,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.017,2.748,6.812,*
+1944,winter wheat,winter wheat,11,b,3,11b,N2,78.470,1944-03-27,1943-09-27 00:00:00,1944-08-15 00:00:00,Red Standard,0.017,1.893,4.954,*
+1945,winter wheat,winter wheat,1,*,*,1,N1,39.235,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.101,0.826,1.495,*
+1945,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1945,winter wheat,winter wheat,3,*,*,3,N3,117.705,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.101,1.643,2.867,*
+1945,winter wheat,winter wheat,4,*,*,4,N2,78.470,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.101,0.744,1.746,*
+1945,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1945,winter wheat,winter wheat,6,*,*,6,N3,117.705,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.101,1.543,3.013,*
+1945,winter wheat,winter wheat,7,*,*,7,N2,78.470,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.101,0.942,2.398,*
+1945,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1945,winter wheat,winter wheat,9,*,*,9,N1,39.235,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.101,0.673,1.377,*
+1945,winter wheat,winter wheat,10,a,*,10a,N1,39.235,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.051,0.658,1.290,*
+1945,winter wheat,winter wheat,10,b,*,10b,N2,78.470,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.051,0.933,1.832,*
+1945,winter wheat,winter wheat,11,a,*,11a,N3,117.705,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.051,1.897,3.567,*
+1945,winter wheat,winter wheat,11,b,1,11b,N2,78.470,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.017,1.626,3.183,*
+1945,winter wheat,winter wheat,11,b,2,11b,N3,117.705,1945-03-21,1944-10-23 00:00:00,1945-08-02 00:00:00,Red Standard,0.017,1.783,3.403,*
+1945,winter wheat,winter wheat,11,b,3,11b,N1,39.235,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.017,0.854,1.708,*
+1946,winter wheat,winter wheat,1,*,*,1,N3,117.705,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.101,*,*,3.000
+1946,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1946,winter wheat,winter wheat,3,*,*,3,N2,78.470,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.101,0.526,2.159,*
+1946,winter wheat,winter wheat,4,*,*,4,N1,39.235,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.101,*,*,3.000
+1946,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1946,winter wheat,winter wheat,6,*,*,6,N2,78.470,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.101,0.425,2.086,*
+1946,winter wheat,winter wheat,7,*,*,7,N1,39.235,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.101,*,*,3.000
+1946,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1946,winter wheat,winter wheat,9,*,*,9,N3,117.705,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.101,0.834,2.471,*
+1946,winter wheat,winter wheat,10,a,*,10a,N3,117.705,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.051,0.638,2.517,*
+1946,winter wheat,winter wheat,10,b,*,10b,N1,39.235,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.051,*,*,3.000
+1946,winter wheat,winter wheat,11,a,*,11a,N2,78.470,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.051,0.476,2.257,*
+1946,winter wheat,winter wheat,11,b,1,11b,N1,39.235,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.017,0.417,1.791,*
+1946,winter wheat,winter wheat,11,b,2,11b,N2,78.470,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.017,0.656,2.638,*
+1946,winter wheat,winter wheat,11,b,3,11b,N3,117.705,1946-04-02,1945-10-02 00:00:00,1946-08-22 00:00:00,Red Standard,0.017,0.840,2.671,*
+1947,fallow,winter wheat,1,*,*,1,N2,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,3,*,*,3,N1,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,4,*,*,4,N3,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,6,*,*,6,N1,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,7,*,*,7,N3,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,9,*,*,9,N2,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,10,a,*,10a,N2,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,10,b,*,10b,N3,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,11,a,*,11a,N1,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,11,b,1,11b,N3,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,11,b,2,11b,N1,0.000,*,*,*,*,*,*,*,2.000
+1947,fallow,winter wheat,11,b,3,11b,N2,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,1,*,*,1,N2,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,3,*,*,3,N1,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,4,*,*,4,N3,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,6,*,*,6,N1,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,7,*,*,7,N3,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,9,*,*,9,N2,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,10,a,*,10a,N2,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,10,b,*,10b,N3,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,11,a,*,11a,N1,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,11,b,1,11b,N3,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,11,b,2,11b,N1,0.000,*,*,*,*,*,*,*,2.000
+1948,fallow,fallow,11,b,3,11b,N2,0.000,*,*,*,*,*,*,*,2.000
+1949,winter wheat,fallow,1,*,*,1,N2,78.470,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.101,1.368,2.560,*
+1949,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1949,winter wheat,fallow,3,*,*,3,N1,39.235,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.101,1.004,1.895,*
+1949,winter wheat,fallow,4,*,*,4,N3,117.705,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.101,1.958,4.041,*
+1949,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1949,winter wheat,fallow,6,*,*,6,N1,39.235,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.101,1.393,2.661,*
+1949,winter wheat,fallow,7,*,*,7,N3,117.705,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.101,1.305,2.510,*
+1949,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1949,winter wheat,fallow,9,*,*,9,N2,78.470,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.101,1.807,3.552,*
+1949,winter wheat,fallow,10,a,*,10a,N2,78.470,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.051,1.368,2.912,*
+1949,winter wheat,fallow,10,b,*,10b,N3,117.705,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.051,1.280,2.410,*
+1949,winter wheat,fallow,11,a,*,11a,N1,39.235,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.051,1.456,2.949,*
+1949,winter wheat,fallow,11,b,1,11b,N3,117.705,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.017,2.309,3.790,*
+1949,winter wheat,fallow,11,b,2,11b,N1,39.235,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.017,1.581,3.250,*
+1949,winter wheat,fallow,11,b,3,11b,N2,78.470,1949-04-29,1948-11-15 00:00:00,1949-08-10 00:00:00,Squareheads Master,0.017,2.008,4.217,*
+1950,winter wheat,winter wheat,1,*,*,1,N1,39.235,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.101,*,*,4.000
+1950,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1950,winter wheat,winter wheat,3,*,*,3,N3,117.705,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.101,*,*,4.000
+1950,winter wheat,winter wheat,4,*,*,4,N2,78.470,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.101,*,*,4.000
+1950,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1950,winter wheat,winter wheat,6,*,*,6,N2,78.470,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.101,*,*,4.000
+1950,winter wheat,winter wheat,7,*,*,7,N3,117.705,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.101,*,*,4.000
+1950,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1950,winter wheat,winter wheat,9,*,*,9,N1,39.235,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.101,*,*,4.000
+1950,winter wheat,winter wheat,10,a,*,10a,N1,39.235,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.051,*,*,4.000
+1950,winter wheat,winter wheat,10,b,*,10b,N2,78.470,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.051,*,*,4.000
+1950,winter wheat,winter wheat,11,a,*,11a,N3,117.705,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.051,*,*,4.000
+1950,winter wheat,winter wheat,11,b,1,11b,N2,78.470,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.017,*,*,3.000
+1950,winter wheat,winter wheat,11,b,2,11b,N3,117.705,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.017,*,*,4.000
+1950,winter wheat,winter wheat,11,b,3,11b,N1,39.235,1950-04-20,1949-11-03 00:00:00,1950-08-08 00:00:00,Squareheads Master,0.017,*,*,4.000
+1951,winter wheat,winter wheat,1,*,*,1,N3,117.705,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.101,1.606,2.573,*
+1951,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1951,winter wheat,winter wheat,3,*,*,3,N2,78.470,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.101,1.092,1.669,*
+1951,winter wheat,winter wheat,4,*,*,4,N1,39.235,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.101,1.129,1.832,*
+1951,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1951,winter wheat,winter wheat,6,*,*,6,N2,78.470,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.101,1.519,1.995,*
+1951,winter wheat,winter wheat,7,*,*,7,N1,39.235,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.101,0.803,1.368,*
+1951,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1951,winter wheat,winter wheat,9,*,*,9,N3,117.705,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.101,1.606,2.096,*
+1951,winter wheat,winter wheat,10,a,*,10a,N3,117.705,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.051,2.196,2.949,*
+1951,winter wheat,winter wheat,10,b,*,10b,N1,39.235,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.051,0.778,1.606,*
+1951,winter wheat,winter wheat,11,a,*,11a,N2,78.470,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.051,1.556,2.096,*
+1951,winter wheat,winter wheat,11,b,1,11b,N1,39.235,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.017,0.891,1.456,*
+1951,winter wheat,winter wheat,11,b,2,11b,N2,78.470,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.017,1.117,1.795,*
+1951,winter wheat,winter wheat,11,b,3,11b,N3,117.705,1951-05-07,1951-10-13 00:00:00,1951-08-20 00:00:00,Squareheads Master,0.017,1.857,2.786,*
+1952,winter wheat,winter wheat,1,*,*,1,N2,78.470,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.101,0.879,2.849,*
+1952,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1952,winter wheat,winter wheat,3,*,*,3,N1,39.235,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.101,0.653,1.067,*
+1952,winter wheat,winter wheat,4,*,*,4,N3,117.705,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.101,1.079,3.175,*
+1952,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1952,winter wheat,winter wheat,6,*,*,6,N1,39.235,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.101,0.527,1.418,*
+1952,winter wheat,winter wheat,7,*,*,7,N3,117.705,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.101,0.602,1.744,*
+1952,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1952,winter wheat,winter wheat,9,*,*,9,N2,78.470,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.101,0.966,2.334,*
+1952,winter wheat,winter wheat,10,a,*,10a,N2,78.470,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.017,0.816,2.309,*
+1952,winter wheat,winter wheat,10,b,*,10b,N1,39.235,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.017,0.879,2.108,*
+1952,winter wheat,winter wheat,11,a,*,11a,N1,39.235,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.017,0.489,1.631,*
+1952,winter wheat,winter wheat,11,b,*,11b,N3,117.705,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.051,1.707,3.163,*
+1952,winter wheat,winter wheat,11,b,*,11b,N1,39.235,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.051,0.766,1.694,*
+1952,winter wheat,winter wheat,11,b,*,11b,N2,78.470,1952-04-23,04/23/1952,1952-07-29 00:00:00,Squareheads Master,0.051,1.167,2.686,*
+1953,winter wheat,winter wheat,1,*,*,1,N1,39.235,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.101,0.991,2.008,*
+1953,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1953,winter wheat,winter wheat,3,*,*,3,N3,117.705,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.101,1.732,2.711,*
+1953,winter wheat,winter wheat,4,*,*,4,N2,78.470,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.101,1.519,2.999,*
+1953,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1953,winter wheat,winter wheat,6,*,*,6,N3,117.705,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.101,2.246,3.489,*
+1953,winter wheat,winter wheat,7,*,*,7,N2,78.470,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.101,1.268,2.610,*
+1953,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1953,winter wheat,winter wheat,9,*,*,9,N1,39.235,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.101,0.929,1.983,*
+1953,winter wheat,winter wheat,10,a,*,10a,N1,39.235,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.051,0.954,1.782,*
+1953,winter wheat,winter wheat,10,b,*,10b,N2,78.470,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.051,1.280,2.410,*
+1953,winter wheat,winter wheat,11,a,*,11a,N3,117.705,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.051,2.221,3.087,*
+1953,winter wheat,winter wheat,11,b,1,11b,N2,78.470,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.017,1.732,3.037,*
+1953,winter wheat,winter wheat,11,b,2,11b,N3,117.705,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.017,2.146,3.376,*
+1953,winter wheat,winter wheat,11,b,3,11b,N1,39.235,1953-04-20,1952-10-10 00:00:00,08/18/1953,Squareheads Master,0.017,0.991,1.995,*
+1954,winter wheat,winter wheat,1,*,*,1,N3,117.705,1954-04-30,1953-10-23 00:00:00,1954-09-10 00:00:00,Squareheads Master,0.101,0.941,1.770,*
+1954,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1954,winter wheat,winter wheat,3,*,*,3,N2,78.470,1954-04-29,1953-10-23 00:00:00,1954-09-09 00:00:00,Squareheads Master,0.101,0.828,1.117,*
+1954,winter wheat,winter wheat,4,*,*,4,N1,39.235,1954-05-01,1953-10-23 00:00:00,1954-09-11 00:00:00,Squareheads Master,0.101,1.104,1.042,*
+1954,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1954,winter wheat,winter wheat,6,*,*,6,N2,78.470,1954-05-02,1953-10-23 00:00:00,1954-09-12 00:00:00,Squareheads Master,0.101,1.556,1.255,*
+1954,winter wheat,winter wheat,7,*,*,7,N1,39.235,1954-04-28,1953-10-23 00:00:00,1954-09-08 00:00:00,Squareheads Master,0.101,0.715,3.062,*
+1954,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1954,winter wheat,winter wheat,9,*,*,9,N3,117.705,1954-05-03,1953-10-23 00:00:00,1954-09-13 00:00:00,Squareheads Master,0.101,1.983,1.719,*
+1954,winter wheat,winter wheat,10,a,*,10a,N3,117.705,1954-05-09,1953-10-23 00:00:00,1954-09-19 00:00:00,Squareheads Master,0.051,0.853,1.456,*
+1954,winter wheat,winter wheat,10,b,*,10b,N1,39.235,1954-05-07,1953-10-23 00:00:00,1954-09-17 00:00:00,Squareheads Master,0.051,0.414,0.439,*
+1954,winter wheat,winter wheat,11,a,*,11a,N2,78.470,1954-05-08,1953-10-23 00:00:00,1954-09-18 00:00:00,Squareheads Master,0.051,1.004,1.017,*
+1954,winter wheat,winter wheat,11,b,1,11b,N1,39.235,1954-05-04,1953-10-23 00:00:00,1954-09-14 00:00:00,Squareheads Master,0.017,1.920,2.962,*
+1954,winter wheat,winter wheat,11,b,2,11b,N2,78.470,1954-05-05,1953-10-23 00:00:00,1954-09-15 00:00:00,Squareheads Master,0.017,2.083,3.087,*
+1954,winter wheat,winter wheat,11,b,2,11b,N3,117.705,1954-05-06,1953-10-23 00:00:00,1954-09-16 00:00:00,Squareheads Master,0.017,2.372,3.890,*
+1955,fallow,winter wheat,1,*,*,1,N2,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,3,*,*,3,N1,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,4,*,*,4,N3,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,6,*,*,6,N1,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,7,*,*,7,N3,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,9,*,*,9,N2,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,10,a,*,10a,N2,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,10,b,*,10b,N3,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,11,a,*,11a,N1,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,11,b,1,11b,N3,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,11,b,2,11b,N1,0.000,*,*,*,*,*,*,*,9.000
+1955,fallow,winter wheat,11,b,3,11b,N2,0.000,*,*,*,*,*,*,*,9.000
+1956,fallow,fallow,1,*,*,1,N2,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,3,*,*,3,N1,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,4,*,*,4,N3,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,6,*,*,6,N1,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,7,*,*,7,N3,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,9,*,*,9,N2,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,10,a,*,10a,N2,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,10,b,*,10b,N3,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,11,a,*,11a,N1,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,11,b,1,11b,N3,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,11,b,2,11b,N1,0.000,*,*,*,*,*,*,*,10.000
+1956,fallow,fallow,11,b,3,11b,N2,0.000,*,*,*,*,*,*,*,10.000
+1957,fallow,fallow,1,*,*,1,N2,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,2,*,*,2,*,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,3,*,*,3,N1,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,4,*,*,4,N3,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,5,*,*,5,*,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,6,*,*,6,N1,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,7,*,*,7,N3,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,9,*,*,9,N2,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,10,a,*,10a,N2,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,10,b,*,10b,N3,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,11,a,*,11a,N1,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,11,b,1,11b,N3,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,11,b,2,11b,N1,0.000,*,*,*,*,*,*,*,11.000
+1957,fallow,fallow,11,b,3,11b,N2,0.000,*,*,*,*,*,*,*,11.000
+1958,winter wheat,fallow,1,*,*,1,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,2,*,*,2,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,3,*,*,3,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,4,*,*,4,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,5,*,*,5,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,6,*,*,6,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,7,*,*,7,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,8,*,*,8,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,9,*,*,9,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.101,*,*,5.000
+1958,winter wheat,fallow,10,a,*,10a,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.051,*,*,5.000
+1958,winter wheat,fallow,10,b,*,10b,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.051,*,*,5.000
+1958,winter wheat,fallow,11,a,*,11a,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.051,*,*,5.000
+1958,winter wheat,fallow,11,b,1,11b,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.017,*,*,5.000
+1958,winter wheat,fallow,11,b,2,11b,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.017,*,*,5.000
+1958,winter wheat,fallow,11,b,2,11b,none,0.000,*,1957-11-19 00:00:00,*,Squareheads Master,0.017,*,*,5.000
+1959,winter wheat,winter wheat,1,*,*,1,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.598,3.401,6.000
+1959,spring barley,winter wheat,1,*,*,1,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,2.598,1.770,6.000
+1959,winter wheat,winter wheat,2,*,*,2,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,1.694,2.309,6.000
+1959,spring barley,winter wheat,2,*,*,2,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,1.895,1.481,6.000
+1959,winter wheat,winter wheat,3,*,*,3,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.648,3.150,6.000
+1959,spring barley,winter wheat,3,*,*,3,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,2.673,1.682,6.000
+1959,winter wheat,winter wheat,4,*,*,4,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.422,4.016,6.000
+1959,spring barley,winter wheat,4,*,*,4,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,3.062,2.874,6.000
+1959,winter wheat,winter wheat,5,*,*,5,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.246,3.464,6.000
+1959,spring barley,winter wheat,5,*,*,5,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,3.614,2.435,6.000
+1959,winter wheat,winter wheat,6,*,*,6,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.309,4.029,6.000
+1959,spring barley,winter wheat,6,*,*,6,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,3.050,2.635,6.000
+1959,winter wheat,winter wheat,7,*,*,7,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.134,3.062,6.000
+1959,spring barley,winter wheat,7,*,*,7,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,2.886,1.995,6.000
+1959,winter wheat,winter wheat,8,*,*,8,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.472,3.376,6.000
+1959,spring barley,winter wheat,8,*,*,8,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,2.723,1.606,6.000
+1959,winter wheat,winter wheat,9,*,*,9,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.051,2.284,3.740,6.000
+1959,spring barley,winter wheat,9,*,*,9,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.051,3.025,2.083,6.000
+1959,winter wheat,winter wheat,10,a,*,10a,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.025,2.385,2.886,6.000
+1959,spring barley,winter wheat,10,a,*,10a,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.025,2.246,1.594,6.000
+1959,winter wheat,winter wheat,10,b,*,10b,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.025,2.523,2.548,6.000
+1959,spring barley,winter wheat,10,b,*,10b,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.025,2.184,1.393,6.000
+1959,winter wheat,winter wheat,11,a,*,11a,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.025,2.548,3.288,6.000
+1959,spring barley,winter wheat,11,a,*,11a,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.025,2.686,1.832,6.000
+1959,winter wheat,winter wheat,11,b,*,11b,basalN,114.342,1959-03-25,1958-12-05 00:00:00,1959-08-20 00:00:00,Squareheads Master,0.025,2.999,3.790,6.000
+1959,spring barley,winter wheat,11,b,*,11b,basalN,114.342,1959-03-25,1959-03-16 00:00:00,1959-08-19 00:00:00,Plumage Archer,0.025,3.213,2.272,6.000
+1960,winter wheat,winter wheat,1,*,*,1,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,1.531,3.313,7.000
+1960,spring barley,spring barley,1,*,*,1,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.017,2.673,2.309,7.000
+1960,winter wheat,winter wheat,2,*,*,2,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,1.217,2.334,7.000
+1960,spring barley,spring barley,2,*,*,2,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.017,1.933,1.606,7.000
+1960,winter wheat,winter wheat,3,*,*,3,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,2.510,2.874,7.000
+1960,spring barley,spring barley,3,*,*,3,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.017,2.560,1.895,7.000
+1960,winter wheat,winter wheat,4,*,*,4,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,1.895,3.376,7.000
+1960,spring barley,spring barley,4,*,*,4,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.017,2.748,2.272,7.000
+1960,winter wheat,winter wheat,5,*,*,5,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,1.883,2.410,7.000
+1960,spring barley,spring barley,5,*,*,5,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.017,2.886,2.171,7.000
+1960,winter wheat,winter wheat,6,*,*,6,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,2.535,2.861,7.000
+1960,spring barley,spring barley,6,*,*,6,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.017,3.100,2.196,7.000
+1960,winter wheat,winter wheat,7,*,*,7,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,2.623,2.949,7.000
+1960,microplot experiments,Spring barley,7,*,*,7,*,*,*,*,*,*,*,*,*,7.000
+1960,winter wheat,winter wheat,8,*,*,8,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,2.548,2.548,7.000
+1960,microplot experiments,Spring barley,8,*,*,8,*,*,*,*,*,*,*,*,*,7.000
+1960,winter wheat,winter wheat,9,*,*,9,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.017,2.974,3.677,7.000
+1960,microplot experiments,Spring barley,9,*,*,9,*,*,*,*,*,*,*,*,*,7.000
+1960,winter wheat,winter wheat,10,a,*,10a,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.011,2.422,2.761,7.000
+1960,spring barley,spring barley,10,a,*,10a,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.011,2.460,1.406,7.000
+1960,winter wheat,winter wheat,10,b,*,10b,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.011,2.548,3.363,7.000
+1960,spring barley,spring barley,10,b,*,10b,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.011,2.347,1.293,7.000
+1960,winter wheat,winter wheat,11,a,*,11a,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.011,3.175,*,7.000
+1960,spring barley,spring barley,11,a,*,11a,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.011,2.623,1.694,7.000
+1960,winter wheat,winter wheat,11,b,*,11b,basalN,114.342,1960-03-21,1959-10-22 00:00:00,1960-08-31 00:00:00,Squareheads Master,0.011,3.225,4.066,7.000
+1960,spring barley,spring barley,11,b,*,11b,basalN,114.342,1960-03-21,1960-03-21 00:00:00,1960-08-30 00:00:00,Plumage Archer,0.011,2.824,1.908,7.000
+1961,spring wheat,winter wheat,1,*,*,1,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,0.515,1.305,8.000
+1961,spring barley,spring barley,1,*,*,1,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,1.870,1.142,8.000
+1961,spring wheat,winter wheat,2,*,*,2,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,0.703,0.891,8.000
+1961,spring barley,spring barley,2,*,*,2,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,1.268,0.690,8.000
+1961,spring wheat,winter wheat,3,*,*,3,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,1.255,1.255,8.000
+1961,spring barley,spring barley,3,*,*,3,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,1.594,0.703,8.000
+1961,spring wheat,winter wheat,4,*,*,4,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,0.690,1.857,8.000
+1961,spring barley,spring barley,4,*,*,4,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,2.723,1.657,8.000
+1961,spring wheat,winter wheat,5,*,*,5,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,1.167,1.217,8.000
+1961,spring barley,spring barley,5,*,*,5,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,2.372,1.092,8.000
+1961,spring wheat,winter wheat,6,*,*,6,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,2.033,1.443,8.000
+1961,spring barley,spring barley,6,*,*,6,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,2.698,1.393,8.000
+1961,spring wheat,winter wheat,7,*,*,7,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,1.631,1.493,8.000
+1961,fallow,microplot experiments,7,*,*,7,none,0.000,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,*,*,*
+1961,spring wheat,winter wheat,8,*,*,8,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,1.406,1.657,8.000
+1961,fallow,microplot experiments,8,*,*,8,none,0.000,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,*,*,*
+1961,spring wheat,winter wheat,9,*,*,9,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.017,2.046,1.933,8.000
+1961,fallow,microplot experiments,9,*,*,9,none,0.000,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.017,*,*,*
+1961,spring wheat,winter wheat,10,a,x,10a,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.006,1.770,1.167,8.000
+1961,spring barley,spring barley,10,a,x,10a,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.006,1.707,0.590,8.000
+1961,spring wheat,winter wheat,10,a,y,10a,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.006,1.782,1.142,8.000
+1961,fallow,Spring barley,10,a,y,10a,none,0.000,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.006,*,*,*
+1961,spring wheat,winter wheat,10,b,x,10b,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.006,1.883,1.330,8.000
+1961,spring barley,spring barley,10,b,x,10b,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.006,1.770,0.665,8.000
+1961,spring wheat,winter wheat,10,b,y,10b,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.006,2.309,1.393,8.000
+1961,fallow,Spring barley,10,b,y,10b,none,0.000,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.006,*,*,*
+1961,microplot experiments,winter wheat,11,a,y,11a,*,*,*,*,*,*,*,*,*,*
+1961,spring barley,spring barley,11,a,y,11a,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.006,2.510,1.017,8.000
+1961,spring wheat,winter wheat,11,a,z,11a,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.006,1.908,2.209,8.000
+1961,microplot experiments,Spring barley,11,a,z,11a,*,*,*,*,*,*,*,*,*,*
+1961,microplot experiments,winter wheat,11,b,y,11b,*,*,*,*,*,*,*,*,*,*
+1961,spring barley,spring barley,11,b,y,11b,basalN,114.342,1961-03-09,1961-03-09 00:00:00,1961-08-28 00:00:00,Plumage Archer,0.006,2.924,1.594,8.000
+1961,spring wheat,winter wheat,11,b,z,11b,basalN,114.342,1961-03-22,1961-03-22 00:00:00,1961-08-26 00:00:00,Jufy I,0.006,1.782,3.326,8.000
+1961,microplot experiments,Spring barley,11,b,z,11b,*,*,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,1,*,*,1,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.723,1.493,*
+1962,spring oats,Spring barley,1,*,*,1,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.648,1.531,*
+1962,spring oats,spring wheat,2,*,*,2,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.510,1.180,*
+1962,spring oats,Spring barley,2,*,*,2,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,3.087,1.581,*
+1962,spring oats,spring wheat,3,*,*,3,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.485,1.280,*
+1962,spring oats,Spring barley,3,*,*,3,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.535,1.192,*
+1962,spring oats,spring wheat,4,*,*,4,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,3.702,2.309,*
+1962,spring oats,Spring barley,4,*,*,4,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,3.752,2.661,*
+1962,spring oats,spring wheat,5,*,*,5,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.761,1.280,*
+1962,spring oats,Spring barley,5,*,*,5,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,3.501,1.832,*
+1962,spring oats,spring wheat,6,*,*,6,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,3.050,1.493,*
+1962,spring oats,Spring barley,6,*,*,6,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,3.614,1.958,*
+1962,spring oats,spring wheat,7,*,*,7,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.447,1.129,*
+1962,microplot experiments,fallow,7,*,*,7,*,*,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,8,*,*,8,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,2.723,1.242,*
+1962,microplot experiments,fallow,8,*,*,8,*,*,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,9,*,*,9,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.017,3.439,1.820,*
+1962,microplot experiments,fallow,9,*,*,9,*,*,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,10,a,x,10a,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,2.447,1.142,*
+1962,spring oats,Spring barley,10,a,x,10a,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,2.861,1.029,*
+1962,spring oats,spring wheat,10,a,y,10a,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,2.698,1.230,*
+1962,fallow,fallow,10,a,y,10a,none,0.000,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,10,b,x,10b,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,2.410,0.853,*
+1962,spring oats,Spring barley,10,b,x,10b,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,2.623,1.355,*
+1962,spring oats,spring wheat,10,b,y,10b,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,2.824,1.343,*
+1962,fallow,fallow,10,b,y,10b,none,0.000,*,*,*,*,*,*,*,*
+1962,fallow,microplot experiments,11,a,y,11a,none,0.000,*,*,*,*,*,*,*,*
+1962,spring oats,Spring barley,11,a,y,11a,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,3.276,1.744,*
+1962,spring oats,spring wheat,11,a,z,11a,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,2.999,1.657,*
+1962,fallow,microplot experiments,11,a,z,11a,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,*,*,*
+1962,fallow,microplot experiments,11,b,y,11b,none,0.000,*,*,*,*,*,*,*,*
+1962,spring oats,Spring barley,11,b,y,11b,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,3.602,1.757,*
+1962,spring oats,spring wheat,11,b,z,11b,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,3.765,1.933,*
+1962,fallow,microplot experiments,11,b,z,11b,basalN,62.776,1962-02-24,1962-01-17 00:00:00,1962-08-27 00:00:00,Condor,0.006,*,*,*
+1963,fallow,oats,1,*,*,1,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,2,*,*,2,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,3,*,*,3,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,4,*,*,4,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,5,*,*,5,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,6,*,*,6,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,microplot experiments,7,*,*,7,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,microplot experiments,8,*,*,8,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,microplot experiments,9,*,*,9,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,10,a,x,10a,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,fallow,10,a,y,10a,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,10,b,x,10b,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,fallow,10,b,y,10b,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,11,a,y,11a,*,*,*,*,*,*,*,*,*,12.000
+1963,fallow,fallow,11,a,z,11a,none,0.000,*,*,*,*,*,*,*,12.000
+1963,fallow,oats,11,b,y,11b,*,*,*,*,*,*,*,*,*,12.000
+1963,fallow,fallow,11,b,z,11b,none,0.000,*,*,*,*,*,*,*,12.000
+1964,spring beans,wheat,1,*,*,1,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.385,*,*
+1964,spring beans,barley,1,*,*,1,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.171,*,*
+1964,spring beans,wheat,2,*,*,2,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.008,*,*
+1964,spring beans,barley,2,*,*,2,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.259,*,*
+1964,spring beans,wheat,3,*,*,3,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.297,*,*
+1964,spring beans,barley,3,*,*,3,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,1.958,*,*
+1964,spring beans,wheat,4,*,*,4,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.523,*,*
+1964,spring beans,barley,4,*,*,4,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,1.807,*,*
+1964,spring beans,wheat,5,*,*,5,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,1.807,*,*
+1964,spring beans,barley,5,*,*,5,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.096,*,*
+1964,spring beans,wheat,6,*,*,6,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.058,*,*
+1964,spring beans,barley,6,*,*,6,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.309,*,*
+1964,spring beans,wheat,7,*,*,7,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.297,*,*
+1964,microplot experiments,barley,7,*,*,7,*,*,*,*,*,*,*,*,*,*
+1964,spring beans,wheat,8,*,*,8,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.485,*,*
+1964,microplot experiments,barley,8,*,*,8,*,*,*,*,*,*,*,*,*,*
+1964,spring beans,wheat,9,*,*,9,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.017,2.661,*,*
+1964,microplot experiments,barley,9,*,*,9,*,*,*,*,*,*,*,*,*,*
+1964,spring beans,wheat,10,a,x,10a,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.083,*,*
+1964,spring beans,barley,10,a,x,10a,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.711,*,*
+1964,spring beans,wheat,10,a,y,10a,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,1.995,*,*
+1964,microplot experiments,barley,10,a,y,10a,*,*,*,*,*,*,*,*,*,*
+1964,spring beans,wheat,10,b,x,10b,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.585,*,*
+1964,spring beans,barley,10,b,x,10b,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.397,*,*
+1964,spring beans,wheat,10,b,y,10b,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.058,*,*
+1964,microplot experiments,barley,10,b,y,10b,*,*,*,*,*,*,*,*,*,*
+1964,microplot experiments,wheat,11,a,y,11a,*,*,*,*,*,*,*,*,*,*
+1964,spring beans,barley,11,a,y,11a,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.008,*,*
+1964,spring beans,wheat,11,a,z,11a,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.962,*,*
+1964,microplot experiments,barley,11,a,z,11a,*,*,*,*,*,*,*,*,*,*
+1964,microplot experiments,wheat,11,b,y,11b,*,*,*,*,*,*,*,*,*,*
+1964,spring beans,barley,11,b,y,11b,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,2.510,*,*
+1964,spring beans,wheat,11,b,z,11b,none,0.000,*,1964-03-13 00:00:00,1962-08-26 00:00:00,Minor Tick,0.006,3.577,*,*
+1964,microplot experiments,barley,11,b,z,11b,*,*,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,1,*,*,1,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,2,*,*,2,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,3,*,*,3,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,4,*,*,4,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,5,*,*,5,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,6,*,*,6,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,microplot experiments,7,*,*,7,*,*,*,*,*,*,*,*,*,*
+1965,fallow,microplot experiments,8,*,*,8,*,*,*,*,*,*,*,*,*,*
+1965,fallow,microplot experiments,9,*,*,9,*,*,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,10,a,x,10a,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,microplot experiments,10,a,y,10a,*,*,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,10,b,x,10b,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,microplot experiments,10,b,y,10b,*,*,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,11,a,y,11a,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,microplot experiments,11,a,z,11a,*,*,*,*,*,*,*,*,*,*
+1965,fallow,spring beans,11,b,y,11b,none,0.000,*,*,*,*,*,*,*,*
+1965,fallow,microplot experiments,11,b,z,11b,*,*,*,*,*,*,*,*,*,*
+1966,fallow,fallow,1,*,*,1,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,2,*,*,2,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,3,*,*,3,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,4,*,*,4,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,5,*,*,5,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,6,*,*,6,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,7,*,*,7,*,*,*,*,*,*,*,*,*,*
+1966,fallow,fallow,8,*,*,8,*,*,*,*,*,*,*,*,*,*
+1966,fallow,fallow,9,*,*,9,*,*,*,*,*,*,*,*,*,*
+1966,fallow,fallow,10,a,x,10a,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,10,a,y,10a,*,*,*,*,*,*,*,*,*,*
+1966,fallow,fallow,10,b,x,10b,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,10,b,y,10b,*,*,*,*,*,*,*,*,*,*
+1966,fallow,fallow,11,a,y,11a,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,11,a,z,11a,*,*,*,*,*,*,*,*,*,*
+1966,fallow,fallow,11,b,y,11b,none,0.000,*,*,*,*,*,*,*,*
+1966,fallow,fallow,11,b,z,11b,*,*,*,*,*,*,*,*,*,*

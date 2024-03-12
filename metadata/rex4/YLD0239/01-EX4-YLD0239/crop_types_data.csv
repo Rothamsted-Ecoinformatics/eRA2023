@@ -1,0 +1,7 @@
+crop_name,latin_name,crop_name_rdftype
+fallow,*,http://aims.fao.org/aos/agrovoc/c_34007
+spring barley,hordeum vulgare,http://aims.fao.org/aos/agrovoc/c_ad10e027
+winter wheat,triticum aestivum,http://aims.fao.org/aos/agrovoc/c_8412
+oats,avena sativa,http://aims.fao.org/aos/agrovoc/c_5287
+red clover,trifolium pratense,http://aims.fao.org/aos/agrovoc/c_7917
+cowpea,vigna unguiculata,http://aims.fao.org/aos/agrovoc/c_1938 

@@ -1,0 +1,4 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,treatment_form,amount,amount_unit,frequency,treatment_form_rdfType
+Indicates nil rate fish  meal treatment factor level; replaced by poultry manure (PM) from 2003,1965-1999,fish meal  exposure , http://purl.obolibrary.org/obo/ECTO_7000098,0,fish meal,0,kg N ha-1 yr-1,not applied,http://aims.fao.org/aos/agrovoc/c_2925
+Fish  meal to supply 65 kg N per application; replaced by poultry manure (PM) from 2003,1965-1999,fish meal  exposure , http://purl.obolibrary.org/obo/ECTO_7000098,FM,fish meal,65,kg N ha-1 yr-1,in a four year cycle,http://aims.fao.org/aos/agrovoc/c_2925
+Indicates FM previously applied but no longer applied. Applies to plot 13-2. FM replaced by poultry manure  (PM) in 2003,2003-2018,fish meal  exposure , http://purl.obolibrary.org/obo/ECTO_7000098,(FM),fish meal,0,kg N ha-1 yr-1,no longer applied,http://aims.fao.org/aos/agrovoc/c_2925

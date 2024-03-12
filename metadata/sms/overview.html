@@ -1,0 +1,118 @@
+<div id="summary">
+
+	<div class="mx-3">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<ul class="list-group">
+
+						<li class="list-group-item"><b>Description: </b>In 1899, two
+							long-term experiments, Rotation I and Rotation II, were started
+							at Saxmundham Experimental Station in Suffolk, UK. Rothamsted
+							assumed responsibility for the site in 1964, until 1986, when the
+							experiments were finished. The soil is typical of large areas of
+							Eastern England. Monthly meteorological data is available,
+							1966-1985, based on daily manual recording. Daily data is not
+							currently available. <br /> Average annual temperature and
+							rainfall (1966-1985) are 9.5  degreesC and 618mm, respectively.</li>
+						<li class="list-group-item "><b>Date Start: </b>January 1966.</li>
+
+						<li class="list-group-item "><b>Date End: </b> December 1985.</li>
+						<li class="list-group-item "><b>Recording: </b> Manual
+							recording daily at 0900GMT; data available as monthly summaries
+							only.</li>
+						<li class="list-group-item "><b>Automatic data recording
+								began: </b>Not available.</li>
+
+
+						<li class="list-group-item "><b>Address: </b> Saxmundham
+							Experimental Station Meteorological Station, Saxmundham, Suffolk,
+							United Kingdom.</li>
+						<li class="list-group-item "><b>OS Grid Ref: </b> TM 36837
+							63750.</li>
+						<li class="list-group-item "><b>Latitude/Longitude: </b>52.221
+							N 1.466 E</li>
+						<li class="list-group-item "><b>Altitude: </b> 37 m asl.</li>
+
+					</ul>
+				</div>
+				<div class="col-6">
+					<div id="mapid" style="width: 500px; height: 400px;"></div>
+					<script>
+						mapboxgl.accessToken = 'pk.eyJ1IjoiZXJhZGV2bmF0aCIsImEiOiJja2twZHN4MWYwYnVoMm9zMTZjeW9mMDF2In0.f-XLtnBSQXAFI1XBruy3uQ';
+						var map = new mapboxgl.Map({
+							container : 'mapid', // container id
+							//style: 'mapbox://styles/mapbox/streets-v11', // style URL
+							style : 'mapbox://styles/mapbox/satellite-v9', // style statellite
+							center : [ 1.466000, 52.221000 ], // starting position [lng, lat]
+							zoom : 14
+						// starting zoom
+						});
+
+						var marker = new mapboxgl.Marker()
+								.setLngLat([ 1.466000, 52.221000 ])
+								.setPopup(
+										new mapboxgl.Popup()
+												.setHTML("<b>Saxmundham Met Station</b>")) // add popup
+								.addTo(map);
+						marker.togglePopup();
+					</script>
+					
+				</div>
+			</div>
+		</div>
+		<h3 class="my-3 mt-5">Key Contacts</h3>
+		<ul class="list-group  mx-3">
+			<li class="list-group-item "><h4 class="mt-3">Andy
+					Gregory</h4></li>
+			<li class="list-group-item pl-5"><b>Role: </b> Principal
+				Investigator</li>
+			<li class="list-group-item pl-5"><b>Organisation: </b>Rothamsted
+				Research</li>
+			<li class="list-group-item pl-5"><b>Address: </b>West Common,
+				Harpenden, Hertfordshire, AL5 2JQ, United Kingdom</li>
+			<li class="list-group-item "><h4 class="mt-3">Sarah
+					Perryman</h4></li>
+			<li class="list-group-item pl-5"><b>Role: </b> Data Manager</li>
+			<li class="list-group-item pl-5"><b>ORCID: </b><a
+				target="_blank" href="https://orcid.org/0000-0002-0056-2754">https://orcid.org/0000-0002-0056-2754</a>
+				<sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></li>
+			<li class="list-group-item pl-5"><b>Organisation: </b>Rothamsted
+				Research</li>
+			<li class="list-group-item pl-5"><b>Address: </b>West Common,
+				Harpenden, Hertfordshire, AL5 2JQ, United Kingdom</li>
+			<li class="list-group-item "><h4 class="mt-3">Margaret
+					Glendining</h4></li>
+			<li class="list-group-item pl-5"><b>Role: </b> Data Manager</li>
+			<li class="list-group-item pl-5"><b>ORCID: </b><a
+				target="_blank" href="https://orcid.org/0000-0002-6466-4629">https://orcid.org/0000-0002-6466-4629</a>
+				<sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></li>
+			<li class="list-group-item pl-5"><b>Organisation: </b>Rothamsted
+				Research</li>
+			<li class="list-group-item pl-5"><b>Address: </b>West Common,
+				Harpenden, Hertfordshire, AL5 2JQ, United Kingdom</li>
+		</ul>
+
+
+		<h3 class="my-3 mt-5">Funding</h3>
+
+
+		<ul class="list-group mx-3">
+			<li class="list-group-item ">The e-RA database, including the published datasets generated from it, is part of the Rothamsted Long-Term 
+				Experiments - National Bioscience Research Infrastructure (RLTE-NBRI), which also includes the <a
+				href="https://www.rothamsted.ac.uk/national-capability/long-term-experiments-0">Long-Term
+					Experiments, </a> the <a target="_blank"
+				href="https://www.rothamsted.ac.uk/facilities-and-resources/rothamsted-sample-archive">Rothamsted Sample
+					Archive</a> 
+					
+					and Rothamsted's environmental monitoring activities including the weather 
+				stations and its role in the <a
+				href="https://www.rothamsted.ac.uk/facilities-and-resources/environmental-change-network"> UK Environmental
+					Change Network</a>.</li>
+				<li class="list-group-item ">The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028). The RLTE-NBRI is also supported by the Lawes Agricultural Trust.</li>
+
+			</li>
+
+		</ul>
+	</div>
+</div>

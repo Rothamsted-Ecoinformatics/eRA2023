@@ -1,0 +1,491 @@
+{
+  "resources": [
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "d3555ca55dfdb658a4d00ce703bb2f4d",
+        "bytes": 7252,
+        "fields": 7,
+        "rows": 27
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "Crop name",
+            "rdfType": "http://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "Latin name",
+            "rdfType": "http://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_code",
+            "type": "string",
+            "format": "default",
+            "title": "crop code",
+            "rdfType": "http://schema.org/name",
+            "description": "Code for each crop used in rotation"
+          },
+          {
+            "name": "crop_name_rdftype",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the crop type"
+          },
+          {
+            "name": "years",
+            "type": "number",
+            "format": "default",
+            "title": "years",
+            "rdfType": "https://schema.org/Date",
+            "description": "Range of years in which this crop was grown"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "description",
+            "description": "General description of crop type and how used in the rotations"
+          },
+          {
+            "name": "management",
+            "type": "string",
+            "format": "default",
+            "title": "management",
+            "description": "Management of this crop in the Highfield ley-arable experiment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop types description",
+      "description": "Describes the different crops grown with Latin names and AGROVOC concepts if applicable."
+    },
+    {
+      "path": "cropping_data.csv",
+      "name": "cropping_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "8b7b0f4bfa5328412f7cb72331d49b05",
+        "bytes": 423683,
+        "fields": 12,
+        "rows": 6128
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "year",
+            "format": "YYYY",
+            "bareNumber": true,
+            "title": "Year",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested. It may have been sown the previous year"
+          },
+          {
+            "name": "block",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "block",
+            "rdfType": "http://schema.org/name",
+            "description": "The experiment is divided into 12 blocks, 1-12. The different rotations were phased in, so that the first test crop following a rotation of treatment crops were on blocks 2 & 3 in 1952, blocks 5 & 8 in 1953, blocks 9 & 12 in 1954, blocks 1 & 4 in 1955, blocks 6 & 7 in 1956 and blocks 10 & 11 in 1957."
+          },
+          {
+            "name": "main_plot",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "main plot number",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "The main plots (1-144) on each block which have different cropping. There are 6 pairs of main plots on each of 12 Blocks, a total of 72 pairs."
+          },
+          {
+            "name": "sub_plot",
+            "type": "integer",
+            "format": "default",
+            "title": "sub plot number",
+            "description": "The G, R and Rp pairs of plots were divided lengthways into two sub plots (1 and 2) in 1962-1990 to test grass with fertilizer N (n) vs grass/clover with no fertilizer N (c). The n or c treatment is shown in column n_or_c_sub_plot. Sub plot 1 is shown as a and sub plot 2 as b in some early plans."
+          },
+          {
+            "name": "rotation_factor_level_code",
+            "type": "string",
+            "format": "default",
+            "title": "rotation factor level code",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000469",
+            "description": "Code for crop rotation on this block, plot and year. See rotation_factor_data for more information"
+          },
+          {
+            "name": "n_or_c_treatment",
+            "type": "string",
+            "format": "default",
+            "title": "n or c treatment",
+            "rdfType": "http://schema.org/name",
+            "description": "The G, R and Rp pairs of plots were divided into two sub plots in 1962-1990  testing grass with fertilizer N (n) vs grass/clover with no fertilizer N (c)."
+          },
+          {
+            "name": "phase_number",
+            "type": "number",
+            "format": "default",
+            "title": "phase number of rotation",
+            "rdfType": "http://schema.org/name",
+            "description": "Phase of rotation. In six year rotation, treatment crops are phases 1-3, test crops are phases 4-6. Initializing phase, before the rotations were phased in, shown as pre-experiment."
+          },
+          {
+            "name": "test_or_treatment_crop",
+            "type": "string",
+            "format": "default",
+            "title": "test or treatment crop",
+            "rdfType": "http://schema.org/name",
+            "description": "Description of the different phases, whether a Test or Treatment crop. The first Treatment crops are phased in from 1949: Blocks 2 & 3 in 1949, Blocks 5 & 8 in 1950, Blocks 9 & 12 in 1951 etc (see block description above for full sequence). Crops sown 1949-1953 before the first treatment crop are called initialising phase as they are not full Test or Treatment crops e.g. wheat in Block 1 in 1949. Crops planted before the start of experimental cropping are called pre-experiment."
+          },
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "crop name",
+            "rdfType": "http://schema.org/name",
+            "description": "Crop grown in that harvest year. See crop_types_data for more information"
+          },
+          {
+            "name": "crop_code",
+            "type": "string",
+            "format": "default",
+            "title": "crop code",
+            "rdfType": "http://schema.org/name",
+            "description": "Code for crop grown in that harvest year. See crop_types_data for more information"
+          },
+          {
+            "name": "crop_variety",
+            "type": "string",
+            "format": "default",
+            "title": "crop variety",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Variety (or cultivar) of crop grown in this harvest year."
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note identification",
+            "description": "Note number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "rotation_factor_level_code",
+            "reference": {
+              "resource": "rotation_factor_data",
+              "fields": "factor_level_code"
+            }
+          },
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "cropping data",
+      "description": "The experiment was started in 1949 to test the effects of different 3-year ley treatments on the yields of 3 arable test crops, in a site that had been in long-term grassland. Additionally, plots of old grassland from before the experiment started were left for comparison with the ley treatments, and other plots were ploughed and reseeded with grass at the start of the experiment. This is a companion to the Fosters ley arable experiment, started at the same time on a site that had been in long-term arable. The main data table consists of the treatment rotations followed and crops grown in each plot and block each year. It contains the rotations, the crop codes (crop types) and crop varieties.  At conception, it consisted of 144 main plots, divided over 12 blocks. From 1968, blocks 5-12 were turned over to continuous wheat cropping to study the effects of take-all disease and are not included further in this dataset, except the 1st, 2nd and 3rd test crops in blocks 6, 7, 10 and 11, which continued until 1971. Blocks 1-4 are maintained to this day, although the measuring of yields was halted in 1990. The experiment began with a cut-grass (Cg) treatment, a grazed ley (L) treatment, a lucerne treatment (Lu) and an arable with hay treatment (A), as well as the permanent old grass (G) and the reseeded grass (R). The crops and treatments used in the A treatment changed several times over the course of the experiment.  The L and Cg treatments were discontinued in 1962 in favour of a clover-grass (Lc) and an all-grass (Ln) treatment, respectively. Some R plots were ploughed up and converted to the arable with hay treatment in the late 1960s, before being returned to reseeded grass in the 1970s (Rp).  The G, R and Rp treatments were divided into two subplots (1 and 2) from 1962-1990 to test grass with nitrogen (n) and grass/clover (c). From 1991 the G, and R and Rp plots were no longer split and were all under grass/clover, called Gc, Rc or Rpc. The Lu and Ln plots were converted to Lc plots in 1991. Several changes were made in 2009: the Lc plots that had previously been Lu were turned over to arable treatment (Al), and the Lc plots that had previously been Ln were turned over to permanent fallow (F). The Rc and Rpc plots and pre-existing A plots were turned over to the Highfield Conversion Experiment (R/CS/767). Today the experiment's main purpose is to evaluate the effect of different cropping systems on long-term changes in soil organic carbon. See Highfield Supplementary Information for more details. "
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "0fa42311ba41898cc0e70a6e6ee119fa",
+        "bytes": 1268,
+        "fields": 2,
+        "rows": 8
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "description": "Additional explanatory notes for records in the cropping_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "notes",
+      "description": "Additional explanatory notes for records in the cropping_data table"
+    },
+    {
+      "path": "rotation_factor_data.csv",
+      "name": "rotation_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "8943194a48597793382740e8868892b9",
+        "bytes": 7199,
+        "fields": 9,
+        "rows": 26
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "description",
+            "description": "Detailed description of the rotation factor level, with changes"
+          },
+          {
+            "name": "rotation_type",
+            "type": "string",
+            "format": "default",
+            "title": "Rotation type",
+            "description": "General description of rotation type - arable or ley-arable, continuous, 3 year ley"
+          },
+          {
+            "name": "factor_level_code",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level code",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The code for the rotation factor level"
+          },
+          {
+            "name": "sub_plot_treatment",
+            "type": "string",
+            "format": "default",
+            "title": "Sub plot treatment",
+            "rdfType": "http://schema.org/name",
+            "description": "Some plots divided into two sub plots 1962-1990 testing grass with nitrogen (n) v grass/clover without nitrogen (c). Cropping the same in both treatments"
+          },
+          {
+            "name": "alternative_code",
+            "type": "string",
+            "format": "default",
+            "title": "Alternative code",
+            "rdfType": "http://schema.org/name",
+            "description": "Alternative code used in other publications for the rotation factor level code"
+          },
+          {
+            "name": "years",
+            "type": "number",
+            "format": "default",
+            "title": "years",
+            "rdfType": "https://schema.org/Date",
+            "description": "The harvest year range for when this factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied; each rotation was a 6 year cycle"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_code"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop rotation descriptions",
+      "description": "Describes the different arable and ley-arable rotations, their codes, alternative names and duration. "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi.org/10.23637/rrn1-HLAcrop4923-01",
+  "name": "highfield-ley-arable-experiment-cropping-sequence-1949-2023",
+  "title": "Highfield Ley-arable Experiment cropping sequence 1949-2023",
+  "version": "1.0.0",
+  "keywords": [
+    "arable farming",
+    "crop rotation",
+    "cropping system",
+    "ley farming",
+    "long term experiments",
+    "Rothamsted Research",
+    "barley",
+    "experimental design",
+    "wheat",
+    "hay",
+    "leys",
+    "oats",
+    "Highfield ley-arable rotation experiment",
+    "permanent grassland",
+    "potatoes",
+    "sown pastures",
+    "sugarbeet"
+  ],
+  "description": "### Abstract\nCropping details of the Highfield Ley-arable experiment, 1949-2023, with details of the arable and ley-arable rotation sequences in each of the twelve blocks, and the different treatment crops and varieties. The experiment was designed to test the effects of different rotations with and without leys (short-term herbage) on the yield of three arable test crops, in a site that had been in long-term grassland. Additionally, plots of old grassland from before the experiment started were left for comparison with the ley treatments, and other plots were ploughed and reseeded with grass at the start of the experiment. This is a companion to the Fosters ley arable experiment, started at the same time on a site that had been in long-term arable. It is now an important resource for investigating long-term changes in soil organic matter due to different cropping systems.\r\n\r\nThis dataset was assembled by Fergus Blyth from September 2022 to August 2023 as part of a year spent on placement for an MSci degree from the University of Glasgow.\r\n\r\nThis work was supported by the Natural Environment Research Council [NE/S007423/1], through the ENVISION Doctoral Training Partnership, Research Experience Placement scheme.\n### Methods\nThe main data table consists of the treatment rotations followed and crops grown in each plot and block each year. It contains the rotations, the crop codes (crop types) and crop varieties. Originally it consisted of 144 main plots, divided over 12 blocks. From 1968, blocks 5-12 were turned over to continuous wheat cropping to study the effects of take-all disease and are not included further in this dataset, except the 1st, 2nd and 3rd test crops in blocks 6, 7, 10 and 11, which continued until 1971. Blocks 1-4 are maintained to this day, although the measuring of yields was halted in 1990. \r\n\r\nThe experiment began with a cut-grass (Cg) treatment, a grazed ley (L) treatment, a lucerne treatment (Lu) and an arable with hay treatment (A), as well as the permanent old grass (G) and the reseeded grass (R). The crops and treatments used in the A treatment changed several times over the course of the experiment.  The L and Cg treatments were discontinued in 1962 in favour of a clover-grass (Lc) and an all-grass (Ln) treatment, respectively. Some R plots were ploughed up and converted to the arable with hay treatment in the late 1960s, before being returned to reseeded grass in the 1970s (Rp).  The G, R and Rp treatments were divided into two subplots (1 and 2) from 1962-1990 to test grass with nitrogen (n) and grass/clover (c). From 1991 the G, and R and Rp plots were no longer split and were all under grass/clover, called Gc, Rc or Rpc. The Lu and Ln plots were converted to Lc plots in 1991. Several changes were made in 2009: the Lc plots that had previously been Lu were turned over to arable treatment (Al), and the Lc plots that had previously been Ln were turned over to permanent fallow (F). The Rc and Rpc plots and pre-existing A plots were turned over to the Highfield Conversion Experiment (R/CS/767).\n### Technical Info\nThe main plots are in pairs. At conception in 1949, it consisted of 144 main plots, divided over 12 blocks. It now numbers 48 plots, divided over 4 blocks.  The year refers to harvest year; the experiment was started in autumn 1948 with the first crop harvested in 1949.\n### Other\n\n### Provenance\nTaken from the Rothamsted Yield Books, field plans and paper archive.\n### Quality\nThe frictionless dataset of crop sequence data was compiled by Fergus Blyth and checked by Margaret Glendining and Sarah Perryman, July 2023.\n",
+  "contributors": [
+    {
+      "title": "Fergus Blyth",
+      "path": "https://orcid.org/0009-0002-6733-9992",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

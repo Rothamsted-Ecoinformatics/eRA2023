@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Harwood's Piece",
+        "identifier": "S/RN/1",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": "None",
+        "description": "The Saxmundham experimental site is currently supported by The Morley Agricultural Foundation and delivered by NIAB.",
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Saxmundham",
+        "addressRegion": "Suffolk",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": 1.466048,
+            "pointLatitude": 52.220964
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 36.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "Eutric gleysol",
+        "soilDescription": "Sandy clay loam developed over drift over Chalky Boulder Clay, Beccles Series."
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Sandy clay loam developed over drift over Chalky Boulder Clay, Beccles Series.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

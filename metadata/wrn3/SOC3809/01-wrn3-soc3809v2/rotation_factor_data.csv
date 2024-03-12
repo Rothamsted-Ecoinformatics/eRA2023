@@ -1,0 +1,45 @@
+description,rotation_type,factor_level_name,johnston_rotation_code,alternative_name,years,treatment_factor,treatment_factor_rdfType,frequency
+"continuous rotation, three years arable Treatment crops, including one year root crop, followed by two arable Test crops. This became AF",arable ,Ar,AF,A,1938-1974,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"continuous rotation, three years arable Treatment crops, including one year hay, followed by two arable Test crops. This became AB",arable ,Ah,AB,AH,1938-1974,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"continuous rotation, three years grazed grass/clover ley Treatment crops, followed by two arable Test crops. This became 3-yr cut ley-arable, then Ln3",3-yr grazed ley-arable,L,LN3,LEY,1938-1968,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"continuous rotation, three years cut grass/clover ley Treatment crops, followed by two arable Test crops. This followed 3-yr grazed ley-arable, then became Ln3",3-yr cut ley-arable,L,LN3,LEY,1969-1974,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"continuous rotation, three years lucerne ley Treatment crops, followed by two arable Test crops.  Lu (lucerne) then S (sainfoin) 1964-67 then CL (red clover ley) 1971-74. This became Lc3",3-yr lucerne ley-arable,Lu,LC3,CLO,1938-1974,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"alternating rotation, starting with rotation Ar, then rotation Lu, then Ah, then L. This became LLn8_1st_cycle",alternating arable and ley-arable,Ar/Lu,LN8,,1938-1974,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",20 year cycle
+"alternating rotation, starting with rotation Ah, then rotation L, then Ar then Lu. This became LLc8_1st_cycle",alternating arable and ley-arable,Ah/L,LC8,,1938-1974,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",20 year cycle
+"alternating rotation, starting with rotation Lu, then rotation Ar, then L, then, Ah. This became LLn8_2nd_cycle",alternating arable and ley-arable,Lu/Ar,LN8,,1938-1979,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",20 year cycle
+"alternating rotation, starting with rotation L, then rotation Ah, then Lu, then Ar. This became LLc8_2nd_cycle",alternating arable and ley-arable,L/Ah,LC8,,1938-1979,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",20 year cycle
+"(replaced Ar); two years fallow and one arable Treatment crop, followed by two arable Test crops. This changed to AM",arable,AF,AF,,1975-1999,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"(replaced Ah); three arable Treatment crops, followed by two arable Test crops. This changed to ABe ",arable ,AB,AB,,1975-1999,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"(replaced AF); three years arable Treatment crops, R, BE, M followed by two arable Test crops.  This changed to AO",arable,AM,AF,,2000-2020,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+"(replaced AB): three years arable Treatment crops R, M, BE followed by two arable Test crops",arable,ABe,AB,,2000-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"(replaced L); three years grass ley with N fertilizer Treatment crops, followed by two arable Test crops",3-yr grass with N ley-arable ,Ln3,LN3,LN3,1973-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"(replaced Lu); three years grass/clover ley Treatment crops, followed by two arable Test crops",3-yr grass/clover ley-arable,Lc3,LC3,LC3,1973-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"(replaced Ar/Lu) eight years grass ley with N fertilizer Treatment crops, followed by two arable Test crops. 1st cycle, started 1973 on Block 3, and in subsequent years on blocks 5, 4, 2 and 1. ",8-yr grass with N ley-arable,LLn8_1st_cycle,LN8_1st,LN8,1975-2006,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+"(replaced Ah/L) eight years grass/clover ley Treatment crops, followed by two arable Test crops.  1st cycle, started 1973 on block 3 and on subsequent years in blocks 5, 4, 2 and 1. ",8-yr grass/clover ley-arable,LLc8_1st_cycle,LC8_1st,LC8,1975-2006,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+"(replaced Lu/Ar) eight years grass ley with N fertilizerTreatment crops, followed by two arable Test crops. 2nd cycle, started 1978 on block 3 and in subsequent years on blocks 5, 4, 2 and 1. ",8-yr grass with N ley-arable,LLn8_2nd_cycle,LN8_2nd,LN8,1980-2012,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+"(replaced Ah/L) eight years grass/clover ley Treatment crops, followed by two arable Test crops.  2nd cycle, started 1978 on block 3 and in subsequent years on blocks 5, 4, 2 and 1. ",8-yr grass/clover ley-arable,LLc8_2nd_cycle,LC8_2nd,LC8,1980-2012,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+"(replaced AM); three years arable Treatment crops, R, BE, O, followed by two arable Test crops. Oats (O) replaced Maize (M) as a Treatment crop",arable,AO,,AM/AO,2008-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"three years arable Treatment crops, followed by two arable Test crops. Oats (O) replaced Maize (M) as a Treatment crop from 2008 but the same code (ABe) was retained",arable,ABe,AB,,2008-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"(replaced LLn8_1st_cycle); eight years grass with N ley replaced by three years arable Treatment crops, R, BE, O, followed by two Test crops from 2007",arable after 8-yr grass leys,LLn/AO,LN8_1st,LLN/AO,2007-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"(replaced LLc8_1st_cycle); eight years grass/clover ley replaced by three years arable Treatments crops R, O, BE, followed by two arable Test crops from 2007",arable after 8-yr grass/clover leys,LLc/ABe,LC8_1st,LLC/ABe,2007-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+(replaced LLn8_2nd_cycle); eight years grass with N ley replaced by three year grass leys with N fertilizer followed by two arable Test crops from 2008,3-yr grass with N ley-arable after 8-yr grass leys,LLn/Ln3,,LLN/LN3,2008-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+(replaced LLc8 2nd cycle); eight years grass/clover ley replaced by three year grass/clover leys followed by two arable Test crops from 2008,3-yr grass/clover ley-arable after 8-yr grass/clover leys,LLc/Lc3,,LLC/LC3,2008-2020,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+,,,,,,,,
+,,,,,,,,
+"Continuous (permanent) arable rotations, three year arable followed by two arable test crops, consisting of AB and AF",,arable,,,,1938-2009,crop rotation,5 year cycle
+"Continuous (permanent) ley-arable rotations, three years ley followed by two arable test crops, consisting of LN3 and LC3",,ley_arable,,,,1938-2009,crop rotation,5 year cycle
+"Alternating rotation, alternating between the two arable and two ley-arable rotations on a 20 year cycle",,alternating,,,,1938-1970s,crop rotation,20 year cycle
+Half the alternating rotations were replaced by 8-year grass leys with N followed by two arable test crops,,leyn_8yr,,,,1970s-2009,crop rotation,10 year cycle
+Half the alternating rotations were replaced by 8-year grass + clover leys followed by two arable test crops,,leyc_8yr,,,,1970s-2009,crop rotation,10 year cycle

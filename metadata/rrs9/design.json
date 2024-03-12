@@ -1,0 +1,59 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Whole period",
+            "localIdentifier": "Whole period",
+            "name": "Whole period",
+            "url": "Whole period",
+            "description": "One strip (>200m) alongside the north end of Hoosfield Barley long-term field experiment"
+        },
+        "design": {
+            "dateStart": 1850,
+            "dateEnd": null,
+            "description": "One strip (>200m) alongside the north end of Hoosfield Barley long-term field experiment",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Whole period",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 21971,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12832,
+                "name": "liming exposure",
+                "description": "Small amounts of chalk applied in 19th century",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
+    }
+]

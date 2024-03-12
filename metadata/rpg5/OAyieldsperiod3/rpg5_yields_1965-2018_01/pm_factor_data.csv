@@ -1,0 +1,3 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+"Indicates nil rate poultry manure treatment factor level, replaced fishmeal (FM) in 2003",1965-2018,animal manure exposure,http://purl.obolibrary.org/obo/ECTO_7000107,0,0,kg N ha-1 yr-1,not applied,poultry manure,http://purl.obolibrary.org/obo/AGRO_00000080
+"Pelleted poultry manure to supply 65 kg N per application, replaced fishmeal (FM) in 2003",1965-2018,animal manure exposure,http://purl.obolibrary.org/obo/ECTO_7000107,PM,65,kg N ha-1 yr-1,in a four year cycle,poultry manure,http://purl.obolibrary.org/obo/AGRO_00000080

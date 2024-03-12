@@ -1,0 +1,5 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows phosphorus fertilizer treatment,nil,1852-2022,phosphorus nutrient exposure ,,0.0,,,,
+Factor level shows phosphorus fertilizer treatment. Applied in autumn usually to stubble of previous crop. Applied to all crops and fallow. ,P,1852-2022,phosphorus nutrient exposure ,http://purl.obolibrary.org/obo/PECO_0007397 ,35.0,kg P ha-1,annual ,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+"Factor level shows phosphorus fertilizer treatment. Applied in autumn usually to stubble of previous crop. Applied to all crops and fallow, strips 17 and 18.",1/2 P,1968-2000,phosphorus nutrient exposure ,http://purl.obolibrary.org/obo/PECO_0007397 ,17.5,kg P ha-1,annual ,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+"Factor level shows phosphorus fertilizer treatment previously applied, up to 2000.  Not applied since 2000, due to high levels of soil P. ",(P),2001-2022,phosphorus nutrient exposure ,http://purl.obolibrary.org/obo/PECO_0007397 ,0.0,,,,

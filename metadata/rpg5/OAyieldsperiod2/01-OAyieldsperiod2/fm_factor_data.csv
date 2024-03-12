@@ -1,0 +1,4 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,treatment_form,amount,amount_unit,frequency,treatment_form_rdfType
+Indicates no fish  meal  applied,1903-1964,fish meal  exposure , http://purl.obolibrary.org/obo/ECTO_7000098,0,fish meal,0,kg N ha-1 yr-1,not applied,http://aims.fao.org/aos/agrovoc/c_2925
+"Fish  meal to supply 65 kg N per application, every fourth year since 1907",1903-1964,fish meal  exposure , http://purl.obolibrary.org/obo/ECTO_7000098,FM,fish meal,65,kg N ha-1 yr-1,in a four year cycle,http://aims.fao.org/aos/agrovoc/c_2925
+"Fish  meal amount per application, none applied three years in four since 1908",1903-1964,fish meal  exposure , http://purl.obolibrary.org/obo/ECTO_7000098,(FM),fish meal,0,kg N ha-1 yr-1,every 3 years in 4 year cycle ,http://aims.fao.org/aos/agrovoc/c_2925

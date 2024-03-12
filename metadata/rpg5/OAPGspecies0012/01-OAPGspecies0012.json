@@ -1,0 +1,470 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rpg5-species_2010-2012-01",
+    "name": "Dataset: Park Grass Species, Fertilizer and Lime Treatments 2010-2012",
+    "shortName": "OAPGspecies0012",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGspecies0012",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "The dataset contains the proportional biomass of botanical species of Park Grass hay experiment 2010-2012. They comprise the biomass of selected treatment plots to cover a range of the various treatments. Each survey was done annually just before the first cut. There are sixty-eight species in the dataset and are comprised of forbs, grasses, legumes, and tree saplings. The species composition in different plots reflect their fertiliser treatment and pH of the plot due to liming. Unfertilised control plots have the greatest species numbers (up to 33 species per plot, for plot 3a in 2010) and plots receiving nitrogen as ammonium sulphate have the lowest species number (down to one or two per plot), particularly where lime is not applied, due to the acidifying effects of the ammonium on the soil. Nitrogen applied as sodium nitrate also decreases species numbers. There some local extinctions and species invasions compared to the 10-year dataset 1991-2000, see Additional Information. Fertilizer and lime treatments are also provided in the dataset, as are common names of species."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "In the three years from 2010 to 2012, six randomly located quadrats measuring 50cm x 25cm were located within each of the plots in early June, immediately before the first cut. The herbage was cut with scissors to ground level and plant material taken back to the laboratory where it was sorted into species. Samples were oven-dried at 80 &ordm;C for 24 hours, after which dry mass was determined for each species. This compliments and follows the 10-year survey conducted by Imperial College (see Crawley et al., 2005 and dataset http://doi.org/10.23637/KeyRefOAPGspecies).\r\nNote: In 2010 there are a number of 'unidentified species'  but not in 2011/2012 - when sorting, there is always a pile of single leaves, small plants and stems that it is not possible to separate; this can vary by year and plot."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "The dataset comprises an Excel file, rpg5_species_2010-2012_01.xlsx, containing the Park Grass fertilizer and lime treatments, the botanical species proportional biomass, a species list with scientific and common names and phylogeny (forbs, grasses, legumes, and trees) 2010-2012. Frictionless CSV files are provided for users who prefer CSV over Excel files."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "This species survey was conducted Jonathan Storkey at Rothamsted Research. Further details can be found in the paper Storkey, J., Macdonald, A. J., Poulton, P. R., Scott, T., Kohler, I. H., Schnyder, H., Goulding, K. W. T. and Crawley, M. J. (2015) ** Grassland biodiversity bounces back from long-term nitrogen addition**, Nature, 528, (7582), 401-4 https://doi.org/10.1038/nature16444.\r\n\r\nBackground history: Park Grass was initiated to investigate the ways of improving the yield of hay by the application of inorganic fertilizers and organic manure. With time, the soil became more acidic and in 1903 plots had been halved and the effects of lime tested. From 1965 a new liming regime was initiated with four sub-plots, three receiving lime to maintain soil pH (0-23cm depth) at pH 7, 6, and 5 on sub-plots a, b and c. Sub-plot d does not receive any lime. It soon became apparent that the different fertilizer treatments resulted in a dramatically different flora in what had originally been a uniform sward, with higher species diversity on the un-limed sub-plots and nil fertilizer plots and particularly low species numbers on the ammonium sulphate fertilizer plots. \r\n\r\nThere were intermittent investigations of the species from the 1860s and these are available from the following e-RA database datasets; PARKCOMP (Park Grass botanical surveys-complete separations of hay samples, selected years 1862-1976) and PARKPARTCOMP (Park Grass botanical surveys-partial separations of hay samples, selected years 1862-1976).\r\n\r\nThis dataset can be used in conjunction with Park Grass Hay Yields 1965-2018 in having the same format and structure and the previous species survey, Park Grass Species 1991-2000.\r\n\r\nSpecies in the 1991-2000 dataset but extinct from this 2010-2012 one: Bellis perennis (Daisy), Cardamine pratensis (Cuckoo Flower), Filipendula ulmaria (Meaadosweet), Knautia arvensis (Field scabious), Linum catharticum (Fairy Flax), Ononis repens (Common Restharrow), Ophioglossum vulgatum (Adder's-tongue), Prunella vulgaris (Selfheal), Senecio jacobaea (Common Ragwort), Vicia sativa (Common Vetch).\r\n\r\nSpecies present in this 2010-2012 dataset but not in the previous 1991-2000 dataset: Agrostis stolonifera (Creeping Bent Grass), Fraxinus excelsior (European Ash), Bryophyta (Mosses), Phleum pratense (Timothy Grass), Poa annua (Annual Meadow Grass)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Sub-plot % individual species are derived from a survey conducted by Jonathan Storkey 2010-2012. Data supplied was checked by Andy Macdonald and Paul Poulton."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the original data set complied by Jonathan Storkey was checked by two other scientists and any discrepancies were resolved and were independently back-checked against the original data sheets. The Frictionless dataset was compiled by Sarah Perryman and quality checked by Margaret Glendining."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2022,
+    "dateCreated": "2022-07-20",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1.0",
+    "keywords": [
+        "fertilizer",
+        "farmyard manure",
+        "Rothamsted Research",
+        "soil pH",
+        "arable farming",
+        "long term experiments",
+        "experimental design",
+        "Park grass long-term experiment",
+        "nitrogen fertilizers",
+        "soil",
+        "soil fertility",
+        "liming",
+        "permanent grassland",
+        "species diversity",
+        "botanical composition",
+        "plant population",
+        "flora",
+        "hay"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Jonathan Storkey",
+            "givenName": "Jonathan",
+            "familyName": "Storkey",
+            "sameAs": "https://orcid.org/0000-0003-1094-8914",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Storkey",
+            "givenName": "Jonathan",
+            "familyName": "Storkey",
+            "sameAs": "https://orcid.org/0000-0003-1094-8914",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37262,
+            "latitude": 51.80398
+        },
+        "name": "Park Grass"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rpg5-yields1965-2018-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Dataset: Park Grass Hay Yields, Fertilizer and Lime Treatments 1965-2018",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGspecies",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Changes in Mean Species Numbers 1864-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Soil pH 1856-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1965-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and treatments since 1965, updated 2018",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-LimeTreats-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Experiment lime treatments 1856-2021 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1086/427270",
+            "relatedIdentifierType": "DOI",
+            "name": "Crawley et al. (2005) Determinants of species richness in the Park Grass experiment ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1038/nature16444",
+            "relatedIdentifierType": "DOI",
+            "name": "Storkey et al. (2015) Grassland Biodiversity Bounces Back from Long-term Nitrogen Addition",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1365-2745.2006.01145.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Silvertown et al. (2006) The Park Grass Experiment 1856 - 2006: its contribution to ecology",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-253",
+            "relatedIdentifierType": "DOI",
+            "name": "A celebration of 150 years of the Park Grass Experiment (Leaflet), 2006",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-yields1903-1964-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Dataset: Park Grass Hay Yields, Fertilizer and Lime Treatments 1903-1964",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-species_1991-2000-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Dataset: Park Grass Species, Fertilizer and Lime Treatments 1991-2000",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Park Grass Species 2010-2012",
+            "URL": "01-OAPGspecies0012.zip",
+            "encodingFormat": "zip",
+            "fileSize": "170 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Example of data derived from the dataset - plot 3a & 3b (no fertilizer or manure) 2012",
+            "URL": "rpg5_speciesplot3a3b2012_barchart.png",
+            "encodingFormat": "png",
+            "fileSize": "57 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

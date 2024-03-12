@@ -1,0 +1,189 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": null,
+            "localIdentifier": null,
+            "name": null,
+            "url": null,
+            "description": "In October 2008, 10\u2009\u00d7\u20096 m areas within the existing bare fallow, arable and grassland plots on the Highfield/Geescroft site of Rothamsted farm were converted to one of the alternative treatments. Plots were subdivided in a randomized block design to provide three plots for each permanent and conversion treatment.\n\nAll plots except those remaining as permanent grassland were ploughed (standard depth, 23 cm)"
+        },
+        "design": {
+            "dateStart": 2008,
+            "dateEnd": null,
+            "description": null,
+            "designType": "Randomized complete block design",
+            "designTypeLabel": "Randomized complete block design",
+            "studyDesign": null,
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": 3,
+            "numberOfPlots": 27,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21224,
+                "name": "fallow",
+                "sameAs": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21225,
+                "name": "grass",
+                "sameAs": "grass",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21226,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12322,
+                "name": "cropping system",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Sub plot",
+                "level": [
+                    {
+                        "id": 30727,
+                        "name": "permanent grass",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30728,
+                        "name": "permanent grass converted to arable",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30729,
+                        "name": "permanent grass converted to bare fallow",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30730,
+                        "name": "arable converted to grass",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30731,
+                        "name": "continuous arable",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30732,
+                        "name": "arable converted to bare fallow",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30733,
+                        "name": "bare fallow converted to grass",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30734,
+                        "name": "bare fallow converted to arable",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30735,
+                        "name": "continuous bare fallow",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

@@ -1,0 +1,4 @@
+crop_name,latin_name,crop_name_rdftype
+potatoes,solanum tuberosum,http://aims.fao.org/aos/agrovoc/c_13551
+fallow,*,http://aims.fao.org/aos/agrovoc/c_34007
+winter wheat,triticum aestivum,http://aims.fao.org/aos/agrovoc/c_8412

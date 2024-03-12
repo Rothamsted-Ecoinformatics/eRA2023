@@ -1,0 +1,1250 @@
+{
+    "id": 5591,
+    "experiment_type_term": null,
+    "experiment_id": 54,
+    "people": [
+        {
+            "id": 6367,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "sarah.perryman@rothamsted.ac.uk"
+                },
+                {
+                    "contact_type": "Email",
+                    "value": "era@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Sarah Perryman",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": null,
+            "is_contact": true,
+            "role_label": "data manager"
+        },
+        {
+            "id": 6368,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "margaret.glendining@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "0000-0002-6466-4629",
+            "is_contact": false,
+            "role_label": "data manager"
+        },
+        {
+            "id": 6369,
+            "contacts": [],
+            "role_term": "experiment manager",
+            "title": "Dr",
+            "name": "Andy Gregory",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Sciences",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "experiment manager"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 6038,
+            "contacts": [
+                {
+                    "contact_type": "URL",
+                    "value": "www.rothamsted.ac.uk"
+                },
+                {
+                    "contact_type": "Email",
+                    "value": "era@rothamsted.ac.uk"
+                },
+                {
+                    "contact_type": "Address",
+                    "value": "Rothamsted Research, West Common, Harpenden, Herts., AL5 2JQ, UK"
+                }
+            ],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": "RRes",
+            "role_label": "research organisation"
+        }
+    ],
+    "periods": [
+        {
+            "id": 7730,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 21437,
+                    "crop_term": "turnips",
+                    "crop_label": "turnips",
+                    "start_year": 1843,
+                    "end_year": 1848
+                },
+                {
+                    "id": 21438,
+                    "crop_term": "swedes",
+                    "crop_label": "swedes",
+                    "start_year": 1849,
+                    "end_year": 1852
+                },
+                {
+                    "id": 21439,
+                    "crop_term": "barley",
+                    "crop_label": "barley",
+                    "start_year": 1853,
+                    "end_year": 1855
+                },
+                {
+                    "id": 21440,
+                    "crop_term": "swedes",
+                    "crop_label": "swedes",
+                    "start_year": 1856,
+                    "end_year": 1870
+                },
+                {
+                    "id": 21441,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
+                    "start_year": 1871,
+                    "end_year": 1875
+                },
+                {
+                    "id": 21442,
+                    "crop_term": "mangolds",
+                    "crop_label": "mangolds",
+                    "start_year": 1876,
+                    "end_year": 1959
+                },
+                {
+                    "id": 21443,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
+                    "start_year": 1946,
+                    "end_year": 1959
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 12508,
+                    "factor_term": "fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31073,
+                            "factor_variant_term": "control exposure",
+                            "factor_variant_label": "control exposure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Both strip and series treatment had a control exposure.",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31074,
+                            "factor_variant_term": "sodium nitrate",
+                            "factor_variant_label": "sodium nitrate",
+                            "amount": "93",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31075,
+                            "factor_variant_term": "castor meal",
+                            "factor_variant_label": "castor meal",
+                            "amount": "2241",
+                            "amount_unit_term": "kg/ha",
+                            "amount_unit_label": "kilogram per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Until 1939 rapeseed cake (none between 1917-1920) at 2241 kg/ha; 1940 to 1954 castor meal also at 2241 kg/ha and since 1955 castor meal to provide 93 kgN/ha.",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31076,
+                            "factor_variant_term": "ammonium sulphate",
+                            "factor_variant_label": "ammonium sulphate",
+                            "amount": "93",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "Until 1916 equal parts of ammonium sulphate and ammonium chloride",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31077,
+                            "factor_variant_term": "farmyard manure",
+                            "factor_variant_label": "farmyard manure",
+                            "amount": "35",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31078,
+                            "factor_variant_term": "phosphorous",
+                            "factor_variant_label": "phosphorous",
+                            "amount": "33",
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "As superphosphate, except 1896-1902 when basic slag was used.",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31079,
+                            "factor_variant_term": "potassium",
+                            "factor_variant_label": "potassium",
+                            "amount": "224",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "As muriate of potash (potassium chloride)",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "potassium chloride",
+                            "chemical_form_label": "potassium chloride"
+                        },
+                        {
+                            "id": 31080,
+                            "factor_variant_term": "magnesium",
+                            "factor_variant_label": "magnesium",
+                            "amount": "22",
+                            "amount_unit_term": "kgMg/ha",
+                            "amount_unit_label": "kg magnesium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "magnesium sulphate",
+                            "chemical_form_label": "magnesium sulphate"
+                        },
+                        {
+                            "id": 31081,
+                            "factor_variant_term": "sodium",
+                            "factor_variant_label": "sodium",
+                            "amount": "90",
+                            "amount_unit_term": "kgNa/ha",
+                            "amount_unit_label": "kg sodium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "As agricultural salts (sodium chloride)",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "fertilizer exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31073,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "O",
+                    "description": "Series treatment factor combination",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31074,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "N",
+                    "description": "Series treatment factor combination",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31076,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "A",
+                    "description": "Series treatment factor combination",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31076,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31075,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "AC",
+                    "description": "Series treatment factor combination",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31075,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "C",
+                    "description": "Series treatment factor combination",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31077,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "D",
+                    "description": "Strip treatment factor combination",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31077,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31078,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31079,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "DPK",
+                    "description": "Series treatment factor combination",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31078,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31079,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31081,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31080,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "PKNaMg",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31078,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "P",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31078,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31079,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "PK",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31078,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31081,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        },
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31080,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "PNaMg",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [
+                        {
+                            "factor_id": 12508,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "factor_level_id": 31073,
+                            "comment": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null
+                        }
+                    ],
+                    "name": "None",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "measurements": [],
+            "start_year": 1843,
+            "end_year": 1959,
+            "ongoing": false,
+            "name": "Root Crops",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": 35,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "The final treatment arrangement, settled on since 1879, consisted of 35 plots arranged in seven 'strips' running roughly north-south and five series running at right-angles. The plots of each strip each received one of certain combinations of farmyard manure and mineral fertilizers. The plots of each series each received one of certain combinations of castor meal, ammonium sulphate or sodium nitrate.  \n\nFrom 1946 four rows of sugar beet were drilled on each plot, occupying about one third of the total area.",
+            "description": "The experiments on mangels began in 1876, but the land had been receiving manures for other root crops since 1856.",
+            "factorial": true
+        },
+        {
+            "id": 7731,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 21444,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 21445,
+                    "crop_term": "mangolds",
+                    "crop_label": "mangolds",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 12509,
+                    "factor_term": "farmyard manure exposure",
+                    "levels": [],
+                    "factor_label": "farmyard manure exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12510,
+                    "factor_term": "castor meal exposure",
+                    "levels": [],
+                    "factor_label": "castor meal exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12511,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31082,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "0",
+                            "amount_unit_term": "cwt",
+                            "amount_unit_label": "hundredweight",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "applied in seed bed",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31083,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "0.6",
+                            "amount_unit_term": "cwt",
+                            "amount_unit_label": "hundredweight",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31084,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "1.2",
+                            "amount_unit_term": "cwt",
+                            "amount_unit_label": "hundredweight",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31085,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "1.8",
+                            "amount_unit_term": "cwt",
+                            "amount_unit_label": "hundredweight",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": "ammonium sulfate"
+                        }
+                    ],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "as sulphate of ammonia",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12512,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31086,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "applied in seed bed",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "as nitrate of soda",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12513,
+                    "factor_term": "phosphate fertilizer exposure",
+                    "levels": [],
+                    "factor_label": "phosphate fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12514,
+                    "factor_term": "potassium fertilizer exposure",
+                    "levels": [],
+                    "factor_label": "potassium fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12515,
+                    "factor_term": "magnesium nutrient exposure",
+                    "levels": [],
+                    "factor_label": "magnesium nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12516,
+                    "factor_term": "sodium nutrient exposure",
+                    "levels": [],
+                    "factor_label": "sodium nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [],
+            "start_year": 1960,
+            "end_year": 1977,
+            "ongoing": false,
+            "name": "Transition Period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": 35,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": "35 plots with 7 strips and five series running at right angles (plot 9 was outside this scheme).",
+            "description": "These years saw interim treatments. In 1960 and 1961 the field was fallowed, farmyard manure, castor meal and minerals were applied. In 1962 the plots were divided lengthways for comparison of potatoes and mangolds. FYM were still applied but castor meal discontinued. The division of 4N was discontinued and the plot reverted to standard strip manuring. For each crop plots were divided into four for a test of nitrogen (except series O which continued to receive no nitrogen). \n\nIn 1963 FYM and minerals were applied and the field was fallowed, except for three rows of potatoes on the east side of strip 4, series N, A, AC and C for observations on Oospora pustulans (skin spot fungus affecting potatoes). In 1964 plots were again divided lengthways for comparison of potatoes and mangolds (reverse positions of 1962). The rate of P was increased. In 1965 and 1966 the field was fallowed - FYM and minerals were applied, but no nitrogen. All plots were applied with simazine weed killer.",
+            "factorial": false
+        },
+        {
+            "id": 7732,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 21446,
+                    "crop_term": "grass",
+                    "crop_label": "grass",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 21447,
+                    "crop_term": "clover",
+                    "crop_label": "clover",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 12517,
+                    "factor_term": "farmyard manure exposure",
+                    "levels": [
+                        {
+                            "id": 31087,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "35",
+                            "amount_unit_term": "tons/acre",
+                            "amount_unit_label": "tons per acre",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "farmyard manure exposure",
+                    "description": "until 1975, none since",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12518,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31088,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "75",
+                            "amount_unit_term": null,
+                            "amount_unit_label": "kg nitrogen per cut",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31089,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "100",
+                            "amount_unit_term": null,
+                            "amount_unit_label": "kg nitrogen per cut",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31090,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "125",
+                            "amount_unit_term": null,
+                            "amount_unit_label": "kg nitrogen per cut",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31091,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "150",
+                            "amount_unit_term": null,
+                            "amount_unit_label": "kg nitrogen per cut",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "no nitrogen applied in 1995",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12519,
+                    "factor_term": "phosphate fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31092,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "35",
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
+                            "start_year": 1987,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "since 1987 and in 1974",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "triple superphosphate",
+                            "chemical_form_label": "triple superphosphate"
+                        },
+                        {
+                            "id": 31093,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "35",
+                            "amount_unit_term": null,
+                            "amount_unit_label": "kg phosphorous per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "single superphosphate",
+                            "chemical_form_label": "single superphosphate"
+                        }
+                    ],
+                    "factor_label": "phosphate fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12520,
+                    "factor_term": "potassium fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31094,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "225",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "potassium sulphate",
+                            "chemical_form_label": "potassium sulphate"
+                        }
+                    ],
+                    "factor_label": "potassium fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12521,
+                    "factor_term": "magnesium nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31095,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": "90",
+                            "amount_unit_term": "kgMg/ha",
+                            "amount_unit_label": "kg magnesium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "(as kiersite since 1974)",
+                            "application_frequency": "every fourth year",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "magnesium sulphate",
+                            "chemical_form_label": "magnesium sulphate"
+                        }
+                    ],
+                    "factor_label": "magnesium nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12522,
+                    "factor_term": "castor meal exposure",
+                    "levels": [],
+                    "factor_label": "castor meal exposure",
+                    "description": "last applied 1971",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12523,
+                    "factor_term": "sodium nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31096,
+                            "factor_variant_term": null,
+                            "factor_variant_label": null,
+                            "amount": null,
+                            "amount_unit_term": "kgNa/ha",
+                            "amount_unit_label": "kg sodium per hectare",
+                            "start_year": null,
+                            "end_year": 1973,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": "sodium chloride"
+                        }
+                    ],
+                    "factor_label": "sodium nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [
+                {
+                    "members": [],
+                    "name": "D",
+                    "description": "D=farmyard manure",
+                    "start_year": null,
+                    "end_year": 1975
+                },
+                {
+                    "members": [],
+                    "name": "DPK",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [],
+                    "name": "PK(Na)Mg",
+                    "description": "Na until 1973, none since",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [],
+                    "name": "P",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [],
+                    "name": "PK",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [],
+                    "name": "P(Na)MG",
+                    "description": "Na until 1973, none since",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "members": [],
+                    "name": "0",
+                    "description": "",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "measurements": [],
+            "start_year": 1977,
+            "end_year": 2001,
+            "ongoing": false,
+            "name": "Grass and clover phase",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": null,
+            "description": "From 1977 to 1983 the series that had never received N fertilizer was kept fallow. It was sown to a grass-clover ley in 1984. The remainder has been in grass since 1975.",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": null,
+    "site_soil_properties": [],
+    "site_climatic_type_term": null,
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.1017/S0021859615000702",
+            "title": "Yuan, H. M. , Blackwell, M. , McGrath, S. , George, T. S. , Granger, S. J. , Hawkins, J. M. B. , Dunham, S. and Shen, J. B. (2016) \"Morphological responses of wheat (Triticum aestivum L.) roots to phosphorus supply in two contrasting soils\", Journal of Agricultural Science, 154, 98-108",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-37286",
+            "title": "Avery, B.W. et al. (1972) The soil of Barnfield. RES Report for 1971, Part 2, 5-37.",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
+            "title": "Macdonald, A. , Poulton, P. , Clark, I. , Scott, T. , Glendining, M. , Perryman, S. , Storkey, J. , Bell, J. , Shield, I. , Mcmillan, V. and Hawkins, J. (2018) \"Guide to the Classical and Other Long-term experiments, Datasets and Sample Archive. Rothamsted Research\", p 41.",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.2134/jeq2019.02.0078",
+            "title": "Phosphorus in Agriculture: A Review of Results from 175 Years of Research at Rothamsted, UK (2019) Journal of Environmental Quality",
+            "language": null
+        }
+    ],
+    "saved_time": "2022-11-18T16:28:18.455929Z",
+    "name": "Barnfield",
+    "local_identifier": "R/BN/7",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1843,
+    "end_year": 2001,
+    "ongoing": false,
+    "establishment_period_end": 1855,
+    "objective": "Effects of fertilizers and organic manures on root crops, arable crops and grass & clover.",
+    "description": "Barnfield was the first of the Classical Experiments, with treatments applied in spring 1843 for a crop of turnips sown in July. The treatments and cropping, although mainly roots, differed until 1876 when a period of continuous cropping with mangolds was started that lasted until 1959 (sugar beet were also grown, on half-plots, from 1946).\n\nTreatments during the first two years were on long narrow plots, as on Broadbalk. After various modification, the design was settled in 1856 when the strips testing minerals and FYM, including FYM + PK, were crossed at right angles by series comparing no N fertilizer with both inorganic and organic forms of N supplying 96 kg ha-1. Before 1968 this was the only Classical in which N was applied with both FYM and FYM + PK fertilizer.\n\nBecause yields of continuous roots were declining, perhaps because of increasing numbers of cyst nematodes (Heterodera schachtii), the cropping has been progressively modified since 1959 and has included a range of arable crops, with an increased range of N dressings, and grass. From 1977 to 1983 the series that had never received N fertilizer was kept fallow. It was sown to a grass-clover ley in 1984. The remainder has been in grass since 1975.\n\nNo treatments have been applied and no yields taken since 2001, although the site is currently still available. Recently soil from the site was used in a study investigating the response of wheat roots to soil P supply (Yuan et al, 2016).",
+    "site_name": "Barnfield",
+    "site_local_code": "R/BN/7",
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Harpenden",
+    "site_region": "Hertfordshire",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 51.80722036,
+    "site_centroid_longitude": -0.35907269,
+    "site_elevation": 126.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": true,
+    "site_visiting_arrangements": "By arrangement with Dr Andy Gregory, LTE Manager",
+    "site_history": null,
+    "site_management": null,
+    "site_soil_type_label": "luvisol",
+    "site_soil_description": null,
+    "site_climatic_type_label": null,
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": true,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": null
+}

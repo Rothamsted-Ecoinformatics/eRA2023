@@ -1,0 +1,2283 @@
+{
+  "resources": [
+    {
+      "path": "castor_bean_meal_factor_data.csv",
+      "name": "castor_bean_meal_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "44705f07d545c92077881d3535dae678",
+        "bytes": 373,
+        "fields": 12,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of castor bean meal applied"
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which castor bean meal was applied each year"
+          },
+          {
+            "name": "n_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "N amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of nitrogen which was applied in the castor bean meal application each year"
+          },
+          {
+            "name": "n_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "N amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the N in the castor bean meal was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form in which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Rape cake treatment factor level description",
+      "description": "Describes the castor bean meal (previously rape cake),  treatment factor levels used until 1988."
+    },
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "bff2545e0b22df01eb6f947259c08941",
+        "bytes": 769,
+        "fields": 4,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "crop name",
+            "rdfType": "http://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "latin name",
+            "rdfType": "http://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdftype",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the crop types"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the different crop types"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop types description",
+      "description": "Describes the different cropping on Section 8: winter wheat, spring wheat and fallow (no crop)."
+    },
+    {
+      "path": "fym_factor_data.csv",
+      "name": "fym_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "cb958ba681df0801287cb2f505779029",
+        "bytes": 613,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used in this dataset. FYM has been applied to plot 21 since 1885 and to plot 22 since 1843."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of FYM applied"
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which FYM was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form in which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "FYM treatment factor level description",
+      "description": "Describes the FYM (farmyard manure) treatment factor levels used"
+    },
+    {
+      "path": "k_factor_data.csv",
+      "name": "k_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "d01db9d9b5250b6c85ff7c8b2ff1d877",
+        "bytes": 1572,
+        "fields": 10,
+        "rows": 5
+      },
+      "encoding": "iso8859-1",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic potassium (K) fertilizer which was applied to this crop as a treatment factor. This does not include K in FYM or castor bean meal"
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the K was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic K fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "K fertilizer treatment factor level descriptions",
+      "description": "Describes the K (potassium) fertilizer treatment factor levels used"
+    },
+    {
+      "path": "mg_factor_data.csv",
+      "name": "mg_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "3ac15edea15b3407982d9865462bd1f2",
+        "bytes": 2006,
+        "fields": 10,
+        "rows": 6
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic magnesium (Mg) fertilizer which was applied to this crop as a treatment factor. This does not include Mg in FYM or castor bean meal."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the Mg was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic magnesium fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Mg fertilizer treatment factor level descriptions",
+      "description": "Describes the Mg (magnesium) fertilizer treatment factor levels used"
+    },
+    {
+      "path": "n_factor_data.csv",
+      "name": "n_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "e76c1322015180682108bf3e543fc4d5",
+        "bytes": 4551,
+        "fields": 10,
+        "rows": 13
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic nitrogen (N) fertilizer which was applied to this crop as a treatment factor. This does not include N in FYM or castor bean meal. Note at different periods of the experiment N was variously applied in autumn or spring and applied in a single application or split applications. Timings and amounts of N applied are indicated in the yield_data table in the fields spring1_n_kg/ha, spring1_n_date, spring2_n_kg/ha, spring2_n_date, etc."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the N was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic N fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "N fertilizer treatment factor level descriptions",
+      "description": "Describes the different N (nitrogen) fertilizer  treatment factor levels used. N applied as calcium ammonium nitrate 1968-1985, as ammonium nitrate since 1986."
+    },
+    {
+      "path": "na_factor_data.csv",
+      "name": "na_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "723f8a925eadd3af7d31b61f246ad666",
+        "bytes": 1361,
+        "fields": 10,
+        "rows": 6
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic sodium (Na) fertilizer which was applied to this crop as a treatment factor. This does not include Na in FYM or castor bean meal."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the Na was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic Na fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Na fertilizer treatment factor level descriptions",
+      "description": "Describes the Na (sodium) fertilizer treatment factor levels used."
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "a2a0642a0b8af3aa3bf3701e49c54dd2",
+        "bytes": 2872,
+        "fields": 2,
+        "rows": 27
+      },
+      "encoding": "cp1252",
+      "schema": {
+        "fields": [
+          {
+            "name": "notes_id",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the yield_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "notes_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the yield_data table"
+    },
+    {
+      "path": "p_factor_data.csv",
+      "name": "p_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "5481e08d54bbdd1c0cf5c48dc49e4c91",
+        "bytes": 1400,
+        "fields": 10,
+        "rows": 5
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic phosphorus (P) fertilizer which was applied to this crop as a treatment factor. This does not include P in FYM or castor bean meal."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the P fertilizer was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic P fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "P fertilizer treatment factor level descriptions",
+      "description": "Describes the P (phosphorus) fertilizer treatment factor levels used. Not applied to many plots since 2001 (and further plots since 2021) due to high levels of crop-available soil P. "
+    },
+    {
+      "path": "weed_data.csv",
+      "name": "weed_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "48dc7c87b95429bd139a3c849a6dc69c",
+        "bytes": 312741,
+        "fields": 108,
+        "rows": 576
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested. It will generally have been sown the previous year, eg the 1991 crop was sown in autumn 1990.  The harvest year is also the year in whiich the survey was conducted."
+          },
+          {
+            "name": "strip",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "strip",
+            "rdfType": "https://schema.org/name",
+            "description": "Treatment strips extend the whole length of the field and receive the different fertilizer and manure treatments (1-22). There is no Strip 4. Strip 21 also known as 2.1, (or previously 2a or 2A),  Strip 22 also known as 2.2  (or previously 2b or 2B)."
+          },
+          {
+            "name": "section",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Section number 1968 onwards",
+            "rdfType": "https://schema.org/name",
+            "description": "Since 1968 the treatment strips have been divided into 10 Sections (0-9) some in continuous wheat (0, 1, 6, 8 and 9) and some in rotation with non-wheat crops (2-5, 7, see previous crop). Since 1986 Section 0 has had straw incorporated. Section 6 was in a rotation of fallow>wheat>wheat 1968-1979, and reverted to continuous winter wheat in 1980 with no spring or summer fungicides. Herbicides have been used as required since 1964 on all of the experiment, except for Section 8 (old Section VA), which has never received herbicides. See plans for further details."
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "title": "plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Unique whole plot number, determined by Strip (1-22) and Section (0-9) number"
+          },
+          {
+            "name": "section_1926-67",
+            "type": "string",
+            "format": "default",
+            "title": "section 1926-1967",
+            "rdfType": "https://schema.org/name",
+            "description": "Previous Section name, 1926-1967. Originally five Sections (I-V).  1926-1954, Section I divided into IA and IB in 1955, Section V divided in VA and VB in 1955."
+          },
+          {
+            "name": "fertilizer_code",
+            "type": "string",
+            "format": "default",
+            "title": "fertilizer and manure treatment code",
+            "rdfType": "https://schema.org/name",
+            "description": "Code describing the fertilizer or manure applied in that harvest year"
+          },
+          {
+            "name": "cropping",
+            "type": "string",
+            "format": "default",
+            "title": "cropping",
+            "rdfType": "https://schema.org/name",
+            "description": "Cropping in that harvest year:  winter wheat, fallow (no crop, cultivated several times to remove weeds), spring wheat which was grown in some years when it was too wet to sow the usual winter wheat in the autumn. See crop_types_data for more information."
+          },
+          {
+            "name": "year_of_wheat",
+            "type": "integer",
+            "format": "default",
+            "title": "year of wheat",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Number of years since last non-wheat crop or fallow."
+          },
+          {
+            "name": "previous_crop",
+            "type": "string",
+            "format": "default",
+            "title": "previous crop",
+            "rdfType": "https://schema.org/name",
+            "description": "Crop grown in previous harvest year: winter wheat, spring wheat or fallow (no crop, cultivated to remove weeds).  See crop_types_data for more information."
+          },
+          {
+            "name": "fym_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "FYM factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the farmyard manure (FYM) factor level applied in that harvest year"
+          },
+          {
+            "name": "fym_applied",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "FYM applied",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010008",
+            "description": "Amount of farmyard manure (FYM) applied in that harvest year",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fym_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date FYM applied",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date farmyard manure (FYM) applied, usually in the autumn",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "castor_meal_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Castor meal factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the castor mean factor level applied in that harvest year. Before 1941 rape cake."
+          },
+          {
+            "name": "castor_meal_n_applied",
+            "type": "number",
+            "format": "default",
+            "title": "Castor meal N applied",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of N applied in the castor bean meal",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "castor_meal_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date castor meal applied",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date castor bean meal applied, usually in the autumn",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "n_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "N factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the inorganic nitrogen fertilizer factor level applied in that harvest year"
+          },
+          {
+            "name": "n_timing",
+            "type": "string",
+            "format": "default",
+            "title": "Timing of fertilizer N",
+            "rdfType": "https://schema.org/name",
+            "description": "When inorganic nitrogen fertilizer was applied: either all in autumn (autumn), all in spring (spring) or a combination of autumn and spring (autumn_&_spring). The spring N is either applied as a single application in mid-spring, or in two or three applications in early, mid or late spring (approximately March, April and May).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "autumn_n_kg/ha",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Fertilizer N applied in autumn",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Total inorganic nitrogen fertilizer treatments applied in the autumn to this crop. This does not include N applied in other treatments (FYM or castor meal).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "autumn_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date fertilizer N applied in autumn",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic fertilizer nitrogen applied in the autumn",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring1_n_kg/ha",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "First spring fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of N in first application of inorganic nitrogen fertilizer applied in the spring to this crop. This does not include N in FYM or castor meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring1_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "First spring fertilizer N date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date first application of inorganic nitrogen fertilizer applied in the spring.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring2_n_kg/ha",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Second spring fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of N in second application of inorganic nitrogen fertilizer applied in the spring to this crop. This does not include N in FYM or castor meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring2_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Second spring fertilizer N date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date second application of inorganic nitrogen fertilizer applied in the spring.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring3_n_kg/ha",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Third spring fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of N in third (final) application of inorganic nitrogen fertilizer applied in the spring to this crop. This does not include N in FYM or castor meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring3_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Third spring fertilizer N date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date third (final) application of inorganic nitrogen fertilizer applied in the spring.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "total_fertilizer_n_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Total inorganic nitrogen fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total inorganic nitrogen fertilizer applied in autumn and spring to this crop. This does not include N in FYM or castor meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "p_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "P factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the phosphorous (P) fertilizer factor level applied in that harvest year"
+          },
+          {
+            "name": "p_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "P amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic P fertilizer applied in that harvest year. This does not include P in FYM or castor bean meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "p_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "P fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic P fertilizer applied in that harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "k_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "K factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the potassium (K) fertilizer factor level applied in that harvest year"
+          },
+          {
+            "name": "k_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "K amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic K fertilizer applied in that harvest year. This does not include K in FYM or castor bean meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "k_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "K fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic K fertilizer applied in that harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "na_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Na factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the sodium (Na) fertilizer factor level applied in that harvest year"
+          },
+          {
+            "name": "na_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Na amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic Na fertilizer applied in that harvest year. This does not include Na in FYM or castor bean meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "na_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Na fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic Na fertilizer applied in that harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "mg_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Mg factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the magnesium (Mg) fertilizer factor level applied in that harvest year"
+          },
+          {
+            "name": "mg_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Mg amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic Mg fertilizer applied in that harvest year. This does not include Mg in FYM or castor bean meal.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "mg_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Mg fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic Mg fertilizer applied in that harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "survey_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date weed survey conducted",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date weed survey was conducted in the Broadbalkfield experiment"
+          },
+          {
+            "name": "Aethusa cynapium",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Aethusa cynapium",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_40954",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Agrostis gigantea",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Agrostis gigantea",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_345916",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Alopecurus myosuroides",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Alopecurus myosuroides",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_81473",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Anagallis arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Anagallis arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4337",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Aphanes arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Aphanes arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_57945",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Arenaria serpyllifolia",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Arenaria serpyllifolia",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_254029",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Atriplex patula",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Atriplex patula",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3551",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Avena fatua",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Avena fatua",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4499",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Hordeum vulgare",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Barley",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4513",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Bromus commutatus",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Bromus commutatus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_55773",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Bromus secalinus",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Bromus secalinus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4502",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Capsella bursa-pastoris",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of  Capsella bursa-pastoris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3719",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Cerastium fontanum",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Cerastium fontanum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_230722",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Chenopodium album",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Chenopodium album",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3559",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Cirsium arvense",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Cirsium arvense",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_41550",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Convolvulus arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Convolvulus arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4123",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Elymus repens",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Elymus repens",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52152",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Equisetum arvense",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Equisetum arvense",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3258",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Euphorbia exigua",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Euphorbia exigua",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_756618",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Fallopia convolvulus",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Fallopia convolvulus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_76029",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Fumaria officinalis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Fumaria officinalis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_200993",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Galeopsis tetrahit",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Galeopsis tetrahit",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_1000418",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Galium aparine",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Galium aparine",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_29788",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Galium tricornutum",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Galium tricornutum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_715722",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Geranium dissectum",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Frequency of Geranium dissectum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_326028",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Juncus bufonius",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Juncus bufonius",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_223656",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Lamium purpureum",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Lamium purpureum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_53164",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Lathyrus pratensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Lathyrus pratensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_254779",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Legousia hybrida",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Legousia hybrida",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_368679",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Lithospermum arvense",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Lithospermum arvense",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_181181",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Medicago lupulina",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Medicago lupulina",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_47085",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Minuartia hybrida",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Minuartia hybrida",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_1155345",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Myosotis arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Myosotis arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_192338",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Odontites verna",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Odontites verna",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_644195",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Papaver argemone",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Papaver argemone",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_357464",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Papaver rhoeas",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Papaver rhoeas",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_33128",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Poa annua",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Poa annua",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_93036",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Poa trivialis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Poa trivialis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_89684",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Polygonum aviculare",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Polygonum aviculare",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_137693",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Ranunculus arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Ranunculus arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3445",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Rumex obtusifolius",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Rumex obtusifolius",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3619",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Scandix pecten-veneris",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Scandix pecten-veneris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_40909",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Senecio vulgaris",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Senecio vulgaris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_76276",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Sinipas arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Sinipas arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_50192",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Sisymbrium officinale",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Sisymbrium officinale",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_203582",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Sonchus arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Sonchus arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_50192",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Stellaria media",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Stellaria media",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_13274",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Trifolium sp.",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Trifolium sp.",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3898",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Tripleurospermum inodorum",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Tripleurospermum inodorum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_99108",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Tussilago farfara",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Tussilago farfara",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_118778",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Umbelliferae",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Umbelliferae",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4037",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Urtica dioica",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Urtica dioica",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3501",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Valerianella dentata",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Valerianella dentata",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_300936",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Veronica arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Veronica arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_46032",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Veronica hederifolia",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Veronica hederifolia",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_202477",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Veronica persica",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Veronica persica",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_138560",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Veronica sp.",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Veronica sp.",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4173",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Vicia Fabia",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Frequency of Vicia Fabia",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3906",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Vicia sativa",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Vicia sativa",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_3908",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "Viola arvensis",
+            "type": "number",
+            "format": "default",
+            "title": "Frequency of Viola arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_97415",
+            "description": "Frequency of this weed species occurring out of 25 quadrats per plot. No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants."
+          },
+          {
+            "name": "sow_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Sowing date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date the crop was sown, generally in the autumn in the year before harvest",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "harvest_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Harvest date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_29464",
+            "description": "Date the crop was harvested",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cultivar",
+            "type": "string",
+            "format": "default",
+            "title": "Cultivar",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Wheat cultivar or variety"
+          },
+          {
+            "name": "total_grain",
+            "type": "number",
+            "format": "default",
+            "title": "total wheat grain yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested wheat grain yield at 85% dry matter.  This includes weed seeds.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cleaned_grain",
+            "type": "number",
+            "format": "default",
+            "title": "cleaned wheat grain yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested wheat grain yield at 85% dry matter minus weed seeds which have been cleaned from the samples."
+          },
+          {
+            "name": "straw",
+            "type": "number",
+            "format": "default",
+            "title": "wheat straw yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested wheat straw yield at 85% dry matter. Straw does not include stubble.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "%_weed_seeds",
+            "type": "number",
+            "format": "default",
+            "title": "percentage of total yield that is weed seed",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Percentage of harvested  yield that is weed seeds."
+          },
+          {
+            "name": "weed_seed_weight",
+            "type": "number",
+            "format": "default",
+            "title": "weight of total yield that is weed seed",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Weight of harvested  yield that is weed seeds."
+          },
+          {
+            "name": "notes_id",
+            "type": "string",
+            "format": "default",
+            "title": "Note",
+            "description": "Whether notes are applied or not"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "fym_factor_level",
+            "reference": {
+              "resource": "fym_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "castor_meal_factor_level",
+            "reference": {
+              "resource": "castor_meal_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "n_factor_level",
+            "reference": {
+              "resource": "n_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "p_factor_level",
+            "reference": {
+              "resource": "p_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "k_factor_level",
+            "reference": {
+              "resource": "k_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "na_factor_level",
+            "reference": {
+              "resource": "na_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "mg_factor_level",
+            "reference": {
+              "resource": "mg_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "notes_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "weed data",
+      "description": "The main data table containing annual frequencies of each weed species present in each plot (strip) of section 8 (no herbicides  ever applied, continuous wheat), 1991-2021. It also includes wheat grain yields (with 'Total'  and without weed seeds 'Cleaned') and straw yield data, plus details of all fertilizer and manure treatments. Also other agronomic information, including sowing and harvest dates, amount, type and date of application of treatments, and wheat cultivars. The Broadbalk Wheat Experiment was started in autumn 1843 to investigate the effects of fertilizers containing N, P, K, Na and Mg in various combinations, and organic manure, on the yield of winter wheat grown continuously. The treatment STRIPS (3-22) extend the whole length of the field; each strip tests a different fertilizer or manure treatment. In 1926 the strips were divided into five SECTIONS (I-V), bare fallowed in sequence to control weeds. There were further divisions in 1955 making seven Sections (IA-VB). In 1968 the strips were divided into 10 SECTIONS (0-9) and Strip 1 (Sections 2-7 only) was added.  Each PLOT is a unique strip\\section combination. Sections 0, 1, 6 and 9 remained in continuous winter wheat but are not included in this dataset as they receive herbicides.  Section 8 has never received herbicides; it is bare fallowed with frequent cultivation every 5-8 years to control weeds. See notes and section names.pdf for full details of Broadbalk Experiment layout."
+    },
+    {
+      "path": "weed_species_data.csv",
+      "name": "weed_species_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "9d57ccfe4f16e6b4569716f31b01aa88",
+        "bytes": 4841,
+        "fields": 3,
+        "rows": 60
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "latin_name",
+            "type": "latin_name",
+            "format": "default",
+            "title": "latin_name",
+            "rdfType": "http://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "common_name",
+            "type": "common_name",
+            "format": "default",
+            "title": "common_name",
+            "rdfType": "https://schema.org/identifier",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "ncbitaxon_uri",
+            "type": "ncbitaxon_uri",
+            "format": "uri",
+            "title": "ncbitaxon_uri",
+            "description": "A controlled vocabulary URI for the weed species"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "common_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "nan",
+      "description": "nan"
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "10.23637/rbk1-weeds_1991-2021_01",
+  "name": "broadbalk-weed-survey-data-1991-2021",
+  "title": "Broadbalk Weed Survey Data 1991-2021",
+  "version": "1.0.0",
+  "keywords": [
+    "Broadbalk long-term experiment",
+    "arable farming",
+    "weeds",
+    "botanical composition",
+    "herbicides",
+    "plant population",
+    "flora"
+  ],
+  "description": "### Abstract\nThis dataset consists of the relative annual frequencies of all non-crop plant species ('weeds') recorded in all eighteen plots of section 8 of the Broadbalk wheat experiment, 1991-2021. Section 8 has not received any herbicides in its history - in contrast to the other sections of Broadbalk which have received herbicides since 1964. Broadbalk section 8 is one of the few arable sites in the country where herbicides have never been applied. Consequently it is populated by a rich diversity of arable species, some very rare elsewhere in England. Broadbalk continues to act as a valuable resource for weed investigations 180 years after it was established, for example Moss _et al._ (2004).\r\n\r\nThere have been various surveys of weeds on Broadbalk wheat experiment since its conception in 1843, but not a consistent methodology in these. The first plot-by-plot surveys of weed species were done in 1869 recording the presence of species. The first phase of annual surveys was between 1933-1979 prior to the current layout of sections. The current weed survey was started on section 8 in 1991 and has continued annually ever since - although not on years when that section is in fallow: 1994, 2001, 2008, 2015, 2016 and 2022. Section 8 (called section VA 1958-1967) was created in 1968 when the experiment was divided into its present layout (Broadbalk plan today).  \r\n\r\nThe current assessment method records the presence of individual weed species in 25 random quadrats (0.1m<sup>2</sup>) per plot. The plots receive differing types and rates of fertilizer treatments and the weed species reflect these. Each year all 18 plots are surveyed meaning 450 quadrats are assessed per year, usually in June. Frequencies refer to the total number of quadrats in which a weed is recorded, the maximum being 25 per plot and 450 across all plots in the section. This method is more appropriate for detecting long-term trends in weed frequencies and population differences between plots than the earlier surveys and provides a comprehensive set of 20 years of data for weed studies.  \r\n\r\nThere have been 60 different species identified over the 30-year duration of this current survey, but many of these only occur sporadically and around 30 of these are currently recorded annually. This site also provides an invaluable reserve for seven nationally rare or uncommon species including corn cleavers (_Galium tricornutum_), corn buttercup (_Ranunculus arvensis_), shepherds needle (_Scandix pecten-veneris_) and prickly poppy (_Papaver argemone_). This is now the only location in the UK where corn cleavers is known to occur naturally. \r\n\r\nThis valuable resource, and associated data, allows the study of long-term interactions between plant species, an opportunity to test current controversies in population and community ecology such as equilibrium theories which require data on resource requirements and loss rates. The long time series enables the detection of cycles in the abundance of individual species; to determine to stability of weed communities; it  enables various weed investigations including weed population ecology; studies on the effects of fallowing on the weed seed bank; seed dormancy and persistence; agroecology and population dynamics of individual weed species. Recently, molecular approaches have been used to study the genetic diversity of weeds found on Section 8, this rare herbicide-free arable plot. On plots where inorganic nitrogen fertiliser has been applied, potential yield losses from weeds have consistently increased since 1969. This was explained by a warming climate, measured as air temperature averaged over the growing season for the weeds, and a shift towards shorter crop cultivars (Storkey et al 2021). Weeds on Broadbalk may genetically more competitive now due to selection for more competitive individuals\r\n\r\n\r\nThis dataset also provides the yields of the plots both with and without the weight of the weed seeds. The percentage of weed seeds in the total grain varies between greatly, between 1-71.8% of the total grain yield. The year 2012 was a particularly high weed year followed by 2007 and 2013.  \r\n\r\n**Herbicide Resistance Studies:** This section 8 of Broadbalk is an important source of susceptible seed of the weed _Alopecurus myosuroides_, blackgrass. It provides an excellent standard susceptible strain for use in herbicide-resistance assays, as having never received herbicides the grass-weed has never evolved herbicide resistance. See \"Herbicide resistance in _Alopecurus myosuroides_: The value of routine testing of seed samples submitted by farmers since 1985\", Cook et al. Weed Research (2023).\n### Methods\nThe assessment method records the presence of individual weed species in 25 random quadrats (0.1m2) per plot. Each year all 18 plots were surveyed meaning 450 quadrats are assessed per year, usually in June. Frequencies refer to the total number of quadrats in which the species is recorded, the maximum being 25 per plot and 450 across all plots in the section.  \r\n\r\nThe weed survey generally takes place in June, precise dates are indicated in the dataset.\r\n\r\nThe yield correction for weed seed contamination, from 1992: Two samples (1kg each) were taken from the grain samples harvested from each plot. These samples were cleaned with a Petcus seed cleaner fitted with a 3.3mm round hole top sieve and a 2.0mm slot type bottom sieve. The sample was tipped directly onto the top sieve, not via the air stream separator. Four fractions were collected and weighed: \r\na. >3.5mm retained on top sieve, mainly threshed heads,\r\nb. <2.0mm passed through bottom sieve, mainly weed seeds (black-grass, black-medick, shepherds needle) and some small grains,\r\nc. retained on bottom sieve, first fraction from rotary separator, mainly wheat grain with a small amount of weed seed contamination (mainly vetch),\r\nd. retained on bottom sieve, second fraction from rotary separator, a variable mixture of wheat and vetch.\r\nSample d was sub-sampled to determine grain content. Two sub-samples (each ~5g) were taken, the grain & weed seeds separated manually, and the two fractions weighed. This determined the d grain is each sub-sample and the mean of the two samples calculated. This value was used to calculate the weight of cleaned grain in the entire d fraction. Cleaned grain weight was then calculated from fraction c plus grain weight of fraction d for each of the two samples collected per plot. Total cleaned weight was then expressed as a % of the total sample weight, and the mean of these two samples calculated. Thus a single % correction factor was derived. The combine yields (t/ha corrected to 15%moisture content / 85% dry matter) were then adjusted using this correction factor to derive a clean 'weed free' grain yield (t/ha) for each plot.\n### Technical Info\nNo weeds present in fallow years, due to frequent cultivation which kills emerging weed plants.  \r\n\r\nBroadbalk Section 8   Yield of grain from combine, yield of clean grain, 1992-2022: Clean grain excludes grain <2mm and >3.5mm. This excludes the weed seeds. \r\n\r\n Section 8 is fallowed frequently to control weeds (i.e no crop is grown).\n### Other\nNote. 2022 was a Fallow year.\r\nData for 2023 will be available in the next version.  \r\n\r\nNote from 2014 yield book: Clean grain yields reported for 2012 and 2013 are about 5% less than those reported in the 2013 yield book because they exclude small (<2mm) grains. In future, clean grain yields for Section 8 will be reported for the 2-3.5mm grain size fraction, excluding grain <2mm, as was the practice prior to 2012.\n### Provenance\nThis weed survey was initiated by Stephen Moss in 1991. \r\n\r\nThe data has been recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; led by Richard Hull, Stephen Moss, Jon Storkey who apply all appropriate quality assurance checks.\n### Quality\nThis data is recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; led by Richard Hull, Stephen Moss, Jon Storkey who apply all appropriate quality assurance checks.\n",
+  "contributors": [
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Richard Hull",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Stephen  Moss",
+      "organization": "Formerly Rothamsted Research"
+    },
+    {
+      "title": "Steve  Freeman",
+      "organization": "Formerly Rothamsted Research"
+    },
+    {
+      "title": "Jonathan Storkey",
+      "path": "https://orcid.org/0000-0003-1094-8914",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Shona Merten",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Caroline Archer",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Dave Frearson",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "John Cussans",
+      "organization": "Formerly Rothamsted Research"
+    },
+    {
+      "title": "Anna Swain",
+      "organization": "Formerly Rothamsted Research"
+    },
+    {
+      "title": "Esther Trevis",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Emma Browne",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Dale Kirsop",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Thomas Baldwin",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Caroline Elliott",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Susan Hughes",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Veronique Potier",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Joanna Banks",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Ian Wynne",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Katherine Berry",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Sara Day",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Zoe Hughes",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Angiolina Albertini",
+      "organization": "Unaffiliated"
+    },
+    {
+      "title": "Peter  Lutman",
+      "organization": "Formerly Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

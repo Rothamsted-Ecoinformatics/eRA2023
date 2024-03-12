@@ -1,0 +1,30 @@
+[
+    {
+        "MediaID": 1,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rwf3/wheat-and-fallow.jpg",
+        "Caption": "Wheat and fallow",
+        "Type": "metadata",
+        "exptID": "rwf3",
+        "width": 2053,
+        "height": 1546,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rwf3/wheat-and-fallow.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 230,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rwf3/wheat-and-fallow-small.jpg",
+        "Caption": "wheat and fallow small",
+        "Type": "metadata",
+        "exptID": "rwf3",
+        "width": 394,
+        "height": 297,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rwf3/wheat-and-fallow-small.jpg",
+        "isWWW": false,
+        "isReviewed": false
+    }
+]

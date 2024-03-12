@@ -1,0 +1,6 @@
+note_id,description
+1,"Baseline samples at start of experiment. Sampled March 1938 0-23cm and 23-46cm, calculated on a 0-25cm basis using subsoil data. Mean of all blocks."
+2,"1955 soils actually sampled in 1956, 0-20cm. Adjusted to 0-25cm basis using subsoil data from 1938."
+3,"1961 soils actually sampled in 1963, 0-23cm. Adjusted to 0-25cm basis using subsoil data from 1938"
+4,1962 soils sampled 0-23cm. Adjusted to 0-25cm basis using subsoil data from 1938. 
+5,1972-1978 soils sampled 0-23cm. Adjusted to 0-25cm basis using subsoil data from 1938.

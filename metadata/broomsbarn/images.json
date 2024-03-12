@@ -1,0 +1,44 @@
+[
+    {
+        "MediaID": 33,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/broomsbarn/Aerial-photograph-Brooms-Barn.jpg",
+        "Caption": "Broom's Barn aerial photograph",
+        "Type": "metadata",
+        "exptID": "broomsbarn",
+        "width": 1024,
+        "height": 682,
+        "orientation": "landscape",
+        "fileLocation": "metadata/broomsbarn/Aerial-photograph-Brooms-Barn.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 175,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/broomsbarn/1962-Brooms-Barn-Opening.jpg",
+        "Caption": "Brooms Barn Opening 1962",
+        "Type": "metadata",
+        "exptID": "broomsbarn",
+        "width": 1580,
+        "height": 672,
+        "orientation": "landscape",
+        "fileLocation": "metadata/broomsbarn/1962-Brooms-Barn-Opening.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 553,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/broomsbarn/Brooms-Barn-Plan-1990.jpg",
+        "Caption": "Brooms Barn Plan 1990",
+        "Type": "metadata",
+        "exptID": "broomsbarn",
+        "width": 509,
+        "height": 738,
+        "orientation": "portrait",
+        "fileLocation": "metadata/broomsbarn/Brooms-Barn-Plan-1990.jpg",
+        "isWWW": false,
+        "isReviewed": false
+    }
+]

@@ -1,0 +1,3 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no Na applied,1903-1964,sodium nutrient exposure,http://purl.obolibrary.org/obo/CHEBI_38702,0,0,kg Na ha-1 yr-1,not applied,sodium sulfate,http://purl.obolibrary.org/obo/CHEBI_32149
+Amount shows annual Na applied ,1903-1964,sodium nutrient exposure,http://purl.obolibrary.org/obo/CHEBI_38702,Na,15,kg Na ha-1 yr-1,annual in winter,sodium sulfate,http://purl.obolibrary.org/obo/CHEBI_32149

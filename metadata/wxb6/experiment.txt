@@ -1,0 +1,19 @@
+************************************************************************************************************************************************
+
+                        Woburn Continuous Barley (W/XB/6) 
+
+************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    This experiment is almost identical to the Hoosfield Barley experiments at Rothamsted, but at Woburn. It started in spring 1877, on Woburn Stackyard field. There is a parallel experiment on Continuous Wheat which started in 1876, with the same plot numbers. The experiments were  carried out by the Royal Agricultural Society of England  (RASE) but with input from Lawes.
+    To study the effects of fertilisers and manures on the yield of spring barley grown continuously
+
+    Experiment start = 1877
+
+    Experiment end = 1966
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

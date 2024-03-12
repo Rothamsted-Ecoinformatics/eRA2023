@@ -1,0 +1,8 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows sodium fertilizer treatment applied,nil,1852-2022,sodium nutrient exposure,,0,,,,
+Factor level shows sodium fertilizer treatment applied ,Na,1852-1973,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,16,kg Na ha-1,annual ,sodium sulphate,http://purl.obolibrary.org/obo/CHEBI_32149
+"Factor level shows previous sodium fertilizer treatment  of 16 kg Na/ha applied, up to and including 1973 ",(Na),1974-1984,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,0,,,,
+Factor level shows sodium fertilizer treatment applied ,1/2 Na,1968-1973,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,8,kg Na ha-1,annual ,sodium sulphate,http://purl.obolibrary.org/obo/CHEBI_32149
+Factor level shows previous sodium fertilizer treatment of 8 kg Na/ha applied up to and including 1973,1/2 (Na),1974-1984,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,0,,,,
+Factor level shows sodium fertilizer treatment applied to plot 12 until 2000. 57 kgNa/ha applied until 1973,Na*,1968-2000,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,55,kg Na ha-1,annual ,sodium sulphate,http://purl.obolibrary.org/obo/CHEBI_32149
+Factor level shows previous sodium fertilizer treatment applied to strip 12 until 2000. 57 kgNa/ha applied until 1973,(Na*),2001-2022,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,0,,,,

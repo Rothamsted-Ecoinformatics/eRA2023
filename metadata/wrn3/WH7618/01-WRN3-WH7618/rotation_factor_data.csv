@@ -1,0 +1,23 @@
+description,factor_level_name,alternative_names,years,treatment_factor,treatment_factor_rdfType,frequency
+"3-year grass/clover ley, followed by two arable test crops. ",L,LEY_PER,1938-1970s,crop rotation,"
+http://aims.fao.org/aos/agrovoc/c_6662 ",5 year cycle
+3-year legume ley followed by two arable test crops. ,Lu,CLO_PER,1938-1970s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"permanent arable rotation with roots, three years arable followed by two arable test crops. ",Ar_per,A_PER,1938-1970s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"permanent arable rotation with one hay year, three years arable followed by two arable test crops. ",Ah_per,A_H_PER,1938-1970s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"alternating arable rotation with roots, three years arable followed by two arable test crops. ",Ar_alt,A_ALT,1938-1970s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+"alternating arable rotation with one year hay, three years arable followed by two arable test crops. ",Ah_alt,A_H_ALT,1938-1970s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+permanent arable with barley (previously Ah). ,AB,AB,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+permanent arable with fallows (previously Ar). ,AF,AF,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+3-year grass ley followed by two test arable crops (previously L). Grass ley receives fertilizer N,Ln3,LN_3,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+3-year grass/clover ley followed by two arable test crops (previously Lu). No fertilizer N to clover ley,Lc3,LC_3,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+8-year grass ley followed by two arable test crops. ,LLn8,LN_8,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+8-year grass/clover ley follwed by two arable test crops,LLc8,LC_8,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+permanent arable with maize (follows AF).,AM,AM,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+permenant arable with barley (follows AB). ,ABe,ABe,1970s-2000s,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+permanent arable with oats (follows AM). ,AO,AO,2000s onwards,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+in transition out of an 8-year grass ley,LLn8_tr,LN_8_tr,2000s onwards,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+in transition out of an 8-year grass/clover ley,LLc8_tr,LC_8_tr,2000s onwards,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,10 year cycle
+8-year grass/clover ley replaced by 3-year grass/clover ley,LLc_Lc3,LLc.Lc,2000s onwards,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+8-year grass ley replaced by 3-year grass ley,LLn_Ln3,LLN.Ln,2000s onwards,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+8-year grass ley replaced by AO,LLn_AO,LLn.AO,2000s onwards,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle
+8-year grass/clover ley replaced by ABe,LLc_ABe,LLc.ABe,2000s onwards,crop rotation,http://aims.fao.org/aos/agrovoc/c_6662 ,5 year cycle

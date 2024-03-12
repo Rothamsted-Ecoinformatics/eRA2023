@@ -1,0 +1,232 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rms-RothSeasonTotRainMeanTemp1968-2022",
+    "name": "Mean Seasonal Air Temperature and Total Seasonal Rain at Rothamsted 1968-2022",
+    "shortName": "rmsSeasonRainTemp",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rms/01-rmsSeasonRainTemp",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "This dataset comprises the mean seasonal air temperature and the total seasonal rainfall at Rothamsted every year from 1968-2022.  Summary data for this dataset are derived from daily data measured at Rothamsted Meteorological Station. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "The mean daily temperature is measured over a 24-hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily temperature = (Tmax = Tmin)/2. First recorded in 1878, Tmax was then measured using a mercury column thermometer and Tmin using a spirit-in-glass with indicator bar minimum thermometer. Since 2004 temperature is recorded by thermistors (electronic temperature probes, Campbell Scientific, type 107). \r\n\r\nDaily rainfall is measured as the total (mm) over the 24-hour period 0900 to 0900 GMT. It includes all precipitation - snow, rain, mist and fog. Rainfall was first recorded at Rothamsted in 1853, using a copper funnel rain gauge (5 inch / 12.7 cm diameter) and measured using a graduated cylinder. Since 2004 it has been measured using an electronic tipping bucket rain gauge (10 inch / 25.4cm diameter), ARG100, calibrated to tip at 0.2mm (which has since become the minimum amount of rain that can be recorded). The rain gauge is placed within a 30cm deep 1.5m radius turf wall, retained by brick, to reduce wind eddies that may potentially blow rain out of the gauges. Data were collected daily manually until 2004 and since then by Automatic Weather Station using a standard protocol. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "An Excel .xlsx file comprising a ReadMe page and a data sheet. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "Location: Rothamsted Meteorological Station, Harpenden, Hertfordshire, England 51.82 N 0.37 W 128 m asl.  \r\n\r\nA correction factor of 1.1 or 10% is applied to RAIN data after 2004 due to a change to an ARG100 rain gauge which  captures 5% more rainfall than most traditionally-shaped cylindrical gauges due to its unique aerodynamic shape and reduced evaporation-loss properties. See www.era.rothamsted.ac.uk/station/rms#measurements/ for further detail. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "This data was compiled by John Addy for the publication Addy et. al. 2023. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "The seasonal summary data contained in this spreadsheet are derived from daily data measured at Rothamsted Meteorological Station, Harpenden. Total / mean seasonal data is determined from daily data using Genstat 19th Edition. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": " "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": "2023-11-27",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "air temperature",
+        "climate",
+        "climate change",
+        "meteorological factors",
+        "Rothamsted Research",
+        "temperature",
+        "thermometer",
+        "weather",
+        "weather data",
+        "rain",
+        "precipitation"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "John Addy",
+            "givenName": "John",
+            "familyName": "Addy",
+            "sameAs": "https://orcid.org/0000-0003-2087-3223",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "organization",
+            "name": "Electronic Rothamsted Archive, Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.360086,
+            "latitude": 51.806757
+        },
+        "name": "Rothamsted Met Station"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rms-RMAAtemp-03",
+            "relatedIdentifierType": "DOI",
+            "name": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Seasonal Air Temperature and Total Seasonal Rain at Rothamsted 1968-2022",
+            "URL": "RMS-Seas-Temp-Rain-68-22.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "26 kilobytes"
+        }
+    ],
+    "image": [],
+    "grade": 3,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "OA"
+}

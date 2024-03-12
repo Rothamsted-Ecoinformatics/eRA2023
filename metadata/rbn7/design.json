@@ -1,0 +1,918 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Root Crops",
+            "localIdentifier": "Root Crops",
+            "name": "Root Crops",
+            "url": "Root Crops",
+            "description": "The final treatment arrangement, settled on since 1879, consisted of 35 plots arranged in seven 'strips' running roughly north-south and five series running at right-angles. The plots of each strip each received one of certain combinations of farmyard manure and mineral fertilizers. The plots of each series each received one of certain combinations of castor meal, ammonium sulphate or sodium nitrate.  \n\nFrom 1946 four rows of sugar beet were drilled on each plot, occupying about one third of the total area."
+        },
+        "design": {
+            "dateStart": 1843,
+            "dateEnd": 1959,
+            "description": "The experiments on mangels began in 1876, but the land had been receiving manures for other root crops since 1856.",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Root Crops",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 35,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21437,
+                "name": "turnips",
+                "sameAs": "turnips",
+                "dateStart": 1843,
+                "dateEnd": 1848
+            },
+            {
+                "id": 21438,
+                "name": "swedes",
+                "sameAs": "swedes",
+                "dateStart": 1849,
+                "dateEnd": 1852
+            },
+            {
+                "id": 21439,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": 1853,
+                "dateEnd": 1855
+            },
+            {
+                "id": 21440,
+                "name": "swedes",
+                "sameAs": "swedes",
+                "dateStart": 1856,
+                "dateEnd": 1870
+            },
+            {
+                "id": 21441,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": 1871,
+                "dateEnd": 1875
+            },
+            {
+                "id": 21442,
+                "name": "mangolds",
+                "sameAs": "mangolds",
+                "dateStart": 1876,
+                "dateEnd": 1959
+            },
+            {
+                "id": 21443,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": 1946,
+                "dateEnd": 1959
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12508,
+                "name": "fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 31073,
+                        "name": "control exposure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Both strip and series treatment had a control exposure."
+                    },
+                    {
+                        "id": 31074,
+                        "name": "sodium nitrate",
+                        "amount": "93",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31075,
+                        "name": "castor meal",
+                        "amount": "2241",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Until 1939 rapeseed cake (none between 1917-1920) at 2241 kg/ha; 1940 to 1954 castor meal also at 2241 kg/ha and since 1955 castor meal to provide 93 kgN/ha."
+                    },
+                    {
+                        "id": 31076,
+                        "name": "ammonium sulphate",
+                        "amount": "93",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Until 1916 equal parts of ammonium sulphate and ammonium chloride"
+                    },
+                    {
+                        "id": 31077,
+                        "name": "farmyard manure",
+                        "amount": "35",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31078,
+                        "name": "phosphorous",
+                        "amount": "33",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "As superphosphate, except 1896-1902 when basic slag was used."
+                    },
+                    {
+                        "id": 31079,
+                        "name": "potassium",
+                        "amount": "224",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium chloride",
+                        "notes": "As muriate of potash (potassium chloride)"
+                    },
+                    {
+                        "id": 31080,
+                        "name": "magnesium",
+                        "amount": "22",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": null
+                    },
+                    {
+                        "id": 31081,
+                        "name": "sodium",
+                        "amount": "90",
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "As agricultural salts (sodium chloride)"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "O",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Series treatment factor combination",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "control exposure",
+                        "levelText": "control exposure",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Series treatment factor combination",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "sodium nitrate",
+                        "levelText": "sodium nitrate",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "A",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Series treatment factor combination",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "ammonium sulphate",
+                        "levelText": "ammonium sulphate",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "AC",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Series treatment factor combination",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "ammonium sulphate",
+                        "levelText": "ammonium sulphate",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "castor meal",
+                        "levelText": "castor meal",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "C",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Series treatment factor combination",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "castor meal",
+                        "levelText": "castor meal",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "D",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Strip treatment factor combination",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "farmyard manure",
+                        "levelText": "farmyard manure",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "DPK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Series treatment factor combination",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "farmyard manure",
+                        "levelText": "farmyard manure",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "PKNaMg",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "sodium",
+                        "levelText": "sodium",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "magnesium",
+                        "levelText": "magnesium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "P",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "PK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "PNaMg",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "sodium",
+                        "levelText": "sodium",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "magnesium",
+                        "levelText": "magnesium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "None",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "control exposure",
+                        "levelText": "control exposure",
+                        "Comment": null
+                    }
+                ]
+            }
+        ],
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Transition Period",
+            "localIdentifier": "Transition Period",
+            "name": "Transition Period",
+            "url": "Transition Period",
+            "description": "35 plots with 7 strips and five series running at right angles (plot 9 was outside this scheme)."
+        },
+        "design": {
+            "dateStart": 1960,
+            "dateEnd": 1977,
+            "description": "These years saw interim treatments. In 1960 and 1961 the field was fallowed, farmyard manure, castor meal and minerals were applied. In 1962 the plots were divided lengthways for comparison of potatoes and mangolds. FYM were still applied but castor meal discontinued. The division of 4N was discontinued and the plot reverted to standard strip manuring. For each crop plots were divided into four for a test of nitrogen (except series O which continued to receive no nitrogen). \n\nIn 1963 FYM and minerals were applied and the field was fallowed, except for three rows of potatoes on the east side of strip 4, series N, A, AC and C for observations on Oospora pustulans (skin spot fungus affecting potatoes). In 1964 plots were again divided lengthways for comparison of potatoes and mangolds (reverse positions of 1962). The rate of P was increased. In 1965 and 1966 the field was fallowed - FYM and minerals were applied, but no nitrogen. All plots were applied with simazine weed killer.",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Transition Period",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 35,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 21444,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21445,
+                "name": "mangolds",
+                "sameAs": "mangolds",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12509,
+                "name": "farmyard manure exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12510,
+                "name": "castor meal exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12511,
+                "name": "nitrogen fertilizer exposure",
+                "description": "as sulphate of ammonia",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31082,
+                        "name": null,
+                        "amount": "0",
+                        "unitCode": "cwt",
+                        "unitText": "hundredweight",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": "applied in seed bed"
+                    },
+                    {
+                        "id": 31083,
+                        "name": null,
+                        "amount": "0.6",
+                        "unitCode": "cwt",
+                        "unitText": "hundredweight",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 31084,
+                        "name": null,
+                        "amount": "1.2",
+                        "unitCode": "cwt",
+                        "unitText": "hundredweight",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    },
+                    {
+                        "id": 31085,
+                        "name": null,
+                        "amount": "1.8",
+                        "unitCode": "cwt",
+                        "unitText": "hundredweight",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 12512,
+                "name": "nitrogen fertilizer exposure",
+                "description": "as nitrate of soda",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31086,
+                        "name": null,
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "applied in seed bed"
+                    }
+                ]
+            },
+            {
+                "id": 12513,
+                "name": "phosphate fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12514,
+                "name": "potassium fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12515,
+                "name": "magnesium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12516,
+                "name": "sodium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Grass and clover phase",
+            "localIdentifier": "Grass and clover phase",
+            "name": "Grass and clover phase",
+            "url": "Grass and clover phase",
+            "description": "From 1977 to 1983 the series that had never received N fertilizer was kept fallow. It was sown to a grass-clover ley in 1984. The remainder has been in grass since 1975."
+        },
+        "design": {
+            "dateStart": 1977,
+            "dateEnd": 2001,
+            "description": "From 1977 to 1983 the series that had never received N fertilizer was kept fallow. It was sown to a grass-clover ley in 1984. The remainder has been in grass since 1975.",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Grass and clover phase",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 21446,
+                "name": "grass",
+                "sameAs": "grass",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21447,
+                "name": "clover",
+                "sameAs": "clover",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12517,
+                "name": "farmyard manure exposure",
+                "description": "until 1975, none since",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31087,
+                        "name": null,
+                        "amount": "35",
+                        "unitCode": "tons/acre",
+                        "unitText": "tons per acre",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 12518,
+                "name": "nitrogen fertilizer exposure",
+                "description": "no nitrogen applied in 1995",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31088,
+                        "name": null,
+                        "amount": "75",
+                        "unitCode": null,
+                        "unitText": "kg nitrogen per cut",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31089,
+                        "name": null,
+                        "amount": "100",
+                        "unitCode": null,
+                        "unitText": "kg nitrogen per cut",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31090,
+                        "name": null,
+                        "amount": "125",
+                        "unitCode": null,
+                        "unitText": "kg nitrogen per cut",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31091,
+                        "name": null,
+                        "amount": "150",
+                        "unitCode": null,
+                        "unitText": "kg nitrogen per cut",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 12519,
+                "name": "phosphate fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31092,
+                        "name": null,
+                        "amount": "35",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "triple superphosphate",
+                        "notes": "since 1987 and in 1974"
+                    },
+                    {
+                        "id": 31093,
+                        "name": null,
+                        "amount": "35",
+                        "unitCode": null,
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "single superphosphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 12520,
+                "name": "potassium fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31094,
+                        "name": null,
+                        "amount": "225",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium sulphate",
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 12521,
+                "name": "magnesium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31095,
+                        "name": null,
+                        "amount": "90",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "every fourth year",
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": "(as kiersite since 1974)"
+                    }
+                ]
+            },
+            {
+                "id": 12522,
+                "name": "castor meal exposure",
+                "description": "last applied 1971",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12523,
+                "name": "sodium nutrient exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31096,
+                        "name": null,
+                        "amount": null,
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": 1973,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium chloride",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "D",
+                "dateStart": null,
+                "dateEnd": 1975,
+                "description": "D=farmyard manure",
+                "factor": "NA"
+            },
+            {
+                "name": "DPK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": "NA"
+            },
+            {
+                "name": "PK(Na)Mg",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Na until 1973, none since",
+                "factor": "NA"
+            },
+            {
+                "name": "P",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": "NA"
+            },
+            {
+                "name": "PK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": "NA"
+            },
+            {
+                "name": "P(Na)MG",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Na until 1973, none since",
+                "factor": "NA"
+            },
+            {
+                "name": "0",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": "NA"
+            }
+        ],
+        "measurements": "NA"
+    }
+]

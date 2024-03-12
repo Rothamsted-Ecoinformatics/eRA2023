@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Intensive cereals, Woburn Stackyard I",
+        "identifier": "W/RN/13",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": "Continuous wheat and barley from 1876-1961, mirroring the Broadbalk wheat and Hoosfield barley experiments. Many fallow years from 1927-1961. 1962 spring oats with basal fertiliser N. 1963 fallow. 1964 spring beans. 1965 and 1966 fallow.",
+        "management": "Site managed conventionally, with standard tillage across all plots."
+    },
+    "location": {
+        "addressLocality": "Husborne Crawley",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.6149,
+            "pointLatitude": 52.0003
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 89.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "Eutric Rubic Arenosol",
+        "soilDescription": "Sandy loam, Stackyard series."
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Sandy loam, Stackyard series.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

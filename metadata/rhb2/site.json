@@ -1,0 +1,88 @@
+{
+    "administrative": {
+        "name": "Hoosfield",
+        "identifier": "R/HB/2",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "Yes",
+        "visitingArrangements": "Contact Dr Andrew Gregory",
+        "description": "The Hoosfield Spring Barley experiment was started in 1852 on a 1.7 hectare (4.25 acre) site, to test the effects of organic manure and inorganic fertilizer on the growth of spring barley. The site has probably been occupied since Roman times, and the Rothamsted map of 1623 shows the site under arable cultivation. Before the experiment started the following arable crops were grown: turnips (with FYM and superphosphate) 1847, barley 1848, clover 1849, wheat 1850, barley (with ammonium salts) 1851.",
+        "management": "The site is managed using conventional tillage and pesticide applications are applied as necessary. The plough layer (0-23 m) is limed when necessary to maintain a minimum soil pH of 7.0 \u2013 7.5. There is no irrigation."
+    },
+    "location": {
+        "addressLocality": "Harpenden",
+        "addressRegion": "Hertfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.37608,
+            "pointLatitude": 51.81206
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 130.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "luvisol",
+        "soilDescription": "Flinty silty clay loam topsoil over clay-with\u2013flints (Avery and Catt, 1995). The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining."
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 20.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "silt content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 52.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "sand content",
+            "isEstimated": false,
+            "isBaseline": false,
+            "valueReference": 28.0,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Flinty silty clay loam topsoil over clay-with\u2013flints (Avery and Catt, 1995). The soils contain a large number of flints and are slightly calcareous. Below about 2m depth the soil becomes chalk. The experiment is under-drained and the site is free draining.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

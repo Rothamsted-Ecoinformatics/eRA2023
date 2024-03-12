@@ -1,0 +1,406 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "First Period",
+            "localIdentifier": "First Period",
+            "name": "First Period",
+            "url": "First Period",
+            "description": "Four blocks of ten plots each, with a four-course rotation, with different crops grown in each block each year. Originally the crops of a typical Norfolk four-course rotation (roots, spring barley, legume and winter wheat. Different fertilizer and manure treatments in the 10 plots."
+        },
+        "design": {
+            "dateStart": 1899,
+            "dateEnd": 1965,
+            "description": "A factorial test of N, P and K plus bone meal and FYM treatments on a four crop rotation.",
+            "designType": "Randomized complete block design",
+            "designTypeLabel": "Randomized complete block design",
+            "studyDesign": "First Period",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": 4,
+            "numberOfPlots": 40,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 23456,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23457,
+                "name": "root vegetables",
+                "sameAs": "root vegetables",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23458,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23459,
+                "name": "feed legumes",
+                "sameAs": "feed legumes",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "Norfolk Rotation",
+                "dateStart": 1899,
+                "dateEnd": 1962,
+                "phasing": "Complete",
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 23456,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 23457,
+                        "description": "Swedes or turnips in the early years, then mangolds or beetroot"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 23458,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 23459,
+                        "description": "Normally beans but sometimes clover or peas"
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 14061,
+                "name": "fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 33349,
+                        "name": "farmyard manure",
+                        "amount": "15",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 33350,
+                        "name": "bone meal",
+                        "amount": "0.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 33351,
+                        "name": "nitrogen",
+                        "amount": "100",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "sodium nitrate",
+                        "notes": null
+                    },
+                    {
+                        "id": 33352,
+                        "name": "phosphorous",
+                        "amount": "40",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 33353,
+                        "name": "potassium",
+                        "amount": "63",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "potassium chloride",
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "D",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "farmyard manure",
+                        "levelText": "farmyard manure",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "BM",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "bone meal",
+                        "levelText": "bone meal",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "N",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "P",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "K",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "O",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "No fertilizer",
+                "factor": "NA"
+            },
+            {
+                "name": "PK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "NK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "NP",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "NPK",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    }
+                ]
+            }
+        ],
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Second period",
+            "localIdentifier": "Second period",
+            "name": "Second period",
+            "url": "Second period",
+            "description": "The four-course rotation of wheat, sugar beet, barley and beans was continued until the 1969 harvest. In 1970 the northern half of each plot was sown to lucerne and the southern to a grass ley mixture."
+        },
+        "design": {
+            "dateStart": 1966,
+            "dateEnd": 2010,
+            "description": "The response of various crops to fresh and residual P and their interactions with N, particularly with high rates of N applied to high yielding wheat cultivars of bread making quality.",
+            "designType": "Randomized complete block design",
+            "designTypeLabel": "Randomized complete block design",
+            "studyDesign": "Second period",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 10,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 23460,
+                "name": "alfalfa",
+                "sameAs": "alfalfa",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23461,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23462,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23463,
+                "name": "faba beans",
+                "sameAs": "faba beans",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23464,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 23465,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

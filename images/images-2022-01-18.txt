@@ -1,0 +1,4 @@
+mediaID,Credit,fileLocation,URL,Caption,Type,extension,Description,width,height,orientation,exptID,forWWW,isReviewed,isGalleries
+,eRA curators,metadata/rms/ARG100-rain-gauge-within-turf-wall.jpg, http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rms/ARG100-rain-gauge-within-turf-wall.jpg,ARG100 rain gauge within turf wall,Other,jpg, ,2616,3488,Portrait,rms,0,0,0
+,eRA curators,metadata/rms/historical-document-rain-gauge.jpg, http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rms/historical-document-rain-gauge.jpg,historical document rain gauge,Other,jpg, ,3533,4269,Portrait,rms,0,0,0
+,eRA curators,metadata/rms/historical-document-rain-gauges-with ladders.jpg, http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rms/historical-document-rain-gauges-with ladders.jpg,historical document rain gauges with ladders,Other,jpg, ,3518,4355,Portrait,rms,0,0,0

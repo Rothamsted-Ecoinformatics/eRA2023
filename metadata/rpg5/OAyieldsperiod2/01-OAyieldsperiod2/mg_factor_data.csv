@@ -1,0 +1,3 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no Mg applied,1903-1964,magnesium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007288,0,0,kg Mg ha-1 yr-1,not applied,magnesium sulfate,http://purl.obolibrary.org/obo/CHEBI_32599
+Amount shows annual Mg applied ,1903-1964,magnesium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007288,Mg,10,kg Mg ha-1 yr-1,annual in winter,magnesium sulfate,http://purl.obolibrary.org/obo/CHEBI_32599

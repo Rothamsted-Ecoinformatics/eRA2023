@@ -1,0 +1,19 @@
+******************************************************************************************************************************************
+
+                       Woburn Continuous Wheat (W/XW/6) 
+
+******************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    This experiment is almost identical to the Broadbalk Wheat experiments at Rothamsted, but at Woburn. It started in autumn 1876, on Woburn Stackyard field. There is a parallel experiment on Continuous Barley which started in 1877, with the same plot numbers. The experiments were  carried out by the Royal Agricultural Society of England  (RASE) but with input from Lawes.
+    To test the effects of fertilisers and manures on the growth of continuous winter wheat
+
+    Experiment start = 1876
+
+    Experiment end = 1966
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

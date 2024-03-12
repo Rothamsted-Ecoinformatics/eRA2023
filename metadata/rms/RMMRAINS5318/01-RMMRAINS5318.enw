@@ -1,0 +1,16 @@
+%0 Dataset
+%T Total Monthly Rainfall at Rothamsted March 1853 - July 2018 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2018 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G None 
+%U https://doi.org/10.23637/RMMRAIN5318 
+%R 10.23637/RMMRAIN5318 
+%A Perryman, Sarah 
+%A Scott, Tony 
+%A Hall, Chris 
+%K weather; climate; meteorological factors; meteorological station; precipitation; rain; rainfall patterns; Rothamsted Research; weather data; 
+%X This dataset represents the total monthly rainfall at Rothamsted continuously from March 1853 - July 2018 and is based on continuous daily records measured at the site.  

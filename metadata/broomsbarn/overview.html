@@ -1,0 +1,125 @@
+<div id="summary">
+
+
+	<div class="row p-3">
+		<div class="col-6">
+			<p>Broom's Barn Experimental Station is near Bury St Edmunds in Suffolk, Eastern England. It was built in 1962. Research for most of it's history has focussed on sugar beet, in conjunction with the British Sugar Corporation. Most of the experiments were annual, 
+but there have been a few long-term experiments. However, little data is in an accessible form. There is also an associated meteorological station. It is now one of the two sites of the new long-term rotation experiment, the other being at Rothamsted, Harpenden. </p>
+			<p>
+				<a target="_blank" href="https://www.rothamsted.ac.uk/">More...
+					<sup><i class="fa fa-external-link" aria-hidden="true"></i></sup>
+				</a>
+			</p>
+		</div>
+		<div class="col-6">
+		
+		
+		<div id="mapid" style="width: 500px; height: 400px;"></div>                  
+            <script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZXJhZGV2bmF0aCIsImEiOiJja2twZHN4MWYwYnVoMm9zMTZjeW9mMDF2In0.f-XLtnBSQXAFI1XBruy3uQ';
+var map = new mapboxgl.Map({
+container: 'mapid', // container id
+//style: 'mapbox://styles/mapbox/streets-v11', // style URL
+style: 'mapbox://styles/mapbox/satellite-v9',  // style statellite
+center: [0.5693150, 52.2595161], // starting position [lng, lat]
+zoom: 13 // starting zoom
+});
+
+var marker = new mapboxgl.Marker()
+.setLngLat([0.5707741, 52.2631934])
+.setPopup(new mapboxgl.Popup().setHTML("<b>Broom's Barn</b>")) // add popup
+.addTo(map);
+marker.togglePopup();
+
+map.on('load', function () {
+	map.addSource('bb', {
+		'type': 'geojson',
+		'data': {
+		'type': 'Feature',
+		'geometry': {
+		'type': 'Polygon',
+		'coordinates': [
+		    [
+		        [
+		          0.5630922,
+		          52.2648219
+		        ],
+		        [
+		          0.5630922,
+		          52.2647693
+		        ],
+		        [
+		          0.5634785,
+		          52.2617751
+		        ],
+		        [
+		          0.5643797,
+		          52.2597262
+		        ],
+		        [
+		          0.5647659,
+		          52.2564689
+		        ],
+		        [
+		          0.5651093,
+		          52.2541046
+		        ],
+		        [
+		          0.5658388,
+		          52.2534478
+		        ],
+		        [
+		          0.5663109,
+		          52.2538156
+		        ],
+		        [
+		          0.5682421,
+		          52.2558647
+		        ],
+		        [
+		          0.5691862,
+		          52.2539207
+		        ],
+		        [
+		          0.5745506,
+		          52.2543147
+		        ],
+		        [
+		          0.573864,
+		          52.2642703
+		        ],
+		        [
+		          0.5630922,
+		          52.2648219
+		        ]
+		      ]
+		    ]
+	}
+	}
+	});
+	map.addLayer({
+	'id': 'bb',
+	'type': 'line',
+	'source': 'bb',
+	'layout': {
+	'line-join': 'round',
+	'line-cap': 'round'
+	},
+	'paint': {
+	'line-color': '#ff9933',
+	'line-width': 3
+	}
+	});
+});
+
+
+
+
+</script>
+		
+		
+		</div>
+
+	</div>
+
+</div>

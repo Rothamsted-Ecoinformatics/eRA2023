@@ -1,0 +1,19 @@
+******************************************************************************************
+
+               Exhaustion Land (R/EX/4) 
+
+******************************************************************************************
+
+
+
+
+DESCRIPTION
+    The Exhaustion Land experiment has had several distinct phases since it started in 1856. Today, it is used to study the residual effects of fertilizers and manures applied from 1856-1901 and additional phosphate applied since 1986, on the yield of cereals. A test of potassium was introduced in 2007. Treatments have been managed so that the soils now have a wide range of plant available P and K.  From 1856-1875 wheat was grown, then potatoes (1876-1901) with a range of fertilizer treatments. No fertilizer or manure was applied 1902-1939; this phase of the experiment tests the residual effects of the fertilizers and manures applied 1856-1901 (Phase I). Cereals, mainly spring barley, were grown every year, except 1905-1911 when continuous red clover was grown on some plots. In 1940 fertilizer N was applied to all plots, and spring barley grown. This demonstrated the residual value of the P and K from the first period of the experiment.
+    To test the residual effects of mineral fertilizer and manures applied 1876-1901 and of additional phosphate applied since 1986, on the yield of spring barley (up to 1991) and winter wheat. A test of potassium was introduced in 2007. Soils now have a range of plant available P and K.
+
+    Experiment start = 1856
+
+    Experiment end = None
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

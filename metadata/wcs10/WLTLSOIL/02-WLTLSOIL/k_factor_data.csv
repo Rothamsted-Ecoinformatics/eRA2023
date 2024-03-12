@@ -1,0 +1,3 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,total_amount,total_amount_unit,treatment_form,treatment_form_rdfType
+Factor level shows no K treatment applied. ,1962-1980,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,0,0,,none,0,,,
+"Factor level shows annual K treatment applied. 104 or 105 kg K/ha except in 1968 and 1974 (156kgK to potatoes) and 1969, 1979, 1980 (none applied, fallow).",1962-1980,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,K,104,kg K ha-1 yr-1,annual,1772,kg K ha-1,potassium chloride,http://aims.fao.org/aos/agrovoc/c_6140

@@ -1,0 +1,23 @@
+[
+    {
+        "md_id": 70,
+        "title": "Woburn Experimental Farm Soil and Field Maps",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/docs/wob-maps.pdf",
+        "identifier": "10.23637/ws-soil-maps-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Field plot map",
+        "extension": "pdf",
+        "description": "A collection of maps and plans for the Woburn Experimental Station.",
+        "fieldname": "Admin Buildings",
+        "experiment_name": "Documents for more than one experiments",
+        "experiment_code": "DOCS",
+        "grade": 2,
+        "dstype": "OA",
+        "publication_year": 2017,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "N/A",
+        "UID": 70
+    }
+]

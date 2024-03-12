@@ -1,0 +1,64 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Woburn Intensive cereals",
+        "localIdentifier": "W/RN/13",
+        "name": "Woburn Intensive cereals",
+        "url": null,
+        "description": "On Woburn Stackyard I field, on the site of the previous Woburn Continuous Wheat and Barley experiments (W/XW/6 and W/XB/6). An experiment comparing winter wheat and spring barley grown continuously and in rotation was started in 1967. A five-course rotation of 1-year grass ley, potatoes and three years of either wheat or barley.",
+        "disambiguatingDescription": "To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available online with registration",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil.",
+        "correctionsPolicy": "To study the effects of intensive cereal cropping on yield, incidence of soil-borne pathogens and organic matter in the soil.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1966,
+    "dateEPEnd": null,
+    "dateEnd": 1990,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-9",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-9",
+            "citation": "Experiments made on Stackyard Field, Woburn, 1876-1974. 1. History of the Field, Details of the Cropping and Manuring and the Yields in the Continuous Wheat and Barley Experiments",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-9",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-9",
+            "citation": "Experiments made on Stackyard Field, Woburn,1876-1974. III. Effects of NPK Fertilizers and Farmyard Manure on Soil Carbon, Nitrogen and Organic Phosphorus",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-9",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-9",
+            "citation": "Experiments made on Stackyard Field, Woburn,1876-1974. II Effects of Treatments on Soil pH, P and K in the Continuous Wheat and Barley Experiments",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-193",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-193",
+            "citation": "Details of the Classical and Long-term Experiments 1968-73.",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
+}

@@ -1,0 +1,328 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rrs9-SOIL2010-01",
+    "name": "Acid Strip soil pH and phosphorus concentration 2010",
+    "shortName": "SOIL2010",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rrs9/01-SOIL2010",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "The Acid Strip is a narrow strip of land on the the northern edge of Hoosfield, Rothamsted. The strip received large uneven applications of chalk (lime) in the 1850s, and no chalk since. This uneven application of chalk has lead to a dramatic decline in soil pH from East to West. No P or K fertilizer or manure has been applied to the site. Winter wheat is now grown, given 100 kgN/ha. This dataset contains the soil pH and soil phosphorus (P) data measured in August 2010, as reported by Turner and Blackwell (2013), funded by BBSRC Project BB/J004642/1, Development of BBSRC's capacity for the analysis of organic P in soils."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Soil samples (0-23cm) were taken from the 200m long Acid Strip at 10m intervals, with additional samples taken at 5 m intervals between 50 and 120m. The soil was air-dried and sieved to <2mm. Soil pH, Olsen P, total P (by ignition) and NaOH-EDTA extractable P were measured."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "- **Soil pH**  using a Jenway 3320 pH meter (Bibby Scientific Ltd, Stone, UK). \r\n- **Olsen P** extracted with a solution of 0.5 M NaHCO<sub>3</sub>, bufferred at pH 8.5, after the method of Olsen et al, 1954.  \r\n- **NaOH_RP** Reactive P concentration in NaOH-EDTA extracts\r\n- **NaOH_TP** Total P concentration in NaOH-EDTA extracts\r\n- **NaOH_UP** Unreactive P concentration in NaOH-EDTA extracts\r\n- **TP** Total P concentration by ignition"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Soil samples taken by the authors in August 2010 from the Acid Strip."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "All soil sample analysis performance is strictly monitored using in-house standard materials. Standards and check samples are monitored and recorded."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2022,
+    "dateCreated": "2022-11-15",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1.0",
+    "keywords": [
+        "soil pH",
+        "long term experiments",
+        "phosphorous",
+        "acid strip"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Ben Turner",
+            "givenName": "Ben",
+            "familyName": "Turner",
+            "sameAs": "https://orcid.org/0000-0002-6585-0722",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Smithsonian Tropical Research Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "Republic of Panama"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Smithsonian Tropical Research Institute",
+                "address": ", Apartado, Republic of Panama"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Martin Blackwell",
+            "givenName": "Martin",
+            "familyName": "Blackwell",
+            "sameAs": "https://orcid.org/0000-0001-5540-6233",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ben Turner",
+            "givenName": "Ben",
+            "familyName": "Turner",
+            "sameAs": "https://orcid.org/0000-0002-6585-0722",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Smithsonian Tropical Research Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "Republic of Panama"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Smithsonian Tropical Research Institute",
+                "address": ", Apartado, Republic of Panama"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Martin Blackwell",
+            "givenName": "Martin",
+            "familyName": "Blackwell",
+            "sameAs": "https://orcid.org/0000-0001-5540-6233",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Tegan Darch",
+            "givenName": "Tegan",
+            "familyName": "Darch",
+            "sameAs": "https://orcid.org/0000-0003-2367-043X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37608,
+            "latitude": 51.81206
+        },
+        "name": "Hoosfield"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.1111/ejss.12026",
+            "relatedIdentifierType": "DOI",
+            "name": "Turner and Blackwell, 2013",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "Development of BBSRC's capacity for the analysis of organic P in soils",
+            "alternateName": "BB/J004621/1",
+            "url": null,
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Acid Strip soil pH and P data 2010",
+            "URL": "01-RS9-SOIL2010.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "38 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Acid Strip soil pH 2010",
+            "URL": "rrs9_fig.png",
+            "encodingFormat": "png",
+            "fileSize": "5 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

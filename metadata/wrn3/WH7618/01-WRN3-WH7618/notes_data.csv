@@ -1,0 +1,14 @@
+note_id,description
+1,"In 1983 an extra 60 kg ha N added to N codes 1, 2 and 3 following heavy rainfall"
+2,"2001-2005 split N applications tested (split applications went to plots that had never received FYM, single to those that had, but no residual effect of FYM by this point)"
+3,In 2006 single N applications to all plots
+4,In 2007 all plots switched to split N applications
+5,"2015 some wheat plots block 1 failed, sprayed off by herbicide 16/03/2015 and re-sown with spring wheat variety Mulika"
+6,Date of application of potassium sulfate not known. Assume K and S applied at the usual rate (2010 and 2012)
+7,"2003 split N applied to some FYM-residue plots in error, instead of no FYM plots (plots 49, 52 and 63, instead of 50, 51 and 64). "
+8,2007 plot 66.3 yield missing. It was estimated as 5.56 in the Yield Book for 2007.
+9,"In 2008 at the higher N rates these plots were were laid (lodged), so yields are missing (*) or lower than expected. "
+10,"In 2009 these plots was laid flat by badgers, and yields are missing (*) or lower than expected. "
+11,2015 grain yield missing from plot 4.2 in data file but estimated as 1.85 in the Yield Book for 2015. 
+12,"1976 yield of 5 plots incorrectly shown in the yield book. These plots were re-analysed, due to the wrong plot length being used in the initial analysis, as published in the Yield Book for 1976."
+13,"In 2007 total amount of N incorrectly applied in first split, with correct amount in second split, so total applications were S1=80+40, S2=160+120, S3=240+200, instead of the usual 40 in the first application. Crop yields were very low, as the harvest was delayed due to a wet summer and much of the crop was severely lodged (laid flat) and starting to sprout. "

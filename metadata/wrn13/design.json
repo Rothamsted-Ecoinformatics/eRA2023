@@ -1,0 +1,187 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Woburn Intensive Cereals",
+            "localIdentifier": "Woburn Intensive Cereals",
+            "name": "Woburn Intensive Cereals",
+            "url": "Woburn Intensive Cereals",
+            "description": "2 blocks of 6 whole plots each split into 4 sub-plots (8 in certain years). Wheat in one block, barley in the other. Sub-plots received 4 N rates. Sub-sub-plots received with and without MgO as Epsom salts (wheat only)."
+        },
+        "design": {
+            "dateStart": 1966,
+            "dateEnd": 1990,
+            "description": "Continuous wheat or barley and each phase of a five-course rotation of 1-year ley, potatoes and three years of either wheat or barley, with 4 N rates.",
+            "designType": "Split-plot",
+            "designTypeLabel": "Split-plot",
+            "studyDesign": "Woburn Intensive Cereals",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 6,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": 4,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21784,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21785,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21786,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21787,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "barley rotation",
+                "dateStart": 1966,
+                "dateEnd": null,
+                "phasing": "Complete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 21786,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21787,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21784,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21784,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21784,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "wheat rotation",
+                "dateStart": 1966,
+                "dateEnd": null,
+                "phasing": null,
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 21786,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21787,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21785,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21785,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21785,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 12710,
+                "name": "nitrogen fertilizer exposure",
+                "description": "4 rates of N fertilizer.  63 v 126 v 188 v 251 kgN/ha wheat. 50 v 100 v 150 v 200 kgN/ha barley.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12711,
+                "name": "magnesium nutrient exposure",
+                "description": "Magnesium as Epsom salts applied to sub-sub-plots on wheat blocks only, 1968 and 1969. 0 v 182 kg MgO.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Grain and straw yields at field moisture content, approximately 85% dry matter. Grass yields (1 year ley). Potato yields, tubers",
+                "crop": null
+            },
+            {
+                "variable": "crop variety",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Also sowing and harvest dates.",
+                "crop": null
+            },
+            {
+                "variable": "disease assessment data",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Eyespot and Take-all assessment on wheat and barley.",
+                "crop": null
+            },
+            {
+                "variable": "soil organic carbon",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": null,
+                "crop": null
+            }
+        ]
+    }
+]

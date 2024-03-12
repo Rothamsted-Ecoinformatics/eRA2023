@@ -1,0 +1,16 @@
+%0 Dataset
+%T Total Monthly Rainfall at Rothamsted March 1853 - December 2022 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 0 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 csv 
+%7 1.0 
+%G en 
+%U https://doi.org/10.23637/RMSTotalMonthyRain18532022 
+%R 10.23637/RMSTotalMonthyRain18532022 
+%A Perryman, Sarah 
+%A Scott, Tony 
+%A Hall, Chris 
+%K Rothamsted Research; precipitation; rainfall patterns; climate change; long term experiments; weather; weather data; climate; rain; 
+%X This dataset represents the total monthly rainfall at Rothamsted continuously from March 1853 - December 2022 and is derived from continuous daily records measured at the site. 

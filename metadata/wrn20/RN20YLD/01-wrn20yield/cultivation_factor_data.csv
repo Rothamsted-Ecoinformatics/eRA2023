@@ -1,0 +1,3 @@
+description,cultivation_direction_type,factor_level_code,years,treatment_factor,treatment_factor_rdfType,frequency
+Up_and_down slope direction of cultivation,Up_and_down_slope,U,1988-1998,cultivation_direction,,annual
+Across_slope direction of cultivation,Across_slope,A,1988-1998,cultivation_direction,,annual

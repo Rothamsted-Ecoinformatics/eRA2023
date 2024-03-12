@@ -1,0 +1,58 @@
+[
+    {
+        "MediaID": 62,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn2/2013-Fosters.jpg",
+        "Caption": "Fosters - 2013",
+        "Type": "metadata",
+        "exptID": "rrn2",
+        "width": 750,
+        "height": 500,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rrn2/2013-Fosters.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 65,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn2/2015-Fosters-Ley-Arable.jpg",
+        "Caption": "Fosters Ley Arable - 2015",
+        "Type": "metadata",
+        "exptID": "rrn2",
+        "width": 675,
+        "height": 217,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rrn2/2015-Fosters-Ley-Arable.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 66,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn2/2015-Fosters.jpg",
+        "Caption": "Fosters - 2015",
+        "Type": "metadata",
+        "exptID": "rrn2",
+        "width": 750,
+        "height": 500,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rrn2/2015-Fosters.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 593,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn2/Fosters-aerial-with-blocks.jpg",
+        "Caption": "Fosters aerial photo with blocks pre- and post- 1968 indicated",
+        "Type": "metadata",
+        "exptID": "rrn2",
+        "width": 717,
+        "height": 497,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rrn2/Fosters-aerial-with-blocks.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    }
+]

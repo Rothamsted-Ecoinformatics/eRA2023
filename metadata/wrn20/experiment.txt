@@ -1,0 +1,19 @@
+******************************************************************************************************************************************************************************************************************
+
+                                   Woburn Erosion Reference Experiment (W/RN/20) 
+
+******************************************************************************************************************************************************************************************************************
+
+
+
+
+DESCRIPTION
+    Eight plots situated on a slope of about 5 degrees, (7-13%), each separated by a grass bank. The eroded soil and runoff were collected in tanks at the end of each plot after recent erosion. Four plots were cultivated and drilled parallel to the contour, and four up and down the slope. All plots grew the same crops each year, in a rotation typical of the sand soil of Bedfordshire. Four plots received standard cultivation and four minimal tillage.
+    To assess the effects of minimal tillage and contour cultivation on soil erosion, surface runoff, soil loss and crop yield on a sandy soil at Woburn, England
+
+    Experiment start = 1988
+
+    Experiment end = 1998
+
+CONDITION OF ACCESS 
+EXPERIMENT DESIGN 

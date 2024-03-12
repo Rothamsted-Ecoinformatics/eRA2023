@@ -1,0 +1,369 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/wxb6-yield7726-01",
+    "name": "Woburn Continuous Barley Experiment yields 1877-1926",
+    "shortName": "BYIELD7726",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/wxb6/01-BYIELD7726",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This dataset contains the annual grain and straw yields of the Woburn Continuous Barley experiment, 1877-1926. Also grain %N for most plots and years. Details of the fertilizer, manure and lime treatments are also included.  There was a parallel experiment at Woburn testing the same treatments on the yield of continuous winter wheat. This experiment also mirrored the continuous spring barley experiment on the silty clay loam soil at Hoosfield, Rothamsted, started in 1852. The soil at Woburn contained little free calcium carbonate, and soil pH was 6.1 in 1876. Consequently, where ammonium sulphate was applied (plots 2, 5 and 8) the soil soon became acidic and yields declined markedly within 20 years. These were the first experiments in the UK where lime was applied to try to correct soil acidity."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "This experiment tested different fertilizer, manure and lime treatments on the yield of continuous spring barley grown on a sandy loam soil at Woburn. Originally 11 plots (1-11), some were divided into sub-plots (a and b) from 1882, and into sub sub-plots (i and ii) from 1905, to test different treatments, mainly with and without lime.  To allow comparison of the different treatments, yields are shown for all 50 years for each sub-plot."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Grain and straw yields at field moisture content, approximately 85%, though this was not recorded. Grain % N content measured in grain dried at 100 degrees C, assumed to be 100% dry matter.  Grain %N not recorded for all plots. Harvest dates not recorded."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "Yield data taken from Russell E. J. and Voelcker  J.A. (1936) *Fifty years of field experiments at the Woburn Experimental Station*. Rothamsted Monographs on Agricultural Science, Longmans, Green and Co., London. Appendix tables."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Individual plot yields are taken from Russell and Voelcker (1936) appendix tables. The treatment details were taken from [Glendining 2022](https://doi.org/10.23637/wxb6-treats-01).  This frictionless dataset of combined yield and treatment data was compiled by M Glendining and checked by S Perryman, May 2022."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2022,
+    "dateCreated": "2022-07-26",
+    "dateModified": "2022-10-13",
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1.0",
+    "keywords": [
+        "Rothamsted Research",
+        "arable farming",
+        "long term experiments",
+        "nitrogen content",
+        "grain yield",
+        "liming",
+        "barley"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Daniel Philcox",
+            "givenName": "Daniel",
+            "familyName": "Philcox",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Reading",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Reading",
+                "address": ", Whiteknights, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "June Kimori",
+            "givenName": "June",
+            "familyName": "Kimori",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Reading",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Reading",
+                "address": ", Whiteknights, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.616165,
+            "latitude": 51.999857
+        },
+        "name": "Stackyard"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/wxb6-treats-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Continuous Barley Experiment treatment details and plan, 1876-1926",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-33158",
+            "relatedIdentifierType": "DOI",
+            "name": "Johnston (1975) Experiments made on Stackyard Field, Woburn, 1876-1974. I History",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-33159",
+            "relatedIdentifierType": "DOI",
+            "name": "Johnston and Chater (1975) Experiments made on Stackyard Field, Woburn, 1876-1974. II Effects",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wxb6-yield2742-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Continuous Barley Experiment yields 1927-1942",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/wxb6-yield4366-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Continuous Barley Experiment yields 1943-1966",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/wxw6-yield7726-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Continuous Wheat Experiment yields 1877-1926",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Grain and straw yields from the Woburn Continuous Barley experiment 1877-1926",
+            "URL": "01-BYIELD7726.zip",
+            "encodingFormat": "zip",
+            "fileSize": "264 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Example yields derived from the data. Lime applications indicated by the arrows",
+            "URL": "WCBchart.png",
+            "encodingFormat": "png",
+            "fileSize": "25 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

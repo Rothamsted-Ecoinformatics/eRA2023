@@ -1,0 +1,41 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Large Scale Rotation Experiment",
+        "localIdentifier": "BB/CS/788",
+        "name": "Large Scale Rotation Experiment",
+        "url": null,
+        "description": "TO DO",
+        "disambiguatingDescription": "From 2018"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Other",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "",
+        "correctionsPolicy": "",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "2018 - current",
+    "dateStart": 2018,
+    "dateEPEnd": 2028,
+    "dateEnd": "on going",
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-37287",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-37287",
+            "citation": "Johnson and Penny, 1972, The Agdell experiment 1848-1970",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        }
+        
+    ]
+}

@@ -1,0 +1,735 @@
+{
+  "resources": [
+    {
+      "path": "crop_data.csv",
+      "name": "crop_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "49968368c61deae87f5c47be70cdf8f5",
+        "bytes": 294131,
+        "fields": 22,
+        "rows": 2240
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested. It will generally have been sown the previous year"
+          },
+          {
+            "name": "block",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Block",
+            "description": "The experiment is divided into 5 Blocks"
+          },
+          {
+            "name": "main_plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Main plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "The main plots on each block which have different cropping. There are 40 pairs of main plots, eg 3 and 4, one plot received FYM (last applied 1963) the other without FYM."
+          },
+          {
+            "name": "split_plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Split plot",
+            "description": "Split-plots which have different N fertilizer treatments"
+          },
+          {
+            "name": "plot_code",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Plot code",
+            "rdfType": "https://schema.org/name",
+            "description": "A unique identifying code for each split-plot (i.e. the experimental units)"
+          },
+          {
+            "name": "previous_FYM_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Previous FYM factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the previous FYM factor level applied 1956-1967, as explained in previous_fym_facogtr_data sheet"
+          },
+          {
+            "name": "N_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "N factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the N fertilizer level, N0, N1, N2 or N3 (nil, low, medium or high) in the different periods of the experiment, as explained in n_factor_data sheet"
+          },
+          {
+            "name": "N_factor_code",
+            "type": "string",
+            "format": "default",
+            "title": "N factor code",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the inorganic nitrogen fertilizer factor level applied in that harvest year to the split-plots."
+          },
+          {
+            "name": "N_fertilizer_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Total inorganic nitrogen fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Total inorganic nitrogen fertilizer applied to this crop."
+          },
+          {
+            "name": "number_of_N_applications",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Number of N fertilizer applications",
+            "description": "Number of fertilizer N applications to this crop and in this year."
+          },
+          {
+            "name": "rotation_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "rotation",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000469",
+            "description": "Code for crop rotation on this block and on this year"
+          },
+          {
+            "name": "basal_P_kg",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "basal P fertilizer amount",
+            "rdfType": "https://schema.org/name",
+            "description": "Amount of basal phosphorus fertilizer applied in that harvest year. Applied as triple superphosphate 2000-2018 and as compound fertilizer 1976-1999"
+          },
+          {
+            "name": "date_P",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "P fertilizer application date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date phosphorus fertilizer applied in that harvest year. Usually applied in the autumn to stubble of preceeding crop."
+          },
+          {
+            "name": "basal_K_kg",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "basal K fertilizer amount",
+            "rdfType": "https://schema.org/name",
+            "description": "Amount of basal potassium fertilizer applied in that harvest year. Applied as potassium sulfate 2000-2018 and as compound fertilizer 1976-1999."
+          },
+          {
+            "name": "date_K",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "K fertilizer application date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date potassium fertilizer applied in that harvest year. Usually applied in early spring"
+          },
+          {
+            "name": "basal_S_kg",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "basal S fertilizer amount",
+            "rdfType": "https://schema.org/name",
+            "description": "Amount of basal sulfur fertilizer applied in that harvest year. Applied as potassium sulfate 2000-2018. Not applied 1976-1999."
+          },
+          {
+            "name": "date_S",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "S fertilizer application date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date sulfur fertilizer applied in that harvest year. Usually applied in early spring"
+          },
+          {
+            "name": "cultivar",
+            "type": "string",
+            "format": "default",
+            "title": "Wheat cultivar",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Wheat cultivar or variety"
+          },
+          {
+            "name": "sow_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Sowing date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was sown, generally in the autumn in the year before harvest",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "harvest_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Harvest date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was harvested",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "grain_yield",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Grain yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested wheat grain yield at 85% dry matter",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop yield  data",
+      "description": "This is the main data table, containing the yield of wheat grown as the first test crop, 1976-2018. This dataset only contains plots on which wheat was grown as the first test crop in a given year. So for example, all plots in block 3 had wheat planted to them in 1976, but there is no data for any other blocks this year because none were growing wheat as the first test crop. ''Test crop' refers to a major cash crop on which the effects of the different arable rotations and leys were assessed. These have changed throughout the experiment, and the first test crop has been wheat since 1976. The rotations are typically 3 years of 'treatment crops' followed by two years of 'test crops' (the exception are the eight-year ley treatments). Also contains details of N fertilizer treatments, basal P, K and S fertilizer applications, sowing and harvest dates and wheat variety. Grain yields at 85% dry matter"
+    },
+    {
+      "path": "n_factor_data.csv",
+      "name": "n_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "1ae7f834b71ad9d84644d22df3f634e0",
+        "bytes": 5415,
+        "fields": 12,
+        "rows": 20
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "factor_label",
+            "type": "string",
+            "format": "default",
+            "title": "Factor label",
+            "description": "Label for the factor level"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "factor_level_code",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level code",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "Code explaining breakdown of fertilizer N applications for the different factor levels"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The harvest year range for when the factor level was used (harvest year refers to the year when the crop was harvested. It was generally sown the previous autumn)."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic nitrogen (N) fertilizer which was applied to this crop as a treatment factor. This does not include N in FYM or rape cake. Note at different periods of the experiment N was variously applied in autumn or spring and applied in a single application or split applications. Timings and amounts of N applied are indicated in the crop_data table in the fields autumn_n_kg, autumn_n_date, spring1_n_kg, spring1_n_date, spring2_n_kg and spring2_n_date"
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the N was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied; once a year or three times a year, all in the spring"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic N fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "N fertilizer treatment factor level descriptions",
+      "description": "Describes the different N (nitrogen) fertilizer  treatment factor levels used 1976-2018. "
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "267acba90e2c0743da83957d20e68f9b",
+        "bytes": 1745,
+        "fields": 2,
+        "rows": 13
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the crop_data_table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the crop_data table"
+    },
+    {
+      "path": "previous_fym_factor_data.csv",
+      "name": "previous_fym_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "abfed6f7f3c43ab27f18bad038ac84bf",
+        "bytes": 496,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The harvest year range for when the factor level was used (harvest year refers to the year when the crop was harvested. It was generally sown the previous autumn)."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of FYM applied"
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which FYM was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form in which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Previous FYM treatment factor level description",
+      "description": "Describes the previous FYM treatments applied, 1956-1967"
+    },
+    {
+      "path": "rotation_factor_data.csv",
+      "name": "rotation_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "801c8b5540e479ed546428736e50ce28",
+        "bytes": 3380,
+        "fields": 7,
+        "rows": 21
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the rotation factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "alternative_names",
+            "type": "string",
+            "format": "default",
+            "title": "Alternative name used for rotation",
+            "description": "Alternative name used in other publications for the rotation factor level names"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The harvest year range for when the factor level was used (harvest year refers to the year when the crop was harvested. It was generally sown the previous autumn)."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied; each rotation was a 5 or 10 year cycle"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop rotation descriptions",
+      "description": "Describes the different ley and arable rotations. "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "10.23637/wrn3-wheat7618-01",
+  "name": "woburn-ley-arable-experiment:-yields-of-wheat-as-the-first-test-crop,-1976-2018",
+  "title": "Woburn Ley-arable experiment: yields of wheat as the first test crop, 1976-2018",
+  "version": "1.0.0",
+  "keywords": [
+    "long term experiments",
+    "Rothamsted Research",
+    "wheat",
+    "grain yield",
+    "cropping system",
+    "crop rotation",
+    "Woburn Ley-arable experiment"
+  ],
+  "description": "### Abstract\nAnnual grain yield for the winter wheat test crop, on the Woburn Ley-Arable experiment, 1976-2018, with treatment details.\n### Methods\nThe Woburn Ley-arable experiment was started in 1938, to compare the effects of different rotations, with and without grass or grass/clover leys, on soil organic matter and the yield of two arable test crops.  'Test crop' refers to a major cash crop on which the effects of the different arable rotations and leys were assessed. The rotations are typically three years of 'treatment crops' followed by two years of 'test crops' (the exception are the eight-year ley treatments). The two test crops have changed throughout the experiment, and the first test crop has been wheat since 1976.  This dataset contains the yield of wheat grown as the first test crop, 1976-2018, plus details of the N fertilizer treatments, basal fertilizer, sowing and harvest dates.\n### Technical Info\nWheat grain yield at harvest at 85% dry matter content. Winter wheat was grown every year, except for 2015, when the spring wheat variety Mulika was sown, as the winter wheat crop failed.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. Once the data were entered into e-RA, they were independently back-checked against the original data sheets.\n",
+  "contributors": [
+    {
+      "title": "Chloe MacLaren",
+      "path": "https://orcid.org/0000-0002-6700-3754",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andrew Macdonald",
+      "path": "https://orcid.org/0000-0002-1785-4892",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Suzanne Clark",
+      "path": "https://orcid.org/0000-0002-3684-1253",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Rodger White",
+      "path": "https://orcid.org/0000-0002-8178-901X",
+      "organization": "Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

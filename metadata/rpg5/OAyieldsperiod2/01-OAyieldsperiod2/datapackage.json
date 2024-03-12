@@ -1,0 +1,1716 @@
+{
+  "resources": [
+    {
+      "path": "crop_data.csv",
+      "name": "crop_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "aefb228135d2570993b49aa5f700a6d4",
+        "bytes": 624982,
+        "fields": 44,
+        "rows": 2790
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "site",
+            "type": "string",
+            "format": "default",
+            "title": "Site Name",
+            "rdfType": "http://schema.org/name",
+            "description": "Rothamsted"
+          },
+          {
+            "name": "plot_id",
+            "type": "string",
+            "format": "default",
+            "title": "Plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Fully qualified plot identifier"
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Whole plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "The original scheme plot number. In 1903 or 1920 most whole plots (1-17) were split in half with the southern half receiving lime (L) and the northern half unlimed (U). Three plots (18, 19, 20) were split in 1920 three-ways on their East-West axis (high lime HL, low lime LL and unlimed U). Refer to the reference for plan of experiment."
+          },
+          {
+            "name": "split_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub sub-plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000449",
+            "description": "The sub-sub-plot number; original plots that had been subsequently split in two  (4, 5, 11) or three (18, 19, 20)"
+          },
+          {
+            "name": "sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub-plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "In 1903 most whole plots had been split in half to make two sub-plots, with the southern half receiving lime (L) and the other no lime (U); plots 14, 15 and 17 were split in 1920; plots 5-1, 5-2, 6 and 12 were not included in the scheme"
+          },
+          {
+            "name": "year_of_split",
+            "type": "year",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Year of split for limed vs unlimed plots",
+            "rdfType": "https://schema.org/Date",
+            "description": "Plots were either split to test liming in 1903 (1-9, 11-1, 11-2, 13, 16) or 1920 (14, 15, 17, 18-20) or not at all (5-1, 5-2, 6 and 12)"
+          },
+          {
+            "name": "subsequent_plots_1",
+            "type": "string",
+            "format": "default",
+            "title": "Subsequent plot name 1",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000449",
+            "description": "Subsequent plot name after first splitting; relevant to continuing dataset 1965-2018, see reference"
+          },
+          {
+            "name": "year_of_split_1",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Year of first splitting of plot",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year plot was first split, relevant to continuing dataset 1965-2018, see reference"
+          },
+          {
+            "name": "subsequent_plots_2",
+            "type": "string",
+            "format": "default",
+            "title": "Subsequent plot name 2",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000449",
+            "description": "Subsequent plot name after second splitting; relevant to continuing dataset 1965-2018, see reference"
+          },
+          {
+            "name": "year_of_split_2",
+            "type": "year",
+            "format": "default",
+            "title": "Year of second splitting of plot",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year of second split to plot, relevant to continuing dataset 1965-2018, see reference"
+          },
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "The year of cut; range 1903-1964"
+          },
+          {
+            "name": "treatments",
+            "type": "integer",
+            "format": "default",
+            "title": "fertilizer treatment combination",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000264",
+            "description": "Full fertiliser treatment combination for plot"
+          },
+          {
+            "name": "n_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "N treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007102",
+            "description": "Nitrogen fertilizer treatment"
+          },
+          {
+            "name": "n_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of  fertilizer N applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Nitrogen fertilizer amount"
+          },
+          {
+            "name": "p_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "P treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007397",
+            "description": "Phosphorous fertilizer treatment"
+          },
+          {
+            "name": "p_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fertilizer P applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Phosphorous fertilizer amount"
+          },
+          {
+            "name": "k_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "K treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007293",
+            "description": "Potassium fertilizer treatment"
+          },
+          {
+            "name": "k_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fertilizer K applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Potassium fertilizer amount"
+          },
+          {
+            "name": "mg_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Mg treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007288",
+            "description": "Magnesium fertilizer treatment"
+          },
+          {
+            "name": "mg_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fertilizer Mg applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Magnesium fertilizer amount"
+          },
+          {
+            "name": "na_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Na treatment",
+            "description": "Sodium fertilizer treatment"
+          },
+          {
+            "name": "na_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of  fertilizer Na applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Sodium fertilizer amount"
+          },
+          {
+            "name": "si_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Si treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007235",
+            "description": "Silicon fertilizer treatment"
+          },
+          {
+            "name": "si_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of  fertilizer Si applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Silicon fertilizer amount"
+          },
+          {
+            "name": "liming_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Lime treatment",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_200",
+            "description": "Whether lime applied or not"
+          },
+          {
+            "name": "liming_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount of lime applied in that harvest year",
+            "rdfType": "https://schema.org/Date",
+            "description": "The amount of lime applied, as ground/slaked lime.  The years and amounts applied per application are included in the dataset and in related lime treatments publication, see reference"
+          },
+          {
+            "name": "fym_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "FYM treatment",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_2810",
+            "description": "Farm yard manure fertilizer treatment"
+          },
+          {
+            "name": "fym_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of FYM applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Farm yard manure fertilizer amount"
+          },
+          {
+            "name": "fm_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Fish meal treatment",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_2925",
+            "description": "Fish meal fertilizer treatment; applied until 1999"
+          },
+          {
+            "name": "fm_n_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fishmeal applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Fish meal fertilizer nitrogen amount"
+          },
+          {
+            "name": "start_cut_1",
+            "type": "date",
+            "format": "default",
+            "title": "First cut harvest date start",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_29464",
+            "description": "Start date of first cut harvest"
+          },
+          {
+            "name": "end_cut_1",
+            "type": "date",
+            "format": "default",
+            "title": "First cut harvest date end",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_29464",
+            "description": "End date of first cut harvest"
+          },
+          {
+            "name": "start_cart_1",
+            "type": "date",
+            "format": "default",
+            "title": "First cut carting date start",
+            "description": "Start date of first cut produce removal from field; not 1960-1964 as new harvest method introduced, see reference"
+          },
+          {
+            "name": "end_cart_1",
+            "type": "date",
+            "format": "default",
+            "title": "First cut carting date end",
+            "description": "End date of first cut produce removal from field; not 1960-1964 as new harvest method introduced, see reference"
+          },
+          {
+            "name": "harvest_area_cut_1",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Area harvested",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_330588",
+            "description": "Area of plot harvested"
+          },
+          {
+            "name": "yield_dry_matter_cut_1",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "First cut  100% dry matter yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Yield at 100% DM dry matter for first cut; 1903-1959 whole plot harvested for hay; 1960-1964 yields estimated from strips using forage harvester, 'yield_dry_matter_cut_1_forage_harvester' data adjusted using a conversion factor [Corrected yield =0.2743 x (forage yield ^ 1.662)], see references"
+          },
+          {
+            "name": "yield_dry_matter_cut_1_forage_harvester",
+            "type": "number",
+            "format": "default",
+            "title": "First cut forage harvester 100% dry matter yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Yield of strip cut by forage harvester at 100% dry matter, 1960-1964, weighed immediately in the field, is used for yield value in 'yield_dry_matter_cut_1'. The remainder of the plot is mown and made into hay in the usual way, continuing earlier management and ensuring the return of seed. See references"
+          },
+          {
+            "name": "start_cut_2",
+            "type": "date",
+            "format": "default",
+            "title": "Second cut harvest date start",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_29464",
+            "description": "Start date of second cut harvest"
+          },
+          {
+            "name": "end_cut_2",
+            "type": "date",
+            "format": "default",
+            "title": "Second cut harvest date end",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_29464",
+            "description": "End date of second cut harvest"
+          },
+          {
+            "name": "start_cart_cut_2",
+            "type": "date",
+            "format": "default",
+            "title": "Second cut carting date start",
+            "description": "Start date of second cut produce removal from field"
+          },
+          {
+            "name": "end_cart_cut_2",
+            "type": "date",
+            "format": "default",
+            "title": "Second cut carting date end",
+            "description": "End date of second cut produce removal from field"
+          },
+          {
+            "name": "harvest_area_cut_2",
+            "type": "number",
+            "format": "default",
+            "title": "Area harvested",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_330588",
+            "description": "Area of plot harvested"
+          },
+          {
+            "name": "yield_dry_matter_cut_2",
+            "type": "number",
+            "format": "default",
+            "title": "Second cut forage 100% dry matter yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Yield at 100% DM dry matter for second cut"
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note",
+            "description": "Whether notes are applied or not"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "n_factor_level",
+            "reference": {
+              "resource": "n_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "p_factor_level",
+            "reference": {
+              "resource": "p_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "k_factor_level",
+            "reference": {
+              "resource": "k_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "mg_factor_level",
+            "reference": {
+              "resource": "mg_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "na_factor_level",
+            "reference": {
+              "resource": "na_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "si_factor_level",
+            "reference": {
+              "resource": "si_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "liming_factor_level",
+            "reference": {
+              "resource": "liming_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "fym_factor_level",
+            "reference": {
+              "resource": "fym_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "fm_factor_level",
+            "reference": {
+              "resource": "fm_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop yield data",
+      "description": "Data table containing crop yield data for all plots and all treatments, 1903-1964. Includes details of all lime and fertilizer treatments applied. In 1960 there was a change in the harvest method and so data 1960-1964 is converted using a conversion factor (Bowley et al. 2017, Supplementary Materials)  to make it comparable to pre-1960 data"
+    },
+    {
+      "path": "fm_factor_data.csv",
+      "name": "fm_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "527a73704391036865c86f35aad1b9e4",
+        "bytes": 844,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied; applied until 1999, then replaced by poultry manure (PM)"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "FM treatment factor level descriptions",
+      "description": "FM treatments applied 1903-1964; this describes the fish meal treatment factors."
+    },
+    {
+      "path": "fym_factor_data.csv",
+      "name": "fym_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "9a58a0c4bed244c0aa4422accd4e7d57",
+        "bytes": 813,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "FYM treatment factor level descriptions",
+      "description": "FYM treatments applied 1903-1964; this describes the farm yard manure treatment factors."
+    },
+    {
+      "path": "k_factor_data.csv",
+      "name": "k_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "03a81c344ccb23f3043a0efcce2f9aac",
+        "bytes": 803,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "K treatment factor level descriptions",
+      "description": "K treatments applied 1903-1964; this describes the potassium treatment factors."
+    },
+    {
+      "path": "liming_factor_data.csv",
+      "name": "liming_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "b03fb74a82aebc445b1337196a67bda9",
+        "bytes": 2338,
+        "fields": 10,
+        "rows": 8
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Liming treatment factor level descriptions",
+      "description": "Describes the different liming treatment factors, showing the total amounts applied to L, limed, sub-plots"
+    },
+    {
+      "path": "mg_factor_data.csv",
+      "name": "mg_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "1a51aa98859d31e05a86b99bb677aadc",
+        "bytes": 561,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Mg treatment factor level descriptions",
+      "description": "Mg treatments applied 1903-1964; this describes the magnesium treatment factors."
+    },
+    {
+      "path": "n_factor_data.csv",
+      "name": "n_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "b3de2b8c47cc34e283ab3bef1981093c",
+        "bytes": 1554,
+        "fields": 10,
+        "rows": 7
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied; as either ammonium sulphate or sodium nitrate - N2 and N*2 last applied 1989"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "N treatment factor level descriptions",
+      "description": "N treatments applied 1903-1964; this describes the nitrogen treatment factors."
+    },
+    {
+      "path": "na_factor_data.csv",
+      "name": "na_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "f342eecf85743433d87ce58d519d753a",
+        "bytes": 547,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Na treatment factor level descriptions",
+      "description": "Na treatments applied 1903-1964; this describes the sodium treatment factors."
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "ef8edfb7476a8057e9f93bbd048fef82",
+        "bytes": 1792,
+        "fields": 2,
+        "rows": 9
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the crop_data_table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the crop_data table"
+    },
+    {
+      "path": "p_factor_data.csv",
+      "name": "p_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "c63a7bbcf07b583499a0517aebe4c011",
+        "bytes": 788,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year; 17kg since 2017, previously 35kg"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "P treatment factor level descriptions",
+      "description": "P treatments applied 1903-1964; this describes the phosphorous treatment factors."
+    },
+    {
+      "path": "si_factor_data.csv",
+      "name": "si_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "dd8355d12b8802fb983cf10493fa5df1",
+        "bytes": 536,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Si treatment factor level descriptions",
+      "description": "Si treatments applied 1903-1964; this describes the silicon treatment factors."
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "10.23637/rpg5-yields1903-1964-01 ",
+  "name": "park-grass-hay-yields-1903-1964",
+  "title": "Park Grass Hay Yields 1903-1964",
+  "version": "1.0.0",
+  "keywords": [
+    "crop yield",
+    "farmyard manure",
+    "fertilizer",
+    "flora",
+    "hay",
+    "liming",
+    "long term experiments",
+    "nitrogen fertilizers",
+    "Park grass long-term experiment",
+    "permanent grassland",
+    "Rothamsted Research",
+    "soil pH"
+  ],
+  "description": "### Abstract\nThis dataset contains the yields of hay (t/ha), for both the 1st and 2nd cuts, harvested from Park Grass Hay Experiment since 1903-1964. Details of the fertilizer, lime treatments and harvest dates are also included. Originally one plot per treatment, in 1903, most plots were split into two to test the effects of liming, as acidity had built up with fertilizer use, with one half limed with chalk (L) and the other half left un-limed (U). In 1920 the remaining plots (14, 15 and 17) were split in half also, to join the liming scheme. Three other plots (18, 19 and 20) were split to three to receive light lime (LL), heavy lime (HL) and un-limed (U). Yields are provided for all fertiliser treatment plots and sub-plots. Yields are expressed as t/ha at 100% dry matter. Variations in yield reflect the various fertilizer treatments and liming regimes, as well as the local weather and atmospheric inputs. This data set is followed by that for 1965-2018 and so includes plot numbers (“subsequent plots”) from that later design-period to provide continuity between datasets.\n### Methods\nThis experiment tests the effects of inorganic fertilizers, organic fertilizers and soil pH (which varies on sub-plots as a result of liming) on yields of hay. See Second Design Period 1903-1964 for detail. Until 1959, the yields were estimated by cutting and weighing the whole sub-plot produce. Since 1960, yields were estimated from strips cut from the centre of each plot with a forage harvester (in the dataset the forage harvester weight is converted using an equation from Bowley et. al – both values are provided). After the first cut in mid-June the remainder of each plot is mown and made into hay, continuing earlier management and ensuring return of seed. For the second cut, the whole of each plot is cut with a forage harvester.\n### Technical Info\nHay yields have been recorded every year since the Park Grass experiment began, with the first harvest in 1856. Dried samples have also been kept since 1856 and these are preserved in the Rothamsted Sample Archive.\n### Other\nPark Grass was initiated to investigate the ways of improving the yield of hay by the application of inorganic fertilizers and organic manure. With time, the soil became more acidic and in 1903 plots had been halved and the effects of lime tested. From 1965 a new liming regime was initiated with four sub-plots, three receiving lime to maintain soil pH (0-23cm depth) at pH 7, 6, and 5 on sub-plots a, b and c. Sub-plot d does not receive any lime. These later yields are available in the dataset ‘Park Grass Hay Yields, Fertilizer and Lime Treatments 1965-2018’.\r\nThe change in harvest method in 1960 means recorded yields of dry matter are larger than previously as fewer losses occur. The previous harvest method estimated yield by weighing the produce from the whole field. See reference by Bowley et al (2017).\n### Provenance\nIndividual plot yields are derived from the PGHAYEQUIV dataset in the e-RA database and were checked with the published yields in the annual Rothamsted Yield Books.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate. Once the data were entered into e-RA, they were independently back-checked against the original data sheets.\n",
+  "contributors": [
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Chris Hall",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+crop_name,latin_name,crop_code,crop_name_rdftype,description,management,years
+italian ryegrass,lolium multiflorium,*,http://aims.fao.org/aos/agrovoc/c_4424,annual  or perennial grass,Used in the mixture sown for hay and grazed leys,1940-1948
+perennial ryegrass,lolium perenne,*,http://aims.fao.org/aos/agrovoc/c_4425,perennial grass,Used in the mixture sown for hay and cut and grazed leys,1938-1976
+cocksfoot,dactylis glomerata,*,http://aims.fao.org/aos/agrovoc/c_2101,perennial grass,Used in the mixture sown for cut and grazed leys,1938-1975
+timothy,phleum pratense,*,http://aims.fao.org/aos/agrovoc/c_5786,perennial grass,Used in the mixture sown for cut grass and grass clover leys,1976-2020
+meadow fescue,festuca pratensis,*,http://aims.fao.org/aos/agrovoc/c_2871,perennial grass,Used in the mixture sown for cut grass and grass clover leys,1976-2020
+red clover,trifolium pratense,CL,http://aims.fao.org/aos/agrovoc/c_7917,perennial forage legume,"Three-year forage legume ley (CL1, CL2, CL3), sown in the first year, cut each year. Replaced sainfoin from 1972. Also in mixture for hay and 3 year leys with perennial grasses. ",1938-1975
+white clover,trifolium repens,*,http://aims.fao.org/aos/agrovoc/c_7918,perennial forage legume,In mixture for grazed and cut 3 year leys with perennial grasses.,1938-2020
+alsike clover,Trifolium hybridum,*,http://aims.fao.org/aos/agrovoc/c_7914 ,perennial forage legume,In mixture with perennial grasses for hay and 3-year leys.,1949-1976
+carrots,daucus carota,C,http://aims.fao.org/aos/agrovoc/c_9640,annual vegetable root crop ,From 1956 carrots replaced sugar beet as the third treatment crop. The tops were removed at harvest. Carrots failed in 1957 and were replaced by turnips. ,1956-1971
+fallow,*,F,http://aims.fao.org/aos/agrovoc/c_34007,"no crop grown, weeds removed","A treatment in the AF arable rotation, 1973-2002. ",1958-1998
+forage maize,zea mays,M,http://aims.fao.org/aos/agrovoc/c_12332,annual forage crop ,"Grown for whole crop forage, a treatment crop in the arable rotations",1999-2009
+kale,brassica oleracea ,K,http://aims.fao.org/aos/agrovoc/c_4070,annual fodder crop,Grown as a forage crop for cattle. A treatment crop in the arable rotations,1939-1944
+lucerne,medicago sativa,Lu,http://aims.fao.org/aos/agrovoc/c_4693,perennial forage legume,"Three-year ley (Lu1, Lu2, Lu3), sown in the spring of the first year. Cut each year for hay. Replaced by sainfoin after 1963. ",1938-1964
+potatoes,solanum tuberosum,P,http://aims.fao.org/aos/agrovoc/c_13551,annual vegetable root crop ,"Sown in the spring, harvested in the autumn. ",1938-1975
+sainfoin,onobrychis viciifolia,S,http://aims.fao.org/aos/agrovoc/c_5357 ,perennial forage legume,"Three-year ley (S1, S2, S3), sown in the first year, cut each year for hay. Replaced lucerne from 1964. In 1971 the 3rd year sainfoin failed and the plots were fallowed. Replaced by red clover (CL) in 1971. ",1964-1970
+spring barley,hordeum vulgare,B,http://aims.fao.org/aos/agrovoc/c_823,"annual cereal, sown in the spring","Sown in the spring, harvested in the summer. Treatment crop in some arable rotations and test crop in all rotations. ",1938-1998
+spring beans,vicia faba,BE*,http://aims.fao.org/aos/agrovoc/c_8220,"annual grain legume, sown in the spring","Sown in the spring, harvested in the summer. 2nd or 3rd treatment crop in some arable rotations",1981-2017
+winter beans,vicia faba,BE,http://aims.fao.org/aos/agrovoc/c_8220,"annual grain legume, sown in the spring","Sown in the winter, harvested in the summer. 2nd or 3rd treatment crop in some arable rotations",1986-2020
+spring oats,avena sativa,O*,http://aims.fao.org/aos/agrovoc/c_5287,"annual cereal, sown in the spring","Sown in the spring, harvested in the summer. 2nd or 3rd treatment crop in some arable rotations",1976-2013
+winter oats,avena sativa,O,http://aims.fao.org/aos/agrovoc/c_5287,"annual cereal, sown in the winter","Sown in the winter, harvested the following summer. 2nd and 3rd treatment crop in some arable rotations",2007-2020
+spring rye,secale cereale,R*,http://aims.fao.org/aos/agrovoc/c_14010,"annual cereal, sown in the spring","Spring rye replaced winter rye in 2013, due to the very wet autumn and spring weather",2013
+winter rye,secale cereale,R,http://aims.fao.org/aos/agrovoc/c_14010,"annual cereal, sown in the winter","Sown in the winter, harvested the following summer. Treatment crop in some arable rotation and 2nd test crop in all rotations. ",1949-2020
+spring wheat,triticum aestivum,W*,http://aims.fao.org/aos/agrovoc/c_8412,"annual cereal, sown in the spring",Spring wheat replaced winter rye in 1967 and winter wheat in 1948 and 2013,"1948, 1967, 2013"
+winter wheat,triticum aestivum,W,http://aims.fao.org/aos/agrovoc/c_8412,"annual cereal, sown in the winter","Sown in the winter, harvested the following summer. 2nd treatment crop in some arable rotations, and test crop in all rotations. ",1939-2020
+sugar beet,beta vulgaris,SBe,http://aims.fao.org/aos/agrovoc/c_7499,annual vegetable root crop ,From 1956 sugar beet replaced potatoes as the first test crop. The tops were removed at harvest,1945-1967
+turnips,brassica rapa,T,http://aims.fao.org/aos/agrovoc/c_8019,annual vegetable root crop ,Carrots failed in 1957 and turnips were sown instead,1957

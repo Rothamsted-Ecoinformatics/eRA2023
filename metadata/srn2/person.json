@@ -1,0 +1,69 @@
+{
+    "contributors": [
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Andrew Gregory",
+            "givenName": "Andrew",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": null,
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "data manager",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Nathan Morris",
+            "givenName": "Nathan",
+            "familyName": "Morris",
+            "sameAs": null,
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "David Clarke",
+            "givenName": "David",
+            "familyName": "Clarke",
+            "sameAs": "0000-0002-3905-5725",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ]
+}

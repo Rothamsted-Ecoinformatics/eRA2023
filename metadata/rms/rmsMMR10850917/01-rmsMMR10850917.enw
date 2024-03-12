@@ -1,0 +1,16 @@
+%0 Dataset
+%T Mean monthly rainfall at Rothamsted October 1985-September 2017 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2020 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G en 
+%U https://doi.org/10.23637/rmsMMRain10850917 
+%R 10.23637/rmsMMRain10850917 
+%A Perryman, Sarah 
+%A Scott, Tony 
+%A Hall, Chris 
+%K Rothamsted Research; precipitation; climate change; weather; meteorological station; weather data; climate; rain; 
+%X This dataset represents the mean monthly rainfall recorded at Rothamsted from October 1985 - September 2017 and is derived from continuous daily records measured at the site. 

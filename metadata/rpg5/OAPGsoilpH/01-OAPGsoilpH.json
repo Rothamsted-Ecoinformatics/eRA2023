@@ -1,0 +1,496 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/KeyRefOAPGsoilpH",
+    "name": "Park Grass Soil pH 1856-2011",
+    "shortName": "OAPGsoilpH",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rpg5/01-OAPGsoilpH",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "The pH of the soil (at depth 0-23cm) on Park Grass was approximately 5.5 (in water) when the experiment began. The effects of small amounts of liming with chalk were tested in the 1880s. A regular test of liming began in 1903 with chalk applied every 4 years to the southern half of most plots. From 1965, the plots were further divided: two quarters of the previously limed half receive amounts of chalk calculated to maintain pH at 7 (sub plot a) and 6 (sub plot b); one part of the formerly un-limed half receives chalk, where necessary, to maintain pH 5 (sub plot c), and the other quarter (sub plot d) remains un-limed.\r\n\r\nExcept where sodium nitrate (orange line N*) has been applied or where liming with chalk has maintained the pH (dashed lines), soil has acidified slowly through the impact of acid deposition from the atmosphere and rapidly where ammonium fertiliser (blue line N) has been applied. Soil pH (0-23cm) is c 3.5 on the plots given most ammonium sulphate and 5.0-5.3 on the un-limed, unfertilized plots. Sub plot c of most plots is nearest to the original soil pH. Soil pH has slowly recovered by about 0.5 pH units on plot 9/1d (data not shown), more than 25 years after ammonium sulphate was last applied."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "In 1965 most plots were divided into four sub-plots. Three subplots receive different amounts of lime as required to maintain pH at 7, 6 and 5 (sub-plots a, b and c, respectively). Sub-plot d receives no lime and pH of these ranges from 3.5 to 5.7, depending on the fertilizer treatment.\r\n\r\npH was first measured in 1876 by glass electrode method (1:2.5 soil:water; in the topsoil (0-23cm) and subsoil (23-46cm)), then  by Crowther in 1923 using the hydrogen electrode method and a 1:5 soil:water suspension. The next measurements were made on samples from 1959, using a glass electrode and a 1:2.5 soil:water suspension (Warren and Johnston, 1964). The different soil:water ratios had little effect on measured pH (see Warren and Johnston 1963, p 244-245). Further samples were taken in 1976 (0-23cm only) and 1984 and the pH of these soils, together with stored soils from 1876, was determined by the same method as used in 1959."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": "Summary data of the soil pH in water, in relation to six treatments  on Park Grass: No fertiliser control; nitrogen fertiliser as sodium nitrate; nitrogen as ammonium sulphate (each with and without chalk)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Fertiliser treatments since 1856;\r\nNo fertiliser - Plot 3: No fertilizer or manure\r\nN/*2PKNaMg - Plot 14: 96kgN as sodium nitrate plus P, K, Na and Mg\r\nN2PKNaMg - Plot 9: 96kgN as ammonium sulphate plus P, K, Na and Mg\r\n\r\nChalk: Ground chalk (CaCO<sub>3/<sub>) applied approximately every four years 1903 - 1964 then as required to maintain pH at around 6.\r\n\r\nSoil details:\r\nFAO Classification: Chromic Luvisol (or Alisol); Silty clay loam over clay-with-flints overlying chalk."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "Johnston et al (1986) predict a pH of 5.6 \u2013 5.8 in 1856. As the site had been grassland many years previously it had not received chalk applications. Some areas have a acidic surface 'mat' due to biological activity being hindered."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Older historical information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research, and the Annual Rothamsted Yield Books. Data since 1991 is souced from current Rothamsted Analytical Chemistry Unit. All raw data is stored in the e-RA database DET."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "The data in e-RA are subject to rigorous quality control procedures from the point of collection in the field to entry into the database. All measurements are strictly monitored using certified standards alongside.\r\n\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\r\n\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2016,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1.0",
+    "keywords": [
+        "fertilizer",
+        "soil pH",
+        "long term experiments",
+        "Park grass long-term experiment",
+        "permanent grassland"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Storkey",
+            "givenName": "Jonathan",
+            "familyName": "Storkey",
+            "sameAs": "https://orcid.org/0000-0003-1094-8914",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Melanie Brookman",
+            "givenName": "Melanie",
+            "familyName": "Brookman",
+            "sameAs": "https://orcid.org/0000-0001-6085-9288",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Daniel Hampshire",
+            "givenName": "Daniel",
+            "familyName": "Hampshire",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Sadia Beg",
+            "givenName": "Sadia",
+            "familyName": "Beg",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Anne Duffy",
+            "givenName": "Anne",
+            "familyName": "Duffy",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ursula Donnellan",
+            "givenName": "Ursula",
+            "familyName": "Donnellan",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xls",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37262,
+            "latitude": 51.80398
+        },
+        "name": "Park Grass"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.1038/nature16444",
+            "relatedIdentifierType": "DOI",
+            "name": "Storkey et al. (2015) Grassland Biodiversity Bounces Back from Long-term Nitrogen Addition",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1007/s00248-014-0530-2",
+            "relatedIdentifierType": "DOI",
+            "name": "Soil pH Determines Microbial Diversity and Composition in the Park Grass Experiment.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1046/j.1365-2389.1999.00253.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Blake et al. (2001) Changes in soil chemistry accompanying acidification . . .",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1016/S0146-6380(98)00188-0",
+            "relatedIdentifierType": "DOI",
+            "name": "Organic Geochemical Studies of Soils from the Rothamsted Classical Experiments - IV.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1365-2389.1977.tb02234.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Barera at al. (1977) Effect of Soil pH and Organic Matter on Labile Aluminium . . . ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "https://repository.rothamsted.ac.uk/item/8vw2w/liming-and-interaction-of-soil-ph-with-responses-to-p-k-and-mg-fertilizers",
+            "relatedIdentifierType": "PURL",
+            "name": "Liming and Interaction of Soil pH with Responses to P, K and Mg Fertilisers",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        },
+        {
+            "relatedIdentifier": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4&feature=player_embedded",
+            "relatedIdentifierType": "URL",
+            "name": "The Park Grass Experiment - video",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGspecies",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Changes in Mean Species Numbers 1864-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1965-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and treatments since 1965, updated 2018",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1903-1964-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and fertilizer treatments 1903-1964",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rpg5-plan1856-1902-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass experiment plan and treatments 1856-1902",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Soil pH 1856-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOAPGsoilpH",
+            "relatedIdentifierType": "DOI",
+            "name": "Park Grass Soil pH 1856-2011",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "Describes",
+            "rt_id": 8,
+            "relationTypeValue": "describes"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Park Grass Soil pH graph",
+            "URL": "Park_Grass_pH_2016.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "92 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Park Grass Soil pH data and treatments",
+            "URL": "Park_Grass_pH_2016_data.xls",
+            "encodingFormat": "xls",
+            "fileSize": "48 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Park Grass",
+            "URL": "Park_Grass_Plan_2019.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "72 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Park Grass Soil pH graph",
+            "URL": "Park_Grass_pH_2016.png",
+            "encodingFormat": "png",
+            "fileSize": "35 kilobytes"
+        }
+    ],
+    "grade": 2,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "OA"
+}

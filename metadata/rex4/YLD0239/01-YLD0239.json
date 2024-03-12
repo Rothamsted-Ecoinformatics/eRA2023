@@ -1,0 +1,425 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/REX4-YLD0239-01",
+    "name": "Exhaustion Land Experiment annual crop yields 1902-1939",
+    "shortName": "YLD0239",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rex4/01-YLD0239",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This dataset contains the annual yield data for Phase II of all plots of the Exhaustion Land Experiment 1902-1922 and 1935.  No yields were recorded 1923-1939, except in 1935. Also sowing dates, varieties and hectolitre weights."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The experiment was established in 1856, and divided into 10 plots (1-10) in 1876, given various fertilizer and manure treatments each year until 1901. No fertilizer or manure was applied 1902-1939; this phase of the experiment tests the residual effects of the fertilizers and manures applied 1856-1901 (Phase I). Cereals, mainly spring barley, were grown every year, except 1905-1911 when continuous red clover was grown on some plots."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Crop yields were recorded each year 1902-1922 and 1935, except 1920 when the whole experiment was bare fallowed to control weeds. Cereal grain and straw yields are at 85% dry matter. Cereal straw yields do not include the stubble. Grain hectolitre weights (kg grain per 100 litres) are calculated from bushel weights, assuming 1 bushel = 36.369 litres. Plots 5-10 grew continuous red clover from 1905-1911, yield is total forage dry matter yield for two cuts (one cut only in 1909)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Annual yields were transcribed from original data sheets held in the Rothamsted paper archive and from the Yields of the Field Experiments and Rothamsted Annual Reports. Details of treatments were taken from the Rothamsted Annual Reports and other publications. The frictionless dataset of combined yields and treatment data was compiled by June Kimori and checked by Daniel Philcox and Margaret Glendining, July 2022."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure avoided visual checking of data, which can be very inaccurate."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2022,
+    "dateCreated": "2022-10-04",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1.0",
+    "keywords": [
+        "Exhaustion land long-term experiment",
+        "residual effects",
+        "Rothamsted Research",
+        "long term experiments",
+        "crop yield",
+        "barley",
+        "red clover"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "June Kimori",
+            "givenName": "June",
+            "familyName": "Kimori",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Reading",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Reading",
+                "address": ", Whiteknights, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Daniel Philcox",
+            "givenName": "Daniel",
+            "familyName": "Philcox",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Reading",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Reading",
+                "address": ", Whiteknights, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Daniel Philcox",
+            "givenName": "Daniel",
+            "familyName": "Philcox",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Reading",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Reading",
+                "address": ", Whiteknights, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "June Kimori",
+            "givenName": "June",
+            "familyName": "Kimori",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Reading",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Reading",
+                "address": ", Whiteknights, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Simon Willcock",
+            "givenName": "Simon",
+            "familyName": "Willcock",
+            "sameAs": "https://orcid.org/0000-0001-9534-9114",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37608,
+            "latitude": 51.81206
+        },
+        "name": "Hoosfield"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/EX4-sup-003-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Exhaustion Land Experiment plans and fertilizer treatments, Phase I & II, 1856-1939",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-92",
+            "relatedIdentifierType": "DOI",
+            "name": "Warren and Johnston (1960). The Exhaustion Land Site: Account of the experiment pp 230-239",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34447",
+            "relatedIdentifierType": "DOI",
+            "name": "Johnston and Poulton (1977) Yields of the Exhaustion Land Experiment and changes in the soils",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-192",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted (1970) Details of the Classical and Long-term Experiments up to 1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/REX4-YLD5601-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Exhaustion Land Experiment annual crop yields 1856-1901",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/REX4-YLD4075-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Exhaustion Land Experiment annual crop yields 1940-1975",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Exhaustion Land Experiment annual crop yields 1902-1939",
+            "URL": "01-EX4-YLD0239.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "59 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Exhaustion Land Experiment plan 1876-1939",
+            "URL": "PhaseII.png",
+            "encodingFormat": "png",
+            "fileSize": "40 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

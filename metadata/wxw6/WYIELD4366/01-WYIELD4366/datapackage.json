@@ -1,0 +1,517 @@
+{
+  "resources": [
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "3ea5f1bcaa3fedc37a0589ae40686e0a",
+        "bytes": 437,
+        "fields": 3,
+        "rows": 6
+      },
+      "encoding": "iso8859-1",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "Crop name",
+            "rdfType": "http://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "Latin name",
+            "rdfType": "http://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdftype",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop types",
+      "description": "List of crops grown with Latin names and AGROVOC concepts."
+    },
+    {
+      "path": "crop_yield_data.csv",
+      "name": "crop_yield_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "a618519eb08a8ef6790b3f4ad719605d",
+        "bytes": 46217,
+        "fields": 17,
+        "rows": 445
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested."
+          },
+          {
+            "name": "crop",
+            "type": "string",
+            "format": "default",
+            "title": "Crop in this harvest year",
+            "rdfType": "https://schema.org/name",
+            "description": "Crop grown in this harvest year. Fallow (no crop) yields shown as blank cells"
+          },
+          {
+            "name": "previous_crop",
+            "type": "string",
+            "format": "default",
+            "title": "Crop in previous year",
+            "rdfType": "https://schema.org/name",
+            "description": "Crop grown in previous harvest year."
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Original plots established in 1877"
+          },
+          {
+            "name": "sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub-plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "Plots 10 and 11 divided into a and b sub-plots in 1882, given different fertilizer and manure treatments 1882-1926."
+          },
+          {
+            "name": "sub_sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub sub-plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000449",
+            "description": "Plots 10a, 10b, 11a and 11b divided into various sub-plots. Plot 11b divided into three sections (1, 2 and 3) from 1943-1958 and given different N rates. In 1961, 1962 and 1964 plots 10a, 10b divided into 'x' and 'y' sub-plots and plots 11a and 11b divided into 'y' and 'z' sub-plots to test barley v wheat"
+          },
+          {
+            "name": "old_plot_notation",
+            "type": "string",
+            "format": "default",
+            "title": "Original plot notation",
+            "rdfType": "https://schema.org/name",
+            "description": "Original plot name from Russell and Voelcker (1936) data tables. This was updated to current plot names to make sub-plots clearer."
+          },
+          {
+            "name": "fertilizer_code",
+            "type": "string",
+            "format": "default",
+            "title": "fertilizer code",
+            "rdfType": "https://schema.org/name",
+            "description": "Code describing the fertilizer applied in that harvest year"
+          },
+          {
+            "name": "fertilizer_n_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Total inorganic nitrogen fertilizer applied in this harvest year. Fertilizer N not applied to fallow plots or in fallow years. No other fertilizer or manure applied in this period."
+          },
+          {
+            "name": "fertilizer_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date fertilizer N applied",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the nitrogen fertilizer was applied"
+          },
+          {
+            "name": "sow_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Sowing date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was sown: winter wheat sown in the autumn of the year before the crop was harvested, spring crops sown in the spring of the year the crop was harvested",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "harvest_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Harvest date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was harvested",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cultivar",
+            "type": "string",
+            "format": "default",
+            "title": "Cultivar",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Wheat or other crop cultivar (variety) grown in this harvest year",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "plot_area",
+            "type": "number",
+            "format": "default",
+            "title": "Plot area",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_330588",
+            "description": "Plot area. Each full plot was 0.10 hectare, some were then divided into a and b halves (0.05 hectare) and quarters (i and ii) (0.025 hectare)."
+          },
+          {
+            "name": "grain_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Grain yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested wheat grain yield at 85% dry matter. Fallow (no crop) yields shown as blank cell. If a crop was sown but it failed, yield shown as 0.0",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "straw_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Straw yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested wheat straw yield 85% dry matter. This does not include stubble. Fallow (no crop) yields shown as blank cell. If a crop was sown but it failed, yield shown as 0.0",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Whether notes are applied or not. See notes_data for details"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop yield data",
+      "description": "The main data table containing annual grain and straw yield data for all plots and sub-plots  of the Woburn Continuous Wheat experiment, 1943-1966. Wheat was grown each year until 1961 (apart from fallow years), then oats (1962) and spring beans (1964). The whole experiment was fallowed (no crop sown) in 1947, 1948, 1955-1957, 1963, 1965 and 1966. The plots were divided in half in 1959-1961 to compare spring barley and winter wheat. From 1943-1954 the plots were divided into sets of three and three N rates were applied to each set, in cyclic order. Plots 2, 5 and 8 were fallowed and not included in the fertilizer N treatments, as they were so acidic (due to the fertilizer treatments in 1877-1926). No other fertilizer was applied. Lime was applied in 1955 to all plots to bring soil to about pH 6.0. Further lime was applied to selected areas 1956-1959.  In autumn 1962 the whole area was limed to bring pH to about 7. In 1959-1961 the plots were divided to compare barley and wheat. Basal fertilizer N was applied to all plots in 1959-1961 (wheat and barley) and 1962 (oats). With details of N fertilizer applied, and other agronomic information, including sowing date, plot size and cultivars.  No other fertilizer or manure was applied, except to the Microplot experiments made on some plots in 1960-64; this data is not included. See notes for more details. This experiment is a companion to the Woburn Continuous Barley experiment. "
+    },
+    {
+      "path": "n_factor_data.csv",
+      "name": "n_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "cda13932dd07ab0e05eaf6f7b4eb46b2",
+        "bytes": 1335,
+        "fields": 10,
+        "rows": 5
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years_range",
+            "type": "string",
+            "format": "default",
+            "title": "Years range",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C93545",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic nitrogen (N) fertilizer which was applied to this crop as a treatment factor."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the N was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic N fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "N fertilizer treatment factor level descriptions",
+      "description": "Describes the different N (nitrogen) fertilizer  treatment factor levels used"
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "70a3c4d06fdf7b57dc3f71eff67dabea",
+        "bytes": 1386,
+        "fields": 2,
+        "rows": 12
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the crop_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the crop_data table"
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "http://doi.org/10.23637/wxw6-yield4366-01",
+  "name": "woburn-continuous-wheat-experiment-yields-1943-1966",
+  "title": "Woburn Continuous Wheat Experiment yields 1943-1966",
+  "version": "1.0.0",
+  "keywords": [
+    "long term experiments",
+    "wheat",
+    "Rothamsted Research",
+    "arable farming",
+    "grain yield"
+  ],
+  "description": "### Abstract\nAnnual grain and straw yields for al plots and sub-plots on the Woburn Continuous Wheat Experiment, 1943-1966, with details of N fertilizer applied, and other agronomic information, including sowing date, plot size and cultivars. Winter wheat was grown every year until 1961 (apart from fallow years), then oats (1962) and spring beans (1964). The whole experiment was fallowed (no crop sown) in 1947, 1948, 1955-57, 1963, 1965 and 1966. The experiment is a companion to the Woburn Continuous Barley Experiment.\n### Methods\nThe Woburn Continuous Wheat Experiment started in autumn 1876 with a range of fertilizer and manure treatments applied until 1926. No fertilizer was applied 1927-1940. From 1943-1954 the plots were divided into sets of three and three N rates were applied to each set, in cyclic order. Plots 2, 5 and 8 were fallowed and not included in the fertilizer N treatments, as they were so acidic (due to the fertilizer treatments in 1877-1926). Lime was applied in 1955 to all plots to bring soil to about pH 6.0. Further lime was applied to selected areas 1956-1959.  In autumn 1962 the whole area was limed to bring pH to about 7. In 1959-1961 the plots were divided to compare barley and wheat. Microplot experiments were made on some plots in 1960-64; this data is not included. Basal fertilizer N was applied to all plots in 1959-1961 (barley and wheat) and in 1962 (oats).\n### Technical Info\nGrain and straw yield at 85% dry matter. Straw yield does not include the stubble or all of the chaff. Fallow (no crop) yields shown as a blank cell. The plots were divided into sets of three according to their fertilizer treatment in 1877-1926 for the N fertilizer treatments, 1943-1955:\r\n- **No P or K**  Plots 1, 3, 7 \r\n- **PK**   Plots 4, 6, 9 \r\n- ** FYM** Plot 11b (divided into three sections, 1, 2 and 3)\r\n- ** Various treatments** Plots 10a, 10b and 11a\r\n- **Plots 2, 5 and 8** were not included in this scheme and no yields were taken until 1959. Lime applied to all plots in 1955 to bring all plots to about pH 6.0. \r\n\r\n\r\n-Plots 2, 5 and 8 were not included in this scheme.\n### Provenance\nndividual plot yields were taken from Rothamsted Experimental Station Yield Books, 1943-1966. Agronomic information (sowing dates, cultivar, etc) taken from Annual Reports, Yield Books, plans and descriptions in the Rothamsted Library archives. The frictionless dataset of combined yields and treatment data was compiled by Daniel Philcox and checked by June Kimori and Margaret Glendining, July 2022.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure avoided visual checking of data, which can be very inaccurate.\n",
+  "contributors": [
+    {
+      "title": "Daniel Philcox",
+      "organization": "University of Reading"
+    },
+    {
+      "title": "June Kimori",
+      "organization": "University of Reading"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Simon Willcock",
+      "path": "https://orcid.org/0000-0001-9534-9114",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

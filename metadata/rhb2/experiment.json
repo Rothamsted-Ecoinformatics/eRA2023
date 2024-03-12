@@ -1,0 +1,31 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Hoosfield Barley",
+        "localIdentifier": "R/HB/2",
+        "name": "Hoosfield Barley",
+        "url": null,
+        "description": "Started in 1852, spring barley has been grown continuously on the site since then. The experiment offers interesting contrasts to Broadbalk; because it is spring sown it has only been necessary to fallow it four times to control weeds and it tests not only nitrogen, minerals and FYM but also sodium silicate.",
+        "disambiguatingDescription": "To test the effects of different inorganic fertilizers (supplying the elements N, P, K Mg and sodium silicate) and farmyard manure (FYM) on the yield of spring barley (Hordeum vulgare)"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available online with registration",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": "http://www.era.rothamsted.ac.uk/Hoosfield",
+        "actionableFeedbackPolicy": "To test the effects of different inorganic fertilizers (supplying the elements N, P, K Mg and sodium silicate) and farmyard manure (FYM) on the yield of spring barley (Hordeum vulgare)",
+        "correctionsPolicy": "To test the effects of different inorganic fertilizers (supplying the elements N, P, K Mg and sodium silicate) and farmyard manure (FYM) on the yield of spring barley (Hordeum vulgare)",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1852,
+    "dateEPEnd": null,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

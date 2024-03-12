@@ -1,0 +1,879 @@
+{
+  "resources": [
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "98c0b8072904657c64cd80bcdbee95ad",
+        "bytes": 937,
+        "fields": 4,
+        "rows": 6
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "Crop name",
+            "rdfType": "https://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "Latin name",
+            "rdfType": "https://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the crop type"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "description",
+            "rdfType": "https://schema.org/description",
+            "description": "General description of the crop type"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop types",
+      "description": "List of crops grown with Latin names and AGROVOC concepts."
+    },
+    {
+      "path": "cultivation_factor_data.csv",
+      "name": "cultivation_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "0f3c571de585ccab71eee2fa712eeea4",
+        "bytes": 314,
+        "fields": 7,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Detailed description of the cultivation direction factor level"
+          },
+          {
+            "name": "cultivation_direction_type",
+            "type": "string",
+            "format": "default",
+            "title": "Cultivation direction type",
+            "rdfType": "https://schema.org/name",
+            "description": "General description of cultivation direction: up_and_down or across the slope"
+          },
+          {
+            "name": "factor_level_code",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level code",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The code for the cultivation direction factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/Date",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_code"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Cultivation treatment factor level descriptions",
+      "description": "Describes the different cultivation treatment factor levels used"
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "73ac29bf91d34fd273802103377ba7c4",
+        "bytes": 791,
+        "fields": 2,
+        "rows": 5
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Additional explanatory notes for records in the yield_data_table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the yield data table"
+    },
+    {
+      "path": "tillage_residue_factor_data.csv",
+      "name": "tillage_residue_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "019e86c948d0a7c3ca4d771bac867785",
+        "bytes": 787,
+        "fields": 7,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Detailed description of the tillage factor level"
+          },
+          {
+            "name": "tillage_type",
+            "type": "string",
+            "format": "default",
+            "title": "Tillage type",
+            "rdfType": "https://schema.org/name",
+            "description": "General description of tillage type - minimal or standard"
+          },
+          {
+            "name": "factor_level_code",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level code",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The code for the tillage factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/Date",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_code"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Tillage treatment factor level descriptions",
+      "description": "Describes the different tillage and crop residue management treatment factor levels"
+    },
+    {
+      "path": "yield_and_fert_data.csv",
+      "name": "yield_and_fert_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "3ce65bd31cb2b8d1c10744b5b5b726ff",
+        "bytes": 21290,
+        "fields": 47,
+        "rows": 96
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year crop harvested. It may have been sown the previous autumn, if it is a winter crop."
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Pot number, 1-8"
+          },
+          {
+            "name": "sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub-plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "All plots divided into two sub-plots in 1998 when fodder beet was grown. There are no sub-plots in the other years. Sub-plot 1 = down hill, sub-plot 2 = up hill. Assume these are different sample positions."
+          },
+          {
+            "name": "block",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Block",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000303",
+            "description": "Block number 1 or 2."
+          },
+          {
+            "name": "treatment",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment code",
+            "rdfType": "https://schema.org/name",
+            "description": "Treatment code, T1, T2, T3 or T4"
+          },
+          {
+            "name": "cultivation_direction",
+            "type": "string",
+            "format": "default",
+            "title": "Cultivation treatment",
+            "rdfType": "https://schema.org/name",
+            "description": "Cultivation treatment: Up and down the slope (U) or across the slope (A). See cultivation_factor_data for more information"
+          },
+          {
+            "name": "tillage",
+            "type": "string",
+            "format": "default",
+            "title": "Tillage treatment",
+            "rdfType": "https://schema.org/name",
+            "description": "Tillage treatment: Minimal, with residue incorporation (M) or standard with crop residues removed (S). See tillage_residue_factor_data for more information."
+          },
+          {
+            "name": "residue_management",
+            "type": "string",
+            "format": "default",
+            "title": "Residue management",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000005",
+            "description": "Management of the crop residues after harvest. See tillage_residue_factor_data for more information"
+          },
+          {
+            "name": "plot_area",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "plot area",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000302",
+            "description": "Plot area. All plots are approximately 24 x 36m = 0.0864 hectares or 864m2"
+          },
+          {
+            "name": "crop_type",
+            "type": "string",
+            "format": "default",
+            "title": "Crop type",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_1972",
+            "description": "Name of crop grown in this harvest year. See crop_types_data for more information"
+          },
+          {
+            "name": "cultivar",
+            "type": "string",
+            "format": "default",
+            "title": "Cultivar",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Cultivar or variety of crop grown in this harvest year"
+          },
+          {
+            "name": "N_fert_date_1",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "N fertilizer date 1",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date of first N fertilizer application"
+          },
+          {
+            "name": "N_fert_kg/ha_1",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "N fertilizer amount 1",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of fertilizer N (as kgN) applied in first application"
+          },
+          {
+            "name": "N_fert_type_1",
+            "type": "string",
+            "format": "default",
+            "title": "N fertiizer type 1",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "Type of fertilizer N in first application. Nitram (ammonium nitrate) is 34.5% N. Compound fertilizers show percentage of N:P2O5:K2O"
+          },
+          {
+            "name": "N_fert_date_2",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "N fertilizer date 2",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date of second N fertilizer application (not applied every year)"
+          },
+          {
+            "name": "N_fert_kg/ha_2",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "N fertilizer amount 2",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of fertilizer N (as kgN) applied in second application"
+          },
+          {
+            "name": "N_fert_type_2",
+            "type": "string",
+            "format": "default",
+            "title": "N fertiizer type 2",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "Type of fertilizer N in second application. Nitram (ammonium nitrate) is 34.5% N."
+          },
+          {
+            "name": "P_fert_date_1",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "P fertilizer date 1",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date of first P fertilizer application (not applied every year)"
+          },
+          {
+            "name": "P_fert_kg/ha_1",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "P fertilizer amount 1",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of fertilizer P (as kgP) applied in first application"
+          },
+          {
+            "name": "P_fert_type_1",
+            "type": "string",
+            "format": "default",
+            "title": "P fertiizer type 1",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "Type of fertilizer P in first application. Compound fertilizers show percentage of N:P2O5:K2O"
+          },
+          {
+            "name": "P_fert_date_2",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "P fertilizer date 2",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date of second P fertilizer application (not applied every year)"
+          },
+          {
+            "name": "P_fert_kg/ha_2",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "P fertilizer amount 2",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of fertilizer P (as kgP) applied in second application"
+          },
+          {
+            "name": "P_fert_type_2",
+            "type": "string",
+            "format": "default",
+            "title": "P fertiizer type 2",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "Type of fertilizer P in second application. Compound fertilizers show percentage of N:P2O5:K2O"
+          },
+          {
+            "name": "K_fert_date_1",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "K fertilizer date 1",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date of first K fertilizer application (not applied every year)"
+          },
+          {
+            "name": "K_fert_kg/ha_1",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "K fertilizer amount 1",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of fertilizer K (as kgK) applied in first application"
+          },
+          {
+            "name": "K_fert_type_1",
+            "type": "string",
+            "format": "default",
+            "title": "K fertiizer type 1",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "Type of fertilizer K in first application. Compound fertilizers show percentage of N:P2O5:K2O"
+          },
+          {
+            "name": "K_fert_date_2",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "K fertilizer date 2",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date of second K fertilizer application (not applied every year)"
+          },
+          {
+            "name": "K_fert_kg/ha_2",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "K fertilizer amount 2",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of fertilizer K (as kgK) applied in second application"
+          },
+          {
+            "name": "K_fert_type_2",
+            "type": "string",
+            "format": "default",
+            "title": "K fertiizer type 2",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "Type of fertilizer K in second application. Compound fertilizers show percentage of N:P2O5:K2O"
+          },
+          {
+            "name": "sowing_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Sowing date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Sowing or planting date of this crop"
+          },
+          {
+            "name": "harvest_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Harvest date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_29464",
+            "description": "Harvest date of this crop"
+          },
+          {
+            "name": "grain_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Grain yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Yield of harvested cereal grain at 85% dry matter",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "straw_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Straw yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Yield of harvested cereal straw at 85% dry matter",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "tuber_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Tuber yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Total yield of harvested clean tubers at fresh weight",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "ware_%",
+            "type": "number",
+            "format": "default",
+            "title": "Percentage ware potatoes",
+            "description": "Percentage of harvested potato tubers that are 'ware', ie retained by a 3.81 cm (1.5 inch) riddle, large enough to be sold.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "clean_beet",
+            "type": "number",
+            "format": "default",
+            "title": "clean sugar beet",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Total yield of clean fresh sugar beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "sugar_%",
+            "type": "number",
+            "format": "default",
+            "title": "Percentage sugar",
+            "rdfType": "http://purl.obolibrary.org/obo/CDNO_0200034",
+            "description": "Percentage of sugar in harvested clean beet.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "total_sugar",
+            "type": "number",
+            "format": "default",
+            "title": "Total sugar",
+            "description": "Total sugar yield in harvested clean beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "ACB",
+            "type": "number",
+            "format": "default",
+            "title": "Adjusted clean beet",
+            "description": "Clean beet yield (adjusted tonnage)"
+          },
+          {
+            "name": "KM",
+            "type": "number",
+            "format": "default",
+            "title": "Potassium content of beet",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_6139",
+            "description": "Potassium content of beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "NAM",
+            "type": "number",
+            "format": "default",
+            "title": "Sodium content of beet",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_7145",
+            "description": "Sodium content of beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "AN",
+            "type": "number",
+            "format": "default",
+            "title": "Amino N content of beet",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8768",
+            "description": "Amino Nitrogen content of beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "ANS",
+            "type": "number",
+            "format": "default",
+            "title": "Amino N content of sugar",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8768",
+            "description": "Amino Nitrogen content of sugar",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fodder_beet_fresh_wt",
+            "type": "number",
+            "format": "default",
+            "title": "Fodder beet fresh weight",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Fresh weight yield of harvested fodder beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fodder_beet_dry_wt",
+            "type": "number",
+            "format": "default",
+            "title": "Fodder beet dry weight",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Dry weight yield of harvested fodder beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fodder_beet_%DM",
+            "type": "number",
+            "format": "default",
+            "title": "Fodder beet % dry matter",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_2398",
+            "description": "Percentage dry matter of harvested fodder beet",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note",
+            "description": "Whether notes are applied or not"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "cultivation_direction",
+            "reference": {
+              "resource": "cultivation_factor_data",
+              "fields": "factor_level_code"
+            }
+          },
+          {
+            "fields": "tillage",
+            "reference": {
+              "resource": "tillage_residue_factor_data",
+              "fields": "factor_level_code"
+            }
+          },
+          {
+            "fields": "crop_type",
+            "reference": {
+              "resource": "crop_types_data",
+              "fields": "crop_name"
+            }
+          },
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop yield and fertilizer data",
+      "description": "The main data table containing annual arable crop yield data for each plot. Also potato % ware, sugar beet % sugar and other sugar beet yield components. Also amount, type and date of fertilizer applications. The Woburn Erosion Reference Experiment was situated on a sandy soil at Woburn Experimental Farm on a slope of around five degrees (7-13%), which had been subject to periodic erosion since at least 1950. The eight plots were each separated by a grass bank. The eroded soil and runoff were collected in tanks at the end of each plot after each erosion event. Four plots were cultivated and drilled parallel to the contour (A), and four up and down the slope (U). Four plots received standard cultivation (S)and four minimal tillage (M). All plots grew the same crops each year, in a rotation typical of the sandy soil of Bedfordshire. These included potatoes, winter wheat, sugar beet and winter barley. Applications of fertilizer and pesticide were according to Standard Farm Practice for each crop. There are separate datasets decribing the plot soil and the sediment and water lost in the erosion events. "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi.org/10.23637/wrn20-yield-01",
+  "name": "woburn-erosion-reference-experiment-crop-yields",
+  "title": "Woburn Erosion Reference Experiment crop yields",
+  "version": "1.0.0",
+  "keywords": [
+    "crop yield",
+    "long term experiments",
+    "Rothamsted Research",
+    "soil erosion",
+    "minimum tillage",
+    "tillage erosion"
+  ],
+  "description": "### Abstract\nAnnual arable crop yields for each plot of the Woburn Erosion Reference Experiment, 1988-1998. Also potato % ware, sugar beet % sugar, and other sugar beet yield components. Also annual fertilizer applications. There were eight plots, in a 2x2 factorial, with two blocks. Treatments were two directions of cultivation (cultivated and drilled parallel to the contour v up and down the slope) and two types of cultivation (standard cultivation, residue removed v minimal tillage, residues retained). All plots grew the same crops each year, in a rotation typical of the sandy soils of Bedfordshire.\n### Methods\nThe experiment was situated on a sandy soil at Woburn Experimental Farm (Great Hill II/III) on a slope of about five degrees (7-13%), which had been subject to periodic erosion since at least 1950. The eight plots were approximately 24 x 36m (0.086 ha), separated by grassed earth banks 1m wide and 30cm high which prevented runoff and eroded soil leaving the plots. The eroded soil and runoff were collected in tanks at the end of each plot after each erosion event. Four plots were cultivated and drilled parallel to the contour, and four up and down the slope. Four plots received standard cultivations and four minimal tillage. Crops included potatoes, winter wheat, sugar beet and winter barley.\n### Technical Info\nCereal grain and straw yield (winter wheat, winter barley, spring barley) at 85% dry matter. Yield of clean potato tubers at fresh weight, yield of clean sugar beet and fodder beet at fresh weight. Other information about yield components is given in the excel worksheet fields_metadata. Applications of fertilizer and pesticide were according to Standard Farm Practice for each crop.\n### Other\nInformation on plot soil C and N content, and sediment and water composition from the erosion events is published in other datasets.\n### Provenance\nIndividual plot yields were taken from Genstat files and other information from plans in the Rothamsted Library archives. Background information was also taken from Quinton and Catt, 2004.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate. Once the data were entered into e-RA, they were independently back-checked against the original data sheets.\n",
+  "contributors": [
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Kevin Coleman",
+      "path": "https://orcid.org/0000-0002-9640-1479",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "John Quinton",
+      "path": "https://orcid.org/0000-0003-1746-4795",
+      "organization": "Lancaster University"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

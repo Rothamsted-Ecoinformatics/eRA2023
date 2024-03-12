@@ -1,0 +1,1396 @@
+{
+  "resources": [
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "6542cb778b76f2a6735b7d76ea4a9e78",
+        "bytes": 882,
+        "fields": 3,
+        "rows": 12
+      },
+      "encoding": "cp1252",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "Crop name",
+            "rdfType": "https://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "Latin name",
+            "rdfType": "https://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdftype",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the crop type"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop types factor level descriptions",
+      "description": "Describes the different crops grown"
+    },
+    {
+      "path": "k_factor_data.csv",
+      "name": "k_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "4ea834d15239574de6dd74aa7c4ea4e2",
+        "bytes": 798,
+        "fields": 12,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of treatment factor applied",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The annual amount of the treatment applied over the relevant period"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The annual rate at which the treatment is applied over the relevant period"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Total amount of treatment factor applied over experiment",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The total amount of the treatment applied over the course of the experiment"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total amount applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the total amount of treatment is applied over the course of the experiment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "K treatment factor level descriptions",
+      "description": "Describes the different K treatment factor levels used, 1962-1980. From 1981 basal K was applied to all plots and sub-plots."
+    },
+    {
+      "path": "liming_factor_data.csv",
+      "name": "liming_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "9035c74f2b59f720819fcfeb99f0e922",
+        "bytes": 1227,
+        "fields": 10,
+        "rows": 4
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the lime treatment factor is applied, eg annually, infrequently"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Total amount of lime applied over experiment",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "Total amount of lime applied over the course of the experiment"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total amount applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the total amount of lime is applied over the course of the experiment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Liming treatment factor level descriptions",
+      "description": "Describes the different liming treatment factor levels used, 1962-1996."
+    },
+    {
+      "path": "mg_factor_data.csv",
+      "name": "mg_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "e8ddeceb3cce31a03ca7c4d303d0b16c",
+        "bytes": 596,
+        "fields": 12,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of treatment factor applied",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The rate at which the factor level is applied"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Actual amount of treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Total amount of treatment factor applied over experiment",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The total amount of the treatment applied over the course of the experiment"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total amount applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the total amount of treatment is applied over the course of the experiment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Mg treatment factor level descriptions",
+      "description": "Describes the different Mg treatment factor levels used, on sub-plots, 1974-1978."
+    },
+    {
+      "path": "mn_factor_data.csv",
+      "name": "mn_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "c1a9dccb0acbf6d1073868fa2fccee68",
+        "bytes": 663,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount of treatment factor applied",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The rate at which the factor level is applied"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Actual amount of treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Mn treatment factor level descriptions",
+      "description": "Describes the different Mn treatment factor levels used, on sub-plots, 1987-1990"
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "a68eba8bec5dc34a187c84f73f726eba",
+        "bytes": 1192,
+        "fields": 2,
+        "rows": 12
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Additional explanatory notes for records in the soil_data_table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the soil_data table"
+    },
+    {
+      "path": "p_factor_data.csv",
+      "name": "p_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "b202cdf0ab60751867d38fac9408cf0f",
+        "bytes": 2754,
+        "fields": 13,
+        "rows": 22
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "treatment_factor_group",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor group",
+            "rdfType": "https://schema.org/name",
+            "description": "P applied at different rates for the two different phases of the experiment. This groups comparable P rates applied at different phases of the experiment."
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "title": "Amount of treatment factor applied",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The annual amount of P applied over the relevant period"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the amount is applied over the relevant period (1 or 2)"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of P treatment, annual (Period 1) or infrequent (Period 2)"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "title": "Total application over relevant period (1 or 2)",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total amount of P applied over the relevant period (1 or 2)"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total application unit over the relevant period (1 or 2)",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the total amount is applied over the relevant period (1 or 2)"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "P treatment factor level descriptions",
+      "description": "Describes the different P treatment factor levels used, 1962-1996."
+    },
+    {
+      "path": "s_factor_data.csv",
+      "name": "s_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "851a6882a7443062f47f9ec4fd3a02f8",
+        "bytes": 554,
+        "fields": 12,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Description of the factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of treatment factor applied",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The rate at which the factor level is applied"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount of treatment factor applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Actual amount of treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "How frequently factor level applied",
+            "rdfType": "https://schema.org/frequency",
+            "description": "How frequently the  treatment factor is applied, eg annually"
+          },
+          {
+            "name": "total_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Total amount of treatment factor applied over experiment",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "The total amount of the treatment applied over the course of the experiment"
+          },
+          {
+            "name": "total_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Total amount applied unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "The rate at which the total amount of treatment is applied over the course of the experiment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "https://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "S treatment factor level descriptions",
+      "description": "Describes the different S treatment factor levels used,  on sub-plots, 1991-1996"
+    },
+    {
+      "path": "soil_data.csv",
+      "name": "soil_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "561cba60015cf2e7332e1ee77546c9b4",
+        "bytes": 138386,
+        "fields": 25,
+        "rows": 1248
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "plot",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Plot number."
+          },
+          {
+            "name": "block",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Block",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000303",
+            "description": "Block number 1 or 2. Two replicates within randomised blocks."
+          },
+          {
+            "name": "sub-plot",
+            "type": "integer",
+            "format": "default",
+            "title": "Sub-plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "All plots divided into two sub-plots , 1 and 2, in 1974-1980 to test Mg, to test Mn (1987-1990) and S (1991-1996). There are no sub-plots in the other years. Soil properties were not measured on sub-plots in 1989.",
+            "constraints": [
+              "1974-1980 and 1987-1996 only"
+            ]
+          },
+          {
+            "name": "sample_year",
+            "type": "year",
+            "format": "YYYY",
+            "title": "Year in which soil sampled",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year when soil sampled."
+          },
+          {
+            "name": "sample_date",
+            "type": "date",
+            "format": "YYYY-MM-DD",
+            "title": "Date when soil sampled",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date when soil sampled. Not sampled every year. Baseline soil sampled in February 1962, prior to treatments. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in that harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "plough_date",
+            "type": "date",
+            "format": "YYYY-MM-DD",
+            "title": "Date when soil ploughed",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date when soil ploughed, usually in the autumn after soil samples taken"
+          },
+          {
+            "name": "soil_depth",
+            "type": "string",
+            "format": "default",
+            "title": "Depth of soil sampled",
+            "description": "Depth of soil sampled; in some years more than one depth. For topsoil, 12-20 cores were taken from the central section of each plot and combined to make one sample, generally 5-6 cores were taken for subsoil."
+          },
+          {
+            "name": "crop",
+            "type": "string",
+            "format": "default",
+            "title": "Crop type grown",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_1972",
+            "description": "Name of crop grown before soil sampled"
+          },
+          {
+            "name": "lime_date",
+            "type": "date",
+            "format": "YYYY-MM-DD",
+            "title": "Date lime applied",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date lime applied. Not applied every year.",
+            "constraints": [
+              "Applied five or six times between March 1962- December 1986"
+            ]
+          },
+          {
+            "name": "lime_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Lime treatment",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_200",
+            "description": "The four different lime treatments."
+          },
+          {
+            "name": "annual_lime",
+            "type": "number",
+            "format": "default",
+            "title": "Annual lime application in this year",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_200",
+            "description": "Actual amount of lime applied in this year, before soil sampled. Applied four or six times between March 1962- November 1986",
+            "constraints": [
+              "Applied five or six times between March 1962- December 1986"
+            ]
+          },
+          {
+            "name": "cumulative_lime",
+            "type": "number",
+            "format": "default",
+            "title": "Total cumulative lime application by this year",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_200",
+            "description": "Cumulative sum of total amount of lime applied up to the current year.",
+            "constraints": [
+              "Applied five or six times between March 1962- December 1986"
+            ]
+          },
+          {
+            "name": "p_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "P treatment between 1962 and 1980, and 1981-1996",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007397",
+            "description": "The different phosphorus treatments applied 1962-1980, and 1981-1996"
+          },
+          {
+            "name": "k_1962-80_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "K treatment between 1962 and 1980",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007293",
+            "description": "Whether potassium treatment is applied or not, 1962-1980"
+          },
+          {
+            "name": "mg_1974-78_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Mg treatment between 1974 and 1978",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007288",
+            "description": "Whether magnesium treatment is applied or not, 1974-1978"
+          },
+          {
+            "name": "mn_1987-90_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Mn treatment between 1987 and 1990",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007387",
+            "description": "Whether foliar manganese treatment is applied or not, 1987-1990"
+          },
+          {
+            "name": "s_1991-96_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "S treatment between 1991 and 1996",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007295",
+            "description": "Whether sulfur treatment is applied or not, 1991-1996"
+          },
+          {
+            "name": "soil_pH",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Soil pH",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_34901",
+            "description": "Soil pH in water; 1:2.5 soil: water suspension using a standard electrode and pH meter",
+            "missingValues": [
+              "*"
+            ],
+            "constraints": [
+              "Not measured every year"
+            ]
+          },
+          {
+            "name": "olsen_p",
+            "type": "number",
+            "format": "default",
+            "title": "Olsen P (plant available soil P)",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_eb7b4957",
+            "description": "Soil extracted with a solution of 0.5 M NaHCO3, buffered at pH 8.5, after the method of Olsen et al, 1954.",
+            "missingValues": [
+              "*"
+            ],
+            "constraints": [
+              "Not measured every year"
+            ]
+          },
+          {
+            "name": "exch_ca",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Calcium",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_1196",
+            "description": "Exchangeable soil calcium. Measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).",
+            "missingValues": [
+              "*"
+            ],
+            "constraints": [
+              "Not measured every year"
+            ]
+          },
+          {
+            "name": "exch_k",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Potassium",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_6139",
+            "description": "Exchangeable soil potassium. Measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).",
+            "missingValues": [
+              "*"
+            ],
+            "constraints": [
+              "Not measured every year"
+            ]
+          },
+          {
+            "name": "exch_mg",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Magnesium",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_4517",
+            "description": "Exchangeable soil magnesium. Measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).",
+            "missingValues": [
+              "*"
+            ],
+            "constraints": [
+              "Not measured every year"
+            ]
+          },
+          {
+            "name": "exch_na",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Sodium",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_7145",
+            "description": "Exchangeable soil sodium. Measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).",
+            "missingValues": [
+              "*"
+            ],
+            "constraints": [
+              "Not measured every year"
+            ]
+          },
+          {
+            "name": "exch_mn",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Manganese",
+            "rdfType": "https://aims.fao.org/aos/agrovoc/c_4570",
+            "description": "Exchangeable soil managnese. Measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).",
+            "missingValues": [
+              "*"
+            ],
+            "constraints": [
+              "Not measured every year"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note",
+            "description": "Whether notes are applied or not"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "soil_depth",
+            "reference": {
+              "resource": "Not known for all years",
+              "fields": " If not shown, assumed to be 0-23cm"
+            }
+          },
+          {
+            "fields": "crop",
+            "reference": {
+              "resource": "crop_types_data",
+              "fields": "crop_name"
+            }
+          },
+          {
+            "fields": "lime_factor_level",
+            "reference": {
+              "resource": "liming_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "p_factor_level",
+            "reference": {
+              "resource": "p_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "k_1962-80_factor_level",
+            "reference": {
+              "resource": "k_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "mg_1974-78_factor_level",
+            "reference": {
+              "resource": "mg_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "mn_1987-90_factor_level",
+            "reference": {
+              "resource": "mn_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "s_1991-96_factor_level",
+            "reference": {
+              "resource": "s_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Soil data",
+      "description": "The main data table containing soil chemical data for all plots and all treatments, 1962-1996. Includes soil pH, Olsen P and exchangeable Ca, K, Mg, Na and Mn (ammonium acetate method). Soil not measured every year, last sample taken in 1994. Baseline soil pH measurements taken in February 1962, before lime treatments applied. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year.  The soil was analysed shortly after sampling. Also includes lime (chalk) and fertilizer treatments. "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi.org/10.23637/rcs10-soil-01",
+  "name": "rothamsted-long-term-liming-experiment-soil-chemical-properties-1962-1996",
+  "title": "Rothamsted long-term liming experiment soil chemical properties 1962-1996",
+  "version": "1.0.0",
+  "keywords": [
+    "soil pH",
+    "long term experiments",
+    "arable soils",
+    "soil fertility",
+    "phosphorous",
+    "liming"
+  ],
+  "description": "### Abstract\nThe experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method), on soil sampled several times between 1962 and 1996. There is also a baseline sampling before the experiment was established. There was a parallel experiment at Woburn Experimental Farm.  \r\n\r\nThe experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele.\n### Methods\nPeriod 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates. \r\n\r\n- **Soil pH** measured in water: 1:2.5 soil: water suspension using a standard electrode and pH meter.\r\n- **Olsen P** (plant-available soil P) soil extracted with a solution of 0.5 M NaHCO<sub>3</sub>, buffered at pH8.5, after the method of Olsen et al, 1954. Shown as mg PO<sub>4</sub>-P/kg dry soil. \r\n- **Exchangeable cations** measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).\n### Technical Info\nAir-dried soil, sieved (<2mm). Topsoil (usually 0-23cm) and some sub-soil measurements. For topsoil 12-20 cores were taken from the central area of each plot and combined to make one sample. For subsoil, generally 5-6 cores were taken and combined. Baseline soil pH measurements were taken in February 1962, before the first lime application. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year. The soil was analysed shortly after sampling.\n### Other\n- **Olsen et al, 1954**   Olsen S.R., Cole C.V., Watanabe F.S., Dean L.A. (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate. USDA Circular 939, US Gov. Print. Office, Washington, D.C.\n### Provenance\nInformation is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research. The data is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate.\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\n",
+  "contributors": [
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Steve McGrath",
+      "path": "https://orcid.org/0000-0003-0952-8947",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Keith Goulding",
+      "path": "https://orcid.org/0000-0002-6465-1465",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Jonathan Holland",
+      "path": "https://orcid.org/0000-0001-6661-0168",
+      "organization": "The James Hutton Institute"
+    },
+    {
+      "title": "Melanie Brookman",
+      "path": "https://orcid.org/0000-0001-6085-9288",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Wendy Wilmer",
+      "path": "https://orcid.org/0000-0002-6463-6636",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Chloe Garwood",
+      "path": "https://orcid.org/0000-0002-2831-6854",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Mark Durenkamp",
+      "path": "https://orcid.org/0000-0002-2195-1855",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Adrian Crossland",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Ian Shield",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

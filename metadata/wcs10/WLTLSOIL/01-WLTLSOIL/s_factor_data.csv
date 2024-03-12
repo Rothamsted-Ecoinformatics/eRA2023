@@ -1,0 +1,3 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,total_amount,total_amount_unit,treatment_form,treatment_form_rdfType
+Factor level shows no S treatment applied.,1991-1996,sulfur nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007295,0,0,,none,0,,,
+Factor level shows annual S treatment applied. See s_rate_annual,1991-1996,sulfur nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007295,S,30,kg S ha-1 yr-1,annual,180,kg S ha-1 ,calcium sulphate,http://aims.fao.org/aos/agrovoc/c_1203

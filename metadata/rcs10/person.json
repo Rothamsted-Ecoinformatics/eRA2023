@@ -1,0 +1,56 @@
+{
+    "contributors": [
+        {
+            "type": "Person",
+            "jobTitle": "data manager",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": null,
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "data manager",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Andrew Gregory",
+            "givenName": "Andrew",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "principal investigator",
+            "name": "Stephan Haefele",
+            "givenName": "Stephan",
+            "familyName": "Haefele",
+            "sameAs": "0000-0003-0389-8373",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ]
+}

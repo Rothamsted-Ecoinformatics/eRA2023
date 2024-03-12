@@ -1,0 +1,118 @@
+{
+    "administrative": {
+        "name": "Woburn Erosion Reference Experiment",
+        "identifier": "W/RN/20",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": "None",
+        "description": "Arable field, subject to periodic erosion since at least 1950 (Catt, 1996). Field site managed as an experimental farm since 1875. The two blocks had slightly different cropping histories before the experiment began (see Quinton et al, 2006, Table 2).",
+        "management": "Conventional management for non-treatment factors."
+    },
+    "location": {
+        "addressLocality": "Great Hill II/III, Woburn Experimental Farm, Husborne Crawley",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "UK",
+        "geoLocationPoint": {
+            "pointLongitude": -0.602016,
+            "pointLatitude": 52.013584
+        },
+        "geoLocationPlace": "UK",
+        "polygon": "NOT IN GLTEN",
+        "elevation": null,
+        "elevationUnit": null,
+        "slope": 5.0,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "arenosol",
+        "soilDescription": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998)."
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "Coarse sand content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 1.7,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": "%",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "Medium sand content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 44.9,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": "%",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "Fine sand content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 36.3,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": "%",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "Silt content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 9.7,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": "%",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "Clay content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 5.9,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": null,
+            "maxSampleDepth": null,
+            "unitCode": null,
+            "unitText": "%",
+            "refYear": null,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998).",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

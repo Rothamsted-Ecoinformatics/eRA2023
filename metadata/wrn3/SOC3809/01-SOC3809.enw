@@ -1,0 +1,17 @@
+%0 Dataset
+%T Woburn Ley-arable experiment soil organic carbon, 1938-2009 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2022 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G en 
+%U https://doi.org/10.23637/wrn3-soc3809-01 
+%R 10.23637/wrn3-soc3809-01 
+%A Glendining, Margaret 
+%A Poulton, Paul 
+%A Gregory, Andy 
+%A Johnston, Edward 
+%K long term experiments; ley farming; soil organic carbon; soil organic matter; nitrogen content; crop rotation; Woburn Ley-arable experiment; 
+%X This dataset gives the % soil organic carbon (SOC) and % total nitrogen (N) in the topsoil (0-25cm) of all plots and blocks of the Woburn Ley-arable Experiment, 1938-2009. Baseline measurements were taken in March 1938 at the start of the experiment, then the soil in each block was sampled regularly every five years from 1955, to coincide with the end of the third treatment year or the last year of the eight-year leys. Soil N was measured from 1980 onwards. Also included are estimates of soil bulk density. This dataset must be read in conjunction with **Johnston et al, 2017 **, which gives the full background, summarises the %SOC data (mean of the five blocks), and gives estimates of total organic carbon in t/ha and estimated annual inputs of C from each rotation. 

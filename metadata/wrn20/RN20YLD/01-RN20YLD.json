@@ -1,0 +1,340 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/wrn20-yield-01",
+    "name": "Woburn Erosion Reference Experiment crop yields.",
+    "shortName": "RN20YLD",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/wrn20/01-RN20YLD",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "Annual arable crop yields for each plot of the Woburn Erosion Reference Experiment, 1988-1998. Also potato % ware, sugar beet % sugar, and other sugar beet yield components. Also annual fertilizer applications. There were eight plots, in a 2x2 factorial, with two blocks. Treatments were two directions of cultivation (cultivated and drilled parallel to the contour v up and down the slope) and two types of cultivation (standard cultivation, residue removed v minimal tillage, residues retained). All plots grew the same crops each year, in a rotation typical of the sandy soils of Bedfordshire.  \r\n\r\nWe acknowledge support from the Growing Health (BB/X010953/1) and Resilient Farming Futures (BB/X010961/1) Institute Strategic Programmes. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "The experiment was situated on a sandy soil at Woburn Experimental Farm (Great Hill II/III) on a slope of about five degrees (7-13%), which had been subject to periodic erosion since at least 1950. The eight plots were approximately 24 x 36m (0.086 ha), separated by grassed earth banks 1m wide and 30cm high which prevented runoff and eroded soil leaving the plots. The eroded soil and runoff were collected in tanks at the end of each plot after each erosion event. Four plots were cultivated and drilled parallel to the contour, and four up and down the slope. Four plots received standard cultivations and four minimal tillage. Crops included potatoes, winter wheat, sugar beet and winter barley. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "An Excel file, 01-wrn20yield.xlsx, contains the yield components and treatment details, for 1988-1998. Frictionless CSV files are provided for users who prefer CSV over Excel files.  A README file contains extensive metadata information. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "Cereal grain and straw yield (winter wheat, winter barley, spring barley) at 85% dry matter. Yield of clean potato tubers at fresh weight, yield of clean sugar beet and fodder beet at fresh weight. Other information about yield components is given in the excel worksheet fields_metadata. Applications of fertilizer and pesticide were according to Standard Farm Practice for each crop. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "Information on plot soil C and N content, and sediment and water composition from the erosion events is published in other datasets. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "Individual plot yields were taken from Genstat files and other information from plans in the Rothamsted Library archives. Background information was also taken from Quinton and Catt, 2004. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate. Once the data were entered into e-RA, they were independently back-checked against the original data sheets. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2024,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "crop yield",
+        "long term experiments",
+        "Rothamsted Research",
+        "soil erosion",
+        "minimum tillage",
+        "tillage erosion"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "John Quinton",
+            "givenName": "John",
+            "familyName": "Quinton",
+            "sameAs": "https://orcid.org/0000-0003-1746-4795",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Lancaster University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Lancaster University",
+                "address": ", United kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Kevin Coleman",
+            "givenName": "Kevin",
+            "familyName": "Coleman",
+            "sameAs": "https://orcid.org/0000-0002-9640-1479",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectMember",
+            "name": "Kevin Coleman",
+            "givenName": "Kevin",
+            "familyName": "Coleman",
+            "sameAs": "https://orcid.org/0000-0002-9640-1479",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "John Quinton",
+            "givenName": "John",
+            "familyName": "Quinton",
+            "sameAs": "https://orcid.org/0000-0003-1746-4795",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Lancaster University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Lancaster University",
+                "address": ", United kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.602016,
+            "latitude": 52.013584
+        },
+        "name": "Great Hill II/III"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.1111/j.1475-2743.2004.tb00379.x ",
+            "relatedIdentifierType": "DOI",
+            "name": "Quinton and Catt, 2004. Crop yield in the Woburn Erosion Reference Experiment",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "ISP - GH - Growing Health",
+            "alternateName": "BB/X010953/1",
+            "url": null,
+            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Growing Health (BB/X010953/1) Institute Strategic Programme ",
+            "disambiguatingDescription": "WPackage information",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Woburn Erosion Reference Experiment crop yields",
+            "URL": "01-wrn20yield.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "59 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Frictionless data package including all the data as csv",
+            "URL": "01-RN20YLD.zip",
+            "encodingFormat": "zip",
+            "fileSize": "79 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Standardised plan of the experiment",
+            "URL": "WEREplan.png",
+            "encodingFormat": "png",
+            "fileSize": "46 kilobytes"
+        }
+    ],
+    "grade": 2,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

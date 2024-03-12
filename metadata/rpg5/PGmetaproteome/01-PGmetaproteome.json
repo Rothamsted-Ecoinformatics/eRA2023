@@ -1,0 +1,457 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.6019/PXD017392",
+    "name": "Park Grass Metaproteome",
+    "shortName": "PGmetaproteome",
+    "url": "http://central.proteomexchange.org/cgi/GetDataset?ID=PXD017392",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "This ProteomeXchange dataset is derived from work on the Park Grass Experiment soil by Quinn et al. (Applied Soil Ecology, 2022) and made available via the PRIDE database. A modified protein extraction method, heat/thaw/phenol/chloroform (HTPC), was combined with the established Surfactant extraction method to identify proteins from Park Grass Experiment (PGE) soil, which has an extensively sequenced microbial database. The resulting dataset is made available on the ProteomeXchange Consortium with the dataset identifier PXD017392 and 10.6019/PXD017392. Project accession: PXD017392, Project DOI: 10.6019/PXD017392."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "Sample Processing Protocol: The Park Grass Experiment (PGE) soil was sampled at Rothamsted Research. The soil was previously characterised as a stagnogleyic paleo-argillic brown earth, classified as Chromic Luvisol (F.A.O., 1990) or Aquic Paleudalf (U.S.D.A., 1992) (Silvertown et al., 2006). Soil samples were collected 3 meters outside a control (untreated) plot (Plot 3), similar to the areas sampled in Rothamsted Soil metagenome, which was used to construct the proteomic database (Delmont et al., 2011). Five different soil samples were collected from random (1 x 1 m) squares in an area of 25 m<sup>2</sup>. A section of turf within each sample square (50 x 50 cm) was cut on 3 sides with a serrated knife and peeled back to expose the soil beneath. Several kilograms of soil were removed from the 5-10 cm depth in addition to a soil core (100 cm<sup>3</sup>), which was used to calculate soil bulk density. Soil samples were transported to the laboratory immediately after sampling. The soil was mixed gently in the laboratory on the day of collection. One kilogram of soil was separated and frozen at -80 degrees C for proteomic analysis whilst the rest of the bulk soil was sieved to 5 mm and stored at 4 degrees C for biochemical and physical analysis.\r\n\r\nData Processing Protocol: Peptide identifications were accepted if they could be established at greater than 95% protein probability threshold, a minimum of 1 peptide and 50% peptide probability by the Protein Prophet algorithm (Nesvizhskii et al., 2003; Searle, 2010). Proteins containing similar peptides that could not be differentiated based on MS/MS analysis alone were grouped to satisfy the principles of parsimony (Searle, 2010). The combined peak lists and peptide and protein identification results were exported with a 2.3% false discovery rate (FDR) threshold. We noted protein identifications based on one peptide identification as *low stringency* and proteins identification based on two or more peptide matches as *high stringency* in the manuscript. Proteins from the soil database matching mass spectra from the soil protein extraction were identified through NCBI (18th July 2016). Proteins were further appended with phyla, protein families and GO terminology through EBI. The GO terminology was used to decide functional categories in the RAST/SEED categorisation. If the protein function crossed several categories, it was listed as unclassified. If the protein could not be traced to any category, it was classed as unknown. Not all proteins with protein ID and GI numbers could be classified and annotated with GO terms (from [PRIDE Project PXD017392]( https://www.ebi.ac.uk/pride/archive/projects/PXD017392) accessed 09/11/22)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "Uncultivated soil bacterium; NCBI TaxID: 97476.\r\n\r\nThe PRIDE partner repository made the deposit to the ProteomeXchange Consortium publicly available; dataset identifier PXD017392 and 10.6019/PXD017392. Project accession: PXD017392, Project DOI: 10.6019/PXD017392."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Other",
+            "description": "Sarah Perryman and Nathalie Castells created this webpage (published live 15th November 2022) which was checked by Gerry Quinn (17th November 2022)."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "ProteomeXchange"
+    },
+    "publication_year": 2022,
+    "dateCreated": "2022-11-08",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1.0",
+    "keywords": [
+        "Rothamsted Research",
+        "Park grass long-term experiment",
+        "soil",
+        "permanent grassland",
+        "soil microbiome",
+        "bacterial genomes",
+        "microbial ecology",
+        "ecological metagenomes",
+        "biogeochemical cycle"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Gerry Quinn",
+            "givenName": "Gerry",
+            "familyName": "Quinn",
+            "sameAs": "https://orcid.org/0000-0003-0023-2621",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Swansea University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Swansea University",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Alyaa Abdelhameed",
+            "givenName": "Alyaa",
+            "familyName": "Abdelhameed",
+            "sameAs": "https://orcid.org/0000-0003-3323-6979",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Swansea University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Swansea University",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Ibrahim Banat",
+            "givenName": "Ibrahim",
+            "familyName": "Banat",
+            "sameAs": "https://orcid.org/0000-0001-8964-2840",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Ulster University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Ulster University",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Daniel Berrar",
+            "givenName": "Daniel",
+            "familyName": "Berrar",
+            "sameAs": "https://orcid.org/0000-0002-7038-2601",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Tokyo Institute of Technology",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "Japan"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Tokyo Institute of Technology",
+                "address": ", Japan"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Stefan Doerr",
+            "givenName": "Stefan",
+            "familyName": "Doerr",
+            "sameAs": "https://orcid.org/0000-0002-8700-9002",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Swansea University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Swansea University",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Ed Dudley",
+            "givenName": "Ed",
+            "familyName": "Dudley",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Swansea University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Swansea University",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Lewis Francis",
+            "givenName": "Lewis",
+            "familyName": "Francis",
+            "sameAs": "https://orcid.org/0000-0002-7803-7714",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Swansea University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Swansea University",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Salvatore Gazze",
+            "givenName": "Salvatore",
+            "familyName": "Gazze",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Swansea University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Swansea University",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Ingrid Hallin",
+            "givenName": "Ingrid",
+            "familyName": "Hallin",
+            "sameAs": "https://orcid.org/0000-0002-4711-2099",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Plymouth",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Plymouth",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Peter Matthews",
+            "givenName": "Peter",
+            "familyName": "Matthews",
+            "sameAs": "https://orcid.org/0000-0003-4869-338X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "University of Plymouth",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "University of Plymouth",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Martin Swain",
+            "givenName": "Martin",
+            "familyName": "Swain",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Aberystwyth University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "Wales"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Aberystwyth University",
+                "address": ", Wales"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Richard Whalley",
+            "givenName": "Richard",
+            "familyName": "Whalley",
+            "sameAs": "https://orcid.org/0000-0003-0755-2943",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Geertje van Keulen",
+            "givenName": "Geertje",
+            "familyName": "van Keulen",
+            "sameAs": "https://orcid.org/0000-0002-6044-1575",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Ulster University",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Ulster University",
+                "address": ", United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xml",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "ProteomeXchange"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37262,
+            "latitude": 51.80398
+        },
+        "name": "Park Grass"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "http://central.proteomexchange.org/cgi/GetDataset?ID=PXD017392",
+            "relatedIdentifierType": "URL",
+            "name": "Proteome Xchange Dataset Description",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "https://www.ebi.ac.uk/pride/archive/projects/PXD017392",
+            "relatedIdentifierType": "URL",
+            "name": "PRIDE Proteomics Identifications Project PXD017392 Database Dataset",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1016/J.APSOIL.2022.104388",
+            "relatedIdentifierType": "DOI",
+            "name": "Publication: Quinn et al. (2022) Complementary protein extraction methods",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1128/AEM.01526-10",
+            "relatedIdentifierType": "DOI",
+            "name": "Delmont et al. (2011) Accessing the soil metagenome for studies of microbial diversity",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1365-2745.2006.01145.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Silvertown et al. (2006) The park grass experiment 1856\u20132006: its contribution to ecology",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1002/pmic.200900437",
+            "relatedIdentifierType": "DOI",
+            "name": "Searle (2010) Scaffold: a bioinformatic tool for validating MS/MS-based proteomic studies",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1021/ac0341261",
+            "relatedIdentifierType": "DOI",
+            "name": "Nesvizhskii et al. (2003) A statistical model for identifying proteins by tandem mass spectrometry",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funding": [],
+    "distribution": [],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Complementary extraction methods to identify Park Grass soil metaproteome (from Quinn et al., 2022)",
+            "URL": "displayfig.png",
+            "encodingFormat": "png",
+            "fileSize": "131 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 1,
+    "dstype": "OA"
+}

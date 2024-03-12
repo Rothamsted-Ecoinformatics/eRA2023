@@ -1,0 +1,4 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows phosphorus fertilizer treatment,nil,1877-1926,phosphorus nutrient exposure ,,0,,,,
+Factor level shows phosphorus fertilizer treatment; this treatment continued as P1,P2,1877-1906,phosphorus nutrient exposure ,http://purl.obolibrary.org/obo/PECO_0007397 ,34,kg P ha-1,annual,superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+Factor level shows phosphorus fertilizer treatment; this treatment was previously P2,P1,1907-1926,phosphorus nutrient exposure ,http://purl.obolibrary.org/obo/PECO_0007397 ,22,kg P ha-1,annual,superphosphate,http://aims.fao.org/aos/agrovoc/c_7521

@@ -1,0 +1,8 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no N applied,1903-1964,nitrogen nutrient,http://purl.obolibrary.org/obo/PECO_0007102,0,0,kg N ha-1 yr-1,not applied,ammonium sulphate,http://aims.fao.org/aos/agrovoc/c_354
+Amount shows annual N applied ,1903-1964,nitrogen nutrient,http://purl.obolibrary.org/obo/PECO_0007102,N1,48,kg N ha-1 yr-1,annual in spring,ammonium sulphate,http://aims.fao.org/aos/agrovoc/c_354
+Amount shows annual N applied ,1903-1964,nitrogen nutrient,http://purl.obolibrary.org/obo/PECO_0007102,N2,96,kg N ha-1 yr-1,annual in spring,ammonium sulphate,http://aims.fao.org/aos/agrovoc/c_354
+Amount shows annual N applied ,1903-1964,nitrogen nutrient,http://purl.obolibrary.org/obo/PECO_0007102,N3,144,kg N ha-1 yr-1,annual in spring,ammonium sulphate,http://aims.fao.org/aos/agrovoc/c_354
+Amount shows annual N applied to plot 20,1903-1964,nitrogen nutrient,http://purl.obolibrary.org/obo/PECO_0007102,N*,30,kg N ha-1 yr-1,annual in spring in years when FYM not applied,sodium nitrate,http://aims.fao.org/aos/agrovoc/c_7148
+Amount shows annual N applied ,1903-1964,nitrogen nutrient,http://purl.obolibrary.org/obo/PECO_0007102,N*1,48,kg N ha-1 yr-1,annual in spring,sodium nitrate,http://aims.fao.org/aos/agrovoc/c_7148
+Amount shows annual N applied ,1903-1964,nitrogen nutrient,http://purl.obolibrary.org/obo/PECO_0007102,N*2,96,kg N ha-1 yr-1,annual in spring,sodium nitrate,http://aims.fao.org/aos/agrovoc/c_7148

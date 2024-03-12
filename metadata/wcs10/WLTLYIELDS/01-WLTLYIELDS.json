@@ -1,0 +1,442 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/wcs10-wltlyields-01",
+    "name": "Woburn long-term liming experiment crop yields 1962-1996",
+    "shortName": "WLTLYIELDS",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/wcs10/01-WLTLYIELDS",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a sandy loam soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There was a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997. The dataset contains plot and sub-plot yields for all plots and years, 1962-1996, details of all treatments applied (lime, P, K, Mg, Mn and S) and agronomic details (crop variety, sowing and harvest dates, basal fertilizer).  \r\n\r\nThis work was partially funded by the BBSRC Institute Strategic Programme - Soil to Nutrition (BBS/E/C/00010310). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "## Description\r\n*Note* the included Excel file: _*01-WobLTliming-yield.xlsx*_ contains the same data as the CSV files below. The Excel file contains each of the CSV files as an Excel worksheet and is provided for users who prefer Excel over CSV.\r\n\r\n### Contents\r\n\r\n|File|Dataset Name|Description|\r\n|----|------------|-----------|\r\n|README.html|Readme|File describing and explaining all details of the dataset (html)|\r\n|README.txt|Readme|File describing and explaining all details of the dataset (txt)|\r\n|crop_data.csv|Crop yield data|The main data table containing crop yield data for all plots and all treatments, 1962-1996|\r\n|liming_factor_data.csv|Liming treatment factor level descriptions|Describes the different liming treatment factor levels used|\r\n|p_factor_data.csv|P treatment factor level descriptions|Describes the different P treatment factor levels used|\r\n|k_factor_data.csv|K treatment factor level descriptions|Describes the different K treatment factor levels used|\r\n|mg_factor_data.csv|Mg treatment factor level descriptions|Describes the different Mg treatment factor levels used|\r\n|mn_factor_data.csv|Mn treatment factor level descriptions|Describes the different Mn treatment factor levels used|\r\n|s_factor_data.csv|S treatment factor level descriptions|Describes the different S treatment factor levels used|\r\n|crop_types_data.csv|Crop types|List of crops grown with Latin names and AGROVOC concepts.|\r\n|notes_data.csv|Notes|Additional explanatory notes for records in the crop_data table| "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "Information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research, and the Annual Rothamsted Yield Books. Verification includes checking of original plot yield data with published mean data from the Rothamsted Yield Books. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": " "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2020,
+    "dateCreated": "2020-11-27",
+    "dateModified": "2021-07-22",
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "Rothamsted Research",
+        "soil pH",
+        "arable farming",
+        "long term experiments",
+        "crop yield",
+        "phosphorous",
+        "liming"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Keith Goulding",
+            "givenName": "Keith",
+            "familyName": "Goulding",
+            "sameAs": "https://orcid.org/0000-0002-6465-1465",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Keith Goulding",
+            "givenName": "Keith",
+            "familyName": "Goulding",
+            "sameAs": "https://orcid.org/0000-0002-6465-1465",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.616165,
+            "latitude": 51.999857
+        },
+        "name": "Stackyard"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/wcs10-Plans",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment plans 1962-1996 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34802",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1971. Paper describing setting up the experiment",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600027222",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton (1977) paper describing early results",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.eja.2019.02.016",
+            "relatedIdentifierType": "DOI",
+            "name": "Holland et al. (2019) Paper describing yield response of all crops 1962-1996",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment crop yield 1962-1996 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/wcs10-Treatments-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wcs10-wltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment crop yields 1962-1996 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - S2N - Soil to Nutrition programme (2017-2022)",
+            "alternateName": "BBS/E/C/00010310",
+            "url": "http://tinyurl.com/grant00010310",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Woburn long-term liming experiment crop yields 1962-1996",
+            "URL": "01-WobLTliming-yield.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "280 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Frictionless data package containing the yield data described here",
+            "URL": "01-WLTLYIELDS.zip",
+            "encodingFormat": "zip",
+            "fileSize": "291 kilobytes"
+        }
+    ],
+    "image": [],
+    "grade": 3,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

@@ -1,0 +1,538 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1/meanWWYields1852-2018-02",
+    "name": "Broadbalk mean long-term yields of winter wheat 1852-2018",
+    "shortName": "OAWWYields",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/02-OAWWYields",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "This dataset provides mean long-term yields of winter wheat (grain at 85% dry matter) from 1852-2018 in response to selected treatments on the Broadbalk \"Classical\" long-term experiment. The Figure shows the long-term trends and yields achieved under various scenarios in comparison with the original practices at the start of the experiment. The data are mean values over various numbers of years and/or cultivars; there is considerable year-to-year variability (data for individual years are available from the Broadbalk Complete Open Access dataset or e-eRAdata). Trends reflect the treatments and agronomic practices introduced on Broadbalk such as continuous wheat (solid lines) and rotations (dashed lines), old varieties until 1967 versus modern short-strawed cultivars since 1968, and the management of pests, weeds and diseases, introduced at various times since the 1920s. \r\n\r\nThis new updated version of the figure includes data from 2017 & 2018 and a treatment of \"best continuous wheat\" as a comparison to the \"best rotational wheat\" treatment - it was created for the new summary publication on Broadbalk 1968-2018, \"The Broadbalk Wheat Experiment, Rothamsted, UK: Crop yields and soil changes during the last 50 years\" (2024) Poulton et al. Advances in Agronomy.\r\n\r\nThe field experiment was originally set up as long strips the length of the field and weeded by hand-hoeing. That eventually became impractical and so the experiment was divided into five sections in the 1920s and regular fallowing was introduced to control weeds. The introduction of herbicides on the whole experiment (except on what is now Section 8) in 1964 removed the need for fallowing. In 1968, major changes occurred; the introduction of short-strawed varieties with greater yield potential, and the further division of sections to allow for rotations on some sections of the experiment, so allowing for the comparison of yields of wheat grown continuously or as the first wheat after a two-year break; the form of fertiliser N being tested changed and a higher rate (192 kg N ha<sup>-1</sup>) was introduced. Other changes followed; Since 1979, summer fungicides have been used, exploiting the greater grain yield potential of modern cultivars; From 1985, two further higher N rates have been tested (240 and 288 kg N ha <sup>-1</sup>). Since 2000, P has been withheld from selected plots (as plant-available P is not limiting) and split-N applications was introduced on some plots. New varieties of wheat are introduced to maintain relevance with current agricultural practice.  \r\n\r\nSince 1968 there have been various crop rotations on five sections, indicated top right of figure, and the largest yields are from the wheat in rotation rather than continuous wheat. They are usually from the first wheat crop and often from the combination of FYM + 96 kg N ha<sup>-1</sup> (144 kg N ha<sup>-1</sup> since 2005, plot 2.1) rather than from inorganic fertilizer alone. For continuous wheat, the best NPK treated plots yield more than either FYM alone (plot 2.2) or PKMg + 144 kg N ha<sup>-1</sup> (plot 8). The largest annual wheat yields ever recorded on Broadbalk was 13.8 t ha<sup>-1</sup> in 2014 (variety Crusoe; plot 17 N1+4+1PKMg). The largest yield in the drought year of 2022 was 12.22 t ha<sup>-1</sup> (variety Zyatt; a 2nd wheat on plot 2.1 FYM+N3), the tenth-highest yield ever recorded. Note that the best yields are not always achieved with the highest N rate. The figure shows the mean best 1st  wheat yields achieved from the NPK treatments, receiving up to a maximum of 288 kg N ha<sup>-1</sup> (up to 192 kg N ha<sup>-1</sup> from 1968-1984). This is always much more than the equivalent best continuous wheat NPK yield. Yields of continuous wheat given no fertilizer or manure (Nil plots 3) have remained at around 1 t ha<sup>-1</sup> in general. However, these yields dipped in the late 1910s and early 1920s due to weed infestation arising (at least in part) from a reduced labour force during and after the First World War, and have again fallen since the 1980s, possibly due to lower inputs of atmospheric N. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "The Broadbalk experiment started in autumn 1843, and for the first eight years, the fertilizer treatments were varied, to test specific questions. From 1852 a scheme of fertilizer treatments was established, which remained largely unaltered until 1967. The mean yields are taken from this period since 1852. \r\n\r\nThe yield values are means of every 10 years from 1852-1964, except for 1922-1934 during a transition period. After 1968, when modern short straw varieties were introduced, the means represent data for each variety grown, except for Hereward which has been split into two periods when the FYM treatment receiving fertiliser N in spring received either 96 kg N ha<sup>-1</sup> (1996-2004) or 144 kg N ha<sup>-1</sup> (2005-2012). Data for 2015 are not included as a spring wheat variety was grown in this years as wet weather conditions in autumn and winter delaying seed sowing. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "**Excel file (xlsx):**\r\n\r\n**Sheet 1.** Figure of Broadbalk long-term mean wheat grain yields (t ha-1, at 85% dry matter) 1852-2018 for six contrasting treatments.\r\n\r\n**Sheet 2.** Table of Broadbalk long-term mean wheat grain yields (t ha-1, at 85% dry matter) 1852-2018 for six contrasting treatments, providing variety names, time period of wheat means plotted, grain yields t ha-1 at 85% dry matter accompanied by explanatory notes. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "**Continuous wheat:** Wheat grown every year since autumn 1843, except when parts of the experiment were fallowed to control weeds. The experiment was divided into 10 sections in 1968; yields shown are mean yields of Sections 1 and 9 (two of the five sections currently in \"continuous\" wheat and which are essentially replicates).\r\n\r\n**1st wheat in rotation:** Some parts of the experiment have been in crop rotations since 1968. Yields are from the 1st wheat in rotation after two break (non-wheat) crops. \r\n\r\n**Fallowing:** Between 1926 and 1967 the experiment was divided into five sections which were bare fallowed sequentially to control weeds. Fallowing was mainly in a 5-year rotation of fallow with four successive crops of wheat, with each phase present each year.\r\n\r\n**Liming:** Lime (calcium carbonate, often referred to as chalk) has been applied since the 1950s to maintain soil pH at a level which does not limit yield.\r\n\r\n**Herbicides:** Herbicides were introduced to the whole experiment except what is now Section 8, in 1964; previously weeds were controlled by hand-hoeing or by fallowing and cultivation.\r\n\r\n<b>Modern cultivars:</b> Modern short-strawed, high-yielding cultivars since 1968. All, except cv. Apollo, were (and remain) bread-making wheats.\r\n\r\n**Fungicides:** spring and summer fungicides applied as necessary since 1978, except on Section 6.\r\n85% dry matter:  By convention the yield of wheat grain is given at 85% dry matter (i.e., after drying a sub-sample to measure dry matter content). For earlier yields (pre-1954) dry matter at harvest was not measured directly but it is reasonable to assume that this would usually have been at about 85% dry matter.  \r\n\r\n\r\n**Treatments:**\r\n\r\n**Unfertilized - Nil (continuous):** No fertilizer or manure applied since 1852 (plot 3).\r\n\r\n**FYM (continuous):** Farmyard manure - 35 t ha <sup>-1</sup> of Farmyard Manure (cattle) applied each year since 1843 (plot 2.2).\r\n\r\n**NPKMg with 144 kg N (continuous):** PKMg + 144 kg N ha<sup>-1</sup> applied each year since 1852 (plot 8).\r\n\r\n**FYM+144kgN since 2005 (rotational):** 35 t ha -1 FYM since 1885 plus 96 kg N ha<sup>-1</sup> 1968-2004 then 144kg N since 2005.\r\n\r\n**Best yield NPKMg plots (continuous and rotational):** Complete fertilizer treatment (NPKMg) giving largest yield each year (maximum 288 kg N ha <sup>-1</sup>). Since 2001, the largest yields have been selected from plots 8, 9, 12, and 15-18. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "By convention, the **year** is that of harvest (not sowing).\r\n\r\nAnnual yield data starts from 1852, rather than 1844 harvest (1843 sowing) because the treatments varied between 1844-1851 before settling on the long-term treatments (the complete data from 1844 are available).  \r\n\r\nWe acknowledge the generations of farm staff, sample processors, statisticians, LTE managers and previous curators who have contributed to this immense data collection over many decades, some of whom are named here https://www.era.rothamsted.ac.uk/info/credits.\r\n\r\nAny queries, please contact email era@rothamsted.ac.uk. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "This summary data is derived from annual plot data for the relevant selected plots and treatments. The original raw data is available, from the e-RA database (e-RAdata) and the Complete OA dataset [link].  \r\n\r\nThis dataset is based on, and continues, an original Table, by Garner & Dyke (1969) showing yields for 1852-1967. \r\n\r\nDavid Jenkinson produced an early version of the Figure in the 1970s. \r\n\r\nIn its current form it was included in the 150th Anniversary of Rothamsted publication by Johnston (1994) showing yields 1852-1990. \r\n\r\nIt was then updated by Paul Poulton and Andy MacDonald in the \"Guide to the Classical and other Long-term Experiments, Datasets and Sample Archive\" (2006), page 9 (showing mean yields for 1853-2000). \r\n\r\nIn 2017 this was updated further to include data to 2016 \u2013 this was the first \"open access\" dataset released on e-RA https://doi.org/10.23637/KeyRefOABKyields. \r\n\r\nThis current version 2, adds another 2 years of data from 2017-2018 and another treatment, \"Best continuous NPKMg\" as a comparison to the \"Best rotational treatment\". "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follows rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database.  This summary data has been collated and checked by the authors; PP up to 2016; SP, MG & PP from 2017-2018. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": "2023-05-22",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "2.0",
+    "keywords": [
+        "arable farming",
+        "bare fallow",
+        "Broadbalk long-term experiment",
+        "crop rotation",
+        "crop yield",
+        "cropping system",
+        "farmyard manure",
+        "fertilizer",
+        "grain yield",
+        "herbicides",
+        "liming",
+        "long term experiments",
+        "nitrogen fertilizers",
+        "phosphorus fertilizers",
+        "potassium fertilizers",
+        "Rothamsted Research",
+        "wheat"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectMember",
+            "name": "Suzanne Clark",
+            "givenName": "Suzanne",
+            "familyName": "Clark",
+            "sameAs": "https://orcid.org/0000-0002-3684-1253",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris MacKay",
+            "givenName": "Chris",
+            "familyName": "MacKay",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34917",
+            "relatedIdentifierType": "DOI",
+            "name": "Garner & Dyke (1969). The Broadbalk Yields",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34916",
+            "relatedIdentifierType": "DOI",
+            "name": "Johnston & Garner (1969). Broadbalk: Historical Introduction",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-sup-1534342858-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat plan and cropping 1852-1925",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-plan1926-67-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat plan and cropping 1926-1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-today2018-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat plan and cropping since 2018 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-plan1968-2017-01 ",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat plan and cropping 1968-2017 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-crop1843-2021-01 ",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat cropping 1843-2021",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-keydates-pdf-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat Dates of Key Field Operations 1843-2021 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOABKyields ",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk mean long-term winter wheat yields 1852-2016 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "Continues",
+            "rt_id": 6,
+            "relationTypeValue": "continues"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1/meanWWYields1852-2022-03",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk mean long-term yields of winter wheat 1852-2022 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsContinuedBy",
+            "rt_id": 5,
+            "relationTypeValue": "is continued by"
+        },
+        {
+            "relatedIdentifier": "10.1016/bs.agron.2023.11.003",
+            "relatedIdentifierType": "DOI",
+            "name": "The Broadbalk Wheat Experiment, Rothamsted, UK ....... the last 50 years (1968-2018)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Data and figure: mean long-term winter wheat grain yields 1852-2018",
+            "URL": "02-Yields-2018.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "45 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Figure: mean long-term winter wheat grain yields 1852-2018",
+            "URL": "02-Figure-2018.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "73 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Figure: mean long-term winter wheat grain yields 1852-2018",
+            "URL": "02-Figure-2018.jpg",
+            "encodingFormat": "jpg",
+            "fileSize": "92 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "OA"
+}

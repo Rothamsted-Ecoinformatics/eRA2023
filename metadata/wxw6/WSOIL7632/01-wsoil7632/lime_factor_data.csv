@@ -1,0 +1,5 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,total_amount,total_amount_unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows no lime applied,nil,1877-1926,lime exposure,,0.0,t CaCO3 ha-1 ,none,,
+"Factor level shows low lime treatment. No lime applied 1876-1904. Lime applied two or four times, 1905-1918, Plots 2aii, 8aii and 8bii. ",L1,1905-1926,lime exposure,http://purl.obolibrary.org/obo/PECO_0001070,4.5,t CaCO3 ha-1 ,irregular,Ground limestone/chalk,http://aims.fao.org/aos/agrovoc/c_4342
+"Factor level shows medium lime treatment. No lime applied 1876-1897. Applied once or twice in 1898-1924, plots 2bi and 5b",L2,1898-1926,lime exposure,http://purl.obolibrary.org/obo/PECO_0001070,9.0,t CaCO3 ha-1 ,irregular,Ground limestone/chalk,http://aims.fao.org/aos/agrovoc/c_4342
+"Factor level shows high lime treatment. No lime applied 1876-1897. Applied in 1898 and 1905, plot 2bii",L3,1898-1926,lime exposure,http://purl.obolibrary.org/obo/PECO_0001070,18.0,t CaCO3 ha-1 ,irregular,Ground limestone/chalk,http://aims.fao.org/aos/agrovoc/c_4342

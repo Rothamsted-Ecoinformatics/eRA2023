@@ -1,0 +1,5 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows potassium fertilizer treatment,nil,1877-1926,potassium nutrient exposure,,0,,,,
+"Factor level shows potassium fertilizer treatment, this treatment continued as K1 or K2",K3,1877-1906,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,90,kg K ha-1,annual,potassium sulphate,http://aims.fao.org/aos/agrovoc/c_6142
+Factor level shows potassium fertilizer treatment; plot 11a only,K2,1907-1926,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,49,kg K ha-1,annual,potassium sulphate,http://aims.fao.org/aos/agrovoc/c_6142
+Factor level shows potassium fertilizer treatment; this treatment was previously K3,K1,1907-1926,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,25,kg K ha-1,annual,potassium sulphate,http://aims.fao.org/aos/agrovoc/c_6142

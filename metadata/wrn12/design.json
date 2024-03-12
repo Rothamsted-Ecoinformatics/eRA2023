@@ -1,0 +1,1222 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Preliminary period organic manuring",
+            "localIdentifier": "Preliminary period organic manuring",
+            "name": "Preliminary period organic manuring",
+            "url": "Preliminary period organic manuring",
+            "description": "4 randomised blocks of 8 plots. 6 plots were in an arable rotation and 2 sown to grass leys. Plots in the arable rotation were split into 4 for nitrogen treatments for the first 4 years."
+        },
+        "design": {
+            "dateStart": 1964,
+            "dateEnd": 1972,
+            "description": "Main plots in the arable rotation measured 8.55 x 30.6m and were each split into 4 sub-plots measuring 15.3 x 4.28m.",
+            "designType": "Randomized complete block design",
+            "designTypeLabel": "Randomized complete block design",
+            "studyDesign": "Preliminary period organic manuring",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": 4,
+            "numberOfPlots": 32,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": 96,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21704,
+                "name": "grass leys",
+                "sameAs": "grass leys",
+                "dateStart": 1966,
+                "dateEnd": 1972
+            },
+            {
+                "id": 21705,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": 1966,
+                "dateEnd": 1972
+            },
+            {
+                "id": 21706,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": 1966,
+                "dateEnd": null
+            },
+            {
+                "id": 21707,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": 1967,
+                "dateEnd": null
+            },
+            {
+                "id": 21708,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": 1968,
+                "dateEnd": null
+            },
+            {
+                "id": 21709,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": 1969,
+                "dateEnd": null
+            },
+            {
+                "id": 21710,
+                "name": "beans",
+                "sameAs": "beans",
+                "dateStart": 1970,
+                "dateEnd": null
+            },
+            {
+                "id": 21711,
+                "name": "rye",
+                "sameAs": "rye",
+                "dateStart": 1971,
+                "dateEnd": 1972
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12684,
+                "name": "natural fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31476,
+                        "name": "peat",
+                        "amount": "7.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1965,
+                        "dateEnd": 1972,
+                        "frequency": "annually in autumn",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "sedge peat"
+                    },
+                    {
+                        "id": 31477,
+                        "name": "straw",
+                        "amount": "7.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1965,
+                        "dateEnd": 1972,
+                        "frequency": "annually in autumn",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "barley straw"
+                    },
+                    {
+                        "id": 31478,
+                        "name": "green manure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Green manure crops used were Italian Ryegrass, Trefoil and red clover"
+                    },
+                    {
+                        "id": 31479,
+                        "name": "inorganic fertiliser",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31480,
+                        "name": "farmyard manure",
+                        "amount": "50",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1965,
+                        "dateEnd": 1972,
+                        "frequency": "annually in autumn",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31481,
+                        "name": "inorganic fertiliser",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "To provide equivalent PKMg as Farmyard Manure"
+                    },
+                    {
+                        "id": 31482,
+                        "name": "grass clover ley",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "sown April 1965, ploughed either October 1971 or November 1972"
+                    },
+                    {
+                        "id": 31483,
+                        "name": "grass ley plus nitrogen",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "sown April 1965, ploughed either October 1971 or November 1972"
+                    }
+                ]
+            },
+            {
+                "id": 12685,
+                "name": "nitrogen fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Sub plot",
+                "level": [
+                    {
+                        "id": 31484,
+                        "name": "nitrogen",
+                        "amount": "25",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1967,
+                        "dateEnd": 1969,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "None applied to barley in 1966"
+                    },
+                    {
+                        "id": 31485,
+                        "name": "nitrogen",
+                        "amount": "75",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1966,
+                        "dateEnd": 1969,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "25 kgN/ha to Barley in 1966"
+                    },
+                    {
+                        "id": 31486,
+                        "name": "nitrogen",
+                        "amount": "125",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1966,
+                        "dateEnd": 1969,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "50 kgN/ha to Barley in 1966"
+                    },
+                    {
+                        "id": 31487,
+                        "name": "nitrogen",
+                        "amount": "175",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1966,
+                        "dateEnd": 1969,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "75 kgN/ha to Barley in 1966"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "First test phase",
+            "localIdentifier": "First test phase",
+            "name": "First test phase",
+            "url": "First test phase",
+            "description": "Each main plot was split into 8 sub-plots for testing eight rates of nitrogen."
+        },
+        "design": {
+            "dateStart": 1973,
+            "dateEnd": 1980,
+            "description": "Four test crops were grown in rotation with an eight-level N test to evaluate residues from all organic amendments and leys. Arable crops were grown in rotation. During this period, no organic manures were applied.",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "First test phase",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": 4,
+            "numberOfPlots": 32,
+            "numberOfReplicates": 4,
+            "numberOfSubplots": 256,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21712,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21713,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21714,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21715,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "4 course rotation",
+                "dateStart": 1972,
+                "dateEnd": 1980,
+                "phasing": "Incomplete",
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 21712,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21713,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21714,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21715,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 12686,
+                "name": "nitrogen fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Sub plot",
+                "level": [
+                    {
+                        "id": 31488,
+                        "name": "control exposure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31489,
+                        "name": "N1",
+                        "amount": "25; 40; 50",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "25 to cereals; 40 to sugar beet; 50 to potatoes"
+                    },
+                    {
+                        "id": 31490,
+                        "name": "N2",
+                        "amount": "50; 80; 100",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "50 to cereals; 80 to sugar beet; 100 to potatoes"
+                    },
+                    {
+                        "id": 31491,
+                        "name": "N3",
+                        "amount": "75; 120; 150",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "75 to cereals; 120 to sugar beet; 150 to potatoes"
+                    },
+                    {
+                        "id": 31492,
+                        "name": "N4",
+                        "amount": "100; 160; 200",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "100 to cereals; 160 to sugar beet; 200 to potatoes"
+                    },
+                    {
+                        "id": 31493,
+                        "name": "N5",
+                        "amount": "125; 200; 250",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "125 to cereals; 200 to sugar beet; 250 to potatoes"
+                    },
+                    {
+                        "id": 31494,
+                        "name": "N6",
+                        "amount": "150; 240; 300",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "150 to cereals; 240 to sugar beet; 300 to potatoes"
+                    },
+                    {
+                        "id": 31495,
+                        "name": "N7",
+                        "amount": "175; 280; 350",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "175 to cereals; 280 to sugar beet; 350 to potatoes"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Second organic manuring",
+            "localIdentifier": "Second organic manuring",
+            "name": "Second organic manuring",
+            "url": "Second organic manuring",
+            "description": "The preliminary period plots with treatments grass ley with nitrogen, grass clover ley, peat, and green manure were all sown to grass clover leys. The farmyard manure, straw and inorganic plots resumed their preliminary period treatments."
+        },
+        "design": {
+            "dateStart": 1981,
+            "dateEnd": 1986,
+            "description": null,
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Second organic manuring",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": 4,
+            "numberOfPlots": 12,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21716,
+                "name": "beans",
+                "sameAs": "beans",
+                "dateStart": 1981,
+                "dateEnd": 1982
+            },
+            {
+                "id": 21717,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": 1981,
+                "dateEnd": 1986
+            },
+            {
+                "id": 21718,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": 1982,
+                "dateEnd": 1983
+            },
+            {
+                "id": 21719,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": 1983,
+                "dateEnd": 1984
+            },
+            {
+                "id": 21720,
+                "name": "oats",
+                "sameAs": "oats",
+                "dateStart": 1984,
+                "dateEnd": 1986
+            },
+            {
+                "id": 21721,
+                "name": "rye",
+                "sameAs": "rye",
+                "dateStart": 1985,
+                "dateEnd": 1986
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12687,
+                "name": "natural fertilizer exposure",
+                "description": "Applied to arable crops, cumulative to the same treatments in the preliminary period",
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 31496,
+                        "name": "farmyard manure",
+                        "amount": "50",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31497,
+                        "name": "straw",
+                        "amount": "7.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Plus 140 kgP/ha; 280 kgK/ha; 50 kgMg/ha"
+                    },
+                    {
+                        "id": 31498,
+                        "name": "inorganic fertiliser FYM rate",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "To provide equivalent PKMg as Farmyard Manure (280 kgP/ha; 560 kgK/ha; 100 kgMg/ha)"
+                    },
+                    {
+                        "id": 31499,
+                        "name": "inorganic fertiliser half FYM rate",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "140 kgP/ha; 280 kgK/ha; 50 kgMg/ha"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Second test phase",
+            "localIdentifier": "Second test phase",
+            "name": "Second test phase",
+            "url": "Second test phase",
+            "description": "From 1992 wheat was grown continuously, except for 1997 when rye was grown."
+        },
+        "design": {
+            "dateStart": 1987,
+            "dateEnd": 2002,
+            "description": "From 1992 wheat was grown continuously, except for 1997 when rye was grown.",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Second test phase",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": 4,
+            "numberOfPlots": 32,
+            "numberOfReplicates": null,
+            "numberOfSubplots": 192,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21722,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": 1987,
+                "dateEnd": 2002
+            },
+            {
+                "id": 21723,
+                "name": "oats",
+                "sameAs": "oats",
+                "dateStart": 1987,
+                "dateEnd": 1987
+            },
+            {
+                "id": 21724,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": 1988,
+                "dateEnd": 1989
+            },
+            {
+                "id": 21725,
+                "name": "beans",
+                "sameAs": "beans",
+                "dateStart": 1990,
+                "dateEnd": 1991
+            },
+            {
+                "id": 21726,
+                "name": "rye",
+                "sameAs": "rye",
+                "dateStart": 1997,
+                "dateEnd": 1997
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12688,
+                "name": "natural fertilizer exposure",
+                "description": null,
+                "effect": "Residual",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 31500,
+                        "name": "8 year clover grass ley until 1986, green manure in preliminary period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31501,
+                        "name": "8 year clover grass ley until 1986, peat in preliminary period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31502,
+                        "name": "6 year clover grass ley until 1986, clover grass ley in preliminary period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31503,
+                        "name": "6 year clover grass ley until 1986, grass ley with nitrogen in preliminary period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31504,
+                        "name": "Farmyard manure in preliminary and second organic manuring period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31505,
+                        "name": "Straw in preliminary and second organic manuring period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31506,
+                        "name": "PKMg fertilizer equivalent to FYM in preliminary and second organic manuring period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31507,
+                        "name": "PKMg fertiliser equivalent to straw in preliminary and second organic manuring period",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 12689,
+                "name": "nitrogen fertilizer exposure",
+                "description": "No N applied in 1992",
+                "effect": "Direct",
+                "plotApplication": "Sub plot",
+                "level": [
+                    {
+                        "id": 31508,
+                        "name": "control exposure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1994,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31509,
+                        "name": "N1",
+                        "amount": "50; 70",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1994,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "50 to cereals & beans; 70 to potatoes"
+                    },
+                    {
+                        "id": 31510,
+                        "name": "N2",
+                        "amount": "100; 140",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1994,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "100 to cereals & beans; 140 to potatoes"
+                    },
+                    {
+                        "id": 31511,
+                        "name": "N3",
+                        "amount": "150; 210",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1994,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "150 to cereals & beans; 210 to potatoes."
+                    },
+                    {
+                        "id": 31512,
+                        "name": "N4",
+                        "amount": "200; 280",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1994,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "200 to cereals & beans; 280 to potatoes"
+                    },
+                    {
+                        "id": 31513,
+                        "name": "N5",
+                        "amount": "250; 350",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": 1987,
+                        "dateEnd": 1994,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "250 to cereals & beans; 350 to potatoes"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Third organic manuring",
+            "localIdentifier": "Third organic manuring",
+            "name": "Third organic manuring",
+            "url": "Third organic manuring",
+            "description": "The experiment was modified to test further inputs of organic matter. An arable rotation was started on 7 of the 8 plots and the eighth was sown to a grass clover ley. \nThe rotation plots were split into 6 subplots and tested a nitrogen sequence in the order N0>N1>N2>N3>N4>N5>N0..."
+        },
+        "design": {
+            "dateStart": 2003,
+            "dateEnd": null,
+            "description": "Soils are sampled every 5 years",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Third organic manuring",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": 4,
+            "numberOfPlots": 32,
+            "numberOfReplicates": null,
+            "numberOfSubplots": 176,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21727,
+                "name": "rye",
+                "sameAs": "rye",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21728,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21729,
+                "name": "beans",
+                "sameAs": "beans",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21730,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21731,
+                "name": "maize",
+                "sameAs": "maize",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21732,
+                "name": "grass clover leys",
+                "sameAs": "grass clover leys",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "arable rotation",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": "Incomplete",
+                "isTreatment": false,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 21727,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21728,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21729,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21730,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21731,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 12690,
+                "name": "natural fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 31514,
+                        "name": "no organic amendment",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Previous fertilisers equivalent to farmyard manure and grass with nitrogen plots"
+                    },
+                    {
+                        "id": 31515,
+                        "name": "straw",
+                        "amount": "7.5",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Previous straw plot"
+                    },
+                    {
+                        "id": 31516,
+                        "name": "green manure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Cover crop prior to spring sown crops. Previous green manure then grass clover ley plot"
+                    },
+                    {
+                        "id": 31517,
+                        "name": "compost",
+                        "amount": "40",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Previous peat then grass clover ley plot"
+                    },
+                    {
+                        "id": 31518,
+                        "name": "farmyard manure",
+                        "amount": "10",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Previous fertilisers equivalent to straw plot"
+                    },
+                    {
+                        "id": 31519,
+                        "name": "farmyard manure",
+                        "amount": "25",
+                        "unitCode": "t/ha",
+                        "unitText": "tonnes per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Previous farmyard manure at 50 t/ha"
+                    },
+                    {
+                        "id": 31520,
+                        "name": "grass clover ley",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Previous grass clover ley"
+                    }
+                ]
+            },
+            {
+                "id": 12691,
+                "name": "nitrogen fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Sub plot",
+                "level": [
+                    {
+                        "id": 31521,
+                        "name": "N0",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31522,
+                        "name": "N1",
+                        "amount": "30; 35; 50",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "30 to rye; 35 to barley; 50 to maize and wheat"
+                    },
+                    {
+                        "id": 31523,
+                        "name": "N2",
+                        "amount": "60; 70; 100",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "60 to rye; 70 to barley; 100 to maize and wheat"
+                    },
+                    {
+                        "id": 31524,
+                        "name": "N3",
+                        "amount": "90; 105; 150",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "90 to rye; 105 to barley; 150 to maize and wheat"
+                    },
+                    {
+                        "id": 31525,
+                        "name": "N4",
+                        "amount": "120; 140; 200",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "120 to rye; 140 to barley; 200 to maize and wheat"
+                    },
+                    {
+                        "id": 31526,
+                        "name": "N5",
+                        "amount": "150; 175; 250",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": "calcium ammonium nitrate",
+                        "notes": "150 to rye; 175 to barley; 250 to maize and wheat"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annual",
+                "scale": "sub plot",
+                "material": "AllCrops",
+                "description": null,
+                "crop": null
+            }
+        ]
+    }
+]

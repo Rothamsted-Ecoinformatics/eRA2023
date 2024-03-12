@@ -1,0 +1,32 @@
+{
+    "administrative": {
+        "type": "Asset",
+        "identifier": "RSA",
+        "identifierType":"RO",
+        "localIdentifier": "rothamsted",
+        "name": "Rothamsted Sample Archive",
+        "url": "https://www.rothamsted.ac.uk/sample-archive",
+        "description": "With remarkable prescience, Lawes and Gilbert retained samples of crops, soils, fertilisers and manures from the long-term experiments, dating back to the 1840s.",
+        "disambiguatingDescription": "Successive generations of scientists at Rothamsted have continued to add to the collection and the resulting Sample Archive now comprises about 300,000 samples. This unique resource is of immense scientific value. No other long-term experiments have such an archive of material"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": null,
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "MOCK DATA",
+        "correctionsPolicy": "MOCK DATA",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC-by-4",
+        "license": "http://creativecommons.org/licenses/by/4.0"
+    },
+    "temporalCoverage": "MOCK",
+    "dateStart": 1843,
+    "dateEPEnd": 1951,
+    "dateEnd": null,
+    "funder": "NOT in GLTEN",
+    "citation": []
+}

@@ -1,0 +1,4 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no FYM applied,1965-2018,animal manure exposure,http://purl.obolibrary.org/obo/AGRO_00000076,0,0,t ha-1 yr,not applied,farmyard manure,http://aims.fao.org/aos/agrovoc/c_2810
+FYM amount per application,1965-2018,animal manure exposure,http://purl.obolibrary.org/obo/AGRO_00000076,FYM,35,t ha-1 yr,in 4 year cycle,farmyard manure,http://aims.fao.org/aos/agrovoc/c_2810
+Indicates FYM previously applied but no longer applied. Applies to plot 13-1,1995-2018,animal manure exposure,http://purl.obolibrary.org/obo/AGRO_00000076,(FYM),0,t ha-1 yr,no longer applied,farmyard manure,http://aims.fao.org/aos/agrovoc/c_2810

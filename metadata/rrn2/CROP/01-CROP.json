@@ -1,0 +1,420 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rrn2-FLAcrop4923-01",
+    "name": "Fosters Ley-arable Experiment cropping sequence 1949-2023",
+    "shortName": "CROP",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rrn2/01-CROP",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "Cropping details of the Fosters Ley-arable experiment, 1949-2023, with details of the arable and ley-arable rotation sequences in each of the twelve blocks, and the different treatment crops and varieties. The experiment was designed to test the effects of different rotations with and without leys (short-term herbage) on the yield of three arable test crops. It is now an important resource for investigating long-term changes in soil organic matter due to different cropping systems.\r\n\r\nThis dataset was assembled by Fergus Blyth from September 2022 to August 2023 as part of a year spent on placement for an MSci degree from the University of Glasgow.\r\n\r\nThis work was supported by the Natural Environment Research Council [NE/S007423/1], through the ENVISION Doctoral Training Partnership, Research Experience Placement scheme. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "The experiment was started in 1949 to test the effects of different 3 year ley treatments on the yields of 3 arable test crops. From 1968, blocks 5-12 were turned over to continuous wheat cropping to study the effects of take-all disease and are not included further in this dataset, except the 1st, 2nd and 3rd test crops in blocks 8, 9, 10 and 12, which continued until 1971. Blocks 1-4 are maintained to this day, although the measuring of yields was halted in 1990.  The experiment began with a cut-grass (Cg) treatment, a grazed ley (L) treatment, a lucerne treatment (Lu) and an arable with hay treatment (A), which was intended to provide a continuous arable plot for comparison in a similar fashion to the permanent grass plot on Highfield, since Fosters was in long-term arable cropping before the experiment began. The crops and treatments used in the arable with hay treatment changed several times over the course of the experiment. Additionally, some plots were sown with reseeded grass (R). The (L) and (Cg) treatments were discontinued in 1962 in favour of a clover-grass (Lc) and an all-grass (Ln) treatment, respectively. Some (R) plots were ploughed up and converted to the arable with hay treatment in the late 1960s, before being returned to reseeded grass in the 1970s under the name (Rp). (Lu) and (Ln) plots were converted to (Lc) plots in 1991, and (R) and (Rp) plots were titled (Rc) or (Rpc) from 1991 onwards to reflect the halting of nitrogen tests on the plots. In 2009, the (Lc) plots that had previously been (Ln) were turned over to permanent fallow (F). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "Cropping data, with details of the crop grown on each plot each year.\r\nCrop types, including variety\r\nRotation types, with details of the different arable and ley-arable rotations. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "The main plots are in pairs. At conception, it consisted of 120 main plots, divided over 12 blocks. It now numbers 40 plots, divided over 4 blocks. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "Taken from the Rothamsted Yield Books, field plans and paper archive. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": " "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "arable farming",
+        "crop rotation",
+        "cropping system",
+        "ley farming",
+        "long term experiments",
+        "Rothamsted Research",
+        "barley",
+        "experimental design",
+        "hay",
+        "Fosters ley-arable rotation experiment",
+        "leys",
+        "oats",
+        "sown pastures",
+        "potatoes",
+        "sugarbeet",
+        "wheat"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Fergus Blyth",
+            "givenName": "Fergus",
+            "familyName": "Blyth",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Fergus Blyth",
+            "givenName": "Fergus",
+            "familyName": "Blyth",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": 0.0,
+            "latitude": 0.0
+        },
+        "name": "Fosters Field"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-192",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-term experiments up to 1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-193",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-term experiments 1968-73",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "https://www.era.rothamsted.ac.uk/eradoc/books/2",
+            "relatedIdentifierType": "URL",
+            "name": "Yields of the Long Term Experiments",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "https://www.era.rothamsted.ac.uk/eradoc/book/79",
+            "relatedIdentifierType": "URL",
+            "name": "Collection of Plans for the Fosters Ley-arable Experiment",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/rrn2-FLAsoc5014-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Fosters Ley-arable experiment soil organic carbon 1950-2014 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rrn2-FLAsuppinfo-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Fosters Ley-arable experiment supplementary information 1949 onwards ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-70",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted Experimental Station Report for 1948 pp. 98-99",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/rrn1-HLAcrop4923-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Highfield Ley-arable Experiment cropping sequence 1949-2023 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsReferencedBy",
+            "rt_id": 17,
+            "relationTypeValue": "is referenced by"
+        }
+    ],
+    "funder": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Fosters Ley-arable Experiment cropping sequence 1949-2023",
+            "URL": "01-rrn2FLA-crop4923.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "253 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Note: Dataset shows combined Rn and Rc as R and combined Rpn and Rpc as Rp",
+            "URL": "fosters cropping illustration.png",
+            "encodingFormat": "png",
+            "fileSize": "20 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 1,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

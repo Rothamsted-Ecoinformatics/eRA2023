@@ -1,0 +1,237 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Main period",
+            "localIdentifier": "Main period",
+            "name": "Main period",
+            "url": "Main period",
+            "description": "2x2 factorial, two blocks.  Two directions of cultivation (cultivated and drilled parallel to the contour v  up and down the slope). Two types of cultivation (standard cultivation, residue removed v minimal tillage, residues retained). The two blocks had slightly different cropping histories before the experiment began. Standard cultivation was by moldboard plough to approximately 25cm depth. Minimal tillage was by shallow tines or discs to 10cm depth."
+        },
+        "design": {
+            "dateStart": 1988,
+            "dateEnd": 1998,
+            "description": "Eight plots approximately 24 x 36m (0.086 ha), bounded by grassed earth bunds 1m wide and 30cm high. The bunds prevent runoff and eroded soil from leaving the plot sides, so that they are conducted towards collector tanks at the foot of each plot.",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Main period",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 8,
+            "numberOfReplicates": 2,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 25676,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 25677,
+                "name": "potatoes",
+                "sameAs": "potatoes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 25678,
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 25679,
+                "name": "winter barley",
+                "sameAs": "winter barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 25680,
+                "name": "sugar beet",
+                "sameAs": "sugar beet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 25681,
+                "name": "fodder beet",
+                "sameAs": "fodder beet",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 25682,
+                "name": "fallow",
+                "sameAs": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 14891,
+                "name": "Cultivation direction",
+                "description": "Two cultivation directions.",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 36016,
+                        "name": "U: up and down the slope",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1988,
+                        "dateEnd": 1998,
+                        "frequency": "Annual",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 36017,
+                        "name": "A: across the slope",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1988,
+                        "dateEnd": 1998,
+                        "frequency": "Annual",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 14892,
+                "name": "Tillage type",
+                "description": "Two types of tillage.",
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 36018,
+                        "name": "M: minimum tillage, cereal straw and potato and beet tops retained, partially incorporated, cultivated to 10cm deep.",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1988,
+                        "dateEnd": 1998,
+                        "frequency": "Annual",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 36019,
+                        "name": "S: standard practice, cereal straw baled and removed, potato and beet tops raked and removed. Mouldboard ploughed .",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1988,
+                        "dateEnd": 1998,
+                        "frequency": "Annual",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "Annual",
+                "scale": null,
+                "material": "AllCrops",
+                "description": null,
+                "crop": null
+            },
+            {
+                "variable": "water flow from plot",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Water and soil flowing from each plot were chanelled to a collecting trough and through a pipe to two 2000litre storage tanks were they were stored until sampled. The amounts of runoff and soil loss from each plot were measured as soon after each runoff event as practically possible and usually within 48 hours.",
+                "crop": null
+            },
+            {
+                "variable": "soil loss from each plot",
+                "unitCode": "kg/ha",
+                "unitText": "kilogram per hectare",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Water and soil flowing from each plot were chanelled to a collecting trough and through a pipe to two 2000litre storage tanks were they were stored until sampled. The amounts of runoff and soil loss from each plot were measured as soon after each runoff event as practically possible and usually within 48 hours.",
+                "crop": null
+            },
+            {
+                "variable": "total soil phosphorous",
+                "unitCode": "kgP/ha",
+                "unitText": "kg phosphorous per hectare",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Total P in sediment sampled determined by ICP after aqua regia digest.",
+                "crop": null
+            },
+            {
+                "variable": "MRP",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Molybdate reactive P (MRP) in drainwater and runoff was determined following the method of Murphy and Riley (1962) following filtration using an Alpkem segmented flow colorimetic analyser.",
+                "crop": null
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "kgN/ha",
+                "unitText": "kg nitrogen per hectare",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "total nitrogen lost in sediment",
+                "crop": null
+            },
+            {
+                "variable": "total soil potassium",
+                "unitCode": "kgK/ha",
+                "unitText": "kg potassium per hectare",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": "total potassium lost in sediment",
+                "crop": null
+            },
+            {
+                "variable": "soil total carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": "Soil",
+                "description": "changes in soil carbon content in soil and soil carbon lost in sediment",
+                "crop": null
+            }
+        ]
+    }
+]

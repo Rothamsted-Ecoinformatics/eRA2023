@@ -1,0 +1,3 @@
+description,tillage_type,factor_level_code,years,treatment_factor,treatment_factor_rdfType,frequency
+"Minimal tillage: cereal straw chopped, potato haulms pulverised and retained and beet tops retained, both partially incorporated by shallow tines or discs to 10cm depth. Between crops soil was left in post-harvest condition, covered with stubble and crop residues until cultivated for the seedbed. ",minimal,M,1988-1998,tillage,http://aims.fao.org/aos/agrovoc/c_7771 ,annual
+"Standard tillage:  cereal straw baled and removed, potato haulm and beet tops raked up and removed, plots mouldboard ploughed to 25cm depth. Between crops soil was in bare fallow after ploughing. ",standard,S,1988-1998,tillage,http://aims.fao.org/aos/agrovoc/c_7771 ,annual

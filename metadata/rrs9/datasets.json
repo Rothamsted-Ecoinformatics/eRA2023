@@ -1,0 +1,23 @@
+[
+    {
+        "md_id": 119,
+        "title": "Acid Strip soil pH and phosphorus concentration 2010",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rrs9/01-SOIL2010",
+        "identifier": "10.23637/rrs9-SOIL2010-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Soil data",
+        "extension": "xlsx",
+        "description": "The Acid Strip is a narrow strip of land on the the northern edge of Hoosfield, Rothamsted. The strip received large uneven applications of chalk (lime) in the 1850s, and no chalk since. This uneven application of chalk has lead to a dramatic decline in soil pH from East to West. No P or K fertilizer or manure has been applied to the site. Winter wheat is now grown, given 100 kgN/ha. This dataset contains the soil pH and soil phosphorus (P) data measured in August 2010, as reported by Turner and Blackwell (2013), funded by BBSRC Project BB/J004642/1, Development of BBSRC's capacity for the analysis of organic P in soils.",
+        "fieldname": "Hoosfield",
+        "experiment_name": "Acid Strip",
+        "experiment_code": "R/RS/9",
+        "grade": 1,
+        "dstype": "Frictionless",
+        "publication_year": 2022,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "SOIL2010",
+        "UID": "01-SOIL2010"
+    }
+]

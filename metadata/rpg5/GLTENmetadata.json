@@ -1,0 +1,1438 @@
+{
+    "id": 5725,
+    "experiment_type_term": null,
+    "experiment_id": 67,
+    "people": [
+        {
+            "id": 6564,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "sarah.perryman@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Sarah Perryman",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "https://orcid.org/0000-0002-0056-2754",
+            "is_contact": true,
+            "role_label": "data manager"
+        },
+        {
+            "id": 6565,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "jonathan.storkey@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "experiment manager",
+            "title": "Dr",
+            "name": "Jon Storkey",
+            "affiliation": "Rothamsted Research",
+            "department": "Biointeractions and Crop Protection",
+            "orcid": "https://orcid.org/0000-0003-1094-8914",
+            "is_contact": false,
+            "role_label": "experiment manager"
+        },
+        {
+            "id": 6566,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "andy.gregory@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andy Gregory",
+            "affiliation": "Rothamsted Research",
+            "department": "Sustainable Agricultural Sciences",
+            "orcid": null,
+            "is_contact": false,
+            "role_label": "principal investigator"
+        },
+        {
+            "id": 6567,
+            "contacts": [],
+            "role_term": null,
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "Computational and Analytical Sciences",
+            "orcid": "https://orcid.org/0000-0002-6466-4629",
+            "is_contact": false,
+            "role_label": null
+        }
+    ],
+    "organizations": [
+        {
+            "id": 6179,
+            "contacts": [
+                {
+                    "contact_type": "URL",
+                    "value": "http://www.rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "research organisation",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": null,
+            "role_label": "research organisation"
+        }
+    ],
+    "periods": [
+        {
+            "id": 7937,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 21972,
+                    "crop_term": "grass",
+                    "crop_label": "grass",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 12833,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31844,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N1",
+                            "amount": "52",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31845,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N2",
+                            "amount": "104",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31846,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N3",
+                            "amount": "156",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31847,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N1*",
+                            "amount": "52",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium nitrate",
+                            "chemical_form_label": "ammonium nitrate"
+                        },
+                        {
+                            "id": 31848,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N2*",
+                            "amount": "104",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium nitrate",
+                            "chemical_form_label": "ammonium nitrate"
+                        }
+                    ],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 12834,
+                    "factor_term": "natural fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31849,
+                            "factor_variant_term": "farmyard manure",
+                            "factor_variant_label": "farmyard manure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "once every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31850,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "fish meal",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "To supply 68 kgN/ha.",
+                            "application_frequency": "once every 4 years",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "natural fertilizer exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 12835,
+                    "factor_term": "superphosphate exposure",
+                    "levels": [
+                        {
+                            "id": 31851,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "P",
+                            "amount": "36",
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "superphosphate exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 12836,
+                    "factor_term": "potassium fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31852,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "K",
+                            "amount": "242",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "potassium sulphate",
+                            "chemical_form_label": "potassium sulphate"
+                        }
+                    ],
+                    "factor_label": "potassium fertilizer exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 12837,
+                    "factor_term": "sodium nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31853,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Na",
+                            "amount": "17",
+                            "amount_unit_term": "kgNa/ha",
+                            "amount_unit_label": "kg sodium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "sodium sulphate",
+                            "chemical_form_label": "sodium sulphate"
+                        }
+                    ],
+                    "factor_label": "sodium nutrient exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 12838,
+                    "factor_term": "magnesium nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31854,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Mg",
+                            "amount": "12",
+                            "amount_unit_term": "kgMg/ha",
+                            "amount_unit_label": "kg magnesium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "magnesium sulphate",
+                            "chemical_form_label": "magnesium sulphate"
+                        }
+                    ],
+                    "factor_label": "magnesium nutrient exposure",
+                    "description": null,
+                    "plot_application": "Whole plot",
+                    "effect": ""
+                },
+                {
+                    "id": 12839,
+                    "factor_term": "silicon nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31855,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Si",
+                            "amount": "28",
+                            "amount_unit_term": null,
+                            "amount_unit_label": "kg silicon per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": "silicate of soda"
+                        }
+                    ],
+                    "factor_label": "silicon nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12840,
+                    "factor_term": null,
+                    "levels": [],
+                    "factor_label": "Sawdust",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": "SpecifiedCrop",
+                    "crop_id": 21972,
+                    "comment": "1st and 2nd cuts, available from 1856-present.",
+                    "collection_frequency": "Biannual",
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Percentage composition of gramineae, leguminosae and other orders. Complete Botanical Separation Data. Selected years 1862-1976.",
+                    "collection_frequency": "Selected years. Biannual.",
+                    "variable_label": "Partial botanical separation data",
+                    "variable_term": null,
+                    "unit_label": "%",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Percentage composition of species on plot. Selected years 1862-1976.",
+                    "collection_frequency": "Selected years. Biannual.",
+                    "variable_label": "Complete Botanical Separation Data",
+                    "variable_term": null,
+                    "unit_label": "%",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for 1876, 1886, (1932, 1959, 1966, 1985, 1991)",
+                    "collection_frequency": "variable",
+                    "variable_label": "soil total carbon",
+                    "variable_term": null,
+                    "unit_label": "g/100g",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for 1876, 1886, (1913, 1932, 1959, 1966, 1985, 1991)",
+                    "collection_frequency": "variable",
+                    "variable_label": "total soil nitrogen",
+                    "variable_term": null,
+                    "unit_label": "g/100g",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for 1876, (1923, 1959, 1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014)",
+                    "collection_frequency": "variable",
+                    "variable_label": "soil pH",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1876 -",
+                    "collection_frequency": "variable",
+                    "variable_label": "Olsen P",
+                    "variable_term": null,
+                    "unit_label": "milligram per kilogram",
+                    "unit_term": "mg/kg",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": "variable",
+                    "variable_label": "Total P",
+                    "variable_term": null,
+                    "unit_label": "milligram per kilogram",
+                    "unit_term": "mg/kg",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1870 -",
+                    "collection_frequency": "variable",
+                    "variable_label": "Soil weight",
+                    "variable_term": null,
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1870 -",
+                    "collection_frequency": "variable",
+                    "variable_label": "Root mass",
+                    "variable_term": null,
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                }
+            ],
+            "start_year": 1856,
+            "end_year": 1902,
+            "ongoing": false,
+            "name": "First period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": 20,
+            "number_of_subplots": 4,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": "There were originally 20 plots, some split (see Plan 1865). Plot nomenclature in 1856-1902 is complex. Yields are given for the whole plot, eg plot 3, 1856-1885. From 1881-1902, yields from the small area chalked in 1881 are referred to as 'C' eg 3C, and from the much larger unchalked area as 'UC' eg 3UC. Separate yields were not recorded for the limed and unlimed Western and Eastern halves in 1883 and 1887, but in some years, eg 1887 and 1889, yields are shown for the Western (W) and Eastern (E) parts of the areas chalked (C) and unchalked (UC) in 1881, eg Plots 3EU, 3WC. Plots areas are shown in e-RA, which helps with understanding which parts of the plots are referred to.",
+            "description": "The uniformity of the site was assessed in the five years prior to 1856. Park Grass probably never received the large applications of chalk that were often applied to arable fields in this part of England. The soil (0-23cm) probably had a pH (in water) of about 5.5 when the experiment began. At the beginning of the experiment there were three main groups of fertiliser treatments; no N, N as ammonium salts at 3 rates and N as sodium nitrate at 2 rates, supplying the same amounts of N as the 2 smaller rates of ammonium salts. Within the 3 groups there were comparisons of O and P with and without K Na Mg for some of the rates of N. All fertilisers were applied each year. Another group of treatments also applied each year, tested farmyard manure (FYM), FYM f fertiliser \\ chaffed straw * N P K Na Mg and sawdust. The sawdust was applied to some of the plots in two of the groups of fertiliser treatments, no N and ammonium salts. The object was to increase the carbon dioxide content of the soil water by the decomposition of the sawdust (Warren & Johnston, 1963). FYM (farm yard manure) was applied to two plots but was discontinued after eight years because, when applied annually to the surface in large amounts, it had adverse effects on the sward. For 19 years the re-growth was grazed by sheep penned on individual plots but since 1875 a second harvest has been cut and removed immediately. Neither straw nor sawdust had any effect on yield of hay during the first few years, and the sawdust treatment was stopped. Applications of straw, however, were continued for about 40 years, but the added organic matter accumulated as a peaty layer and began to injure the growth of the\nherbage, and in 1897 this treatment was also stopped.\n\n\nSmall amounts of chalk and lime were applied to all plots in the 1880s and 1890s. The Park Grass plan of 1881 shows the chalk application in 1881 to a small part of the Northern end of the plots. In 1883 and 1887 the plots were divided into Western and Eastern halves, with lime applied to the Western half in 1883 and the Eastern half in 1887.",
+            "factorial": false
+        },
+        {
+            "id": 7938,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 21973,
+                    "crop_term": "grass",
+                    "crop_label": "grass",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "1st and 2nd cuts, available from 1856-present.",
+                    "collection_frequency": "Biannual.",
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Percentage composition of gramineae, leguminosae and other orders. Complete Botanical Separation Data. Selected years 1862-1976.",
+                    "collection_frequency": "Selected years. Biannual.",
+                    "variable_label": "Partial botanical separation data",
+                    "variable_term": null,
+                    "unit_label": "%",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Percentage composition of species on plot. Selected years 1862-1976.",
+                    "collection_frequency": "Selected years. Biannual.",
+                    "variable_label": "Complete Botanical Separation Data",
+                    "variable_term": null,
+                    "unit_label": "%",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for 1876, 1886, 1932, 1959, 1966, 1985, 1991",
+                    "collection_frequency": "variable",
+                    "variable_label": "soil total carbon",
+                    "variable_term": null,
+                    "unit_label": "g/110g",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for (1876, 1886), 1913, 1932, 1959, (1966, 1985, 1991)",
+                    "collection_frequency": "variable",
+                    "variable_label": "total soil nitrogen",
+                    "variable_term": null,
+                    "unit_label": "g/100g",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for (1876), 1923, 1959, (1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014)",
+                    "collection_frequency": "variable",
+                    "variable_label": "soil pH",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1876 -",
+                    "collection_frequency": "variable",
+                    "variable_label": "Olsen P",
+                    "variable_term": null,
+                    "unit_label": "milligram per kilogram",
+                    "unit_term": "mg/kg",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1876 -",
+                    "collection_frequency": "variable",
+                    "variable_label": "Total P",
+                    "variable_term": null,
+                    "unit_label": "milligram per kilogram",
+                    "unit_term": "mg/kg",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1870 -",
+                    "collection_frequency": "variable",
+                    "variable_label": "Soil weight",
+                    "variable_term": null,
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1870 -",
+                    "collection_frequency": "variable",
+                    "variable_label": "Root mass",
+                    "variable_term": null,
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                }
+            ],
+            "start_year": 1903,
+            "end_year": 1964,
+            "ongoing": false,
+            "name": "Second period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": "Plots were divided into two in 1903 to test the effects of regular applications of lime.",
+            "description": "In 1903, a regular liming scheme was started on the south halves of the plots 1 to 4-2, to 11-2, 13, 16*. The dressing was ground lime and repeated in 1907 and 1915. In 1920 plots 14, 15 and 17 came into this scheme. Also, in 1920 plots 18, 19 and 20** were each divided into three sections, one being left unlimed and the other two limed every four years. Lime was then applied every fourth year from 1924 to southern halves of plots* and plots ** received dressings as in 1920. FYM, applied every four years, was re-introduced on three plots (13, 19 and 20) in 1905.\n\nYields, having originally been estimated by weighing the produce from the whole plot, were since 1960,  estimated from strips cut with a forage harvester as yields of dry matter (see More; Harvesting Methods).",
+            "factorial": false
+        },
+        {
+            "id": 7939,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 21974,
+                    "crop_term": "grass",
+                    "crop_label": "grass",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 12841,
+                    "factor_term": "nitrogen fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31856,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N1",
+                            "amount": "48",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31857,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N2",
+                            "amount": "96",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31858,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N3",
+                            "amount": "144",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31859,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N*1",
+                            "amount": "48",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium nitrate",
+                            "chemical_form_label": "ammonium nitrate"
+                        },
+                        {
+                            "id": 31860,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N*2",
+                            "amount": "96",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium nitrate",
+                            "chemical_form_label": "ammonium nitrate"
+                        },
+                        {
+                            "id": 31861,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "N*3",
+                            "amount": "144",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium nitrate",
+                            "chemical_form_label": "ammonium nitrate"
+                        },
+                        {
+                            "id": 31862,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "(N2)",
+                            "amount": "96",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": 1989,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium sulfate",
+                            "chemical_form_label": "ammonium sulfate"
+                        },
+                        {
+                            "id": 31863,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "(N*2)",
+                            "amount": "96",
+                            "amount_unit_term": "kgN/ha",
+                            "amount_unit_label": "kg nitrogen per hectare",
+                            "start_year": null,
+                            "end_year": 1989,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "ammonium nitrate",
+                            "chemical_form_label": "ammonium nitrate"
+                        }
+                    ],
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "applied in spring",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12842,
+                    "factor_term": "natural fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31864,
+                            "factor_variant_term": "farmyard manure",
+                            "factor_variant_label": "farmyard manure",
+                            "amount": "35",
+                            "amount_unit_term": "t/ha",
+                            "amount_unit_label": "tonnes per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "supplies c.240 kg N",
+                            "application_frequency": "applied every fourth year",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 31865,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "pelleted poultry manure",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "replaced fish meal in 2003; supplies c.65 kg N",
+                            "application_frequency": null,
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "natural fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12843,
+                    "factor_term": "superphosphate exposure",
+                    "levels": [
+                        {
+                            "id": 31866,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "P",
+                            "amount": "17",
+                            "amount_unit_term": "kgP/ha",
+                            "amount_unit_label": "kg phosphorous per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "applied in winter",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "triple superphosphate",
+                            "chemical_form_label": "triple superphosphate"
+                        }
+                    ],
+                    "factor_label": "superphosphate exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12844,
+                    "factor_term": "potassium fertilizer exposure",
+                    "levels": [
+                        {
+                            "id": 31867,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "K",
+                            "amount": "17",
+                            "amount_unit_term": "kgK/ha",
+                            "amount_unit_label": "kg potassium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "applied in winter",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "potassium sulphate",
+                            "chemical_form_label": "potassium sulphate"
+                        }
+                    ],
+                    "factor_label": "potassium fertilizer exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12845,
+                    "factor_term": "sodium nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31868,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Na",
+                            "amount": "15",
+                            "amount_unit_term": "kgNa/ha",
+                            "amount_unit_label": "kg sodium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "applied in winter",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "sodium sulphate",
+                            "chemical_form_label": "sodium sulphate"
+                        }
+                    ],
+                    "factor_label": "sodium nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12846,
+                    "factor_term": "magnesium nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31869,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Mg",
+                            "amount": "10",
+                            "amount_unit_term": "kgMg/ha",
+                            "amount_unit_label": "kg magnesium per hectare",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "applied in winter",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "magnesium sulphate",
+                            "chemical_form_label": "magnesium sulphate"
+                        }
+                    ],
+                    "factor_label": "magnesium nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12847,
+                    "factor_term": "silicon nutrient exposure",
+                    "levels": [
+                        {
+                            "id": 31870,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "Si",
+                            "amount": "450",
+                            "amount_unit_term": null,
+                            "amount_unit_label": "kg",
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "applied in winter",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": "sodium silicate"
+                        }
+                    ],
+                    "factor_label": "silicon nutrient exposure",
+                    "description": null,
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 12848,
+                    "factor_term": "liming exposure",
+                    "levels": [
+                        {
+                            "id": 31871,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "lime",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": null,
+                            "end_year": null,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": "sub-plot d does not receive any chalk",
+                            "application_frequency": "applied every third year since 1995, every 4 years before then",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": "calcium carbonate",
+                            "chemical_form_label": "calcium carbonate"
+                        }
+                    ],
+                    "factor_label": "liming exposure",
+                    "description": "ground chalk applied as necessary to maintain soil at pH 7,6 and 5 on sub plots a, b and c",
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": "SpecifiedCrop",
+                    "crop_id": 21974,
+                    "comment": "every year from 1856 - present",
+                    "collection_frequency": "two cuts per year",
+                    "variable_label": "yield components",
+                    "variable_term": "yield components",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "complete separations of hay selected years 1862-1976; partial separations of hay 1862-1976; complete species botanical surveys 1991-2000*below",
+                    "collection_frequency": "variable",
+                    "variable_label": "botanical composition",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for 1876, 1886, 1932, 1959, 1966, 1985, 1991",
+                    "collection_frequency": "variable",
+                    "variable_label": "soil total carbon",
+                    "variable_term": "soil total carbon",
+                    "unit_label": "g/100g",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for (1876, 1886, 1913, 1932, 1959) 1966, 1985, 1991",
+                    "collection_frequency": "variable",
+                    "variable_label": "total soil nitrogen",
+                    "variable_term": "total soil nitrogen",
+                    "unit_label": "g/100g",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "data available for (1876, 1923, 1959) 1967, 1970, 1971, 1974, 1975, 1977, 1979, 1984, 1991, 1995, 1998, 2002, 2005, 2008, 2011, 2014",
+                    "collection_frequency": "variable",
+                    "variable_label": "soil pH",
+                    "variable_term": "soil pH",
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": "variable",
+                    "variable_label": "Olsen P",
+                    "variable_term": null,
+                    "unit_label": "milligram per kilogram",
+                    "unit_term": "mg/kg",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1876",
+                    "collection_frequency": "variable",
+                    "variable_label": "Total P",
+                    "variable_term": null,
+                    "unit_label": "milligram per kilogram",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1870",
+                    "collection_frequency": "variable",
+                    "variable_label": "Soil weight",
+                    "variable_term": null,
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "From 1870",
+                    "collection_frequency": "variable",
+                    "variable_label": "Root mass",
+                    "variable_term": null,
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "K, Mg, Ca, Na in air-dried soil. From 1991-2011.",
+                    "collection_frequency": "variable",
+                    "variable_label": "Exchangeable cations",
+                    "variable_term": null,
+                    "unit_label": "milligram per kilogram",
+                    "unit_term": "mg/kg",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "1991-2000 by Imperial College. Weight of species in replicates > % compostition",
+                    "collection_frequency": "Annual",
+                    "variable_label": "*Botanical Survey Data",
+                    "variable_term": null,
+                    "unit_label": "% species",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "1993-1994. Mass effects study by Imperial college, as described by Kunin, 1998",
+                    "collection_frequency": "2 years",
+                    "variable_label": "Botanical Survey data",
+                    "variable_term": null,
+                    "unit_label": "Number of plants",
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Leafhoppers (Auchenorhyncha) on 13 plots sampled five time in the summers of 1977 and 1978, as described by Morris, 1992",
+                    "collection_frequency": "2 years",
+                    "variable_label": "Leafhoppers",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Since January 2020",
+                    "collection_frequency": null,
+                    "variable_label": "Soil moisture",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Dry deposition of NO2 (Atmospheric Chemistry, AN) measured on Park Grass by, and available through, the Environmental Change Network (ECN)",
+                    "collection_frequency": null,
+                    "variable_label": "Atmospheric chemistry",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Wet deposition (precipitation chemistry, PC) measured on Park Grass by, and available through, the Environmental Change Network (ECN)",
+                    "collection_frequency": null,
+                    "variable_label": "Precipitation chemistry",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                }
+            ],
+            "start_year": 1965,
+            "end_year": null,
+            "ongoing": true,
+            "name": "Third period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": null,
+            "number_of_subplots": null,
+            "number_of_replicates": null,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": null,
+            "design_description": "In 1965 most plots were divided into four sub-plots, three of which receive chalk to maintain pHs of 7, 6 and 5 (sub-plots a, b and c respectively). The fourth sub-plot (sub-plot d) receives no chalk and the pH of these ranges from 3.5 to 5.7 depending on the fertilizer treatment.\nFrom 1965 plots 5/1, 5/2 and 6 were used for microplot experiments. Plots 6a and 6b were re-included in the main experiment in 1972 but the other half of plot 6 (6c and 6d) and plots 5/1 and 5/2 have remained outside the main experiment. Since 1990, nitrogen fertilizer has been withheld from half of all sub-plots formerly receiving 96 kg N ha-1 (plots 9 and 14) as either ammonium sulphate or sodium nitrate to study processes controlling soil acidification, heavy-metal mobilisation and botanical changes. Since 1995, plot 13 has been split into 13/1 and 13/2 and FYM/Fishmeal withheld from plot 13/1. Since 1996 plot 2 has been split into 2/1 and 2/2 with plot 2/1 receiving K as potassium sulphate.\nIn 2013 plot 7 (PKNaMg) was divided into two equal sized plots, 7/1 and 7/2. This was to test whether P fertilizer was still required, because large reserves of P have built up in the soil. No P fertilizer was applied to Plot 7/1, but K, Na and Mg applications continued. Plot 7/2 continued as before (i.e. it received PKNaMg). In addition, N applications began on plot 15; 144kg N/ha as sodium nitrate to provide a comparison with plot 11/1 which receives the same amount of N as ammonium sulphate together with P, K, Na & Mg.\nFrom autumn 2016 all plots previously receiving 35 kg P ha-1 as triple superphosphate will receive 17 kg P ha-1 (until further notice) because of the high levels of available soil P from past P inputs. The P application to plot 20 will remain unchanged. Current K, Mg and Na rates on Park Grass remain unchanged. Yields are given for the four sub-plots, eg 3a, 3b, 3c and 3d.",
+            "description": "In 1965 a new liming scheme was introduced to establish four levels of pH on most of the plots which were divided into four sub-plots, given different amounts of lime to maintain soil pH at 7, 6, 5 and an un-limed sub-plot. Plots previously limed, other than 5, 6, 12, 15, 18, 19, 20, were divided into four sublots, see Design Description. \n\nThe botanical composition of the plots has been studied by visual surveys and by looking at the percentage contribution of the various species to the hay harvested. Chemical analyses of the crops and soils have been made and physical samples of the crops and soils preserved. \n\nHarvesting method had changed in 1960 to forage harvester. Since when, yields of both cuts have been estimated from two or four cuts; at the first cut, by forage harvester, the remainder is cut by mower and made into hay on the plot, to maintain continuity of husbandry, but the second cutting the whole produce is is cut by forage harvester and carried green. The positions of the sample cuts vary year to year.",
+            "factorial": false
+        }
+    ],
+    "data_statement_term": "Available to any researcher on request",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": "luvisol",
+    "site_soil_properties": [
+        {
+            "id": 9190,
+            "variable_term": "sand content",
+            "unit_term": "%",
+            "variable_label": "sand content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": null,
+            "typical_value": 11.6,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "Percent"
+        },
+        {
+            "id": 9191,
+            "variable_term": "silt content",
+            "unit_term": "%",
+            "variable_label": "silt content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": null,
+            "typical_value": 66.3,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "Percent"
+        },
+        {
+            "id": 9192,
+            "variable_term": "clay content",
+            "unit_term": "%",
+            "variable_label": "clay content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": null,
+            "typical_value": 22.1,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "Percent"
+        },
+        {
+            "id": 9193,
+            "variable_term": "soil density",
+            "unit_term": "g/cm3",
+            "variable_label": "soil density",
+            "min_depth": 0.0,
+            "max_depth": 23.0,
+            "depth_unit": "Centimetres",
+            "is_estimated": false,
+            "is_baseline": false,
+            "reference_year": 2011,
+            "typical_value": 1.1,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "gram per cubic centimetre"
+        }
+    ],
+    "site_climatic_type_term": "temperate oceanic climate",
+    "site_climate_properties": [],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.1016/bs.aecr.2016.08.002",
+            "title": "J. Storkey , A.J. Macdonald , J.R. Bell , I.M. Clark , A.S. Gregory , N.J. Hawkins , P.R. Hirsch , L.C. Todman and Whitmore, A. P. (2016) \"The Unique Contribution of Rothamsted to Ecological Research at Large Temporal Scales.\", Advances in Ecological Research (eds: A.J. Dumbrell , R.L. Kordas and G. Woodward), Vol 55, Chapter 1, pp. 3-42",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1038/nature16444",
+            "title": "Storkey, J. , Macdonald, A. J. , Poulton, P. R. , Scott, T. , Kohler, I. H. , Schnyder, H. , Goulding, K. W. T. and Crawley, M. J. (2015) \"Grassland biodiversity bounces back from long-term nitrogen addition\", Nature , 528, 401-4",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1111/j.1365-2745.2006.01145.x",
+            "title": "Silvertown, J. , Poulton, P. R. , Johnston, A., E. , Edwards, G. , Heard, M. and Biss, P. M. (2006) \"The Park Grass Experiment 1856-2006: Its contribution to ecology\", Journal of Ecology, 94, 801-814",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1111/sum.12343",
+            "title": "Bowley, H. E. , Mathers, A. W. , Young, S. D. , Macdonald, A. J. , Ander, E. L. , Watts, M. J. , Zhao, F. J. , McGrath, S. P. , Crout, N. M. J. and Bailey, E. H. (2017) \"Historical trends in iodine and selenium in soil and herbage at the Park Grass Experiment, Rothamsted Research, UK\", Soil Use and Management, 33, 252-262",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi/10.1086/427270",
+            "title": "Crawley, M. J. , Johnston, A. E. , Silvertown, J. , Dodd, M. , de Mazancourt, C. , Heard, M. S. , Henman, D. F. and Edwards, G. R. (2005) \"Determinants of species richness in the Park Grass experiment\", American Naturalist, 165, 179-192",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1073/pnas.95.1.207",
+            "title": "Kunin, W. E. (1998) \"Biodiversity at the edge: A test, of the importance of spatial \"mass effects\" in the Rothamsted Park Grass experiments\", Proceedings of the National Academy of Sciences of the United States of America, 95, 207-212",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1017/S0021859600067290",
+            "title": "Jenkinson, D. S. , Potts, J. M. , Perry, J. N. , Barnett, V. , Coleman, K. and Johnston, A. E. (1994) \"Trends in Herbage Yields over the Last Century on the Rothamsted Long-Term Continuous Hay Experiment\", Journal of Agricultural Science, 122, 365-374",
+            "language": "English"
+        },
+        {
+            "doi": "https://doi.org/10.1016/0167-8809(92)90115-R",
+            "title": "Morris, M. G. (1992) \"Responses of Auchenorhyncha (Homoptera) to Fertilizer and Liming Treatments at Park Grass, Rothamsted\", Agriculture Ecosystems & Environment, 41, 263-283",
+            "language": "English"
+        },
+        {
+            "doi": "*****",
+            "title": "Thurston, J. M. , Williams, E. D. and Johnston, A. E. (1976) \"Modern developments in an experiment on permanent grassland started in 1856: effects of fertilizers and lime on botanical composition and crop and soil analyses\", Annales Agronomiques, 27, 1043-1082",
+            "language": "French"
+        },
+        {
+            "doi": "https://doi.org/10.23637/ERADOC-1-56",
+            "title": "Warren, R. G. and Johnston, A. E. (1964) \"The Park Grass Experiment\", Rothamsted Experimental Station Report for 1963, 240-262",
+            "language": "English"
+        },
+        {
+            "doi": "https://www.youtube.com/watch?v=-3-Pm5JUQZ4",
+            "title": "Video on Park Grass Experiment presented by Dr Jonathan Storkey",
+            "language": "English"
+        },
+        {
+            "doi": "http://www.era.rothamsted.ac.uk/eradoc/books/4",
+            "title": "Details of the Classical and Long-term Experiments in eRAdoc",
+            "language": "English"
+        },
+        {
+            "doi": "http://data.ecn.ac.uk/sites/ecnsites.asp?site=T06",
+            "title": "Environmental Change Network (ECN)",
+            "language": "English"
+        },
+        {
+            "doi": "http://www.genomenviron.org/Projects/METASOIL.html",
+            "title": "The Park Grass Genomic Observatory",
+            "language": "English"
+        },
+        {
+            "doi": "https://www.ecologicalcontinuitytrust.org/parkgrass",
+            "title": "Ecological Continuity Trust; Park Grass",
+            "language": "English"
+        }
+    ],
+    "saved_time": "2022-11-28T10:41:53.392231Z",
+    "name": "Park Grass",
+    "local_identifier": "R/PG/5",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1856,
+    "end_year": null,
+    "ongoing": true,
+    "establishment_period_end": null,
+    "objective": "Originally to study the effects of organic and inorganic amendments and lime on old grass for hay, latterly also for effects on botanical composition.",
+    "description": "Because of the earlier experiments had showed that different crops require different amounts and ratios of nitrogen (N), phosphorus (p) and potassium (K), Lawes and Gilbert extended their experiments in 1856 to include the mixed plant population of old grassland. The Park Grass experiment was established on c.2.8 ha of parkland that had been in permanent pasture for at least 100 years. Started by Lawes and Gilbert in 1856, its original purpose was to investigate ways of improving the yield of hay by the application of inorganic fertilisers or organic manures. Within 2-3 years it became clear that these treatments were having a dramatic effect on the species composition of what had been a uniform sward comprising about 50 species. Dramatically different swards have evolved as a result of the different pH and nutrient status of the soils. There are 35-45 species on the unfertilised plots but only 2 or 3 species on some of the fertilised plots. The continuing effects on species diversity and on soil function of the original treatments, together with later tests of liming and interactions with atmospheric inputs and climate change, has meant that Park Grass has become increasingly important to ecologists and soil scientists. A study published in the journal Nature shows that grassland diversity on the Park Grass experiment recovered once atmospheric nitrogen pollution reduced (Storkey et. al. 2015). \n\nThe harvesting methods have changed as farming practices have modernised (see More). The plots are cut for hay in mid-June. The first cut for hay ensures seeds are returned each year. The management of the aftermath following the first hay cut varied in the early years, either being grazed by sheep or cut green. Since the 1890s the second crop has been cut green and removed. In some years a third cut has also been taken. Studies have also been made of the botanical composition of the plots both through visual surveys and by looking at the percentage contribution to the hay made by the various species (see More). \n\nHerbage yields are recorded each year. Physical samples of crops and soils have been preserved in the Rothamsted Sample Archive. The experiment also includes a small area used for micro-plot experiments. Since January 2020 twelve sub-plots have three soil moisture probes. The experiment has had three main phases (see Design Periods).\n\nPark Grass is a Genomic Observatory - a geographic site with a rich history of environmental/ecological data collection and a long-term commitment to future studies. The Park Grass soil metagenome from the untreated control plot 3d is now publicly available (see Related Documents).\n\nPark Grass is both an Environmental Change Network (ECN) data site and an Ecological Continuity Trust site (see Related Documents).",
+    "site_name": "Park Grass",
+    "site_local_code": "rpg5",
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Harpenden",
+    "site_region": "Hertfordshire",
+    "site_country": "United Kingdom",
+    "site_centroid_latitude": 51.803812,
+    "site_centroid_longitude": -0.372097,
+    "site_elevation": 133.0,
+    "site_elevation_unit": "Metres",
+    "site_slope": null,
+    "site_slope_aspect": null,
+    "site_visits_allowed": true,
+    "site_visiting_arrangements": "By arrangement with Dr Andy Macdonald",
+    "site_history": "The experiment was established on c. 2.8 ha of parkland that had been in permanent pasture for at least 100 years.",
+    "site_management": null,
+    "site_soil_type_label": "luvisol",
+    "site_soil_description": "Silty clay loam over clay-with-flints overlying chalk. The site is normally well drained (Hook series) or moderately well drained (Batcombe series)",
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Available to any researcher on request",
+    "data_url": "http://www.era.rothamsted.ac.uk/Park",
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": false,
+    "sample_archive": true,
+    "samples_available": true,
+    "data_access_statement": null
+}

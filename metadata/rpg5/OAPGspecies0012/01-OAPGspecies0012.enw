@@ -1,0 +1,15 @@
+%0 Dataset
+%T Dataset: Park Grass Species, Fertilizer and Lime Treatments 2010-2012 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2022 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G en 
+%U https://doi.org/10.23637/rpg5-species_2010-2012-01 
+%R 10.23637/rpg5-species_2010-2012-01 
+%A Perryman, Sarah 
+%A Storkey, Jonathan 
+%K fertilizer; farmyard manure; Rothamsted Research; soil pH; arable farming; long term experiments; experimental design; Park grass long-term experiment; nitrogen fertilizers; soil; soil fertility; liming; permanent grassland; species diversity; botanical composition; plant population; flora; hay; 
+%X The dataset contains the proportional biomass of botanical species of Park Grass hay experiment 2010-2012. They comprise the biomass of selected treatment plots to cover a range of the various treatments. Each survey was done annually just before the first cut. There are sixty-eight species in the dataset and are comprised of forbs, grasses, legumes, and tree saplings. The species composition in different plots reflect their fertiliser treatment and pH of the plot due to liming. Unfertilised control plots have the greatest species numbers (up to 33 species per plot, for plot 3a in 2010) and plots receiving nitrogen as ammonium sulphate have the lowest species number (down to one or two per plot), particularly where lime is not applied, due to the acidifying effects of the ammonium on the soil. Nitrogen applied as sodium nitrate also decreases species numbers. There some local extinctions and species invasions compared to the 10-year dataset 1991-2000, see Additional Information. Fertilizer and lime treatments are also provided in the dataset, as are common names of species. 

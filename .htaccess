@@ -1,0 +1,89 @@
+# Apache configuration file
+# http://httpd.apache.org/docs/2.2/mod/quickreference.html
+
+# Turning on the rewrite engine is necessary for the following rules and
+# features. "+FollowSymLinks" must be enabled for this to work symbolically.
+
+<IfModule mod_rewrite.c>
+# enable rewrite engine
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+ 
+# legacy experiment rewrite: some will come from bookmarked URLs. 
+ RewriteRule ^Broadbalk$ expt.php?expt=rbk1
+ RewriteRule ^Broadbalk/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rbk1&sub=$1#documents [NE]
+ RewriteRule ^Park$ expt.php?expt=rpg5
+ RewriteRule ^Park/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rpg5&sub=$1#documents [NE]
+ RewriteRule ^Garden$ expt.php?expt=rgc8
+ RewriteRule ^Garden/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rgc8sub=$1
+ RewriteRule ^Hoos$ expt.php?expt=rhb2
+ RewriteRule ^Hoos/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rhb2&sub=$1#documents [NE]
+ RewriteRule ^Hoosfield$ expt.php?expt=rhb2
+ RewriteRule ^Hoosfield/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rhb2&sub=$1#documents [NE]
+ RewriteRule ^Other$ expt.php?expt=others
+ RewriteRule ^Other/([a-zA-Z-0-9_\/]*)$ expt.php?expt=others&sub=$1#documents [NE]
+ RewriteRule ^Alternate$ expt.php?expt=rwf3
+ RewriteRule ^Alternate/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rwf3&sub=$1#documents [NE] 
+ RewriteRule ^WoburnLA$ expt.php?expt=wrn3
+ RewriteRule ^WoburnLA/([a-zA-Z-0-9_\/]*)$ expt.php?expt=wrn3&sub=$1#documents [NE]
+ RewriteRule ^Wilderness$ expt.php?expt=rge9
+ RewriteRule ^Wilderness/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rge9&sub=$1#documents [NE]
+ RewriteRule ^Exhaustion$ expt.php?expt=rex4&sub=$1#documents [NE]
+ RewriteRule ^Exhaustion/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rex4&sub=$1#documents [NE]
+ RewriteRule ^Met/monthly station.php?expt=rms#summaries [NE]
+ RewriteRule ^Met$ station.php?expt=rms [NE]
+ RewriteRule ^Met/([a-zA-Z-0-9_\/]*)$ station.php?expt=rms#$1 [NE]
+ RewriteRule ^RRN$ expt.php?expt=rrn1 [NE]
+ RewriteRule ^RRN/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rrn1&sub=$1#documents [NE]
+ RewriteRule ^RRN1$ expt.php?expt=rrn1&sub=$1#documents [NE]
+ RewriteRule ^RRN1/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rrn1&sub=$1#documents [NE] 
+ RewriteRule ^RRN2$ expt.php?expt=rrn2&sub=$1#documents [NE]
+ RewriteRule ^RRN2/([a-zA-Z-0-9_\/]*)$ expt.php?expt=rrn2&sub=$1#documents [NE]
+
+ RewriteRule ^WoburnFarm$ site.php?farm=woburn
+ RewriteRule ^WoburnFarm/([a-zA-Z-0-9_\/]*)$ site.php?farm=woburn [NE] 
+ RewriteRule ^Saxmundham$ site.php?farm=saxmundham
+ RewriteRule ^Saxmundham/([a-zA-Z-0-9_\/]*)$ site.php?farm=saxmundham 
+ 
+# special
+ RewriteRule ^DET$ index.php?area=home&page=index&dataset=13
+ RewriteRule ^DET/([a-zA-Z-0-9_\/]*)$ index.php?area=home&page=index&dataset=13&sub=$1#documents [NE]
+
+# New URLs
+	RewriteRule ^asset/([^/]+)/([^/]+)$ asset.php?farm=$1&sub=$2 [L]
+	RewriteRule ^asset/([^/]+)$ asset.php?farm=$1 [L]
+	RewriteRule ^site/([^/]+)/([^/]+)$ site.php?farm=$1&sub=$2 [L]
+	RewriteRule ^site/([^/]+)$ site.php?farm=$1 [L]
+	RewriteRule ^experiment/([^/]+)/([^/]+)/([^/]+)$ expt.php?expt=$1&ref=$3&sub=$2#documents [L]
+	RewriteRule ^experiment/([^/]+)/([^/]+)$ expt.php?expt=$1&sub=$2#documents [L]
+	RewriteRule ^experiment/([^/]+)$ expt.php?expt=$1 [L]
+
+	RewriteRule ^dataset/([^/]+)/([^/]+)$ dataset.php?expt=$1&dataset=$2 [L]
+	RewriteRule ^station/([^/]+)/([^/]+)/([^/]+)$ station.php?expt=$1&ref=$3&sub=$2#document [L]
+	RewriteRule ^station/([^/]+)/([^/]+)$ station.php?expt=$1&sub=$2#document [L]
+	RewriteRule ^station/([^/]+)$ station.php?expt=$1 [L]
+	
+	RewriteRule ^info/([^/]+)/([^/]+)$ info.php?expt=$1&FileName=$2 [L]
+	RewriteRule ^info/([^/]+)$ info.php?FileName=$1 [L]
+	RewriteRule ^blog/([^/]+)/([^/]+)$ blog.php?expt=$1&FileName=$2 [L]
+	RewriteRule ^blog/([^/]+)$ blog.php?FileName=$1 [L]
+	RewriteRule ^keyword/([^/]+)$ keyword.php?search=$1&sendSearch=Search [L]
+RewriteRule ^home - [L]
+RewriteRule ^news - [L]
+RewriteRule ^metadata - [L]
+RewriteRule ^eradoc - [L]
+RewriteRule ^js - [L]
+RewriteRule ^includes - [L]
+RewriteRule ^css - [L]
+RewriteRule ^help - [L]
+RewriteRule ^references - [L]
+Redirect 301 "/contact" "/"
+
+
+
+</IfModule>

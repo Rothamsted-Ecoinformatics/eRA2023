@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "RRes",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": [
+            {
+                "contactType": "URL",
+                "description": "www.rothamsted.ac.uk"
+            },
+            {
+                "contactType": "Email",
+                "description": "era@rothamsted.ac.uk"
+            },
+            {
+                "contactType": "Address",
+                "description": "Rothamsted Research, West Common, Harpenden, Herts., AL5 2JQ, UK"
+            }
+        ]
+    }
+]

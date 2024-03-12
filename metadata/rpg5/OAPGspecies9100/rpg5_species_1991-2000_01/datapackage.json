@@ -1,0 +1,2577 @@
+{
+  "resources": [
+    {
+      "path": "fm_factor_data.csv",
+      "name": "fm_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "365d8cec216d59da761fba99bddbf6fc",
+        "bytes": 945,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied; applied until 1999, then replaced by poultry manure (PM)"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "FM treatment factor level descriptions",
+      "description": "FM treatments applied 1965-2002; this describes the fish meal treatment factors."
+    },
+    {
+      "path": "fym_factor_data.csv",
+      "name": "fym_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "f4aa2af52b39f8c276ff29030f1e6032",
+        "bytes": 772,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "FYM treatment factor level descriptions",
+      "description": "FYM treatments applied 1965-2018; this describes the farm yard manure treatment factors."
+    },
+    {
+      "path": "k_factor_data.csv",
+      "name": "k_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "a6dd6e80e1d1ed7330ef81507c3738d3",
+        "bytes": 797,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "K treatment factor level descriptions",
+      "description": "K treatments applied 1965-2018; this describes the potassium treatment factors."
+    },
+    {
+      "path": "liming_factor_data.csv",
+      "name": "liming_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "e9468c17f593b7089677e41894be8cc9",
+        "bytes": 1808,
+        "fields": 10,
+        "rows": 4
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Liming treatment factor level descriptions",
+      "description": "Describes the different liming treatment factors, showing the total amounts applied over the experiment required to produce desired pH levels for different sub-plots a-d."
+    },
+    {
+      "path": "mg_factor_data.csv",
+      "name": "mg_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "7541600e2e35861021e496ace694fe4e",
+        "bytes": 563,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Mg treatment factor level descriptions",
+      "description": "Mg treatments applied 1965-2018; this describes the magnesium treatment factors."
+    },
+    {
+      "path": "n_factor_data.csv",
+      "name": "n_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "88a9c053679dce9c48cd849b202f9882",
+        "bytes": 2205,
+        "fields": 10,
+        "rows": 10
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied; as either ammonium sulphate or sodium nitrate - N2 and N*2 last applied 1989"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "N treatment factor level descriptions",
+      "description": "N treatments applied 1965-2018; this describes the nitrogen treatment factors."
+    },
+    {
+      "path": "na_factor_data.csv",
+      "name": "na_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "f139728a0658eecd467631062369303a",
+        "bytes": 547,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Na treatment factor level descriptions",
+      "description": "Na treatments applied 1965-2018; this describes the sodium treatment factors."
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "078bc0ec4d7263896dc2484aa6fa16e2",
+        "bytes": 1931,
+        "fields": 2,
+        "rows": 12
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the crop_data_table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the crop_data table"
+    },
+    {
+      "path": "p_factor_data.csv",
+      "name": "p_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "c8c46e9f377fe7c1c542e1a8aac08a48",
+        "bytes": 1340,
+        "fields": 10,
+        "rows": 5
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year; 17kg since 2017, previously 35kg"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "P treatment factor level descriptions",
+      "description": "P treatments applied 1965-2018; this describes the phosphorous treatment factors."
+    },
+    {
+      "path": "pm_factor_data.csv",
+      "name": "pm_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "29bfcda5a995f6c4223cff5ae931983e",
+        "bytes": 678,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied; applied since 2003"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "PM treatment factor level descriptions",
+      "description": "PM treatments applied 2003-2018; this describes the poultry manure treatment factors."
+    },
+    {
+      "path": "si_factor_data.csv",
+      "name": "si_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "f676d3c89d015a644841ecdab58f6b53",
+        "bytes": 536,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Description of the factor level, whether the treatment applied or not"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years of treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C29848",
+            "description": "Years in which the treatment factor is applied"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://schema.org/name",
+            "description": "Name for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the treatment factor"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Name of treatment factor level",
+            "rdfType": "http://schema.org/name",
+            "description": "Name of the factor level"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount applied that harvest year",
+            "rdfType": "http://schema.org/amount",
+            "description": "Amount of  treatment factor level applied per hectare per year."
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "factor level unit",
+            "rdfType": "http://schema.org/unitText",
+            "description": "Units of treatment applied"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment frequency",
+            "rdfType": "https://schema.org/frequency",
+            "description": "Frequency of application of treatment"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://schema.org/name",
+            "description": "Chemical form of the treatment applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "http://purl.obolibrary.org/obo/OBI_0000750",
+            "description": "URI for the chemical form of treatment"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Si treatment factor level descriptions",
+      "description": "Si treatments applied 1965-2018; this describes the silicon treatment factors."
+    },
+    {
+      "path": "species_data.csv",
+      "name": "species_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "464a231b927935549a1de029f6361436",
+        "bytes": 467849,
+        "fields": 96,
+        "rows": 934
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "site",
+            "type": "string",
+            "format": "default",
+            "title": "Site Name",
+            "rdfType": "http://schema.org/name",
+            "description": "Rothamsted"
+          },
+          {
+            "name": "plot_id",
+            "type": "string",
+            "format": "default",
+            "title": "Plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Fully qualified plot identifier"
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Whole plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "The original scheme plot number. Plots 5 and 6c & d are microplots and not used in the yields experiment."
+          },
+          {
+            "name": "split_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub sub-plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000449",
+            "description": "The sub-sub-plot number; original plots subsequently split. Since 1990, plots 9 and 14 have been divided into 9-1 &  9-2 and 14-1 & 14-2. Since 1995, plot 13 has been split into 13-1 & 13-2. Since 1996, plot 2 has been split into 2-1 & 2-2. Plot 7 was divided into 7-1 and 7-2 in 2013 and P withheld from 7-1. Note; in data file plot-splits are shown with a hyphen '-' whereas in the plan they are indicated by a slash '/' e.g. plot 9-1 is equivalent to 9/1."
+          },
+          {
+            "name": "sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub-plot ID",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "Plots were divided into four in 1965; a, b, c and d. Plot 12 was not included in the a,b,c,d set up until 1976, between 1965-1975 it was two half-plots 12ab and 12cd neither of which received lime.  Plot 15 1965-1975 was two halves 15ab (limed) and 15cd (unlimed), it became a,b,c,d sub-plots in 1976-2018. Plots 18/2, 19/1-3 and 20/1-3 were not included in the liming scheme in 1965."
+          },
+          {
+            "name": "sample_year",
+            "type": "year",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Year in which species were sampled",
+            "rdfType": "https://schema.org/Date",
+            "description": "The year of sampling; range 1991-2000 [same as harvest year]"
+          },
+          {
+            "name": "treatments",
+            "type": "integer",
+            "format": "default",
+            "title": "Treatment combination",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000264",
+            "description": "Full fertiliser treatment combination for plot"
+          },
+          {
+            "name": "n_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "N treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007102",
+            "description": "Nitrogen fertilizer treatment"
+          },
+          {
+            "name": "n_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of  fertilizer N applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Nitrogen fertilizer amount"
+          },
+          {
+            "name": "p_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "P treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007397",
+            "description": "Phosphorous fertilizer treatment"
+          },
+          {
+            "name": "p_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fertilizer P applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Phosphorous fertilizer amount"
+          },
+          {
+            "name": "k_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "K treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007293",
+            "description": "Potassium fertilizer treatment"
+          },
+          {
+            "name": "k_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fertilizer K applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Potassium fertilizer amount"
+          },
+          {
+            "name": "mg_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Mg treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007288",
+            "description": "Magnesium fertilizer treatment"
+          },
+          {
+            "name": "mg_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fertilizer Mg applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Magnesium fertilizer amount"
+          },
+          {
+            "name": "na_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Na treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_38702",
+            "description": "Sodium fertilizer treatment"
+          },
+          {
+            "name": "na_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of  fertilizer Na applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Sodium fertilizer amount"
+          },
+          {
+            "name": "si_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Si treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/PECO_0007235",
+            "description": "Silicon fertilizer treatment, applied as  450kg sodium silicate, which contains 135 kgSi"
+          },
+          {
+            "name": "si_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of  fertilizer Si applied in that harvest year",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Silicon fertilizer amount"
+          },
+          {
+            "name": "liming_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Lime treatment",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_200",
+            "description": "Whether lime applied or not"
+          },
+          {
+            "name": "liming_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount of lime applied",
+            "rdfType": "https://schema.org/Date",
+            "description": "Amount of lime applied as calculated to produce required pH pf sub plot a, b, c"
+          },
+          {
+            "name": "fym_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "FYM treatment",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_2810",
+            "description": "Farm yard manure fertilizer treatment"
+          },
+          {
+            "name": "fym_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of FYM applied",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Farm yard manure fertilizer amount"
+          },
+          {
+            "name": "fm_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Fish meal treatment",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_2925",
+            "description": "Fish meal fertilizer treatment; applied until 1999"
+          },
+          {
+            "name": "fm_n_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of fishmeal applied",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Fish meal fertilizer nitrogen amount"
+          },
+          {
+            "name": "pm_factor_level",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Poultry manure treatment",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000080",
+            "description": "Poultry manure fertilizer treatment; applied since 2003"
+          },
+          {
+            "name": "pm_n_rate",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount of poultry manure applied",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Poultry manure fertilizer nitrogen amount"
+          },
+          {
+            "name": "Achillea millefolium",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Achillea millefolium",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_13329",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Agrimonia eupatoria",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Agrimonia eupatoria",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_57912",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Agrostis capillaris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Agrostis capillaris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_204232",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Ajuga reptans",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Ajuga reptans",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_38596",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Alopecurus pratensis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Alopecurus pratensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_15304",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Anthoxanthum odoratum",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Anthoxanthum odoratum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_29661",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Anthriscus sylvestris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Anthriscus sylvestris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_48027",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Arrhenatherum elatius",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Arrhenatherum elatius",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52139",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Bellis perennis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Bellis perennis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_41492",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Briza media",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Briza media",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_281077",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Bromus hordeaceus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Bromus hordeaceus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52147",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Cardamine pratensis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Cardamine pratensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_50465",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Carex caryophyllea",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Carex caryophyllea",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_502401",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Carex flacca",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Carex flacca",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_140814",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Centaurea nigra",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Centaurea nigra",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_75633",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Cerastium fontanum",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Cerastium fontanum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_230722",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Conopodium majus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Conopodium majus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_173702",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Crepis capillaris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Crepis capillaris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_13465",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Cynosurus cristatus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Cynosurus cristatus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_211939",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Dactylis glomerata",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Dactylis glomerata",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4509",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Deschampsia cespitosa",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Deschampsia cespitosa",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_37723",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Elytrigia repens",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Elytrigia repens",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52152",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Festuca pratensis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Festuca pratensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4608",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Festuca rubra",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Festuca rubra",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52153",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Filipendula ulmaria",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Filipendula ulmaria",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_57917",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Fritillaria meleagris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Fritillaria meleagris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_134857",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Galium verum",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Galium verum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_462873",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Helictotrichon pubescens",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Helictotrichon pubescens",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_87471",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Heracleum sphondylium",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Heracleum sphondylium",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_40919",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Holcus lanatus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Holcus lanatus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_29679",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Hypochoeris radicata",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Hypochoeris radicata",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_58656",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Knautia arvensis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Knautia arvensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_105271",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Lathyrus pratensis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Lathyrus pratensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_254779",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Leontodon autumnalis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Leontodon autumnalis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_212686",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Leontodon hispidus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Leontodon hispidus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_13329",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Linum catharticum",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Linum catharticum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_57912",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Lolium perenne",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Lolium perenne",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_204232",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Lotus corniculatus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Lotus corniculatus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_38596",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Luzula campestris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Luzula campestris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_15304",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Ononis repens",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Ononis repens",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_29661",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Ophioglossum vulgatum",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Ophioglossum vulgatum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_48027",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Pilosella officinarum",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Pilosella officinarum",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52139",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Pimpinella saxifraga",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Pimpinella saxifraga",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_41492",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Plantago lanceolata",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Plantago lanceolata",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_281077",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Poa pratensis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Poa pratensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52147",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Poa trivialis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Poa trivialis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_50465",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Potentilla reptans",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Potentilla reptans",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_502401",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Potentilla sterilis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Potentilla sterilis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_140814",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Primula veris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Primula veris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_75633",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Prunella vulgaris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Prunella vulgaris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_230722",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Ranunculus acris",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Ranunculus acris",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_173702",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Ranunculus auricomus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Ranunculus auricomus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_13465",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Ranunculus bulbosus",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Ranunculus bulbosus",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_211939",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Ranunculus ficaria",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Ranunculus ficaria",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4509",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Rumex acetosa",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Rumex acetosa",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_37723",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Sanguisorba minor",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Sanguisorba minor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52152",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Senecio jacobaea",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Senecio jacobaea",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_4608",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Stachys officinalis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Stachys officinalis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_52153",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Stellaria graminea",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Stellaria graminea",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_57917",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Stellaria media",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Stellaria media",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_134857",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Taraxacum officinale",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Taraxacum officinale",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_462873",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Tragopogon pratensis",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Tragopogon pratensis",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_87471",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Trifolium pratense",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Trifolium pratense",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_40919",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Trifolium repens",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Trifolium repens",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_29679",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Trisetum flavescens",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Trisetum flavescens",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_58656",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Veronica chamaedrys",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Veronica chamaedrys",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_105271",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Vicia cracca",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Vicia cracca",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_254779",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "Vicia sativa",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Percentage compositon of Vicia sativa",
+            "rdfType": "http://purl.obolibrary.org/obo/NCBITaxon_212686",
+            "description": "Percentage compostion of plant species in sub-plot"
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "n_factor_level",
+            "reference": {
+              "resource": "n_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "p_factor_level",
+            "reference": {
+              "resource": "p_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "k_factor_level",
+            "reference": {
+              "resource": "k_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "mg_factor_level",
+            "reference": {
+              "resource": "mg_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "na_factor_level",
+            "reference": {
+              "resource": "na_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "si_factor_level",
+            "reference": {
+              "resource": "si_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "liming_factor_level",
+            "reference": {
+              "resource": "liming_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "fym_factor_level",
+            "reference": {
+              "resource": "fym_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "fm_factor_level",
+            "reference": {
+              "resource": "fm_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "pm_factor_level",
+            "reference": {
+              "resource": "pm_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Species data; genus and species names",
+      "description": "Data table containing plant species % composition data from the Imperial college Surveys of 1991-2000 for all plots and all treatments, 1991-2000. Includes details of all fertilizer and lime treatments applied. "
+    },
+    {
+      "path": "species_list_dimension_data.csv",
+      "name": "species_list_dimension_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "39a2cfc8eed9266e2b82fdd821bc5ef5",
+        "bytes": 6378,
+        "fields": 6,
+        "rows": 68
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string",
+            "format": "default",
+            "title": "Plant taxonomic name",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C19058",
+            "description": "Taxonomic name of plant species"
+          },
+          {
+            "name": "ncbitaxon_uri",
+            "type": "string",
+            "format": "uri",
+            "title": "Species name rdf type",
+            "rdfType": "http://edamontology.org/data_1875",
+            "description": "URI for the species taxonomic name"
+          },
+          {
+            "name": "common_name",
+            "type": "string",
+            "format": "default",
+            "title": "Common Name",
+            "rdfType": "http://purl.obolibrary.org/obo/MS_1001468",
+            "description": "Common Name of species at time of survvey 1991-2000"
+          },
+          {
+            "name": "new_common_name",
+            "type": "string",
+            "format": "default",
+            "title": "New Common Name",
+            "rdfType": "http://purl.obolibrary.org/obo/MS_1001468",
+            "description": "Common name of species subsequent to survey, after 2000."
+          },
+          {
+            "name": "phylogeny",
+            "type": "string",
+            "format": "default",
+            "title": "Phylogeny",
+            "rdfType": "http://purl.obolibrary.org/obo/OMIT_0011781",
+            "description": "Evolutionary group of species; here forb, legume, grass."
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Species list; taxonomic and common names and evolutionary group. ",
+      "description": "List of all species identified from the Imperial college Surveys of 1991-2000"
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "10.23637/rpg5-species_1991-2000-01 ",
+  "name": "dataset:-park-grass-species-composition,-fertilizer-and-lime-treatments-1991-2000",
+  "title": "Dataset: Park Grass Species Composition, Fertilizer and Lime Treatments 1991-2000",
+  "version": "1.0.0",
+  "keywords": [
+    "botanical composition",
+    "flora",
+    "long term experiments",
+    "nitrogen fertilizers",
+    "Park grass long-term experiment",
+    "permanent grassland",
+    "phosphorus fertilizers",
+    "potassium fertilizers",
+    "farmyard manure",
+    "Rothamsted Research",
+    "species diversity"
+  ],
+  "description": "### Abstract\nThe dataset contains the proportional biomass of botanical species of Park Grass hay experiment 1991-2000. They comprise the biomass of all treatment plots. Each survey was done annually just before the first cut. There are sixty-eight species in the dataset and are comprised of forbs, grasses, and legumes. The species composition in different plots reflect their fertiliser treatment and pH of the plot due to liming. Unfertilised control plots have the greatest species numbers (up to 25 species per plot)  and plots receiving nitrogen as ammonium sulphate have the lowest species number (down to one or two per plot), particularly where lime is not applied, due to the acidifying effects of the ammonium on the soil. Nitrogen applied as sodium nitrate also decreases species numbers. There was no evidence of any local extinctions or species invasions during the 10-year period of study. Fertilizer and lime treatments are also provided in the dataset.\n### Methods\nFrom 1991 to 2000, six randomly located quadrats measuring 50cm x 25cm were located within each of the plots in early June, immediately before the first cut. The herbage was cut with scissors to ground level and plant material taken back to the laboratory where it was sorted into species. Samples were oven-dried at 80 &ordm;C for 24 hours, after which dry mass was determined for each species. This 10-year survey was conducted by Imperial College (see Crawley et al., 2005).\n### Other\nThis species survey was conducted by by J. Crawley et al.  2005, Imperial College, and further details can be found in the paper Crawley, M. J. , Johnston, A. E. , Silvertown, J. , Dodd, M. , De Mazancourt, C. , Heard, M. S. , Henman, D. F. and Edwards, G. R.(2005) \"Determinants of species richness in the Park Grass experiment\", American Naturalist, 165, (2), 179-192.\r\n\r\nThe weight of species per the six quadrats per sub-plot (gm per quadrat) for each sub-plot are available from the PARKCOMPIC dataset in the e-RA database.\r\n\r\nPark Grass was initiated to investigate the ways of improving the yield of hay by the application of inorganic fertilizers and organic manure. With time, the soil became more acidic and in 1903 plots had been halved and the effects of lime tested. From 1965 a new liming regime was initiated with four sub-plots, three receiving lime to maintain soil pH (0-23cm depth) at pH 7, 6, and 5 on sub-plots a, b and c. Sub-plot d does not receive any lime. It soon became apparent that the different fertilizer treatments resulted in a dramatically different flora in what had originally been a uniform sward, with higher species diversity on the un-limed sub-plots and nil fertilizer plots and particularly low species numbers on the ammonium sulphate fertilizer plots. \r\n\r\nThere were intermittent investigations of the species from the 1860s and these are available from the following e-RA database datasets; PARKCOMP (Park Grass botanical surveys-complete separations of hay samples, selected years 1862-1976) and PARKPARTCOMP (Park Grass botanical surveys-partial separations of hay samples, selected years 1862-1976).\r\n\r\nThis dataset can be used in conjunction with Park Grass Hay Yields 1965-2018 in having the same format and structure.\n### Provenance\nSub-plot % individual species are derived from the PARKCOMPIC dataset in the e-RA database. These were derived from the surveys 1991-2000 by J. Crawley.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate. Once the data were entered into e-RA, they are independently back-checked against the original data sheets.\n",
+  "contributors": [
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Mick Crawley",
+      "organization": "Imperial College"
+    },
+    {
+      "title": "Jonathan Storkey",
+      "path": "https://orcid.org/0000-0003-1094-8914",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andrew Macdonald",
+      "path": "https://orcid.org/0000-0002-1785-4892",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

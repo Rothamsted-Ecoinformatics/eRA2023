@@ -1,0 +1,64 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Woburn Continuous Wheat",
+        "localIdentifier": "W/XW/6",
+        "name": "Woburn Continuous Wheat",
+        "url": null,
+        "description": "This experiment is almost identical to the Broadbalk Wheat experiments at Rothamsted, but at Woburn. It started in autumn 1876, on Woburn Stackyard field. There is a parallel experiment on Continuous Barley which started in 1877, with the same plot numbers. The experiments were  carried out by the Royal Agricultural Society of England  (RASE) but with input from Lawes.",
+        "disambiguatingDescription": "To test the effects of fertilisers and manures on the growth of continuous winter wheat"
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available online with registration",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "To test the effects of fertilisers and manures on the growth of continuous winter wheat",
+        "correctionsPolicy": "To test the effects of fertilisers and manures on the growth of continuous winter wheat",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1876,
+    "dateEPEnd": null,
+    "dateEnd": 1966,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-192",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-192",
+            "citation": "Rothamsted (1970) Details of the Classical and Long-term Experiments up to 1967",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-33158",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-33158",
+            "citation": "Johnston (1975) Experiments made on Stackyard Field, Woburn, 1876-1974. Part I. History of the Field.",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-33159",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-33159",
+            "citation": "Johnston and Chater (1975) Experiments made on Stackyard Field, Woburn, 1876-1974. Part II.  Effects of treatments on soil pH, P and K",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-33160",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-33160",
+            "citation": "Johnston et al (1975) Experiments made on Stackyard Field, Woburn, 1876-1974. III. Effects of NPK Fertilisers and Farmyard Manure",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
+}

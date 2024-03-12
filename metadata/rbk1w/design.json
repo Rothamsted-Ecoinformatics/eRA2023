@@ -1,0 +1,74 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Broadbalk Wilderness",
+            "localIdentifier": "Broadbalk Wilderness",
+            "name": "Broadbalk Wilderness",
+            "url": "Broadbalk Wilderness",
+            "description": "Small site (0.2ha). One half is naturally regenerating woodland. The other half is divided into two, one half  native permanent grassland mown each year, the other is 'stubbed' (all woody plants are removed)."
+        },
+        "design": {
+            "dateStart": 1882,
+            "dateEnd": null,
+            "description": "Small site (0.2ha). One half is naturally regenerating woodland. The other half is divided into two, one half  native permanent grassland mown each year, the other is 'stubbed' (all woody plants are removed).",
+            "designType": "Demonstration strip design",
+            "designTypeLabel": "Demonstration strip design",
+            "studyDesign": "Broadbalk Wilderness",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 3,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 24890,
+                "name": "Naturally regenerating woodland",
+                "sameAs": "Naturally regenerating woodland",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 24891,
+                "name": "grass",
+                "sameAs": "grass",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 24892,
+                "name": "native open ground vegetation, no woody species (stubbed)",
+                "sameAs": "native open ground vegetation, no woody species (stubbed)",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "soil organic carbon",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "very infrequently",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured in 1881, 1904, 1964 and 1999.",
+                "crop": null
+            },
+            {
+                "variable": "plant biomass",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "very infrequently",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Measured in 1881, 1904, 1964 and 1999.",
+                "crop": 24890
+            }
+        ]
+    }
+]

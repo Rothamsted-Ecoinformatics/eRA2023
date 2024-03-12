@@ -1,0 +1,211 @@
+{
+  "resources": [
+    {
+      "path": "soil_data.csv",
+      "name": "soil_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "fda2f5c685bcc9c1f9643d3bdafac16d",
+        "bytes": 1819,
+        "fields": 9,
+        "rows": 28
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "sample_date",
+            "type": "date",
+            "format": "MMM-YYYY",
+            "title": "Date when soil sampled",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date when soil sampled",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "distance_along_strip",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Distance along strip",
+            "rdfType": "https://schema.org/distance",
+            "description": "Location of the sample in metres from the top edge of the field. Samples were taken at 10m intervals, with additional samples taken at 5m intervals between 50 and 120 m.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "soil_depth",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Depth of soil sampled",
+            "description": "Depth of soil sampled, 0-23cm, to match the plough layer. At each location 5 samples were taken and bulked in the field.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "pH",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Soil pH",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_34901",
+            "description": "Soil pH of air-dried soil, using a Jenway 3320 pH meter (Bibby Scientific Ltd, Stone, UK).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "Olsen_P",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Olsen P (plant available soil P)",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_eb7b4957",
+            "description": "Phosphorus concentration in Olsen extract of air-dried soil. 2.5g soil shaken with 50mL Olsen reagent (O.5 M NaHCO3 adjusted to pH 8.5 using 1 M NaOH) for 30 minutes. The extracts were analysed for reactive P using molybdate colorimetry.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "NaOH_RP",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Reactive P concentration in NaOH-EDTA extracts",
+            "description": "Reactive phosphorus concentration in NaOH-EDTA extracts of air-dried soil. 1.5g of soil shaken with 30 mL of a solution of 0.25 M NaOH and 0.05 M EDTA for 16 hours at 22 degrees C, after the method of Cade-Menum et al, 1996.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "NaOH_TP",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Total P concentration in NaOH-EDTA extracts",
+            "description": "Total phosphorus concentration in NaOH-EDTA extracts of air-dried soil. Determined using ICP-OES.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "NaOH_UP",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Unreactive P concentration in NaOH-EDTA extracts",
+            "description": "Unreactive phosphorus concentration in NaOH-EDTA extracts of air-dried soil. Calculated as the difference between NaOH_TP and NaOH_RP",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "TP",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Total P concentration by ignition",
+            "description": "Total soil phosphorus concentration of air dried soil by ignition at 550 degrees C for 1 hour, and extraction in 1m H2SO4, with phosphate detection by automated online-neutralization and molybdate colorimetry using a Lachat Quikchem 8500 (Hach Ltd, Loveland, Colorado, USA).",
+            "missingValues": [
+              "*"
+            ]
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Soil data",
+      "description": "The main data table containing soil pH and phosphorus data measured along the 200m Acid Strip, August 2010, at 10 or 5m intervals. The Acid Strip is a narrow strip of land at the northern edge of Hoosfield, Rothamsted. The strip received large uneven applications of chalk (lime) in the 1850s, and no chalk since. This uneven application of chalk has lead to a dramatic decline in soil pH from East to West. No P or K fertilizer or manure has been applied to the site. Winter wheat is now grown, given 100 kg N ha-1. Full details of the methods and sampling is given in Turner and Blackwell (2013). "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi/org/10.23637/rrs9-SOIL2010-01",
+  "name": "acid-strip-soil-ph-and-phosphorus-concentration,-2010",
+  "title": "Acid Strip soil pH and phosphorus concentration, 2010",
+  "version": "1.0.0",
+  "keywords": [
+    "soil pH",
+    "phosphorous",
+    "long term experiments",
+    "acid strip"
+  ],
+  "description": "### Abstract\nThe Acid Strip is a narrow strip of land on the the northern edge of Hoosfield, Rothamsted. The strip received large uneven applications of chalk (lime) in the 1850s, and no chalk since. This uneven application of chalk has lead to a dramatic decline in soil pH from East to West. No P or K fertilizer or manure has been applied to the site. Winter wheat is now grown, given 100 kgN/ha. This dataset contains the soil pH and soil phosphorus (P) data measured in August 2010, as reported by Turner and Blackwell (2013).\n### Methods\nSoil samples (0-23cm) were taken from the 200m long Acid Strip at 10m intervals, with additional samples taken at 5 m intervals between 50 and 120m. The soil was air-dried and sieved to <2mm. Soil pH, Olsen P, total P (by ignition) and NaOH-EDTA extractable P were measured.\n### Technical Info\n- **Soil pH**  using a Jenway 3320 pH meter (Bibby Scientific Ltd, Stone, UK). \r\n- **Olsen P** extracted with a solution of 0.5 M NaHCO<sub>3</sub>, bufferred at pH 8.5, after the method of Olsen et al, 1954.  \r\n- **NaOH_RP** Reactive P concentration in NaOH-EDTA extracts\r\n- **NaOH_TP** Total P concentration in NaOH-EDTA extracts\r\n- **NaOH_UP** Unreactive P concentration in NaOH-EDTA extracts\r\n- **TP** Total P concentration by ignition\n### Provenance\nSoil samples taken by the authors in August 2010 from the Acid Strip.\n### Quality\nAll soil sample analysis performance is strictly monitored using in-house standard materials. Standards and check samples are monitored and recorded.\n",
+  "contributors": [
+    {
+      "title": "Ben Turner",
+      "path": "https://orcid.org/0000-0002-6585-0722",
+      "organization": "Smithsonian Tropical Research Institute"
+    },
+    {
+      "title": "Martin Blackwell",
+      "path": "https://orcid.org/0000-0001-5540-6233",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Tegan Darch",
+      "path": "https://orcid.org/0000-0003-2367-043X",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

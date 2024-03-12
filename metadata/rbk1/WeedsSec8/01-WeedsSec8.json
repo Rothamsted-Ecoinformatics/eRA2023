@@ -1,0 +1,858 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1-weeds_1991-2021_01",
+    "name": "Broadbalk Weed Survey Data 1991-2021",
+    "shortName": "WeedsSec8",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-WeedsSec8",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "This dataset consists of the relative annual frequencies of all non-crop plant species ('weeds') recorded in all eighteen plots of section 8 of the Broadbalk wheat experiment, 1991-2021. Section 8 has not received any herbicides in its history - in contrast to the other sections of Broadbalk which have received herbicides since 1964. Broadbalk section 8 is one of the few arable sites in the country where herbicides have never been applied. Consequently it is populated by a rich diversity of arable species, some very rare elsewhere in England. Broadbalk continues to act as a valuable resource for weed investigations 180 years after it was established, for example Moss _et al._ (2004).\r\n\r\nThere have been various surveys of weeds on Broadbalk wheat experiment since its conception in 1843, but not a consistent methodology in these. The first plot-by-plot surveys of weed species were done in 1869 recording the presence of species. The first phase of annual surveys was between 1933-1979 prior to the current layout of sections. The current weed survey was started on section 8 in 1991 and has continued annually ever since - although not on years when that section is in fallow: 1994, 2001, 2008, 2015, 2016 and 2022. Section 8 (called section VA 1958-1967) was created in 1968 when the experiment was divided into its present layout (Broadbalk plan today).  \r\n\r\nThe current assessment method records the presence of individual weed species in 25 random quadrats (0.1m<sup>2</sup>) per plot. The plots receive differing types and rates of fertilizer treatments and the weed species reflect these. Each year all 18 plots are surveyed meaning 450 quadrats are assessed per year, usually in June. Frequencies refer to the total number of quadrats in which a weed is recorded, the maximum being 25 per plot and 450 across all plots in the section. This method is more appropriate for detecting long-term trends in weed frequencies and population differences between plots than the earlier surveys and provides a comprehensive set of 20 years of data for weed studies.  \r\n\r\nThere have been 60 different species identified over the 30-year duration of this current survey, but many of these only occur sporadically and around 30 of these are currently recorded annually. This site also provides an invaluable reserve for seven nationally rare or uncommon species including corn cleavers (_Galium tricornutum_), corn buttercup (_Ranunculus arvensis_), shepherds needle (_Scandix pecten-veneris_) and prickly poppy (_Papaver argemone_). This is now the only location in the UK where corn cleavers is known to occur naturally. \r\n\r\nThis valuable resource, and associated data, allows the study of long-term interactions between plant species, an opportunity to test current controversies in population and community ecology such as equilibrium theories which require data on resource requirements and loss rates. The long time series enables the detection of cycles in the abundance of individual species; to determine to stability of weed communities; it  enables various weed investigations including weed population ecology; studies on the effects of fallowing on the weed seed bank; seed dormancy and persistence; agroecology and population dynamics of individual weed species. Recently, molecular approaches have been used to study the genetic diversity of weeds found on Section 8, this rare herbicide-free arable plot. On plots where inorganic nitrogen fertiliser has been applied, potential yield losses from weeds have consistently increased since 1969. This was explained by a warming climate, measured as air temperature averaged over the growing season for the weeds, and a shift towards shorter crop cultivars (Storkey et al 2021). Weeds on Broadbalk may genetically more competitive now due to selection for more competitive individuals\r\n\r\n\r\nThis dataset also provides the yields of the plots both with and without the weight of the weed seeds. The percentage of weed seeds in the total grain varies between greatly, between 1-71.8% of the total grain yield. The year 2012 was a particularly high weed year followed by 2007 and 2013.  \r\n\r\n**Herbicide Resistance Studies:** This section 8 of Broadbalk is an important source of susceptible seed of the weed _Alopecurus myosuroides_, blackgrass. It provides an excellent standard susceptible strain for use in herbicide-resistance assays, as having never received herbicides the grass-weed has never evolved herbicide resistance. See \"Herbicide resistance in _Alopecurus myosuroides_: The value of routine testing of seed samples submitted by farmers since 1985\", Cook et al. Weed Research (2023). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "The assessment method records the presence of individual weed species in 25 random quadrats (0.1m2) per plot. Each year all 18 plots were surveyed meaning 450 quadrats are assessed per year, usually in June. Frequencies refer to the total number of quadrats in which the species is recorded, the maximum being 25 per plot and 450 across all plots in the section.  \r\n\r\nThe weed survey generally takes place in June, precise dates are indicated in the dataset.\r\n\r\nThe yield correction for weed seed contamination, from 1992: Two samples (1kg each) were taken from the grain samples harvested from each plot. These samples were cleaned with a Petcus seed cleaner fitted with a 3.3mm round hole top sieve and a 2.0mm slot type bottom sieve. The sample was tipped directly onto the top sieve, not via the air stream separator. Four fractions were collected and weighed: \r\na. >3.5mm retained on top sieve, mainly threshed heads,\r\nb. <2.0mm passed through bottom sieve, mainly weed seeds (black-grass, black-medick, shepherds needle) and some small grains,\r\nc. retained on bottom sieve, first fraction from rotary separator, mainly wheat grain with a small amount of weed seed contamination (mainly vetch),\r\nd. retained on bottom sieve, second fraction from rotary separator, a variable mixture of wheat and vetch.\r\nSample d was sub-sampled to determine grain content. Two sub-samples (each ~5g) were taken, the grain & weed seeds separated manually, and the two fractions weighed. This determined the d grain is each sub-sample and the mean of the two samples calculated. This value was used to calculate the weight of cleaned grain in the entire d fraction. Cleaned grain weight was then calculated from fraction c plus grain weight of fraction d for each of the two samples collected per plot. Total cleaned weight was then expressed as a % of the total sample weight, and the mean of these two samples calculated. Thus a single % correction factor was derived. The combine yields (t/ha corrected to 15%moisture content / 85% dry matter) were then adjusted using this correction factor to derive a clean 'weed free' grain yield (t/ha) for each plot. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "This dataset is comprised of annual frequencies of weed species, and all agronomic details and wheat yields, in each plot of section 8 of Broadbalk experiment in two formats;  \r\nAn Excel file, 01-BKweeds9121.xlsx contains the Broadbalk Section 8 weed frequencies for 1991-2021, plus details of the fertilizer and manure treatments applied. \r\nFrictionless CSV files are also provided for users who prefer the CSV format. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "No weeds present in fallow years, due to frequent cultivation which kills emerging weed plants.  \r\n\r\nBroadbalk Section 8   Yield of grain from combine, yield of clean grain, 1992-2022: Clean grain excludes grain <2mm and >3.5mm. This excludes the weed seeds. \r\n\r\n Section 8 is fallowed frequently to control weeds (i.e no crop is grown). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "Note. 2022 was a Fallow year.\r\nData for 2023 will be available in the next version.  \r\n\r\nNote from 2014 yield book: Clean grain yields reported for 2012 and 2013 are about 5% less than those reported in the 2013 yield book because they exclude small (<2mm) grains. In future, clean grain yields for Section 8 will be reported for the 2-3.5mm grain size fraction, excluding grain <2mm, as was the practice prior to 2012. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "This weed survey was initiated by Stephen Moss in 1991. \r\n\r\nThe data has been recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; led by Richard Hull, Stephen Moss, Jon Storkey who apply all appropriate quality assurance checks. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "This data is recorded & provided by staff of the Weed Ecology Group, Rothamsted Research; led by Richard Hull, Stephen Moss, Jon Storkey who apply all appropriate quality assurance checks. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": "2023-12-06",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "arable farming",
+        "weeds",
+        "botanical composition",
+        "herbicides",
+        "plant population",
+        "flora"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Richard Hull",
+            "givenName": "Richard",
+            "familyName": "Hull",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Stephen  Moss",
+            "givenName": "Stephen ",
+            "familyName": "Moss",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Richard Hull",
+            "givenName": "Richard",
+            "familyName": "Hull",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Stephen  Moss",
+            "givenName": "Stephen ",
+            "familyName": "Moss",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Steve  Freeman",
+            "givenName": "Steve ",
+            "familyName": "Freeman",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Jonathan Storkey",
+            "givenName": "Jonathan",
+            "familyName": "Storkey",
+            "sameAs": "https://orcid.org/0000-0003-1094-8914",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Shona Merten",
+            "givenName": "Shona",
+            "familyName": "Merten",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Caroline Archer",
+            "givenName": "Caroline",
+            "familyName": "Archer",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Dave Frearson",
+            "givenName": "Dave",
+            "familyName": "Frearson",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "John Cussans",
+            "givenName": "John",
+            "familyName": "Cussans",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Anna Swain",
+            "givenName": "Anna",
+            "familyName": "Swain",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Esther Trevis",
+            "givenName": "Esther",
+            "familyName": "Trevis",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Emma Browne",
+            "givenName": "Emma",
+            "familyName": "Browne",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Dale Kirsop",
+            "givenName": "Dale",
+            "familyName": "Kirsop",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Thomas Baldwin",
+            "givenName": "Thomas",
+            "familyName": "Baldwin",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Caroline Elliott",
+            "givenName": "Caroline",
+            "familyName": "Elliott",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Susan Hughes",
+            "givenName": "Susan",
+            "familyName": "Hughes",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Veronique Potier",
+            "givenName": "Veronique",
+            "familyName": "Potier",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Joanna Banks",
+            "givenName": "Joanna",
+            "familyName": "Banks",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Ian Wynne",
+            "givenName": "Ian",
+            "familyName": "Wynne",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Katherine Berry",
+            "givenName": "Katherine",
+            "familyName": "Berry",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Sara Day",
+            "givenName": "Sara",
+            "familyName": "Day",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Zoe Hughes",
+            "givenName": "Zoe",
+            "familyName": "Hughes",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Angiolina Albertini",
+            "givenName": "Angiolina",
+            "familyName": "Albertini",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Unaffiliated",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Unaffiliated",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Peter  Lutman",
+            "givenName": "Peter ",
+            "familyName": "Lutman",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/rbk1-FertTreats-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Fertilizer and Manure Treatments 1852-2021 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-today2018-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Today revised 2018",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "https://www.era.rothamsted.ac.uk/experiment/rbk1#documents/",
+            "relatedIdentifierType": "URL",
+            "name": "Broadbalk Weeds",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.1111/wre.12598",
+            "relatedIdentifierType": "DOI",
+            "name": "Cook et. al. (2023) Weed Research. Herbicide resistance in Alopecurus myosuroides:",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1111/gcb.15585 ",
+            "relatedIdentifierType": "DOI",
+            "name": "Storkey et al. (2021). Agricultural Intensification and climate change... Global Change Biology",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1614/WS-04-012R1",
+            "relatedIdentifierType": "DOI",
+            "name": "Moss et al. (2004). The Broadbalk long-term experiment at Rothamsted: ...about weeds. Weed Science",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk weed survey data 1991-2021",
+            "URL": "01-BKweeds9121.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "325 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Package containing the data in csv format (frictionless)",
+            "URL": "WeedsSec8.zip",
+            "encodingFormat": "zip",
+            "fileSize": "378 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Broadbalk Section 8 weeds 1991-2021",
+            "URL": "Weeds-numbers-91-21.png",
+            "encodingFormat": "png",
+            "fileSize": "194 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "OA"
+}

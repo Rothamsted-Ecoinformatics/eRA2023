@@ -1,0 +1,27 @@
+TY  - DATA  
+TI  - Park Grass Metaproteome 
+CY  - ProteomeXchange 
+DB  - e-RA - the electronic Rothamsted Archive 
+PY  - 2022 
+DP  - Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+M3  - xml 
+ET  - 1.0 
+LA  - en 
+UR  - https://doi.org/10.6019/PXD017392 
+DO  - 10.6019/PXD017392 
+AU  - Quinn, Gerry 
+AU  - Abdelhameed, Alyaa 
+AU  - Banat, Ibrahim 
+AU  - Berrar, Daniel 
+AU  - Doerr, Stefan 
+AU  - Dudley, Ed 
+AU  - Francis, Lewis 
+AU  - Gazze, Salvatore 
+AU  - Hallin, Ingrid 
+AU  - Matthews, Peter 
+AU  - Swain, Martin 
+AU  - Whalley, Richard 
+AU  - van Keulen, Geertje 
+KW  - Rothamsted Research, Park grass long-term experiment, soil, permanent grassland, soil microbiome, bacterial genomes, microbial ecology, ecological metagenomes, biogeochemical cycle, 
+AB  - This ProteomeXchange dataset is derived from work on the Park Grass Experiment soil by Quinn et al. (Applied Soil Ecology, 2022) and made available via the PRIDE database. A modified protein extraction method, heat/thaw/phenol/chloroform (HTPC), was combined with the established Surfactant extraction method to identify proteins from Park Grass Experiment (PGE) soil, which has an extensively sequenced microbial database. The resulting dataset is made available on the ProteomeXchange Consortium with the dataset identifier PXD017392 and 10.6019/PXD017392. Project accession: PXD017392, Project DOI: 10.6019/PXD017392. 
+ER  -  

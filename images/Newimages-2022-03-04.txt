@@ -1,0 +1,3 @@
+mediaID,Credit,fileLocation,URL,Caption,Type,extension,Description,width,height,orientation,exptID,forWWW,isReviewed,isGalleries
+,eRA curators,metadata/met/2011-new-thousand-acre-gauge-23-03-2011.jpg, http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/2011-new-thousand-acre-gauge-23-03-2011.jpg,2011 new thousand acre gauge 23 03 2011,Other,jpg, ,750,563,Landscape,met,0,0,0
+,eRA curators,metadata/met/met.jpg, http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/met/met.jpg,met,Other,jpg, ,750,497,Landscape,met,0,0,0

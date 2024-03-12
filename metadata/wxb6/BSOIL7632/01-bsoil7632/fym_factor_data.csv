@@ -1,0 +1,5 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,n_amount,n_amount_unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows annual FYM (farmyard manure) treatment,nil,1877-1926,FYM exposure,,0.0,,,,,,
+Factor level shows annual FYM (farmyard manure) treatment. Applied to the crop in February,FYM1,1877-1887,FYM exposure,http://purl.obolibrary.org/obo/AGRO_00000076,10.0,t FYM ha-1,61.0,kg N ha-1,annual,farmyard manure from cattle,http://aims.fao.org/aos/agrovoc/c_2810
+Factor level shows annual FYM (farmyard manure) treatment. Applied to the crop in February,FYM2,1877-1906,FYM exposure,http://purl.obolibrary.org/obo/AGRO_00000076,20.0,t FYM ha-1,122.0,kg N ha-1,annual,farmyard manure from cattle,http://aims.fao.org/aos/agrovoc/c_2810
+"Factor level shows annual FYM treatment. Ploughed in March, before crop sown",FYM1.5,1907-1926,FYM exposure,http://purl.obolibrary.org/obo/AGRO_00000076,14.8,t FYM ha-1,92.0,kg N ha-1,annual,farmyard manure from cattle,http://aims.fao.org/aos/agrovoc/c_2810

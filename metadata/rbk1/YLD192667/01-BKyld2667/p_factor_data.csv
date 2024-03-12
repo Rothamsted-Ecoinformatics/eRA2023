@@ -1,0 +1,3 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows phosphorus fertilizer treatment,nil,1926-1967,phosphorus nutrient exposure ,,0,,,,
+Factor level shows phosphorus fertilizer treatment. Applied in autumn usually to stubble of previous crop. Not applied in fallow years,P,1926-1967,phosphorus nutrient exposure ,http://purl.obolibrary.org/obo/PECO_0007397 ,35,kg P ha-1,annual except in fallow years,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521

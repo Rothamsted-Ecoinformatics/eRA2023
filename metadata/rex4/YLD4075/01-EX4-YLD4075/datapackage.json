@@ -1,0 +1,390 @@
+{
+  "resources": [
+    {
+      "path": "crop_data.csv",
+      "name": "crop_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "c50ceb9cdc1a393a1d335cca275cf54b",
+        "bytes": 29643,
+        "fields": 15,
+        "rows": 270
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested. Years when no yields were recorded are not included (1940-1948)."
+          },
+          {
+            "name": "crop",
+            "type": "string",
+            "format": "default",
+            "title": "Crop type grown",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_1972",
+            "description": "Name of crop grown in this harvest year"
+          },
+          {
+            "name": "plot",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Plot number",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Plot number since 1876, 1-10."
+          },
+          {
+            "name": "previous_fertilizer_code",
+            "type": "string",
+            "format": "default",
+            "title": "Previous fertilizer and manure treatment code 1876-1901",
+            "rdfType": "https://schema.org/name",
+            "description": "Code describing the fertilizer or manure applied to that plot, 1876-1901."
+          },
+          {
+            "name": "current_year_fertilizer_code",
+            "type": "string",
+            "format": "default",
+            "title": "Current year fertilizer treatment code",
+            "rdfType": "https://schema.org/name",
+            "description": "Code describing the fertilizer applied in this harvest year. N indicates basal fertilizer N applied, nil indicates no fertilizer or manure applied"
+          },
+          {
+            "name": "n_fertilizer_amount",
+            "type": "number",
+            "format": "default",
+            "title": "Fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010017",
+            "description": "Total inorganic nitrogen fertilizer applied to this plot in this harvest year. Fertilizer N not applied in fallow years. No other fertilizer or manure applied in this period. Fertilizer N applied to all plots; it is not a treatment factor"
+          },
+          {
+            "name": "n_fertilizer_type",
+            "type": "string",
+            "format": "default",
+            "title": "Type of fertilizer N",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00020007",
+            "description": "Chemical form of the nitrogen fertilizer applied in this harvest year."
+          },
+          {
+            "name": "chalk_amount",
+            "type": "number",
+            "format": "default",
+            "title": "Chalk amount",
+            "rdfType": "http://purl.obolibrary.org/obo/ENVO_00002054",
+            "description": "In the winters of 1954-55 and 1959-60 calcium carbonate was applied as ground chalk to parts of some of the plots, to ensure soil pH was around 7-8. See notes for full details"
+          },
+          {
+            "name": "sowing_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Sowing date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was sown.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "harvest_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Harvest date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the crop was harvested.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "variety",
+            "type": "string",
+            "format": "default",
+            "title": "Variety",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Crop variety or cultivar.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "plot_area",
+            "type": "number",
+            "format": "default",
+            "title": "Plot area",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_330588",
+            "description": "Plot area.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "grain_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Grain yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested barley grain yield at 85% dry matter.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "straw_yield",
+            "type": "number",
+            "format": "default",
+            "title": "Straw yield",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176",
+            "description": "Harvested barley straw yield at 85% dry matter. This does not include stubble.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "integer",
+            "format": "default",
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "crop",
+            "reference": {
+              "resource": "crop_types_data",
+              "fields": "crop_name"
+            }
+          },
+          {
+            "fields": "note_id",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop yield data",
+      "description": "The main data table containing annual yield data for all plots 1949-1975, with agronomic details including sowing dates and varieties. No yields were recorded 1940-1948. Basal nitrogen fertilizer was applied to all plots in 1940-1974; no other fertilizer or manure was applied. The experiment tests the residual effects of different fertilizers and manures applied in 1856-1901. Ground chalk was applied as required to parts of some plots in 1954-55 and 1959-60 to ensure soil pH was around pH 7-8.  Spring barley was grown every year except 1967 and 1975 (bare fallow). In 1957 and 1958 some plots were used for microplot experiments, that data is not included here. Grain and straw yields are at 85% dry matter.  See notes and plans for further details. "
+    },
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "2baa70e33ec9654432de6d82baa88cc3",
+        "bytes": 164,
+        "fields": 3,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "Crop name",
+            "rdfType": "http://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "Latin name",
+            "rdfType": "http://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdftype",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop types",
+      "description": "List of crops grown with Latin names and AGROVOC concepts."
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "552e50f5f78a68a3b7f8e11132cde0bb",
+        "bytes": 948,
+        "fields": 2,
+        "rows": 11
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "rdfType": "http://purl.obolibrary.org/obo/FBcv_0000210",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the crop_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the crop_data table"
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi.org/10.23637/REX4-YLD4075-01",
+  "name": "exhaustion-land-experiment-annual-crop-yields-1940-75",
+  "title": "Exhaustion Land Experiment annual crop yields 1940-75",
+  "version": "1.0.0",
+  "keywords": [
+    "Rothamsted Research",
+    "crop yield",
+    "long term experiments",
+    "barley",
+    "Exhaustion land long-term experiment",
+    "residual effects"
+  ],
+  "description": "### Abstract\nThis dataset contains annual spring barley yield data for all plots of the Exhaustion Land Experiment, 1949-1975, and agronomic details including sowing dates and varieties. No yields were recorded 1940-1948.  Basal nitrogen fertilizer was applied to all plots 1940-1974; no other fertilizer or manure was applied. This phase of the experiment tests the residual effects of different fertilizers and manures applied 1856-1901.\n### Methods\nThe experiment was established in 1856 and divided into 10 plots (1-10) in 1876, each receiving a different fertilizer or manure treatment until 1901. No fertilizer or manure was applied 1902-1939. Spring barley was grown every year from 1949 except 1967 and 1975 (bare fallow). In 1957 and 1958 some plots were used for microplot experiments; this data is not included here.\n### Technical Info\nBarley grain and straw yields at 85% dry matter, the straw yields do not include stubble. Ground chalk was applied as required to parts of some plots in 1954 and 1960 to ensure soil was around pH 7-8.\n### Provenance\nIndividual plot yields were taken from Rothamsted Experimental Station Annual Reports and Yield Books.  Agronomic information (sowing dates, variety, etc) taken from Annual Reports, Yield Books, plans and descriptions in the Rothamsted Library archives. The frictionless dataset of combined yields and treatment data was compiled by June Kimori and checked by Daniel Philcox and Margaret Glendining, July 2022.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure avoided visual checking of data, which can be very inaccurate.\n",
+  "contributors": [
+    {
+      "title": "June Kimori",
+      "organization": "University of Reading"
+    },
+    {
+      "title": "Daniel Philcox",
+      "organization": "University of Reading"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Simon Willcock",
+      "path": "https://orcid.org/0000-0001-9534-9114",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

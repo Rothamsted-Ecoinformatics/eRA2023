@@ -1,0 +1,8 @@
+note_id,description
+1,"Crop failed in 1871, yield shown as zero. "
+2,"Fallow, no crop sown, no fertilizer applied. "
+3,No fertilizer applied in 1873
+4,"N only applied in 1874 at half the usual rate, 48 kgN/ha instead of 96kgN. "
+5,"Fallow, no crop sown, P, K, Na and Mg fertilizer applied but no N"
+6,Very heavy rain during planting in 1886
+7,"Tuber dry matter not recorded in 1901, so a mean value of 25.7% used to calculate total tuber dry matter yield in 1901. "

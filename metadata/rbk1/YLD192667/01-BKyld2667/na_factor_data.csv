@@ -1,0 +1,4 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows sodium fertilizer treatment,nil,1926-1967,sodium nutrient exposure,,0,,,,
+Factor level shows sodium fertilizer treatment. Applied in autumn usually to stubble of previous crop. Not applied in fallow years. ,Na,1926-1967,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,16,kg Na ha-1,annual except in fallow years,sodium sulphate,http://purl.obolibrary.org/obo/CHEBI_32149
+Factor level shows sodium fertilizer treatment. Applied in autumn usually to stubble of previous crop. Not applied in fallow years. ,Na*,1926-1967,sodium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007241,57,kg Na ha-1,annual except in fallow years,sodium sulphate,http://purl.obolibrary.org/obo/CHEBI_32149

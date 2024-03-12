@@ -1,0 +1,64 @@
+{
+    "administrative": {
+        "type": "ScholarlyArticle",
+        "identifier": "Barnfield",
+        "localIdentifier": "R/BN/7",
+        "name": "Barnfield",
+        "url": null,
+        "description": "Barnfield was the first of the Classical Experiments, with treatments applied in spring 1843 for a crop of turnips sown in July. The treatments and cropping, although mainly roots, differed until 1876 when a period of continuous cropping with mangolds was started that lasted until 1959 (sugar beet were also grown, on half-plots, from 1946).\n\nTreatments during the first two years were on long narrow plots, as on Broadbalk. After various modification, the design was settled in 1856 when the strips testing minerals and FYM, including FYM + PK, were crossed at right angles by series comparing no N fertilizer with both inorganic and organic forms of N supplying 96 kg ha-1. Before 1968 this was the only Classical in which N was applied with both FYM and FYM + PK fertilizer.\n\nBecause yields of continuous roots were declining, perhaps because of increasing numbers of cyst nematodes (Heterodera schachtii), the cropping has been progressively modified since 1959 and has included a range of arable crops, with an increased range of N dressings, and grass. From 1977 to 1983 the series that had never received N fertilizer was kept fallow. It was sown to a grass-clover ley in 1984. The remainder has been in grass since 1975.\n\nNo treatments have been applied and no yields taken since 2001, although the site is currently still available. Recently soil from the site was used in a study investigating the response of wheat roots to soil P supply (Yuan et al, 2016).",
+        "disambiguatingDescription": "Effects of fertilizers and organic manures on root crops, arable crops and grass & clover."
+    },
+    "dataAccess": {
+        "type": "creativeWork",
+        "conditionsOfAccess": "Available to any researcher on request",
+        "isAccessibleForFree": "YesOffline",
+        "publishingPrinciples": null,
+        "actionableFeedbackPolicy": "Effects of fertilizers and organic manures on root crops, arable crops and grass & clover.",
+        "correctionsPolicy": "Effects of fertilizers and organic manures on root crops, arable crops and grass & clover.",
+        "unnamedSourcesPolicy": null
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "CC0",
+        "license": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "temporalCoverage": "1953/1970 from schema",
+    "dateStart": 1843,
+    "dateEPEnd": 1855,
+    "dateEnd": 2001,
+    "funder": "NOT in GLTEN",
+    "citation": [
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.1017/S0021859615000702",
+            "sameAs": "https://doi.org/10.1017/S0021859615000702",
+            "citation": "Yuan, H. M. , Blackwell, M. , McGrath, S. , George, T. S. , Granger, S. J. , Hawkins, J. M. B. , Dunham, S. and Shen, J. B. (2016) \"Morphological responses of wheat (Triticum aestivum L.) roots to phosphorus supply in two contrasting soils\", Journal of Agricultural Science, 154, 98-108",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ERADOC-1-37286",
+            "sameAs": "https://doi.org/10.23637/ERADOC-1-37286",
+            "citation": "Avery, B.W. et al. (1972) The soil of Barnfield. RES Report for 1971, Part 2, 5-37.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
+            "sameAs": "https://doi.org/10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
+            "citation": "Macdonald, A. , Poulton, P. , Clark, I. , Scott, T. , Glendining, M. , Perryman, S. , Storkey, J. , Bell, J. , Shield, I. , Mcmillan, V. and Hawkins, J. (2018) \"Guide to the Classical and Other Long-term experiments, Datasets and Sample Archive. Rothamsted Research\", p 41.",
+            "inLanguage": "English",
+            "relationType": "isCitedBy"
+        },
+        {
+            "type": "creativeWork",
+            "identifier": "https://doi.org/10.2134/jeq2019.02.0078",
+            "sameAs": "https://doi.org/10.2134/jeq2019.02.0078",
+            "citation": "Phosphorus in Agriculture: A Review of Results from 175 Years of Research at Rothamsted, UK (2019) Journal of Environmental Quality",
+            "inLanguage": null,
+            "relationType": "isCitedBy"
+        }
+    ]
+}

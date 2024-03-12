@@ -1,0 +1,4 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows annual nitrogen fertilizer treatment,0,1856-1901,nitrogen fertilizer exposure,,0,,,,
+Factor level shows annual nitrogen fertilizer treatment. 96kg N ha-1 every year except 1874 when 48 kg N was applied. The ammonium salts consisted of equal parts ammonium sulphate and ammonium chloride. ,N,1856-1901,nitrogen fertilizer exposure,http://purl.obolibrary.org/obo/PECO_0007102 ,96,kg N ha-1,annual,ammonium salts,http://aims.fao.org/aos/agrovoc/c_37197
+Factor level shows annual nitrogen fertilizer treatment,N*,1856-1901,nitrogen fertilizer exposure,http://purl.obolibrary.org/obo/PECO_0007102 ,96,kg N ha-1,annual,sodium nitrate,http://aims.fao.org/aos/agrovoc/c_37469

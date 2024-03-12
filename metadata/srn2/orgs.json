@@ -1,0 +1,23 @@
+[
+    {
+        "type": "Organization",
+        "name": "Rothamsted Research",
+        "legalName": "Rothamsted Research",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": "NA"
+    },
+    {
+        "type": "Organization",
+        "name": "The Morley Agricultural Foundation",
+        "legalName": "TMAF",
+        "identifier": "NA",
+        "role": "research organisation",
+        "contactPoint": [
+            {
+                "contactType": "URL",
+                "description": "https://tmaf.co.uk/saxmundham/"
+            }
+        ]
+    }
+]

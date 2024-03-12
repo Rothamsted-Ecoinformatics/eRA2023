@@ -1,0 +1,7 @@
+crop_name,latin_name,crop_name_rdfType,description
+spring barley,hordeum vulgare,https://aims.fao.org/aos/agrovoc/c_823,"annual cereal, sown in the spring, not requiring vernalization. "
+winter barley,hordeum vulgare,https://aims.fao.org/aos/agrovoc/c_823,"annual cereal, sown in the autumn, requiring vernalization (a cold period) to initiate flowering. "
+potatoes,solanum tuberosum,https://aims.fao.org/aos/agrovoc/c_13551,"annual vegetable root crop, grown for tubers for human consumption"
+winter wheat,triticum aestivum,https://aims.fao.org/aos/agrovoc/c_8412,"annual cereal, sown in the autumn, requiring vernalization (a cold period) to initiate flowering. "
+sugar beet,beta vulgaris subsp. Vulgaris,http://aims.fao.org/aos/agrovoc/c_7499,"annual vegetable root crop, grown for sugar content"
+fodder beet,beta vulgaris,http://aims.fao.org/aos/agrovoc/c_4576,"annual vegetable root crop, grown as fodder for farm livestock"

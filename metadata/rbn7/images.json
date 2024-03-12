@@ -1,0 +1,30 @@
+[
+    {
+        "MediaID": 63,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/others/2015-Barnfield-and-the-former-Agdell-at-bottom.jpg",
+        "Caption": "Barnfield and the former Agdell at bottom - 2015",
+        "Type": "metadata",
+        "exptID": "rbn7",
+        "width": 750,
+        "height": 500,
+        "orientation": "landscape",
+        "fileLocation": "metadata/others/2015-Barnfield-and-the-former-Agdell-at-bottom.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 378,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/others/2015-Barnfield.jpg",
+        "Caption": "Barnfield - 2015",
+        "Type": "metadata",
+        "exptID": "rbn7",
+        "width": 750,
+        "height": 1125,
+        "orientation": "portrait",
+        "fileLocation": "metadata/others/2015-Barnfield.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    }
+]

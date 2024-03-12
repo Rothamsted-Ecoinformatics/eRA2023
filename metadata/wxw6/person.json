@@ -1,0 +1,30 @@
+{
+    "contributors": [
+        {
+            "type": "Person",
+            "jobTitle": "data manager",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "experiment manager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom"
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "md_id": 142,
+        "title": "Fosters Ley-arable experiment supplementary information 1949 onwards ",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/FLAsuppinfo.pdf",
+        "identifier": "10.23637/rrn2-FLAsuppinfo-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "csv ",
+        "description": "Summary of cropping systems, field plan layout and grass/clover seed mixtures for the Fosters Ley-Arable experiment, since 1949.\r\n\r\nThis summary was assembled by Fergus Blyth in 2022 and 2023 as part of a year spent on placement for an MSci degree from the University of Glasgow.\r\n\r\nThis work was supported by the Natural Environment Research Council [NE/S007423/1], through the ENVISION Doctoral Training Partnership, Research Experience Placement scheme. ",
+        "fieldname": "Fosters Field",
+        "experiment_name": "Fosters Ley Arable",
+        "experiment_code": "R/RN/2",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2023,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "N/A",
+        "UID": 142
+    }
+]

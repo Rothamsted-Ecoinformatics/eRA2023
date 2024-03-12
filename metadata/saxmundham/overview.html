@@ -1,0 +1,93 @@
+<?php
+?>
+
+<div class="row p-3">
+	<div class="col-6">
+		<p>
+		Saxmundham Experimental Station is in East Suffolk, five miles (8 km) from the sea and 110 miles (177 km) East of Rothamsted. 
+		The soil is a heavy sandy clay loam which can be difficult to cultivate, providing a contrast with the soils at Rothamsted and Woburn. Two long-term experiments were started in 1899 by East Suffolk County Council. Each consisted of four blocks so that a typical Norfolk four-course rotation could be grown, with each crop present each year. 
+		Rothamsted assumed responsibility for the site in 1965 and the experiments were reviewed and modified. 
+		Rothamsted relinquished the site in 2010. </p>
+		<p>The Saxmundham experimental site is currently supported by The Morley Agricultural Foundation and delivered by  
+		<a href="https://tmaf.co.uk/saxmundham/ " target="out"><b>NIAB.</b></a> 
+		</p>
+	</div>
+	<div class="col-6">
+	
+	
+	<div id="mapid" style="width: 500px; height: 400px;"></div>                  
+            <script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZXJhZGV2bmF0aCIsImEiOiJja2twZHN4MWYwYnVoMm9zMTZjeW9mMDF2In0.f-XLtnBSQXAFI1XBruy3uQ';
+var map = new mapboxgl.Map({
+container: 'mapid', // container id
+//style: 'mapbox://styles/mapbox/streets-v11', // style URL
+style: 'mapbox://styles/mapbox/satellite-v9',  // style statellite
+center: [1.466 , 52.221], // starting position [lng, lat]
+zoom: 15 // starting zoom
+});
+
+var marker = new mapboxgl.Marker()
+.setLngLat([1.4668572, 52.2220751])
+.setPopup(new mapboxgl.Popup().setHTML("<b>Saxmundham</b>")) // add popup
+.addTo(map);
+marker.togglePopup();
+
+map.on('load', function () {
+	map.addSource('saxmundham', {
+		'type': 'geojson',
+		'data': {
+		'type': 'Feature',
+		'geometry': {
+		'type': 'Polygon',
+		'coordinates':  [
+		    [
+		        [
+		          1.4656448,
+		          52.2227061
+		        ],
+		        [
+		          1.4656019,
+		          52.2226995
+		        ],
+		        [
+		          1.4649475,
+		          52.2206883
+		        ],
+		        [
+		          1.4671147,
+		          52.2203597
+		        ],
+		        [
+		          1.4675975,
+		          52.2220028
+		        ],
+		        [
+		          1.4656448,
+		          52.2227061
+		        ]
+		      ]
+		    ]
+	}
+	}
+	});
+	map.addLayer({
+	'id': 'saxmundham',
+	'type': 'line',
+	'source': 'saxmundham',
+	'layout': {
+	'line-join': 'round',
+	'line-cap': 'round'
+	},
+	'paint': {
+	'line-color': '#ff9933',
+	'line-width': 3
+	}
+	});
+});
+
+
+</script>
+		
+	</div>
+
+</div>

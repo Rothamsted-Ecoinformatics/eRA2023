@@ -1,0 +1,15 @@
+TY  - DATA  
+TI  - Dataset: Park Grass Hay Yields, Fertilizer and Lime Treatments 1903-1964 
+CY  - Electronic Rothamsted Archive, Rothamsted Research 
+DB  - e-RA - the electronic Rothamsted Archive 
+PY  - 2022 
+DP  - Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+M3  - xlsx 
+ET  - 1.0 
+LA  - en 
+UR  - https://doi.org/10.23637/rpg5-yields1903-1964-01 
+DO  - 10.23637/rpg5-yields1903-1964-01 
+AU  - Perryman, Sarah 
+KW  - fertilizer, farmyard manure, Rothamsted Research, soil pH, long term experiments, Park grass long-term experiment, nitrogen fertilizers, crop yield, liming, permanent grassland, flora, hay, 
+AB  - This dataset contains the yields of hay (t/ha), for both the 1st and 2nd cuts, harvested from Park Grass Hay Experiment since 1903-1964. Details of the fertilizer, lime treatments and harvest dates are also included. Originally one plot per treatment, in 1903, most plots were split into two to test the effects of liming, as acidity had built up with fertilizer use, with one half limed with chalk (L) and the other half left un-limed (U). In 1920 the remaining plots (14, 15 and 17) were split in half also, to join the liming scheme. Three other plots (18, 19 and 20) were split to three to receive light lime (LL), heavy lime (HL) and un-limed (U). Yields are provided for all fertiliser treatment plots and sub-plots. Yields are expressed as t/ha at 100% dry matter. Variations in yield reflect the various fertilizer treatments and liming regimes, as well as the local weather and atmospheric inputs. This data set is followed by that for 1965-2018 and so includes plot numbers (subsequent plots) from that later design-period to provide continuity between datasets. 
+ER  -  

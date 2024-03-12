@@ -1,0 +1,477 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rcs10-rltlcation-01",
+    "name": "Rothamsted long-term liming experiment exchangeable cations re-analysed",
+    "shortName": "RLTLCATION",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLCATION",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, Harpenden, from 1962-1996. Archived topsoil samples from six years between 1964 and 1989  were re-analysed in 2019 for a range of soil exchangeable cations, by extraction with ammonium nitrate. There was a parallel experiment at Woburn Experimental Farm. \r\n\r\nThis experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele. \r\nThis work was partially funded by the BBSRC through the Soil to Nutrition programme BBS/E/C/00010310. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Period 2 (1981-1996): four lime levels with four P levels. 2 replicates (blocks). \r\n -  Topsoil (0-18 or 0-23cm) sampled in 1964, 1967, 1974, 1979, 1983 and 1989\r\n - 12-20 soil cores taken from the central area of each plot and combined to make one sample\r\n - Soil samples taken in autumn, after harvest and before ploughing for the next crop\r\n - Archived air-dried sieved (<2mm) soils re-analysed in 2019. \r\n - Exchangeable cations Al, Ca, Cu, Fe, K, Mg, Mn, Na and Zn, mg/kg dry soil\r\n - Measured by extraction with 1 M ammonium nitrate. \r\n - Cations detected by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).\r\n - Negative values shown as zero. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "*Note* the included Excel file: _*01-RLTLCATION.xlsx*_ contains the same data as the below CSV files. The Excel file contains each of the below CSV files as an Excel worksheet and is provided for users who prefer Excel over CSV.\r\n### Contents\r\n\r\n|File|Dataset Name|Description|\r\n|----|------------|-----------|\r\n|soil_data.csv|Soil data|The main data table containing soil exchangeable cation data for archived soil sampled in 1964, 1967, 1974, 1979, 1983 and 1989, re-analysed in 2019. Topsoil was analysed from all plots and sub-plots (where present), except sub-plots given Mg in 1974-1978. Exchangeable cation extraction by ammonium-nitrate method. Cations were detected by ICP-OES. Any negative values were converted to zero. |\r\n|liming_factor_data.csv|Liming treatment factor level descriptions|Describes the different liming treatment factor levels used, 1962-1996.|\r\n|p_factor_data.csv|P treatment factor level descriptions|Describes the different P treatment factor levels used, 1962-1996. |\r\n|k_factor_data.csv|K treatment factor level descriptions|Describes the different K treatment factor levels used, 1962-1980. From 1981 basal K was applied to all plots.|\r\n|detection_limit_data.csv|Detection limit data|Describes the limits of detection of the ICP-OES for each cation.|\r\n|notes_data.csv|Notes|Additional explanatory notes for records in the soil_data table| "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "**Detection limits (DL) of the ICP-OES.** \r\nThese values provide an indication of the lower values for detection by the ICP-OES. DL (mg/kg dry soil) is calculated as 3x standard deviation of blanks. \r\n\r\n| &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  | &nbsp; &nbsp;  Al &nbsp;  &nbsp; &nbsp;  |  &nbsp;  &nbsp; Ca  &nbsp;  &nbsp;  | &nbsp;  &nbsp;  Cu  &nbsp;  &nbsp; | &nbsp;  &nbsp;  Fe &nbsp; &nbsp;  |  &nbsp;  &nbsp; K &nbsp; &nbsp;   |  &nbsp;  &nbsp;  Mg &nbsp; &nbsp;  | &nbsp;  &nbsp;  Mn &nbsp; &nbsp; | &nbsp; &nbsp;  Na &nbsp; &nbsp; | &nbsp;  &nbsp;  Zn &nbsp; &nbsp; |\r\n|--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|\r\n|DL  | 0.33  | 1.43  | 0.02  | 0.23  | 3.18  | 0.21  | 0.06 | 0.76 | 0.02 | "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "The original archived soil samples were stored in the Rothamsted Sample Archive. The chemical analysis was carried out in the Analytical Unit of Rothamsted Research in 2019. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": "2023-03-01",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "long term experiments",
+        "arable soils",
+        "soil fertility",
+        "phosphorous",
+        "liming"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Cathy Thomas",
+            "givenName": "Cathy",
+            "familyName": "Thomas",
+            "sameAs": "https://orcid.org/0000-0002-6320-9923",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Stephan Haefele",
+            "givenName": "Stephan",
+            "familyName": "Haefele",
+            "sameAs": "https://orcid.org/0000-0003-0389-8373",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Cathy Thomas",
+            "givenName": "Cathy",
+            "familyName": "Thomas",
+            "sameAs": "https://orcid.org/0000-0002-6320-9923",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Stephan Haefele",
+            "givenName": "Stephan",
+            "familyName": "Haefele",
+            "sameAs": "https://orcid.org/0000-0003-0389-8373",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Mark Durenkamp",
+            "givenName": "Mark",
+            "familyName": "Durenkamp",
+            "sameAs": "https://orcid.org/0000-0002-2195-1855",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": 0.0,
+            "latitude": 0.0
+        },
+        "name": "Sawyers I"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34802",
+            "relatedIdentifierType": "DOI",
+            "name": "\tBolton, 1971. Paper describing setting up the experiment and results from the early years",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600027222",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1977a. Paper describing liming response of potatoes and oats to P, K and Mg",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600027210",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1977b. Paper describing changes in soil pH and exchangeable calcium over first 12 years",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.eja.2019.02.016",
+            "relatedIdentifierType": "DOI",
+            "name": "Holland et al, 2019. Paper describing yield response of all crops grown, 1962-1996",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1475-2743.1989.tb00760.x",
+            "relatedIdentifierType": "DOI",
+            "name": "\tGoulding et al, 1989. Paper prediting lime requirement of soils, using long-term liming data",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-Plans",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment plans 1962-1996 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-Treatments-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment crop yield 1962-1996 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlgrain-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment grain mineral composition ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.eja.2021.126281",
+            "relatedIdentifierType": "DOI",
+            "name": "Jordan-Meille et al, 2021. Paper describing grain mineral composition",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wsc10-wltlcation-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment exchangeable cations re-analysed ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-soil-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment soil chemical properties 1962-1996 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - S2N - Soil to Nutrition programme (2017-2022)",
+            "alternateName": "BBS/E/C/00010310",
+            "url": "http://tinyurl.com/grant00010310",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Exchangeable cation data",
+            "URL": "01-RLTLCATION.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "80 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Exchangeable cation data as frictionless data package, csv format",
+            "URL": "01-RLTLCATION.zip",
+            "encodingFormat": "zip",
+            "fileSize": "97 kilobytes"
+        }
+    ],
+    "image": [],
+    "grade": 1,
+    "isReady": 1,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

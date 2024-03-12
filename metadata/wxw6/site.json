@@ -1,0 +1,103 @@
+{
+    "administrative": {
+        "name": "Continuous wheat experiment, Woburn Stackyard",
+        "identifier": "Stackyard Field",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": null,
+        "description": "In grass for at least 50 years by the early 1820s, probably ploughed in 1830s. In arable crops in the 1860s. Four-course rotation of roots, barley, hay and wheat. FYM applied to the root crops.",
+        "management": "Conventional management and tillage for the time."
+    },
+    "location": {
+        "addressLocality": "Husborne Crawley",
+        "addressRegion": "Bedfordshire",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": -0.6149,
+            "pointLatitude": 52.0003
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 89.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "Eutric Rubic Arenosol",
+        "soilDescription": "Sandy loam, Stackyard series."
+    },
+    "soilProperty": [
+        {
+            "variableMeasured": "soil total carbon",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 1.5,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1876,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "total soil nitrogen",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 0.156,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1876,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "soil pH",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 6.1,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": null,
+            "unitText": null,
+            "refYear": 1876,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        },
+        {
+            "variableMeasured": "clay content",
+            "isEstimated": false,
+            "isBaseline": true,
+            "valueReference": 11.7,
+            "minValue": null,
+            "maxValue": null,
+            "minSampleDepth": 0.0,
+            "maxSampleDepth": 23.0,
+            "unitCode": "%",
+            "unitText": "Percent",
+            "refYear": 1876,
+            "measurementTechnique": "NOT IN GLTN",
+            "description": "NOT IN GLTN"
+        }
+    ],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Sandy loam, Stackyard series.",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

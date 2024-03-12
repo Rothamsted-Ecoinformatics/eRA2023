@@ -1,0 +1,495 @@
+{
+  "resources": [
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "e6254d912ecfacc73dce4b9ee15ec561",
+        "bytes": 1564,
+        "fields": 2,
+        "rows": 9
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Additional explanatory notes for records in the soil_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the soil_data table"
+    },
+    {
+      "path": "rotation_factor_data.csv",
+      "name": "rotation_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "26414f312ba4482522b50541da03774e",
+        "bytes": 4467,
+        "fields": 9,
+        "rows": 17
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A detailed description of the rotation factor level with changes"
+          },
+          {
+            "name": "rotation_type",
+            "type": "string",
+            "format": "default",
+            "title": "Rotation type",
+            "rdfType": "https://schema.org/description",
+            "description": "General description of rotation type - arable or ley-arable, reseeded or permanent grass, or fallow"
+          },
+          {
+            "name": "factor_level_code",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level code",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The code for the rotation factor level"
+          },
+          {
+            "name": "sub_plot_treatment",
+            "type": "string",
+            "format": "default",
+            "title": "sub plot treatment",
+            "rdfType": "https://schema.org/name",
+            "description": "Some plots divided into two sub plots 1963-1990 testing grass with nitrogen (n) v grass/clover without nitrogen (c). Cropping the same in both treatments"
+          },
+          {
+            "name": "alternative_code",
+            "type": "string",
+            "format": "default",
+            "title": "Alternative factor level code",
+            "rdfType": "https://schema.org/name",
+            "description": "Alternative code for the rotation factor level used in some plans and yield books (but not in this file)"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "The harvest year range for when the factor level was used (harvest year refers to the year when the crop was harvested)."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied; each rotation was a 6 year cycle"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_code"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop rotation descriptions",
+      "description": "Describes the different ley and arable rotations. "
+    },
+    {
+      "path": "soil_data.csv",
+      "name": "soil_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "4ccbd992c13af23c99dd35ee33004a93",
+        "bytes": 20074,
+        "fields": 21,
+        "rows": 226
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which soil sampled",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the soil was sampled. Baseline soils were taken in September 1950 from 42 samples bulked from blocks 10-12; these are assumed to be very similar to the starting values of Blocks 1-4 in 1948. Sampling at irregular intervals continued until 2014."
+          },
+          {
+            "name": "block",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Block",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000303",
+            "description": "The experiment was originally divided into 12 blocks, 1-12. The different rotations were phased in over a six-year period in the 12 different blocks, so that each year of the six-year rotation is present each year. Apart from initial measurements in 1950, only blocks 1-4, or combinations thereof, are included in this dataset, as Blocks 5-12 were discontinued after 1968."
+          },
+          {
+            "name": "main_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Main plot number",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "The 40 main plots, divided over blocks 1-4, 10 plots in each block. The plots are in 20 pairs, each pair of plots in each block receives a different rotation treatment."
+          },
+          {
+            "name": "sub_plot",
+            "type": "string",
+            "format": "default",
+            "title": "Sub plot number",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000448",
+            "description": "The pairs of main plots were divided lengthways into two sub plots (1 or 2), 1962-1990 only. These were used to test grass given N fertilizer (n) vs grass/clover without N fertilizer (c) in the reseeded grass treatments (R, Rp). SOC measurements were taken separately.  See n_or_c_sub_plot for treatment."
+          },
+          {
+            "name": "rotation_type",
+            "type": "string",
+            "format": "default",
+            "title": "Rotation type",
+            "rdfType": "https://schema.org/name",
+            "description": "General description of rotation treatment type: arable/ley-arable/reseeded grass/fallow"
+          },
+          {
+            "name": "rotation_factor_level_code",
+            "type": "string",
+            "format": "default",
+            "title": "Rotation factor level code",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000469",
+            "description": "Code for crop rotation on this block and on this year, as explained in rotation_factor_data sheet"
+          },
+          {
+            "name": "n_or_c_treatment",
+            "type": "string",
+            "format": "default",
+            "title": "n or c treatment",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for test on sub-plots of R and Rp treatments. Grass given N fertilizer shown as n, grass/clover without N fertilizer shown as c. Treatments applied 1962-1990. SOC measurements were taken separately from the c and n treatments."
+          },
+          {
+            "name": "sampling_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "sampling date",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the soil was sampled. Presented as day, month and year when available, or sometimes month and year when no exact day was given."
+          },
+          {
+            "name": "soil_depth",
+            "type": "string",
+            "format": "default",
+            "title": "soil depth",
+            "description": "Depth of soil sampled. Data is expressed at a depth of 0-23cm for all samples. Soil was measured in imperial units (inches) until 2000 and then in metric (cm). Depths are all shown in cm for consistency, apart from in notes_data where imperial euqivalents are also given.   From 1950-1967, measurements were not taken for 0-23cm directly, but instead were calculated from measurements taken for other depths e.g. 0-15cm and 15-30cm.  See notes 2, 4 & 5 for details in notes_data. Soil samples were taken by mixing together 20-24 cores, with a 2cm diameter semi-cylindrical auguer, evenly distributed over the plot, except in 2000 when the 'box' samples (15cm x 15cm x 23cm) used to measure soil weight were used for the Rc plots for soil C and N."
+          },
+          {
+            "name": "bulk_density",
+            "type": "number",
+            "format": "default",
+            "title": "bulk density",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_7167",
+            "description": "Estimated soil bulk density, for permanent arable (A) and reseeded (R) plots only, blocks 1 and 3, from soil weights measured in 2000 with an open ended metal box, 15cm x 15cm x 23cm deep. Permanent arable is assumed to be unchanged and to be the starting value for all plots in 1950. The soil weights for 1951 to 1987 were derived by interpolation; for 2008 and 2014 by extrapolation.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "percent_total_C",
+            "type": "number",
+            "format": "default",
+            "title": "percentage total carbon",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_1301",
+            "description": "% Total C in soil, from 2000 onwards. Measured by combustion analysis, based on the Dumas method, using a LECO combustion system to measure total C. Measured on air-dried, finely ground soil (to pass a 355 micron or 44 mesh sieve).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "percent_CaCO3_C",
+            "type": "number",
+            "format": "default",
+            "title": "percentage calcium carbonate carbon",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_1197",
+            "description": "% CaCO-C3 in soil. Measured in 2000 and 2008 using a calcimeter. %CaCO-C3 is derived from %CaCO3 by dividing by 8.333. Measured in 2014 using an automated Skalar Primacs inorganic carbon analyser.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "percent_soc",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "percentage soil organic carbon",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_389fe908",
+            "description": "% SOC in soil. Measured up to and including 1987 using Tinsley method (Tinsley, 1950) on air-dried soil that was finely ground to pass a 0.5mm sieve. Measured in 1987 on air-dried soil, finely ground to pass a 0.5mm sieve, by dichromate digestion, modified Tinsley (Kalembasa and Jenkinson, 1973) to measure organic C. Measured from 2000 onwards on air-dried, finely ground soil (to pass a 355 micron or 44 mesh sieve) by combustion analysis, based on the Dumas method, using a LECO combustion system to measure total C, with SOC determined by subtraction of CaCO3-C, measured by a calcimeter (see above).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "percent_total_N",
+            "type": "number",
+            "format": "default",
+            "title": "percentage soil total nitrogen",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_bdc779f4",
+            "description": "% N in soil. Measured in 1987 on air-dried soil, finely ground to pass a 0.5mm sieve, using Kjeldahl digest method for total N (Bremner, 1965). The digest was then analysed colorimetrically using a Technicon continuous flow analyser. Measured for 2000 onwards on air-dried, finely ground soil (to pass a 355 micron or 44 mesh sieve) using combustion analysis, based on the Dumas method, using a LECO combustion system.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "pH_in_water",
+            "type": "number",
+            "format": "default",
+            "title": "pH in water",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_34901",
+            "description": "Soil pH in water, with a 1:2.5 soil:water suspension, mean of two readings. Measured on air-dried soil, sieved < 2mm.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "Olsen_P",
+            "type": "number",
+            "format": "default",
+            "title": "Olsen P level",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_5804",
+            "description": "Plant-available phosphorous measured from 2000 in air-dried soil, sieved <2mm. P determined by Olsen P method (Olsen et al, 1954)",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "K_ex",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable K",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_24981",
+            "description": "Exchangeable soil potassium, measured since 2000 using ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer). Measured on air-dried soil, sieved < 2mm.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "Ca_ex",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Ca",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_24981",
+            "description": "Exchangeable soil calcium, measured since 2000  using ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer). Measured on air-dried soil, sieved < 2mm.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "Mg_ex",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Mg",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_24981",
+            "description": "Exchangeable soil magnesium, measured since 2000 using ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer). Measured on air-dried soil, sieved < 2mm.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "Na_ex",
+            "type": "number",
+            "format": "default",
+            "title": "Exchangeable Na",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_24981",
+            "description": "Exchangeable soil sodium, measured since 2000 using ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer). Measured on air-dried soil, sieved < 2mm.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "string",
+            "format": "default",
+            "title": "Note",
+            "description": "Note number, if an explanatory note is applied to this record."
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "rotation_factor_level_code",
+            "reference": {
+              "resource": "rotation_factor_data",
+              "fields": "factor_level_code"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "soil data",
+      "description": "This is the main data table, containing the % soil organic carbon (SOC), % total nitrogen (N) and other assorted soil measurements in the topsoil (0-23cm) of selected plots of blocks 1-4 of the Fosters Ley-arable Experiment, 1948-2014. The experiment started in autumn 1948, with the first harvest in summer 1949. Baseline SOC measurements were taken in September 1950 from parts of the site where the experiment had not yet started. These are assumed to be very similar to the starting values in 1948.The soil was then sampled at irregular intervals of several years. Not all plots were sampled on every occasion, particularly in the early years of the experiment. Soil N was measured from 1987 onwards.  Total C, Inorganic C, Soil pH, Olsen P  and exchangeable cations are measured from 2000 onwards. Fosters field had been in arable cropping for several centuries before the start of the experiment.  Originally there were 12 blocks, but blocks 5-12 were discontinued from 1968 and only blocks 1-4 were continued. See Johnston (1973) for a discussion of the effects of ley and arable cropping on SOC in blocks 5-12, 1949-1972. This is a companion to the Highfield ley-arable experiment. "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi.org/10.23637/rrn2-FLAsoc5014-01 ",
+  "name": "fosters-ley-arable-experiment-soil-chemical-properties-1948-2014",
+  "title": "Fosters Ley-arable experiment soil chemical properties 1948-2014",
+  "version": "1.0.0",
+  "keywords": [
+    "crop rotation",
+    "Fosters ley-arable rotation experiment",
+    "ley farming",
+    "leys",
+    "long term experiments",
+    "nitrogen",
+    "nitrogen content",
+    "phosphorous",
+    "soil",
+    "soil organic carbon",
+    "soil pH"
+  ],
+  "description": "### Abstract\nThis dataset gives the % soil organic carbon (SOC), % total nitrogen (N) and other assorted soil measurements in the topsoil (0-23cm) of selected plots of Blocks 1-4 of the Fosters Ley-arable Experiment, 1948-2014. Not all plots are sampled on every occasion, particularly in the early years of the experiment. The experiment was started in autumn 1948, with baseline SOC measurements taken in September 1950 from parts of the site where the experiment had not yet started. These are assumed to be very similar to the starting values in 1948. The soil was then sampled at irregular intervals of several years. Soil N was measured from 1987 onwards. Total C, Inorganic C, Soil pH, Olsen P and exchangeable cations are measured from 2000 onwards. Originally there were 12 blocks, but blocks 5-12 were discontinued from 1968. See Johnston (1973) for a discussion of the effects of ley and arable cropping on SOC in blocks 5-12, 1949-1972.  \r\n\r\nFosters Ley-arable experiment is a comparison to the Highfield Ley-arable experiment. The two sites have the same soil type but very different histories. Fosters was in long-term arable, with little SOC at the start, in contrast to Highfield which was old permanent grass and consequently had more SOC at the start.\r\n\r\nThis dataset was assembled by Fergus Blyth from September 2022 to August 2023 as part of a placement year for an MSci Degree from the University of Glasgow.\r\n\r\nThis work was also supported by the Natural Environment Research Council [NE/S007423/1], through the ENVISION Doctoral Training Partnership, Research Experience Placement scheme.\n### Methods\nLey-arable experiments at Rothamsted on Fosters started in Autumn 1948 on a site that was previously an old arable field for several centuries with no long leys - some plots stayed continuous arable, some went into permanent grass, others alternated between leys and arable. Its purpose was to look at the effects of different cropping systems - reseeded grass (now grass/clover), permanent arable and alternating ley/arable - on yield and soil organic matter (SOM). The soil is a silty clay loam. Some plots were ploughed and immediately re-seeded, some went into continuous arable cropping where 3-yr arable Test crops followed 3-yr arable Treatment crops and other plots alternated between 3-yr leys as the Treatment crop and 3-yr arable Test crops. \r\nOriginally, six blocks, one for each of the six phases of the rotation, were put down in duplicate, making 12 blocks in each field (with 120 main plots). From 1968, only four blocks on each site continued with original treatments (with 40 main plots). Yields have not been taken since 1990. The newly sown grass plots were grazed until 1961. They were then split to compare grass+N or grass/clover (clover was under-sown in the grass sward); the whole plots have been treated as grass/clover since 1991. Three types of leys were originally tested; 3-yr lucerne, 3-yr grazed ley or 3-yr cut grass. These, and the arable Treatment and Test crops have changed over the duration of the experiment, with major cropping changes being implemented in 1961, 1990 and 2009. See Rothamsted Experimental Station, 1966; 1970; 1978 and Johnston, 1973 for details about the early years of the experiment and Yields of the Experiments, 1990 (and before) for later details. Further details are available through e-RA.\n### Technical Info\nYields from Fosters were halted in 1990 but soil chemical properties are still measured. Analysis of soil organic carbon (SOC) was by the Tinsley technique except 2000, 2008 and 2014 which are by combustion (Total C by LECO minus CaCO<sub>3</sub>-C). Analysis of % nitrogen in soil was by Kjeldahl method in 1987 and by combustion by LECO from 2000 onwards. Exchangeable soil potassium, calcium, magnesium and sodium were all measured using ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer). Soil pH in water was measured using a 1:2.5 soil:water suspension. Plant-available phosphorous was determined by the Olsen P method. \r\n\r\nFor 1950, 1956, 1961 and 1967 soils were sampled to a depth of  0-5 and 5-10 inches or 0-6 and 6-12 inches; later soils were all sampled to 0-9 inches (0-23cm). A 0-23cm value for the earlier soils has been calculated. \r\n\r\nSoils were sampled in 2000/1 to measure bulk density and soil weights using an open-ended metal box 15cm x 15cm x 23cm deep for the permanent arable (A) and reseeded (R) plots only. Permanent arable is assumed to be unchanged and the starting value for all plots in 1948. The soil weights for the R plots in other years have been derived by extrapolation or interpolation.\n### Other\nThis dataset includes the full compliment of treatments on Fosters Ley-arable, in contrast to the previous Summary Open Access Dataset (SOAD) that includes only the two extreme treatments. It also contains full metadata in contrast to the previous SOAD. \r\n\r\nAnalytical techniques:\r\n - LECO: LECO Corp., St Joseph, Michigan, USA\r\n - Tinsley, J. (1950) The determination of organic carbon in soils by dichromic mixtures. In: *Transactions of the 4th International Congress of Soil Science,* Vol. 1 (eds F.A. van Baren, * et al *), pp 161-164. Hoitsema Brothers, Amsterdam. \r\n - Bremner, J. M. (1965). Total nitrogen. In: Methods of Soil Analysis. Part 2 (ed. C. A. Black), pp. 1149-1178. Madison: American Society of Agronomy\r\n- Olsen S.R., Cole C.V., Watanabe F.S., Dean L.A. (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate. USDA Circular 939, US Gov. Print. Office, Washington, D.C\n### Provenance\nThis dataset is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden.\n### Quality\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\n",
+  "contributors": [
+    {
+      "title": "Fergus Blyth",
+      "path": "https://orcid.org/0009-0002-6733-9992",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Ruth Skilton",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

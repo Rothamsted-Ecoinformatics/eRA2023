@@ -1,0 +1,293 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Single plot phase",
+            "localIdentifier": "Single plot phase",
+            "name": "Single plot phase",
+            "url": "Single plot phase",
+            "description": ""
+        },
+        "design": {
+            "dateStart": 1854,
+            "dateEnd": 1956,
+            "description": null,
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Single plot phase",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 1,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 21219,
+                "name": "red clover",
+                "sameAs": "red clover",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Nutrient and formalin tests",
+            "localIdentifier": "Nutrient and formalin tests",
+            "name": "Nutrient and formalin tests",
+            "url": "Nutrient and formalin tests",
+            "description": ""
+        },
+        "design": {
+            "dateStart": 1956,
+            "dateEnd": 1972,
+            "description": null,
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Nutrient and formalin tests",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": null,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": "NA",
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Aldicarb tests",
+            "localIdentifier": "Aldicarb tests",
+            "name": "Aldicarb tests",
+            "url": "Aldicarb tests",
+            "description": "Aldicarb was tested as a control for clover cyst nematode, Heterodera trifolii, which was known to be present, and the cultivar Hungaropoly, believed resistant to clover-rot, was compared with the standard susceptible variety S.123."
+        },
+        "design": {
+            "dateStart": 1976,
+            "dateEnd": 1978,
+            "description": "Aldicarb was tested as a control for clover cyst nematode, Heterodera trifolii, which was known to be present, and the cultivar Hungaropoly, believed resistant to clover-rot, was compared with the standard susceptible variety S.123.",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Aldicarb tests",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 4,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 21220,
+                "name": "red clover",
+                "sameAs": "red clover",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12316,
+                "name": "cultivar",
+                "description": null,
+                "effect": "",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 30721,
+                        "name": "Hungaropoly",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30722,
+                        "name": "S.123",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            },
+            {
+                "id": 12317,
+                "name": "fungicide exposure",
+                "description": null,
+                "effect": "Direct",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 30723,
+                        "name": "control exposure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30724,
+                        "name": "aldicarb",
+                        "amount": "10",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": "broadcast application method",
+                        "chemicalForm": null,
+                        "notes": "applied to seedbed"
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Benomyl tests",
+            "localIdentifier": "Benomyl tests",
+            "name": "Benomyl tests",
+            "url": "Benomyl tests",
+            "description": ""
+        },
+        "design": {
+            "dateStart": 1980,
+            "dateEnd": 1990,
+            "description": null,
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Benomyl tests",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 4,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": "NA",
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12318,
+                "name": "fungicide exposure",
+                "description": null,
+                "effect": "Direct",
+                "plotApplication": "Whole plot",
+                "level": [
+                    {
+                        "id": 30725,
+                        "name": "control exposure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 30726,
+                        "name": "benomyl",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": 1980,
+                        "dateEnd": 1989,
+                        "frequency": "Applied in winter",
+                        "method": "foliar application",
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Residuals of fungicides",
+            "localIdentifier": "Residuals of fungicides",
+            "name": "Residuals of fungicides",
+            "url": "Residuals of fungicides",
+            "description": "The experiment now tests the residual effects of fungicides applied in the previous design period."
+        },
+        "design": {
+            "dateStart": 1991,
+            "dateEnd": null,
+            "description": "To study yields and pathogens of red clover grown continuously",
+            "designType": null,
+            "designTypeLabel": null,
+            "studyDesign": "Residuals of fungicides",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 4,
+            "numberOfReplicates": null,
+            "numberOfSubplots": null,
+            "numberOfHarvests": null
+        },
+        "crops": [
+            {
+                "id": 21221,
+                "name": "red clover",
+                "sameAs": "red clover",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12319,
+                "name": "fungicide exposure",
+                "description": null,
+                "effect": "Residual",
+                "plotApplication": "Whole plot",
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": "NA"
+    }
+]

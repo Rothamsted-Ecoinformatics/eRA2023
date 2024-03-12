@@ -1,0 +1,14 @@
+%0 Dataset
+%T Fisher 1921 Broadbalk wheat grain yields 1852-1918 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2018 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 csv  
+%7 1.0 
+%G None 
+%U https://doi.org/10.23637/rbk1-data-fisher-1921-01 
+%R 10.23637/rbk1-data-fisher-1921-01 
+%A Rothamsted Research, 
+%K wheat; Broadbalk long-term experiment; long term experiments; crop yield; statistical data; 
+%X This dataset consists of annual wheat yields from selected plots of the Broadbalk Wheat Experiment, 1852-1918, as used by R.A. Fisher in his 1921 paper 'Studies in crop variation'.  

@@ -1,0 +1,263 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rbk1-meanyld5267",
+    "name": "Broadbalk Wheat 10-year mean yields 1852-1967",
+    "shortName": "MEANYLD5267",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-MEANYLD5267",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "10-year mean wheat grain and straw yields for each treatment strip of the Broadbalk Wheat experiment, 1852-1967. Data taken from tables 3.16 and 3.17 of Dyke and Garner (1969), converted to tonnes/hectare. Also details of the fertilizer and manure treatments applied. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "The Broadbalk experiment started in autumn 1843, and for the first eight years, the fertilizer treatments were varied, to test specific questions. From 1852 a scheme of fertilizer treatments was established, which remained largely unaltered until 1967. The mean yields are taken from this period. The treatment strips extend the whole length of the field, each testing a different fertilizer or manure treatment.  \r\nFrom 1852-1925 winter wheat was grown <b>continuously</b>, apart from occasional fallowing fallowing (of the top or bottom half of the experiment) to control weeds. Weeds were originally controlled by hand-hoeing, but this became impractical, so sequential fallowing was introduced to control weeds. In 1926 the experiment was divided into five Sections (I-V), crossing the strips at right angles. After a <b>transition</b> period, a <b>fallow cycle</b> was introduced in 1931. Fallowing was mainly in a five-year rotation of one-year fallow with four successive crops of wheat. In 1955 Section I was divided into two; IA received herbicides as required and was no longer fallowed, IB continued in the five-year cycle. In 1955 Section V was divided into two; VB received a single application of lime, VA did not. In 1963 Section VB was no longer fallowed and received herbicides as required, while VA continued in the five-year fallowing cycle. The 10-year yields are means of all cropped sections, 1926-1967. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "- 10-year mean grain yield, t/ha, 1852-1967\r\n- 10-year mean straw yield, t/ha, 1852-1967\r\n- Fertilizer treatments, 1852-1967 "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "Yields are of total grain (which has not been cleaned or 'dressed' to remove chaff, etc). \r\nSince 1954 dry matter (DM) of grain and straw has been measured at harvest, and by convention the yields are shown at 85% DM. Before 1954 % DM at harvest was not measured but it is reasonable to assume that this would usually have been at about 85% DM.\r\n10-year means, except 1922-25 (the end of the Continuous wheat period) and 1926-1934 (the Transition period).  By convention, the year is that of harvest (not sowing). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "Tables 3.16 and 3.17, Garner & Dyke (1969) "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "Broadbalk long-term experiment",
+        "crop yield",
+        "long term experiments",
+        "Rothamsted Research",
+        "wheat"
+    ],
+    "creator": [
+        {
+            "type": "organization",
+            "name": "Rothamsted Research"
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.37301,
+            "latitude": 51.80946
+        },
+        "name": "Broadbalk"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34917",
+            "relatedIdentifierType": "DOI",
+            "name": "Garner & Dyke (1969). The Broadbalk Yields",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34916",
+            "relatedIdentifierType": "DOI",
+            "name": "Johnston & Garner (1969). Broadbalk: Historical Introduction",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-sup-1534342858-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat plan and cropping 1852-1925",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rbk1-plan1926-67-02",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk Wheat plan and cropping 1926-1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/KeyRefOABKyields",
+            "relatedIdentifierType": "DOI",
+            "name": "Broadbalk mean long-term winter wheat yields 1852-2016 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Broadbalk 10-year mean grain and straw yields, 1852-1967 ",
+            "URL": "01-MEANYLD5267-data.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "27 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Broadbalk 10-year mean grain yield, t/ha, 1852-1967 ",
+            "URL": "Meanyld5267.jpg",
+            "encodingFormat": "jpg",
+            "fileSize": "43 kilobytes"
+        }
+    ],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "OA"
+}

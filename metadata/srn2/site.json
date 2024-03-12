@@ -1,0 +1,42 @@
+{
+    "administrative": {
+        "name": "Saxmundham II",
+        "identifier": "S/RN/2",
+        "type": "research station field",
+        "doi": null,
+        "visitsAllowed": "No",
+        "visitingArrangements": "None",
+        "description": "The Saxmundham experimental site is currently supported by The Morley Agricultural Foundation and delivered by NIAB.",
+        "management": null
+    },
+    "location": {
+        "addressLocality": "Saxmundham",
+        "addressRegion": "Suffolk",
+        "addressCountry": "United Kingdom",
+        "geoLocationPoint": {
+            "pointLongitude": 1.466,
+            "pointLatitude": 52.221
+        },
+        "geoLocationPlace": "United Kingdom",
+        "polygon": "NOT IN GLTEN",
+        "elevation": 37.0,
+        "elevationUnit": "Metres",
+        "slope": null,
+        "slopeAspect": null
+    },
+    "soil": {
+        "soilTypeLabel": "Eutric Gleysol",
+        "soilDescription": "Sandy clay loam developed in drift over Chalky boulder clay, Beccles Series"
+    },
+    "soilProperty": [],
+    "climate": {
+        "name": "temperate oceanic climate",
+        "description": "Sandy clay loam developed in drift over Chalky boulder clay, Beccles Series",
+        "weatherStation": {
+            "weatherStationID": "NOT IN GLTEN",
+            "name": "NOT IN GLTEN",
+            "distance": "NOT IN GLTEN",
+            "direction": "NOT IN GLTEN"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+name,ncbitaxon_uri,common_name,new_common_name,phylogeny,note_id
+Achillea millefolium,http://purl.obolibrary.org/obo/NCBITaxon_13329,Common Yarrrow,*,forb,*
+Agrimonia eupatoria,http://purl.obolibrary.org/obo/NCBITaxon_57912,Common Agrimony,*,forb,*
+Agrostis capillaris,http://purl.obolibrary.org/obo/NCBITaxon_204232,Common Bent,*,grass,*
+Agrostis stolonifera,http://purl.obolibrary.org/obo/NCBITaxon_63632,Creeping Bent Grass,*,grass,3.000
+Ajuga reptans,http://purl.obolibrary.org/obo/NCBITaxon_38596,Bugle,*,forb,*
+Alopecurus pratensis,http://purl.obolibrary.org/obo/NCBITaxon_15304,Meadow Foxtail,*,grass,*
+Anthoxanthum odoratum,http://purl.obolibrary.org/obo/NCBITaxon_29661,Sweet Vernal Grass,*,grass,*
+Anthriscus sylvestris,http://purl.obolibrary.org/obo/NCBITaxon_48027,Cow Parsley,*,forb,*
+Arrhenatherum elatius,http://purl.obolibrary.org/obo/NCBITaxon_52139,False Oat Grass,*,grass,*
+Briza media,http://purl.obolibrary.org/obo/NCBITaxon_281077,Quaking Grass,*,grass,*
+Bromus hordeaceus,http://purl.obolibrary.org/obo/NCBITaxon_52147,Soft Brome,*,grass,*
+Bryophyta,http://purl.obolibrary.org/obo/NCBITaxon_3208,Mosses,*,moss,3.000
+Carex caryophyllea,http://purl.obolibrary.org/obo/NCBITaxon_502401,Spring Sedge,*,grass,*
+Carex flacca,http://purl.obolibrary.org/obo/NCBITaxon_140814,Glaucous Sedge,*,grass,*
+Centaurea nigra,http://purl.obolibrary.org/obo/NCBITaxon_75633,Common Knapweed,*,forb,*
+Cerastium fontanum,http://purl.obolibrary.org/obo/NCBITaxon_230722,Common Mouse-ear,*,forb,*
+Conopodium majus,http://purl.obolibrary.org/obo/NCBITaxon_173702,Pignut,*,forb,*
+Crepis capillaris,http://purl.obolibrary.org/obo/NCBITaxon_13465,Smooth Hawk's-beard,*,forb,*
+Cynosurus cristatus,http://purl.obolibrary.org/obo/NCBITaxon_211939,Crested Dog's-tail,*,grass,*
+Dactylis glomerata,http://purl.obolibrary.org/obo/NCBITaxon_4509,Cocks-foot,*,grass,*
+Deschampsia cespitosa,http://purl.obolibrary.org/obo/NCBITaxon_37723,Tufted Hair-graa,*,grass,*
+Elytrigia repens,http://purl.obolibrary.org/obo/NCBITaxon_52152,Common Couch,Elymus repens,grass,*
+Festuca pratensis,http://purl.obolibrary.org/obo/NCBITaxon_4608,Meadow Fescue,*,grass,*
+Festuca rubra,http://purl.obolibrary.org/obo/NCBITaxon_52153,Red Fescue,*,grass,*
+Fraxinus excelsior,http://purl.obolibrary.org/obo/NCBITaxon_38873,European Ash,*,tree,3.000
+Fritillaria meleagris,http://purl.obolibrary.org/obo/NCBITaxon_134857,Snake's Head Fritillary,*,forb,*
+Galium verum,http://purl.obolibrary.org/obo/NCBITaxon_462873,Lady's Bedstraw,*,forb,*
+Helictotrichon pubescens,http://purl.obolibrary.org/obo/NCBITaxon_87471,Downy Oat-Grass,Avenula pubescens,grass,*
+Heracleum sphondylium,http://purl.obolibrary.org/obo/NCBITaxon_40919,Hogweed,*,forb,*
+Holcus lanatus,http://purl.obolibrary.org/obo/NCBITaxon_29679,Yorkshire Fog,*,grass,*
+Hypochoeris radicata,http://purl.obolibrary.org/obo/NCBITaxon_58656,Cat's-ear,Hypochaeris radicata,forb,*
+Lathyrus pratensis,http://purl.obolibrary.org/obo/NCBITaxon_254779,Meadow Vetchling,*,legume,*
+Leontodon autumnalis,http://purl.obolibrary.org/obo/NCBITaxon_212686,Autumn Hawkbit,Scorzoneroides autumnalis,forb,*
+Leontodon hispidus,http://purl.obolibrary.org/obo/NCBITaxon_13329,Rough Hawkbit,*,forb,*
+Lolium perenne,http://purl.obolibrary.org/obo/NCBITaxon_204232,Perennial Ryegrass,*,grass,*
+Lotus corniculatus,http://purl.obolibrary.org/obo/NCBITaxon_38596,Common Bird's-foot-trefoil,*,legume,*
+Luzula campestris,http://purl.obolibrary.org/obo/NCBITaxon_15304,Field Wood-rush,*,grass,3.000
+Phleum pratense,http://purl.obolibrary.org/obo/NCBITaxon_38873,Timothy,*,grass,*
+Pilosella officinarum,http://purl.obolibrary.org/obo/NCBITaxon_52139,Mouse-ear hawkweed,*,forb,*
+Pimpinella saxifraga,http://purl.obolibrary.org/obo/NCBITaxon_41492,Burnet-saxifrage,*,forb,*
+Plantago lanceolata,http://purl.obolibrary.org/obo/NCBITaxon_281077,Ribwort plantain,*,forb,*
+Poa annua,http://purl.obolibrary.org/obo/NCBITaxon_93036,Annual Meadow Grass,*,grass,3.000
+Poa pratensis,http://purl.obolibrary.org/obo/NCBITaxon_52147,Smooth Meadow-grass,*,grass,*
+Poa trivialis,http://purl.obolibrary.org/obo/NCBITaxon_50465,Rough Meadow-grass,*,grass,*
+Potentilla reptans,http://purl.obolibrary.org/obo/NCBITaxon_502401,Creeping Cinquefoil,*,forb,*
+Potentilla sterilis,http://purl.obolibrary.org/obo/NCBITaxon_140814,Barren Strawberry,*,forb,*
+Primula veris,http://purl.obolibrary.org/obo/NCBITaxon_75633,Cowslip,*,forb,*
+Prunus spinosa,http://purl.obolibrary.org/obo/NCBITaxon_114937,Blackthorn,*,tree,*
+Quercus robur,http://purl.obolibrary.org/obo/NCBITaxon_38942,Pedunculate Oak,*,tree,*
+Ranunculus acris,http://purl.obolibrary.org/obo/NCBITaxon_173702,Meadow Buttercup,*,forb,*
+Ranunculus auricomus,http://purl.obolibrary.org/obo/NCBITaxon_13465,Goldilocks Buttercup,*,forb,*
+Ranunculus bulbosus,http://purl.obolibrary.org/obo/NCBITaxon_211939,Bulbous Buttercup,*,forb,*
+Ranunculus ficaria,http://purl.obolibrary.org/obo/NCBITaxon_4509,Lesser Celendine,Ficaria verna,forb,*
+Ranunculus repens,http://purl.obolibrary.org/obo/NCBITaxon_137665,Creeping Buttercup,*,forb,*
+Rosa canina,http://purl.obolibrary.org/obo/NCBITaxon_74635,Dog Rose,*,tree,*
+Rumex acetosa,http://purl.obolibrary.org/obo/NCBITaxon_37723,Common Sorrel,*,forb,*
+Sanguisorba minor,http://purl.obolibrary.org/obo/NCBITaxon_52152,Salad Burnet,*,forb,*
+Stachys officinalis,http://purl.obolibrary.org/obo/NCBITaxon_52153,Betony,Betonica officinalis,forb,*
+Stellaria graminea,http://purl.obolibrary.org/obo/NCBITaxon_57917,Lesser Stitchwort,*,forb,*
+Stellaria media,http://purl.obolibrary.org/obo/NCBITaxon_134857,Common Chickweed,*,forb,*
+Taraxacum officinale,http://purl.obolibrary.org/obo/NCBITaxon_462873,Dandelion,*,forb,*
+Tragopogon pratensis,http://purl.obolibrary.org/obo/NCBITaxon_87471,Goat's-beard,*,forb,*
+Trifolium pratense,http://purl.obolibrary.org/obo/NCBITaxon_40919,Red Clover,*,legume,*
+Trifolium repens,http://purl.obolibrary.org/obo/NCBITaxon_29679,White Clover,*,legume,*
+Trisetum flavescens,http://purl.obolibrary.org/obo/NCBITaxon_58656,Yellow Oat-grass,*,grass,*
+Veronica chamaedrys,http://purl.obolibrary.org/obo/NCBITaxon_105271,Germander Speedwell,*,forb,*
+Vicia cracca,http://purl.obolibrary.org/obo/NCBITaxon_254779,Tufted Vetch,*,forb,*
+Vicia sepium,http://purl.obolibrary.org/obo/NCBITaxon_347188,Bush vetch,*,forb,*
+Unidentified,http://purl.obolibrary.org/obo/NCBITaxon_32644,Unidentified speceis,*,various,*

@@ -1,0 +1,4 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows phosphorus fertilizer treatment,nil,2001-2015,phosphorus nutrient exposure ,,0,,,,
+Factor level shows phosphorus fertilizer treatment,P,2001-2015,phosphorus nutrient exposure ,http://purl.obolibrary.org/obo/PECO_0007397,35,kg P ha-1,annual,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+Factor level shows phosphorus fertilizer treatment; previously received P at 35 kgP up to 2000,(P),2001-2015,phosphorus nutrient exposure ,,0,,,,

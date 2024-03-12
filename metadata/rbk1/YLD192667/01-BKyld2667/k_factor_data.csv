@@ -1,0 +1,3 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows potassium fertilizer treatment,nil,1926-1967,potassium nutrient exposure,,0,,,,
+Factor level shows potassium fertilizer treatment. Applied in autumn usually to stubble of previous crop. Not applied in fallow years. ,K,1926-1967,potassium nutrient exposure,http://purl.obolibrary.org/obo/PECO_0007293,90,kg K ha-1,annual except in fallow years,potassium sulphate,http://aims.fao.org/aos/agrovoc/c_6142

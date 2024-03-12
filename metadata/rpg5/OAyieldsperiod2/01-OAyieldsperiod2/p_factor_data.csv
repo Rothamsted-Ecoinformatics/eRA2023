@@ -1,0 +1,4 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no P applied,1903-1964,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,0,0,kg P ha-1 yr-1,not applied,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+Amount shows annual P applied,1903-1964,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,P,35,kg P ha-1 yr-1,annual in winter,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521
+Amount shows annual P applied  to plot 20,1903-1964,phosphorous nutrient,http://purl.obolibrary.org/obo/PECO_0007397,P*,15,kg P ha-1 yr-1,annual in winter in years when FYM not applied,triple superphosphate,http://aims.fao.org/aos/agrovoc/c_7521

@@ -1,0 +1,23 @@
+[
+    {
+        "md_id": 102,
+        "title": "Woburn Continuous Barley Experiment treatment details and plan, 1876-1926",
+        "URL": "https://www.era.rothamsted.ac.uk/metadata/wxb6/01-wxb6-treats.pdf",
+        "identifier": "10.23637/wxb6-treats-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "pdf",
+        "description": "Details of the fertilizer treatments, lime applications, plot divisions, plot areas and plan of the Woburn Continuous Barley Experiment, 1876-1926 (not to scale). See also details and plan for the Woburn Continuous Wheat Experiment. Annual treatments per hectare.",
+        "fieldname": "Stackyard",
+        "experiment_name": "Woburn Continuous Barley",
+        "experiment_code": "W/XB/6",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2022,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "N/A",
+        "UID": 102
+    }
+]

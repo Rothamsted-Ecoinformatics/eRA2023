@@ -1,0 +1,427 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/wrn3-cropping1938-2020-02",
+    "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
+    "shortName": "CROP",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/wrn3/02-CROP",
+    "description": [
+        {
+            "inLanguage": "en",
+            "descriptionType": "Abstract",
+            "description": "Cropping details of the Woburn Ley-arable experiment, 1938-2020, with details of the arable and ley-arable rotation sequences in each of the five Blocks, and the different treatment crops and varieties. Updated from Version 1, with addition of a cropping database. The experiment was designed to test the effects of different rotations with and without leys (short-term herbage) on the yield of two arable Test crops. It is now an important resource for investigating long-term changes in soil organic matter due to different cropping systems."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Methods",
+            "description": "The Woburn Ley-arable Experiment, started in 1938, compares the effects of continuous arable rotations and ley-arable rotations on soil organic matter and the yield of two arable test crops, on a sandy loam soil. It consists of 80 main plots, divided over five blocks. Half the plots have been in four continuous five-year arable or ley-arable rotations since 1938: three years of Treatment crops followed by two arable Test crops. The Treatments were: **Ah/AB/ABe** (all arable rotation with 1-year hay or beans); **Ar/AF/AM/AO** (all arable rotation with roots or fallow or maize or oats); **L/Ln3** (3-year grazed ley then grass ley with fertilizer N); **Lu/Lc3** (3-year legume then grass/clover ley).   \r\nThe other 40 plots were in alternating rotations from 1938 to the mid-1970s: a 20-year cycle of all four arable and ley-arable rotations. These were replaced by eight-year grass or grass/clover leys in the mid-1970s: **LLn8** (8-year grass leys with fertilizer N, followed by two arable test crops); **LLc8** (8-year grass/clover leys, followed by two arable test crops). The rotations are phased in over a five-year period in the five different blocks, so that each year of the five-year rotation is present each year.  The eight-year leys were also phased in, the first cycle starting 1973-77, the second cycle 1978-82. The four eight-year leys were stopped in 2007 and replaced with **AO** (continuous arable with oats); **ABe** (continuous arable with beans); **Ln3** (three-year grass leys with nitrogen); **Lc3** (three-year grass/clover leys)."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TableOfContents",
+            "description": " - Cropping data, with details of the crop grown on each plot on each year\r\n - Crop types, including variety\r\n - Rotation types, with details of the different arable and ley-arable rotations\r\n - Details of FYM application\r\n-Management notes"
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "TechnicalInfo",
+            "description": "The main plots are in pairs, one of each pair received FYM (farmyard manure) applied every fifth year, to the first test crop, 1941-1967."
+        },
+        {
+            "inLanguage": "en",
+            "descriptionType": "Provenance",
+            "description": "Taken from the Rothamsted Yield Books, field plans and paper archive."
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2022,
+    "dateCreated": "2022-11-29",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": "en",
+    "version": "1.0",
+    "keywords": [
+        "cropping system",
+        "Rothamsted Research",
+        "arable farming",
+        "long term experiments",
+        "ley farming",
+        "crop rotation",
+        "Woburn Ley-arable experiment"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Edward Johnston",
+            "givenName": "Edward",
+            "familyName": "Johnston",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Andrew Macdonald",
+            "givenName": "Andrew",
+            "familyName": "Macdonald",
+            "sameAs": "https://orcid.org/0000-0002-1785-4892",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells-Brooke",
+            "givenName": "Nathalie",
+            "familyName": "Castells-Brooke",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Computational and Analytical Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Computational and Analytical Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sustainable Agricultural Sciences, Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Edward Johnston",
+            "givenName": "Edward",
+            "familyName": "Johnston",
+            "sameAs": null,
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.616165,
+            "latitude": 51.999857
+        },
+        "name": "Stackyard"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-191",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-term experiments up to 1962",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-192",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-term experiments up to 1967",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-193",
+            "relatedIdentifierType": "DOI",
+            "name": "Details of the Classical and Long-term experiments 1968-73",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
+        },
+        {
+            "relatedIdentifier": "10.1111/ejss.12415",
+            "relatedIdentifierType": "DOI",
+            "name": "Johnston et al, 2017. Changes in SOM over 70 years in the WLA experiment",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/wrn3-manag1938-2020-01",
+            "relatedIdentifierType": "DOI",
+            "name": "The Woburn Ley-arable experiment, 1938-2020. Its management",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/wrn3-fert1938-2020-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Ley-arable experiment fertilizer and lime applications 1938-2020",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wrn3-cropping1938-2020-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Ley-arable experiment cropping sequence 1938-2020 - V1 - PDF",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsNewVersionOf",
+            "rt_id": 13,
+            "relationTypeValue": "is new version of"
+        }
+    ],
+    "funder": [
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database",
+            "identifier": "https://tinyurl.com/grant000005189"
+        },
+        {
+            "type": "organization",
+            "name": "Biotechnology and Biological Sciences Research Council",
+            "sameAs": "http://dx.doi.org/10.13039/501100000268",
+            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability",
+            "identifier": "https://tinyurl.com/grant000J0300"
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
+            "URL": "02-wrn3-cropping1938-2020.pdf",
+            "encodingFormat": "pdf",
+            "fileSize": "1038 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
+            "URL": "02-wrn3-cropping1938-2020.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "394 kilobytes"
+        }
+    ],
+    "image": [],
+    "grade": 1,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

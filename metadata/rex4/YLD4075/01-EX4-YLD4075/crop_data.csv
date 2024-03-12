@@ -1,0 +1,271 @@
+harvest_year,crop,plot,previous_fertilizer_code,current_year_fertilizer_code,n_fertilizer_amount,n_fertilizer_type,chalk_amount,sowing_date,harvest_date,variety,plot_area,grain_yield,straw_yield,note_id
+1949,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,0.980,1.050,*
+1949,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,1.280,1.560,*
+1949,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,3.420,3.720,*
+1949,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,3.260,3.610,*
+1949,spring barley,5,N,N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,1.090,1.490,*
+1949,spring barley,6,N*,N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,1.650,1.980,*
+1949,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,2.960,2.800,*
+1949,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,3.610,3.250,*
+1949,spring barley,9,P,N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,2.960,2.890,*
+1949,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1949-03-24,1949-08-09,Plumage Archer,0.068,3.420,3.760,*
+1950,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,1.400,2.020,*
+1950,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,1.860,2.470,*
+1950,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,3.000,3.280,*
+1950,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,3.580,3.790,*
+1950,spring barley,5,N,N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,1.530,1.860,*
+1950,spring barley,6,N*,N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,1.810,2.160,*
+1950,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,2.740,3.220,*
+1950,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,3.260,3.380,*
+1950,spring barley,9,P,N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,3.020,3.200,*
+1950,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1950-03-15,1950-08-07,Plumage Archer,0.068,3.290,3.460,*
+1951,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,1.580,1.640,*
+1951,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,1.480,1.550,*
+1951,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,2.670,2.400,*
+1951,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,2.920,2.610,*
+1951,spring barley,5,N,N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,1.790,1.650,*
+1951,spring barley,6,N*,N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,1.330,1.000,*
+1951,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,2.820,2.590,*
+1951,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,2.790,2.440,*
+1951,spring barley,9,P,N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,2.720,2.350,*
+1951,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1951-04-16,1951-09-03,Plumage Archer,0.068,3.070,2.600,*
+1952,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,1.620,2.050,*
+1952,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,1.270,1.600,*
+1952,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,2.900,3.410,*
+1952,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,2.860,3.660,*
+1952,spring barley,5,N,N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,2.070,2.450,*
+1952,spring barley,6,N*,N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,1.640,1.920,*
+1952,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,2.660,3.320,*
+1952,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,2.660,2.990,*
+1952,spring barley,9,P,N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,2.450,2.720,*
+1952,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1952-02-28,1952-07-31,Plumage Archer,0.068,2.730,2.940,*
+1953,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,1.980,2.250,*
+1953,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,1.460,2.210,*
+1953,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,2.800,3.190,*
+1953,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,2.850,3.300,*
+1953,spring barley,5,N,N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,2.160,2.390,*
+1953,spring barley,6,N*,N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,1.840,2.260,*
+1953,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,2.670,3.010,*
+1953,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,2.500,2.900,*
+1953,spring barley,9,P,N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,2.450,2.990,*
+1953,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1953-02-27,1953-08-14,Plumage Archer,0.068,2.720,3.190,*
+1954,spring barley,1,Nil,N,63.000,ammonium sulphate,5.022,1954-03-16,1954-08-28,Plumage Archer,0.068,2.030,2.570,1.000
+1954,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,12.555,1954-03-16,1954-08-28,Plumage Archer,0.068,2.380,3.550,2.000
+1954,spring barley,3,FYM (P),N,63.000,ammonium sulphate,0.000,1954-03-16,1954-08-28,Plumage Archer,0.068,3.750,4.030,*
+1954,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,6.277,1954-03-16,1954-08-28,Plumage Archer,0.068,3.600,4.130,3.000
+1954,spring barley,5,N,N,63.000,ammonium sulphate,0.000,1954-03-16,1954-08-28,Plumage Archer,0.068,2.570,2.770,*
+1954,spring barley,6,N*,N,63.000,ammonium sulphate,10.044,1954-03-16,1954-08-28,Plumage Archer,0.068,2.160,3.180,4.000
+1954,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,0.000,1954-03-16,1954-08-28,Plumage Archer,0.068,3.490,3.830,*
+1954,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,7.533,1954-03-16,1954-08-28,Plumage Archer,0.068,3.390,4.350,5.000
+1954,spring barley,9,P,N,63.000,ammonium sulphate,0.000,1954-03-16,1954-08-28,Plumage Archer,0.068,2.990,3.560,*
+1954,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,5.022,1954-03-16,1954-08-28,Plumage Archer,0.068,3.340,3.890,6.000
+1955,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,1.190,1.570,*
+1955,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,1.560,2.080,*
+1955,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,3.400,3.580,*
+1955,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,3.180,3.390,*
+1955,spring barley,5,N,N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,1.480,1.770,*
+1955,spring barley,6,N*,N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,1.000,1.430,*
+1955,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,3.090,3.430,*
+1955,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,2.860,3.120,*
+1955,spring barley,9,P,N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,2.620,2.820,*
+1955,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1955-03-22,1955-07-15,Plumage Archer,0.068,3.000,3.350,*
+1956,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,1.090,1.390,*
+1956,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,1.440,1.610,*
+1956,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,2.600,2.670,*
+1956,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,2.610,2.600,*
+1956,spring barley,5,N,N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,1.180,1.480,*
+1956,spring barley,6,N*,N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,1.230,1.560,*
+1956,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,2.770,2.770,*
+1956,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,2.650,2.420,*
+1956,spring barley,9,P,N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,2.810,2.810,*
+1956,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1956-04-03,1956-08-30,Plumage Archer,0.068,3.000,3.220,*
+1957,*,1,Nil,*,*,*,*,*,*,*,*,*,*,8.000
+1957,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1957-03-21,1957-08-21,Plumage Archer,0.012,1.090,0.920,9.000
+1957,*,3,FYM (P),*,*,*,*,*,*,*,*,*,*,8.000
+1957,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1957-03-21,1957-08-21,Plumage Archer,0.012,2.510,1.180,9.000
+1957,*,5,N,*,*,*,*,*,*,*,*,*,*,8.000
+1957,spring barley,6,N*,N,63.000,ammonium sulphate,*,1957-03-21,1957-08-21,Plumage Archer,0.012,2.200,0.850,9.000
+1957,*,7,NPKNaMg,*,*,*,*,*,*,*,*,*,*,8.000
+1957,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1957-03-21,1957-08-21,Plumage Archer,0.012,2.210,1.280,9.000
+1957,*,9,P,*,*,*,*,*,*,*,*,*,*,8.000
+1957,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1957-03-21,1957-08-21,Plumage Archer,0.012,3.210,1.790,9.000
+1958,*,1,Nil,*,*,*,*,*,*,*,*,*,*,8.000
+1958,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1958-04-12,1958-09-07,Plumage Archer,0.056,1.300,1.540,10.000
+1958,*,3,FYM (P),*,*,*,*,*,*,*,*,*,*,8.000
+1958,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1958-04-12,1958-09-07,Plumage Archer,0.056,3.400,3.020,10.000
+1958,*,5,N,*,*,*,*,*,*,*,*,*,*,8.000
+1958,spring barley,6,N*,N,63.000,ammonium sulphate,*,1958-04-12,1958-09-07,Plumage Archer,0.056,1.440,1.610,10.000
+1958,*,7,NPKNaMg,*,*,*,*,*,*,*,*,*,*,8.000
+1958,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1958-04-12,1958-09-07,Plumage Archer,0.056,2.810,2.740,10.000
+1958,*,9,P,*,*,*,*,*,*,*,*,*,*,8.000
+1958,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1958-04-12,1958-09-07,Plumage Archer,0.056,2.960,3.290,10.000
+1959,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.068,3.300,2.010,*
+1959,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.056,2.650,1.690,*
+1959,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.068,4.020,2.570,*
+1959,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.056,3.580,2.220,*
+1959,spring barley,5,N,N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,*,*,*,11.000
+1959,spring barley,6,N*,N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.056,2.380,1.390,*
+1959,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.068,3.750,2.500,*
+1959,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.056,3.180,1.870,*
+1959,spring barley,9,P,N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,*,*,*,11.000
+1959,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1959-03-17,1959-08-18,Plumage Archer,0.056,2.950,1.870,*
+1960,spring barley,1,Nil,N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,2.380,1.560,*
+1960,spring barley,2,Nil (FYM),N,63.000,ammonium sulphate,5.000,1960-03-17,1960-09-06,Plumage Archer,0.068,2.130,1.340,7.000
+1960,spring barley,3,FYM (P),N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,3.090,2.160,*
+1960,spring barley,4,FYM (N*P),N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,3.110,1.880,*
+1960,spring barley,5,N,N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,2.210,1.420,*
+1960,spring barley,6,N*,N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,2.030,1.260,*
+1960,spring barley,7,NPKNaMg,N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,2.550,1.760,*
+1960,spring barley,8,N*PKNaMg,N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,2.470,1.680,*
+1960,spring barley,9,P,N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,2.560,1.620,*
+1960,spring barley,10,PKNaMg,N,63.000,ammonium sulphate,*,1960-03-17,1960-09-06,Plumage Archer,0.068,2.710,1.730,*
+1961,spring barley,1,Nil,N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,2.200,1.380,*
+1961,spring barley,2,Nil (FYM),N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,1.980,1.260,*
+1961,spring barley,3,FYM (P),N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,3.000,1.840,*
+1961,spring barley,4,FYM (N*P),N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,3.200,1.930,*
+1961,spring barley,5,N,N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,2.130,1.280,*
+1961,spring barley,6,N*,N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,1.960,1.260,*
+1961,spring barley,7,NPKNaMg,N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,2.700,1.680,*
+1961,spring barley,8,N*PKNaMg,N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,2.740,1.610,*
+1961,spring barley,9,P,N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,2.810,1.660,*
+1961,spring barley,10,PKNaMg,N,63.000,calcium ammonium nitrate,*,1961-04-12,1961-08-29,Plumage Archer,0.068,2.960,1.530,*
+1962,spring barley,1,Nil,N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,2.010,1.370,*
+1962,spring barley,2,Nil (FYM),N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,1.770,1.120,*
+1962,spring barley,3,FYM (P),N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,3.060,2.030,*
+1962,spring barley,4,FYM (N*P),N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,3.070,2.260,*
+1962,spring barley,5,N,N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,1.790,1.230,*
+1962,spring barley,6,N*,N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,1.580,1.180,*
+1962,spring barley,7,NPKNaMg,N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,2.600,1.810,*
+1962,spring barley,8,N*PKNaMg,N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,2.640,1.680,*
+1962,spring barley,9,P,N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,2.410,1.780,*
+1962,spring barley,10,PKNaMg,N,63.000,calcium ammonium nitrate,*,1962-03-28,1962-09-14,Plumage Archer,0.068,2.510,2.250,*
+1963,spring barley,1,Nil,N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,2.360,1.430,*
+1963,spring barley,2,Nil (FYM),N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,1.780,1.190,*
+1963,spring barley,3,FYM (P),N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,3.380,2.350,*
+1963,spring barley,4,FYM (N*P),N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,3.150,2.110,*
+1963,spring barley,5,N,N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,1.730,1.180,*
+1963,spring barley,6,N*,N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,1.720,1.140,*
+1963,spring barley,7,NPKNaMg,N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,3.120,2.300,*
+1963,spring barley,8,N*PKNaMg,N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,2.600,1.780,*
+1963,spring barley,9,P,N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,3.210,2.230,*
+1963,spring barley,10,PKNaMg,N,63.000,calcium ammonium nitrate,*,1963-04-08,1963-09-05,Proctor,0.068,2.990,2.200,*
+1964,spring barley,1,Nil,N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,1.670,1.470,*
+1964,spring barley,2,Nil (FYM),N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,1.280,1.170,*
+1964,spring barley,3,FYM (P),N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,4.470,3.350,*
+1964,spring barley,4,FYM (N*P),N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,4.120,3.110,*
+1964,spring barley,5,N,N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,1.570,1.280,*
+1964,spring barley,6,N*,N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,1.490,1.120,*
+1964,spring barley,7,NPKNaMg,N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,4.000,2.760,*
+1964,spring barley,8,N*PKNaMg,N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,3.390,2.330,*
+1964,spring barley,9,P,N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,3.610,2.560,*
+1964,spring barley,10,PKNaMg,N,88.000,calcium ammonium nitrate,*,1964-03-06,1964-08-21,Maris Badger ,0.068,3.560,2.110,*
+1965,spring barley,1,Nil,N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,1.820,1.830,*
+1965,spring barley,2,Nil (FYM),N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,1.560,1.570,*
+1965,spring barley,3,FYM (P),N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,4.170,3.250,*
+1965,spring barley,4,FYM (N*P),N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,3.690,2.770,*
+1965,spring barley,5,N,N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,1.520,1.260,*
+1965,spring barley,6,N*,N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,1.490,1.390,*
+1965,spring barley,7,NPKNaMg,N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,3.640,2.540,*
+1965,spring barley,8,N*PKNaMg,N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,3.390,2.410,*
+1965,spring barley,9,P,N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,3.730,2.410,*
+1965,spring barley,10,PKNaMg,N,88.000,calcium ammonium nitrate,*,1965-03-15,1965-09-01,Maris Badger ,0.068,3.360,1.940,*
+1966,spring barley,1,Nil,N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,1.490,1.970,*
+1966,spring barley,2,Nil (FYM),N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,1.630,1.830,*
+1966,spring barley,3,FYM (P),N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,4.240,3.180,*
+1966,spring barley,4,FYM (N*P),N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,4.040,3.050,*
+1966,spring barley,5,N,N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,1.530,1.530,*
+1966,spring barley,6,N*,N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,1.340,1.620,*
+1966,spring barley,7,NPKNaMg,N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,3.830,2.870,*
+1966,spring barley,8,N*PKNaMg,N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,3.500,2.500,*
+1966,spring barley,9,P,N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,3.480,2.850,*
+1966,spring barley,10,PKNaMg,N,88.000,calcium ammonium nitrate,*,1966-03-11,1966-08-26,Maris Badger ,0.068,3.650,2.560,*
+1967,fallow,1,Nil,nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,2,Nil (FYM),nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,3,FYM (P),nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,4,FYM (N*P),nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,5,N,nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,6,N*,nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,7,NPKNaMg,nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,8,N*PKNaMg,nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,9,P,nil,0.000,*,*,*,*,*,0.068,*,*,*
+1967,fallow,10,PKNaMg,nil,0.000,*,*,*,*,*,0.068,*,*,*
+1968,spring barley,1,Nil,N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,1.230,1.150,*
+1968,spring barley,2,Nil (FYM),N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,1.570,1.470,*
+1968,spring barley,3,FYM (P),N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,3.660,3.410,*
+1968,spring barley,4,FYM (N*P),N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,4.300,3.740,*
+1968,spring barley,5,N,N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,1.150,1.240,*
+1968,spring barley,6,N*,N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,1.190,1.200,*
+1968,spring barley,7,NPKNaMg,N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,2.400,2.720,*
+1968,spring barley,8,N*PKNaMg,N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,3.070,3.120,*
+1968,spring barley,9,P,N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,2.570,2.800,*
+1968,spring barley,10,PKNaMg,N,88.000,Calcium ammonium nitrate,*,1968-02-28,1968-08-21,Maris Badger ,0.056,3.390,3.400,*
+1969,spring barley,1,Nil,N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,2.750,0.950,*
+1969,spring barley,2,Nil (FYM),N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,2.680,1.000,*
+1969,spring barley,3,FYM (P),N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,5.100,2.360,*
+1969,spring barley,4,FYM (N*P),N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,4.940,2.380,*
+1969,spring barley,5,N,N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,3.040,0.970,*
+1969,spring barley,6,N*,N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,2.260,0.850,*
+1969,spring barley,7,NPKNaMg,N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,4.480,2.060,*
+1969,spring barley,8,N*PKNaMg,N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,4.420,1.520,*
+1969,spring barley,9,P,N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,4.570,2.100,*
+1969,spring barley,10,PKNaMg,N,88.000,Calcium ammonium nitrate,*,1969-03-10,1969-08-22,Maris Badger ,0.056,4.080,1.780,*
+1970,spring barley,1,Nil,N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,1.140,0.250,*
+1970,spring barley,2,Nil (FYM),N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,1.730,0.440,*
+1970,spring barley,3,FYM (P),N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,4.100,1.340,*
+1970,spring barley,4,FYM (N*P),N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,4.440,1.420,*
+1970,spring barley,5,N,N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,1.640,0.930,*
+1970,spring barley,6,N*,N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,1.580,0.530,*
+1970,spring barley,7,NPKNaMg,N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,3.750,1.490,*
+1970,spring barley,8,N*PKNaMg,N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,3.880,1.000,*
+1970,spring barley,9,P,N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,3.300,1.090,*
+1970,spring barley,10,PKNaMg,N,88.000,Calcium ammonium nitrate,*,1970-03-20,1970-08-15,Julia ,0.056,3.850,1.760,*
+1971,spring barley,1,Nil,N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,1.720,0.690,*
+1971,spring barley,2,Nil (FYM),N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,1.840,1.140,*
+1971,spring barley,3,FYM (P),N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,4.690,2.970,*
+1971,spring barley,4,FYM (N*P),N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,4.690,2.980,*
+1971,spring barley,5,N,N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,1.890,0.990,*
+1971,spring barley,6,N*,N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,1.870,1.340,*
+1971,spring barley,7,NPKNaMg,N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,4.050,2.600,*
+1971,spring barley,8,N*PKNaMg,N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,4.180,2.620,*
+1971,spring barley,9,P,N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,3.560,2.580,*
+1971,spring barley,10,PKNaMg,N,88.000,Calcium ammonium nitrate,*,1971-02-25,1971-08-17,Julia ,0.056,4.450,2.830,*
+1972,spring barley,1,Nil,N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,2.540,1.550,*
+1972,spring barley,2,Nil (FYM),N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,3.170,1.760,*
+1972,spring barley,3,FYM (P),N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,5.800,3.570,*
+1972,spring barley,4,FYM (N*P),N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,5.060,3.570,*
+1972,spring barley,5,N,N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,3.040,1.580,*
+1972,spring barley,6,N*,N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,2.760,1.830,*
+1972,spring barley,7,NPKNaMg,N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,5.390,3.490,*
+1972,spring barley,8,N*PKNaMg,N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,4.710,3.190,*
+1972,spring barley,9,P,N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,4.920,3.030,*
+1972,spring barley,10,PKNaMg,N,88.000,Calcium ammonium nitrate,*,1972-03-16,1972-08-23,Julia ,0.056,5.350,3.490,*
+1973,spring barley,1,Nil,N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,1.290,2.170,*
+1973,spring barley,2,Nil (FYM),N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,1.270,2.860,*
+1973,spring barley,3,FYM (P),N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,4.910,5.990,*
+1973,spring barley,4,FYM (N*P),N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,4.850,5.650,*
+1973,spring barley,5,N,N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,1.220,1.920,*
+1973,spring barley,6,N*,N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,1.160,*,*
+1973,spring barley,7,NPKNaMg,N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,4.250,5.490,*
+1973,spring barley,8,N*PKNaMg,N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,4.200,5.610,*
+1973,spring barley,9,P,N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,4.000,5.220,*
+1973,spring barley,10,PKNaMg,N,88.000,Calcium ammonium nitrate,*,1973-03-09,1973-08-09,Julia ,0.056,4.290,5.210,*
+1974,spring barley,1,Nil,N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,1.650,0.920,*
+1974,spring barley,2,Nil (FYM),N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,1.740,1.660,*
+1974,spring barley,3,FYM (P),N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,4.480,1.800,*
+1974,spring barley,4,FYM (N*P),N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,4.460,1.840,*
+1974,spring barley,5,N,N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,1.910,1.140,*
+1974,spring barley,6,N*,N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,1.390,1.520,*
+1974,spring barley,7,NPKNaMg,N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,4.120,1.610,*
+1974,spring barley,8,N*PKNaMg,N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,3.610,1.880,*
+1974,spring barley,9,P,N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,3.020,1.190,*
+1974,spring barley,10,PKNaMg,N,88.000,Calcium ammonium nitrate,*,1974-03-26,1974-08-20,Julia ,0.056,4.710,2.300,*
+1975,fallow,1,Nil,nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,2,Nil (FYM),nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,3,FYM (P),nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,4,FYM (N*P),nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,5,N,nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,6,N*,nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,7,NPKNaMg,nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,8,N*PKNaMg,nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,9,P,nil,0.000,*,*,*,*,*,0.056,*,*,*
+1975,fallow,10,PKNaMg,nil,0.000,*,*,*,*,*,0.056,*,*,*

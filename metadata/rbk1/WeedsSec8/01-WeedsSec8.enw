@@ -1,0 +1,29 @@
+%0 Dataset
+%T Broadbalk Weed Survey Data 1991-2021 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2023 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G None 
+%U https://doi.org/10.23637/rbk1-weeds_1991-2021_01 
+%R 10.23637/rbk1-weeds_1991-2021_01 
+%A Hull, Richard 
+%A Moss, Stephen  
+%A Perryman, Sarah 
+%K Broadbalk long-term experiment; arable farming; weeds; botanical composition; herbicides; plant population; flora; 
+%X This dataset consists of the relative annual frequencies of all non-crop plant species ('weeds') recorded in all eighteen plots of section 8 of the Broadbalk wheat experiment, 1991-2021. Section 8 has not received any herbicides in its history - in contrast to the other sections of Broadbalk which have received herbicides since 1964. Broadbalk section 8 is one of the few arable sites in the country where herbicides have never been applied. Consequently it is populated by a rich diversity of arable species, some very rare elsewhere in England. Broadbalk continues to act as a valuable resource for weed investigations 180 years after it was established, for example Moss _et al._ (2004).
+
+There have been various surveys of weeds on Broadbalk wheat experiment since its conception in 1843, but not a consistent methodology in these. The first plot-by-plot surveys of weed species were done in 1869 recording the presence of species. The first phase of annual surveys was between 1933-1979 prior to the current layout of sections. The current weed survey was started on section 8 in 1991 and has continued annually ever since - although not on years when that section is in fallow: 1994, 2001, 2008, 2015, 2016 and 2022. Section 8 (called section VA 1958-1967) was created in 1968 when the experiment was divided into its present layout (Broadbalk plan today).  
+
+The current assessment method records the presence of individual weed species in 25 random quadrats (0.1m<sup>2</sup>) per plot. The plots receive differing types and rates of fertilizer treatments and the weed species reflect these. Each year all 18 plots are surveyed meaning 450 quadrats are assessed per year, usually in June. Frequencies refer to the total number of quadrats in which a weed is recorded, the maximum being 25 per plot and 450 across all plots in the section. This method is more appropriate for detecting long-term trends in weed frequencies and population differences between plots than the earlier surveys and provides a comprehensive set of 20 years of data for weed studies.  
+
+There have been 60 different species identified over the 30-year duration of this current survey, but many of these only occur sporadically and around 30 of these are currently recorded annually. This site also provides an invaluable reserve for seven nationally rare or uncommon species including corn cleavers (_Galium tricornutum_), corn buttercup (_Ranunculus arvensis_), shepherds needle (_Scandix pecten-veneris_) and prickly poppy (_Papaver argemone_). This is now the only location in the UK where corn cleavers is known to occur naturally. 
+
+This valuable resource, and associated data, allows the study of long-term interactions between plant species, an opportunity to test current controversies in population and community ecology such as equilibrium theories which require data on resource requirements and loss rates. The long time series enables the detection of cycles in the abundance of individual species; to determine to stability of weed communities; it  enables various weed investigations including weed population ecology; studies on the effects of fallowing on the weed seed bank; seed dormancy and persistence; agroecology and population dynamics of individual weed species. Recently, molecular approaches have been used to study the genetic diversity of weeds found on Section 8, this rare herbicide-free arable plot. On plots where inorganic nitrogen fertiliser has been applied, potential yield losses from weeds have consistently increased since 1969. This was explained by a warming climate, measured as air temperature averaged over the growing season for the weeds, and a shift towards shorter crop cultivars (Storkey et al 2021). Weeds on Broadbalk may genetically more competitive now due to selection for more competitive individuals
+
+
+This dataset also provides the yields of the plots both with and without the weight of the weed seeds. The percentage of weed seeds in the total grain varies between greatly, between 1-71.8% of the total grain yield. The year 2012 was a particularly high weed year followed by 2007 and 2013.  
+
+**Herbicide Resistance Studies:** This section 8 of Broadbalk is an important source of susceptible seed of the weed _Alopecurus myosuroides_, blackgrass. It provides an excellent standard susceptible strain for use in herbicide-resistance assays, as having never received herbicides the grass-weed has never evolved herbicide resistance. See "Herbicide resistance in _Alopecurus myosuroides_: The value of routine testing of seed samples submitted by farmers since 1985", Cook et al. Weed Research (2023).  

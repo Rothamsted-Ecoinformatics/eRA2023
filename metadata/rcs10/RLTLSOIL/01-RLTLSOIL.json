@@ -1,0 +1,573 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rcs10-soil-01",
+    "name": "Rothamsted long-term liming experiment soil chemical properties 1962-1996",
+    "shortName": "RLTLSOIL",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rcs10/01-RLTLSOIL",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method), on soil sampled several times between 1962 and 1996. There is also a baseline sampling before the experiment was established. There was a parallel experiment at Woburn Experimental Farm.  \r\n\r\nThe experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele.  \r\n\r\nThis work was partially funded by the BBSRC Institute Strategic Programme - Soil to Nutrition (BBS/E/C/00010310). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates. \r\n\r\n- **Soil pH** measured in water: 1:2.5 soil: water suspension using a standard electrode and pH meter.\r\n- **Olsen P** (plant-available soil P) soil extracted with a solution of 0.5 M NaHCO<sub>3</sub>, buffered at pH8.5, after the method of Olsen et al, 1954. Shown as mg PO<sub>4</sub>-P/kg dry soil. \r\n- **Exchangeable cations** measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "An excel file, 01-RLTLSOIL.xlsx, contains the soil pH, Olsen P and exchangeable cation data, for 1962-1996. Frictionless csv files are provided for users who prefer csv format. A README tab contains extensive metadata information. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "Air-dried soil, sieved (<2mm). Topsoil (usually 0-23cm) and some sub-soil measurements. For topsoil 12-20 cores were taken from the central area of each plot and combined to make one sample. For subsoil, generally 5-6 cores were taken and combined. Baseline soil pH measurements were taken in February 1962, before the first lime application. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year. The soil was analysed shortly after sampling. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "- **Olsen et al, 1954**   Olsen S.R., Cole C.V., Watanabe F.S., Dean L.A. (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate. USDA Circular 939, US Gov. Print. Office, Washington, D.C. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "Information is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research. The data is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "In accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate.\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2023,
+    "dateCreated": "2023-03-05",
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "1.0",
+    "keywords": [
+        "soil pH",
+        "long term experiments",
+        "arable soils",
+        "soil fertility",
+        "phosphorous",
+        "liming"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Keith Goulding",
+            "givenName": "Keith",
+            "familyName": "Goulding",
+            "sameAs": "https://orcid.org/0000-0002-6465-1465",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Steve McGrath",
+            "givenName": "Steve",
+            "familyName": "McGrath",
+            "sameAs": "https://orcid.org/0000-0003-0952-8947",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectMember",
+            "name": "Keith Goulding",
+            "givenName": "Keith",
+            "familyName": "Goulding",
+            "sameAs": "https://orcid.org/0000-0002-6465-1465",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "Researcher",
+            "name": "Jonathan Holland",
+            "givenName": "Jonathan",
+            "familyName": "Holland",
+            "sameAs": "https://orcid.org/0000-0001-6661-0168",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "The James Hutton Institute",
+                "addressLocality": null,
+                "addressRegion": null,
+                "postalCode": null,
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "The James Hutton Institute",
+                "address": ", United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Melanie Brookman",
+            "givenName": "Melanie",
+            "familyName": "Brookman",
+            "sameAs": "https://orcid.org/0000-0001-6085-9288",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Wendy Wilmer",
+            "givenName": "Wendy",
+            "familyName": "Wilmer",
+            "sameAs": "https://orcid.org/0000-0002-6463-6636",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chloe Garwood",
+            "givenName": "Chloe",
+            "familyName": "Garwood",
+            "sameAs": "https://orcid.org/0000-0002-2831-6854",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Mark Durenkamp",
+            "givenName": "Mark",
+            "familyName": "Durenkamp",
+            "sameAs": "https://orcid.org/0000-0002-2195-1855",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Adrian Crosland",
+            "givenName": "Adrian",
+            "familyName": "Crosland",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Formerly Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Formerly Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Ian Shield",
+            "givenName": "Ian",
+            "familyName": "Shield",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": 0.0,
+            "latitude": 0.0
+        },
+        "name": "Sawyers I"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34802",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1971. Paper describing setting up the experiment and results from the early years",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600027222",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1977a. Paper describing liming response of potatoes and oats to P, K and Mg.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1017/S0021859600027222",
+            "relatedIdentifierType": "DOI",
+            "name": "Bolton, 1977b. Paper describing changes in soil pH and exchangeable calcium over first 12 years",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1016/j.eja.2019.02.016",
+            "relatedIdentifierType": "DOI",
+            "name": "Holland et al, 2019. Paper describing yield response of all crops grown, 1962-1996",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-Plans",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment plans 1962-1996 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-Treatments-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996 ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementTo",
+            "rt_id": 3,
+            "relationTypeValue": "is supplement to"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlyields-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment crop yield 1962-1996 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1475-2743.1989.tb00760.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Goulding et al 1989. Paper predicting the lime requirement of soils, using this data.",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wcs10-soil-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn long-term liming experiment soil chemical properties 1962-1996 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/rcs10-rltlgrain-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Rothamsted long-term liming experiment grain mineral composition ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        }
+    ],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - S2N - Soil to Nutrition programme (2017-2022)",
+            "alternateName": "BBS/E/C/00010310",
+            "url": "http://tinyurl.com/grant00010310",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        }
+    ],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Soil chemical properties 1962-1996",
+            "URL": "01-RLTLSOIL.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "196 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Frictionless data package including all the data as csv",
+            "URL": "01-RLTLSOIL.zip",
+            "encodingFormat": "zip",
+            "fileSize": "220 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Example dataset derived from the data. Lime applications indicated by +",
+            "URL": "soilpH.png",
+            "encodingFormat": "png",
+            "fileSize": "18 kilobytes"
+        }
+    ],
+    "grade": 3,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Frictionless"
+}

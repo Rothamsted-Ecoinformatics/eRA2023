@@ -1,0 +1,4 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no FYM applied,1903-1964,animal manure exposure,http://purl.obolibrary.org/obo/AGRO_00000076,0,0,t ha-1 yr,not applied,farmyard manure,http://aims.fao.org/aos/agrovoc/c_2810
+"FYM amount per application, every fourth year since 1905",1903-1964,animal manure exposure,http://purl.obolibrary.org/obo/AGRO_00000076,FYM,35,t ha-1 yr,in 4 year cycle,farmyard manure,http://aims.fao.org/aos/agrovoc/c_2810
+"FYM amount per application, none applied three years in four since 1906",1903-1964,animal manure exposure,http://purl.obolibrary.org/obo/AGRO_00000076,(FYM),0,t ha-1 yr,every 3 years in 4 year cycle,farmyard manure,http://aims.fao.org/aos/agrovoc/c_2810

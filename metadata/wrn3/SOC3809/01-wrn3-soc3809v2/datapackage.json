@@ -1,0 +1,499 @@
+{
+  "resources": [
+    {
+      "path": "fym_factor_data.csv",
+      "name": "fym_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "134eb995875014dd14c78748ea9fac3e",
+        "bytes": 891,
+        "fields": 10,
+        "rows": 2
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the FYM factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "The harvest year range for when the factor level was used (harvest year refers to the year when the crop was harvested)."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of FYM applied"
+          },
+          {
+            "name": "amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which FYM was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000076",
+            "description": "The form in which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "FYM treatment factor level description",
+      "description": "Describes the FYM (farmyard manure) treatments applied, 1941-1967"
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "919ad20a2ff1115c08b9da9c7bf410c2",
+        "bytes": 560,
+        "fields": 2,
+        "rows": 5
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "note_id",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "Additional explanatory notes for records in the soil_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "note_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the soil_data table"
+    },
+    {
+      "path": "rotation_factor_data.csv",
+      "name": "rotation_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "8aeb35109d589b654495f4730e75c0c9",
+        "bytes": 7496,
+        "fields": 9,
+        "rows": 32
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A detailed description of the rotation factor level with changes"
+          },
+          {
+            "name": "rotation_type",
+            "type": "string",
+            "format": "default",
+            "title": "Rotation type",
+            "rdfType": "https://schema.org/description",
+            "description": "General description of rotation type - arable or ley-arable, alternating, 3 year or 8 year ley."
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name of the rotation factor level"
+          },
+          {
+            "name": "johnston_rotation_code",
+            "type": "string",
+            "format": "default",
+            "title": "Johnston rotation code",
+            "description": "Rotation code used by Johnston et al, to describe the different arable and ley-arable rotations"
+          },
+          {
+            "name": "alternative_name",
+            "type": "string",
+            "format": "default",
+            "title": "Alternative name",
+            "description": "Alternative names used in other publications for the rotation factor level names"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "rdfType": "https://schema.org/temporalCoverage",
+            "description": "The harvest year range for when the factor level was used (harvest year refers to the year when the crop was harvested)."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied; each rotation was a 5, 10 or 20 year cycle"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop rotation descriptions",
+      "description": "Describes the different ley and arable rotations. "
+    },
+    {
+      "path": "soil_data.csv",
+      "name": "soil_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "e66f155d329b379216f8fea4f970aeab",
+        "bytes": 53663,
+        "fields": 11,
+        "rows": 960
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the soil was sampled. Baseline measurements taken in March 1938 from all plots; regular sampling started in the mid 1950s, when each plot in the five blocks was sampled every fifth year to coincide with the end of the third treatment year or the eighth year of the 8-year leys. Soil samples were taken in a zig-zag pattern from the centre of the plots and consisted of 16-25 cores taken with a 2.5cm semi-cylindrical sampler. The cores were combined to one sample.  Most samples were taken from 0-25cm soil layer; for the few samples taken to 0-23cm, %SOC and %N were adjusted to a 0-25cm depth basis with an appropriate proportion of the %SOC in the subsoil."
+          },
+          {
+            "name": "block",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Block",
+            "description": "The experiment is divided into 5 Blocks, 1-5. The different rotations are phased in over a five-year period in the five different blocks, so that each year of the five-year rotation is present each year."
+          },
+          {
+            "name": "main_plot",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Main plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "The 80 main plots, divided over the five blocks, 16 plots in each block. The plots are in 40 pairs, one of each pair received FYM (farmyard manure) one year in five, 1941-1967, eg plot 1 received FYM, plot 2 without FYM. Each pair of plots in each block receives a different rotation treatment."
+          },
+          {
+            "name": "fym_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "FYM factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the FYM factor level applied one year in five, 1941-1967, as explained in fym_factor_data sheet"
+          },
+          {
+            "name": "rotation_type",
+            "type": "string",
+            "format": "default",
+            "title": "Rotation type",
+            "rdfType": "https://schema.org/name",
+            "description": "General description of rotation type: alternating/arable/ley-arable/8-yr grass-clover ley/8-yr grass ley with fertilizer N"
+          },
+          {
+            "name": "rotation_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Rotation factor level",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000469",
+            "description": "Code for crop rotation on this block and on this year, as explained in rotation_factor_data sheet"
+          },
+          {
+            "name": "johnston_rotation_code",
+            "type": "string",
+            "format": "default",
+            "title": "Johnston rotation code",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000469",
+            "description": "Rotation code used by Johnston et al, 2017, to describe the different arable and ley-arable rotations, as explained in rotation_factor_data"
+          },
+          {
+            "name": "bulk_density",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "bulk density",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_7167",
+            "description": "Estimated soil bulk density, from Johnston et al, 2017. From estimated soil weights for 0-25cm soil depth; continuous arable (AB and AF) 3770 t/ha; where grass/grass clover leys included 3470 t/ha.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "percent_soc",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "percentage soil organic carbon",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_389fe908",
+            "description": "Percentage soil organic carbon (SOC), 0-25cm, air-dried soil. SOC determined on ground soil (<355&mu;m), by the Tinsley method (Tinsley, 1950) 1938-1979, then by total combustion (LECO Corp., St Joseph, Michagan USA). Any inorganic C present as calcium carbonate, typically  ca. 0.01% or less, was determined by namometry and substracted from total carbon to give %SOC.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "percent_n",
+            "type": "number",
+            "format": "default",
+            "title": "percentage soil total nitrogen",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_bdc779f4",
+            "description": "Percentage soil total nitrogen, 0-25cm, air-dried soil.  Total N determined on ground soil (<355&mu;m), by total combustion (LECO Corp., St Joseph, Michagan USA).",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note_id",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Note",
+            "description": "Whether notes are applied or not"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "soil data",
+      "description": "This is the main data table, containing the % soil organic carbon (SOC) and % total nitrogen (N) in the topsoil (0-25cm) of all plots and blocks of the Woburn Ley-arable Experiment, 1938-2009. Baseline measurements were taken in March 1938 at the start of the experiment, then the soil in each block was sampled regularly every five years from 1955, to coincide with the end of the third treatment year or the last year of the eight-year leys. Soil N was measured from 1980 onwards. Also included are estimates of soil bulk density. This dataset must be read in conjunction with Johnston et al, 2017, which gives the full background, summarises the changes in %SOC  (mean of the five blocks), and gives estimates of total organic carbon in tha-1 and estimated annual inputs of C from each rotation."
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "https://doi.org/10.23637/wrn3-soc3809-01",
+  "name": "woburn-ley-arable-experiment-soil-organic-carbon,-1938-2009",
+  "title": "Woburn Ley-arable experiment soil organic carbon, 1938-2009",
+  "version": "1.0.0",
+  "keywords": [
+    "long term experiments",
+    "Woburn Ley-arable experiment",
+    "soil organic carbon",
+    "crop rotation",
+    "ley farming",
+    "soil organic matter",
+    "nitrogen content"
+  ],
+  "description": "### Abstract\nThis dataset gives the % soil organic carbon (SOC) and % total nitrogen (N) in the topsoil (0-25cm) of all plots and blocks of the Woburn Ley-arable Experiment, 1938-2009. Baseline measurements were taken in March 1938 at the start of the experiment, then the soil in each block was sampled regularly every five years from 1955, to coincide with the end of the third treatment year or the last year of the eight-year leys. Soil N was measured from 1980 onwards. Also included are estimates of soil bulk density. This dataset must be read in conjunction with **Johnston et al, 2017 **, which gives the full background, summarises the %SOC data (mean of the five blocks), and gives estimates of total organic carbon in t/ha and estimated annual inputs of C from each rotation.\n### Methods\nThe Woburn Ley-arable Experiment, started in 1938, compares the effects of continuous arable rotations and ley-arable rotations on soil organic matter and the yield of two arable test crops, on a sandy loam soil. It consists of 80 main plots, divided over five blocks. Half the plots have been in four continuous five-year arable or ley-arable rotations since 1938: three years of treatment crops followed by two arable test crops. The treatments were: **AB** (all arable rotation); **AF** (arable rotation with roots or fallow); **LN3** (3-year grass ley with fertilizer N); **LC3** (3-year legume or grass/clover ley).   \r\nThe other 40 plots were in alternating rotations from 1938 to the mid-1970s: a 20-year cycle of all four arable and ley-arable rotations. These were replaced by eight-year grass or grass/clover leys in the mid-1970s: **LN8** (8-year grass leys with fertilizer N, followed by two arable test crops); **LC8** (8-year grass/clover leys, followed by two arable test crops). The rotations are phased in over a five-year period in the five different blocks, so that each year of the five-year rotation is present each year.  The eight-year leys were also phased in, the first cycle starting 1973-77, the second cycle 1978-82.\n### Technical Info\nThe main plots are in pairs, one of each pair received FYM (farmyard manure) applied every fifth year, to the first test crop, 1941-1967. %SOC and total N in air-dried ground soil (<355 &micro;m), 0-25cm. Organic C by the Tinsley method (Tinsley, 1950) 1938-1979, then by total combustion (LECO). Total soil N by total combustion (LECO). Estimated bulk density from Johnston et al, 2017. Soil samples were taken from the centre of each plot and consisted of 16-25 cores taken with a 2.5cm semi-cylindrical sampler, bulked together. Most samples were taken from the 0-25cm soil layer; for the few samples taken to 23cm, %SOC and %N were adjusted to a 0-25cm depth basis with an appropriate proportion of the %SOC in the subsoil.\n### Other\n- LECO: LECO Corp., St Joseph, Michigan, USA\r\n - Tinsley, J. (1950) The determination of organic carbon in soils by dichromic mixtures. In: *Transactions of the 4th International Congress of Soil Science,* Vol. 1 (eds F.A. van Baren, * et al *), pp 161-164. Hoitsema Brothers, Amsterdam.\n### Provenance\nMaterials and methods from Johnston et al, 2017. The %SOC and total soil N data is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden.\n### Quality\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\n",
+  "contributors": [
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Edward Johnston",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

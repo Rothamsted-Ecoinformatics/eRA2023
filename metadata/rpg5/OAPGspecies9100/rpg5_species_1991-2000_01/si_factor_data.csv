@@ -1,0 +1,3 @@
+description,years,treatment_factor,treatment_factor_rdfType,factor_level_name,amount,amount_unit,frequency,treatment_form,treatment_form_rdfType
+Indicates no Si applied,1965-2018,silicon nutrient,http://purl.obolibrary.org/obo/PECO_0007235,0,0,kg Si ha-1 yr-1,not applied,sodium silicate,http://purl.obolibrary.org/obo/CHEBI_60720
+Amount shows annual Si applied ,1965-2018,silicon nutrient,http://purl.obolibrary.org/obo/PECO_0007235,Si,135,kg Si ha-1 yr-1,annual in winter,sodium silicate,http://purl.obolibrary.org/obo/CHEBI_60720

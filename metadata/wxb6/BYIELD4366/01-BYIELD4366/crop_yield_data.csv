@@ -1,0 +1,464 @@
+harvest_year,crop,previous_crop,plot,sub_plot,sub_sub_plot,old_plot_notation,fertilizer_code,fertilizer_n_amount,fertilizer_n_date,sow_date,harvest_date,cultivar,plot_area,grain_yield,straw_yield,note_id
+1943,spring barley,spring barley,1,*,*,1,N1,39.235,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.100,0.097,0.348,*
+1944,spring barley,spring barley,1,*,*,1,N3,117.705,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.100,1.015,1.979,*
+1945,spring barley,spring barley,1,*,*,1,N2,78.470,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.100,0.604,2.061,*
+1946,spring barley,spring barley,1,*,*,1,N1,39.235,*,1946-03-13,1946-08-15,Plumage Archer,0.100,0.234,1.258,*
+1947,fallow,spring barley,1,*,*,1,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,1,*,*,1,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,1,*,*,1,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,1,*,*,1,N3,117.705,*,*,*,*,0.100,*,*,1
+1951,spring barley,spring barley,1,*,*,1,N2,78.470,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.100,0.075,*,2
+1952,winter barley,spring barley,1,*,*,1,N1,39.235,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.050,2.748,2.761,3
+1952,spring barley,spring barley,1,*,*,1,N1,39.235,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.050,1.631,2.497,3
+1953,winter barley,winter barley,1,*,*,1,N3,117.705,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.050,1.042,1.481,3
+1953,spring barley,spring barley,1,*,*,1,N3,117.705,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.050,2.083,1.757,3
+1954,spring barley,spring barley,1,*,*,1,N2,78.470,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.100,*,*,2
+1955,spring barley,spring barley,1,*,*,1,N1,39.235,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,0.703,0.891,6
+1956,fallow,spring barley,1,*,*,1,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,spring barley,1,*,*,1,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,1,*,*,1,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,1,*,*,1,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.410,1.431,8
+1959,winter wheat,spring barley,1,*,*,1,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,2.912,3.991,8
+1960,spring barley,spring barley,1,*,*,1,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.050,2.246,1.694,8
+1960,winter wheat,winter wheat,1,*,*,1,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.125,3.677,8
+1961,spring barley,spring barley,1,*,*,1,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.050,1.117,0.640,10
+1961,spring wheat,winter wheat,1,*,*,1,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.104,1.544,10
+1962,spring oats,spring barley,1,*,*,1,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.050,3.840,2.359,*
+1962,spring oats,spring wheat,1,*,*,1,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,2.836,1.431,*
+1963,fallow,spring oats,1,*,*,1,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,1,*,*,1,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,2.736,*,11
+1964,spring beans,spring wheat,1,*,*,1,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.050,2.585,*,11
+1965,fallow,spring beans,1,*,*,1,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,1,*,*,1,*,0.000,*,*,*,*,*,*,*,*
+1943,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1944,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1945,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1946,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1947,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1950,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1951,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1952,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1953,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1954,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1955,spring barley,spring barley,2,*,*,2,N3,117.705,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,0.703,0.991,6
+1956,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,spring barley,2,*,*,2,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,2,*,*,2,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,2,*,*,2,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.422,1.305,8
+1959,winter wheat,spring barley,2,*,*,2,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,2.209,3.238,8
+1960,spring barley,spring barley,2,*,*,2,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.050,2.121,1.669,8
+1960,winter wheat,winter wheat,2,*,*,2,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.037,3.250,8
+1961,spring barley,spring barley,2,*,*,2,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.050,1.544,0.565,10
+1961,spring wheat,winter wheat,2,*,*,2,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.079,0.991,10
+1962,spring oats,spring barley,2,*,*,2,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.050,3.765,2.209,*
+1962,spring oats,spring wheat,2,*,*,2,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,2.598,1.230,*
+1963,fallow,spring oats,2,*,*,2,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,2,*,*,2,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,2.686,*,11
+1964,spring beans,spring wheat,2,*,*,2,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.050,2.134,*,11
+1965,fallow,spring beans,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,2,*,*,2,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,3,*,*,3,N2,78.470,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.100,0.368,0.967,*
+1944,spring barley,spring barley,3,*,*,3,N1,39.235,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.100,0.593,1.162,*
+1945,spring barley,spring barley,3,*,*,3,N3,117.705,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.100,1.017,2.258,*
+1946,spring barley,spring barley,3,*,*,3,N2,78.470,*,1946-03-13,1946-08-15,Plumage Archer,0.100,0.470,1.631,*
+1947,fallow,spring barley,3,*,*,3,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,3,*,*,3,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,3,*,*,3,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,3,*,*,3,N1,39.235,*,*,*,*,0.100,*,*,1
+1951,spring barley,spring barley,3,*,*,3,N3,117.705,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.100,0.414,*,2
+1952,winter barley,spring barley,3,*,*,3,N2,78.470,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.050,2.723,3.175,3
+1952,spring barley,spring barley,3,*,*,3,N2,78.470,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.050,1.556,2.058,3
+1953,winter barley,winter barley,3,*,*,3,N1,39.235,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.050,2.046,1.606,3
+1953,spring barley,spring barley,3,*,*,3,N1,39.235,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.050,1.054,0.954,3
+1954,spring barley,spring barley,3,*,*,3,N3,117.705,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.100,2.359,2.573,5
+1955,spring barley,spring barley,3,*,*,3,N2,78.470,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,1.004,1.343,6
+1956,fallow,spring barley,3,*,*,3,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,spring barley,3,*,*,3,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,3,*,*,3,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,3,*,*,3,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.422,1.268,8
+1959,winter wheat,spring barley,3,*,*,3,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,3.665,4.857,8
+1960,spring barley,spring barley,3,*,*,3,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.050,2.008,1.556,8
+1960,winter wheat,winter wheat,3,*,*,3,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.439,5.196,8
+1961,spring barley,spring barley,3,*,*,3,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.050,1.355,0.690,10
+1961,spring wheat,winter wheat,3,*,*,3,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.318,1.155,10
+1962,spring oats,spring barley,3,*,*,3,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.050,2.886,1.368,*
+1962,spring oats,spring wheat,3,*,*,3,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,3.464,1.983,*
+1963,fallow,spring oats,3,*,*,3,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,3,*,*,3,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,2.485,*,11
+1964,spring beans,spring wheat,3,*,*,3,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.050,3.125,*,11
+1965,fallow,spring beans,3,*,*,3,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,3,*,*,3,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,4,*,*,4,N3,117.705,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.100,0.582,1.178,*
+1944,spring barley,spring barley,4,*,*,4,N2,78.470,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.100,1.505,2.169,*
+1945,spring barley,spring barley,4,*,*,4,N1,39.235,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.100,0.757,2.300,*
+1946,spring barley,spring barley,4,*,*,4,N3,117.705,*,1946-03-13,1946-08-15,Plumage Archer,0.100,0.966,2.178,*
+1947,fallow,spring barley,4,*,*,4,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,4,*,*,4,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,4,*,*,4,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,4,*,*,4,N2,78.470,*,*,*,*,0.100,*,*,1
+1951,spring barley,spring barley,4,*,*,4,N1,39.235,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.100,0.489,*,2
+1952,winter barley,spring barley,4,*,*,4,N3,117.705,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.050,2.548,2.937,3
+1952,spring barley,spring barley,4,*,*,4,N3,117.705,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.050,1.418,1.995,3
+1953,winter barley,winter barley,4,*,*,4,N2,78.470,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.050,2.209,2.723,3
+1953,spring barley,spring barley,4,*,*,4,N2,78.470,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.050,2.372,2.033,3
+1954,spring barley,spring barley,4,*,*,4,N1,39.235,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.100,0.715,0.891,*
+1955,spring barley,spring barley,4,*,*,4,N3,117.705,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,1.493,1.883,6
+1956,fallow,spring barley,4,*,*,4,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,spring barley,4,*,*,4,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,4,*,*,4,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,4,*,*,4,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.635,1.832,8
+1959,winter wheat,spring barley,4,*,*,4,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,2.686,4.292,8
+1960,spring barley,spring barley,4,*,*,4,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.050,2.410,1.669,8
+1960,winter wheat,winter wheat,4,*,*,4,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,2.748,2.886,8
+1961,spring barley,spring barley,4,*,*,4,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.050,1.970,0.891,10
+1961,spring wheat,winter wheat,4,*,*,4,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.343,1.381,10
+1962,spring oats,spring barley,4,*,*,4,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.050,2.661,1.519,*
+1962,spring oats,spring wheat,4,*,*,4,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,3.062,1.318,*
+1963,fallow,spring oats,4,*,*,4,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,4,*,*,4,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,2.008,*,11
+1964,spring beans,spring wheat,4,*,*,4,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.050,2.309,*,11
+1965,fallow,spring beans,4,*,*,4,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,4,*,*,4,*,0.000,*,*,*,*,*,*,*,*
+1943,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1944,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1945,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1946,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1947,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1950,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1951,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1952,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1953,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1954,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1955,spring barley,spring barley,5,*,*,5,N1,39.235,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,0.866,1.017,6
+1956,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,spring barley,5,*,*,5,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,5,*,*,5,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,5,*,*,5,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.635,1.870,8
+1959,winter wheat,spring barley,5,*,*,5,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,2.635,4.217,8
+1960,spring barley,spring barley,5,*,*,5,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.050,2.385,1.619,8
+1960,winter wheat,winter wheat,5,*,*,5,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.012,3.351,8
+1961,spring barley,spring barley,5,*,*,5,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.050,1.920,0.879,10
+1961,spring wheat,winter wheat,5,*,*,5,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.920,1.431,10
+1962,spring oats,spring barley,5,*,*,5,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.050,2.648,1.368,*
+1962,spring oats,spring wheat,5,*,*,5,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,3.075,1.744,*
+1963,fallow,spring oats,5,*,*,5,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,5,*,*,5,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,1.719,*,11
+1964,spring beans,spring wheat,5,*,*,5,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.050,1.908,*,11
+1965,fallow,spring beans,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,5,*,*,5,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,6,*,*,6,N1,39.235,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.100,0.617,1.282,*
+1944,spring barley,spring barley,6,*,*,6,N3,117.705,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.100,0.920,1.720,*
+1945,spring barley,spring barley,6,*,*,6,N2,78.470,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.100,1.142,3.044,*
+1946,spring barley,spring barley,6,*,*,6,N1,39.235,*,1946-03-13,1946-08-15,Plumage Archer,0.100,0.575,1.886,*
+1947,fallow,spring barley,6,*,*,6,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,6,*,*,6,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,6,*,*,6,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,6,*,*,6,N3,117.705,*,*,*,*,0.100,*,*,1
+1951,spring barley,spring barley,6,*,*,6,N2,78.470,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.100,0.577,*,2
+1952,winter barley,spring barley,6,*,*,6,N1,39.235,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.050,2.799,2.648,3
+1952,spring barley,spring barley,6,*,*,6,N1,39.235,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.050,1.217,1.820,3
+1953,winter barley,winter barley,6,*,*,6,N3,117.705,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.050,3.250,3.376,3
+1953,spring barley,spring barley,6,*,*,6,N3,117.705,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.050,3.163,2.786,3
+1954,spring barley,spring barley,6,*,*,6,N2,78.470,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.100,2.284,2.886,*
+1955,spring barley,spring barley,6,*,*,6,N1,39.235,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,1.531,1.443,6
+1956,fallow,spring barley,6,*,*,6,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,spring barley,6,*,*,6,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,6,*,*,6,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,6,*,*,6,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.774,2.272,8
+1959,winter wheat,spring barley,6,*,*,6,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,3.112,5.384,8
+1960,spring barley,spring barley,6,*,*,6,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.050,2.949,1.958,8
+1960,winter wheat,winter wheat,6,*,*,6,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.250,3.916,8
+1961,spring barley,spring barley,6,*,*,6,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.050,2.460,1.318,10
+1961,spring wheat,winter wheat,6,*,*,6,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,2.623,2.359,10
+1962,spring oats,spring barley,6,*,*,6,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.050,3.338,1.845,*
+1962,spring oats,spring wheat,6,*,*,6,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,4.054,2.033,*
+1963,fallow,spring oats,6,*,*,6,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,6,*,*,6,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,3.112,*,11
+1964,spring beans,spring wheat,6,*,*,6,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.050,3.451,*,11
+1965,fallow,spring beans,6,*,*,6,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,6,*,*,6,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,7,*,*,7,N3,117.705,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.100,0.513,1.095,*
+1944,spring barley,spring barley,7,*,*,7,N2,78.470,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.100,0.612,1.249,*
+1945,spring barley,spring barley,7,*,*,7,N1,39.235,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.100,0.597,1.786,*
+1946,spring barley,spring barley,7,*,*,7,N3,117.705,*,1946-03-13,1946-08-15,Plumage Archer,0.100,0.985,2.194,*
+1947,fallow,spring barley,7,*,*,7,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,7,*,*,7,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,7,*,*,7,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,7,*,*,7,N2,78.470,*,*,*,*,0.100,*,*,1
+1951,spring barley,spring barley,7,*,*,7,N1,39.235,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.100,0.502,*,2
+1952,winter barley,spring barley,7,*,*,7,N3,117.705,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.050,2.949,3.489,3
+1952,spring barley,spring barley,7,*,*,7,N3,117.705,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.050,1.017,1.079,3
+1953,winter barley,winter barley,7,*,*,7,N2,78.470,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.050,1.129,1.330,3
+1953,spring barley,spring barley,7,*,*,7,N2,78.470,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.050,1.995,1.707,3
+1954,spring barley,spring barley,7,*,*,7,N1,39.235,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.100,*,*,2
+1955,spring barley,spring barley,7,*,*,7,N3,117.705,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,1.054,1.519,6
+1956,fallow,spring barley,7,*,*,7,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,7,*,*,7,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,7,*,*,7,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,7,*,*,7,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.472,1.493,8
+1959,winter wheat,spring barley,7,*,*,7,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,2.987,4.016,8
+1960,Microplot experiments,spring barley,7,*,*,7,*,*,*,*,*,*,*,*,*,9
+1960,winter wheat,winter wheat,7,*,*,7,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.426,4.355,8
+1961,Microplot experiments,Microplot experiments,7,*,*,7,*,*,*,*,*,*,*,*,*,9
+1961,spring wheat,winter wheat,7,*,*,7,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.468,1.431,10
+1962,Fallow,Microplot experiments,7,*,*,7,*,0.000,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,7,*,*,7,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,2.422,1.217,*
+1963,fallow,spring oats,7,*,*,7,*,0.000,*,*,*,*,*,*,*,16
+1964,Microplot experiments,spring barley,7,*,*,7,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring wheat,7,*,*,7,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,2.410,*,11
+1965,fallow,spring beans,7,*,*,7,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,7,*,*,7,*,0.000,*,*,*,*,*,*,*,*
+1943,fallow,spring barley,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1944,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1945,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1946,fallow,spring barley,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1947,fallow,spring barley,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1950,fallow,spring barley,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1951,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1952,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1953,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1954,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1955,spring barley,fallow,8,*,*,8,N2,78.470,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,1.205,1.418,6
+1956,fallow,spring barley,8,*,*,8,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,8,*,*,8,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,8,*,*,8,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,8,*,*,8,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.999,2.021,8
+1959,winter wheat,spring barley,8,*,*,8,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,2.974,5.886,8
+1960,Microplot experiments,spring barley,8,*,*,8,*,*,*,*,*,*,*,*,*,9
+1960,winter wheat,winter wheat,8,*,*,8,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.414,5.547,8
+1961,Microplot experiments,Microplot experiments,8,*,*,8,*,*,*,*,*,*,*,*,*,9
+1961,spring wheat,winter wheat,8,*,*,8,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.594,2.698,10
+1962,Fallow,Microplot experiments,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,8,*,*,8,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,4.091,1.857,*
+1963,fallow,spring oats,8,*,*,8,*,0.000,*,*,*,*,*,*,*,16
+1964,Microplot experiments,spring barley,8,*,*,8,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring wheat,8,*,*,8,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,3.414,*,11
+1965,fallow,spring beans,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,8,*,*,8,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,9,*,*,9,N2,78.470,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.100,1.040,1.861,*
+1944,spring barley,spring barley,9,*,*,9,N1,39.235,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.100,1.107,2.411,*
+1945,spring barley,spring barley,9,*,*,9,N3,117.705,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.100,1.143,2.402,*
+1946,spring barley,spring barley,9,*,*,9,N2,78.470,*,1946-03-13,1946-08-15,Plumage Archer,0.100,1.141,3.010,*
+1947,fallow,spring barley,9,*,*,9,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,9,*,*,9,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,9,*,*,9,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,9,*,*,9,N1,39.235,*,*,*,*,0.100,*,*,1
+1951,spring barley,spring barley,9,*,*,9,N3,117.705,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.100,0.653,*,2
+1952,winter barley,spring barley,9,*,*,9,N2,78.470,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.050,3.338,3.476,3
+1952,spring barley,spring barley,9,*,*,9,N2,78.470,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.050,1.192,1.757,3
+1953,winter barley,winter barley,9,*,*,9,N1,39.235,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.050,2.485,1.857,3
+1953,spring barley,spring barley,9,*,*,9,N1,39.235,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.050,1.117,1.129,3
+1954,spring barley,spring barley,9,*,*,9,N3,117.705,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.100,2.309,2.924,*
+1955,spring barley,spring barley,9,*,*,9,N2,78.470,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.100,2.347,2.410,6
+1956,fallow,spring barley,9,*,*,9,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,9,*,*,9,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,9,*,*,9,*,0.000,*,1958-03-21,*,*,0.100,*,*,7
+1959,spring barley,spring barley,9,*,*,9,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.050,2.799,2.272,8
+1959,winter wheat,spring barley,9,*,*,9,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.051,3.200,5.334,8
+1960,Microplot experiments,spring barley,9,*,*,9,*,*,*,*,*,*,*,*,*,9
+1960,winter wheat,winter wheat,9,*,*,9,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.051,3.464,5.949,8
+1961,Microplot experiments,Microplot experiments,9,*,*,9,*,*,*,*,*,*,*,*,*,9
+1961,spring wheat,winter wheat,9,*,*,9,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.051,1.870,2.748,10
+1962,Fallow,Microplot experiments,9,*,*,9,*,0.000,*,*,*,*,*,*,*,*
+1962,spring oats,spring wheat,9,*,*,9,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.051,3.916,1.895,*
+1963,fallow,spring oats,9,*,*,9,*,0.000,*,*,*,*,*,*,*,16
+1964,Microplot experiments,spring barley,9,*,*,9,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring wheat,9,*,*,9,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.051,3.790,*,11
+1965,fallow,spring beans,9,*,*,9,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,9,*,*,9,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,10,a,*,10a,N3,117.705,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.050,0.120,0.473,*
+1944,spring barley,spring barley,10,a,*,10a,N2,78.470,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.050,0.453,1.257,*
+1945,spring barley,spring barley,10,a,*,10a,N1,39.235,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.050,0.341,1.561,*
+1946,spring barley,spring barley,10,a,*,10a,N3,117.705,*,1946-03-13,1946-08-15,Plumage Archer,0.050,0.345,1.621,*
+1947,fallow,spring barley,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,10,a,*,10a,N2,78.470,*,*,*,*,0.050,*,*,1
+1951,spring barley,spring barley,10,a,*,10a,N1,39.235,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.050,*,*,2
+1952,winter barley,spring barley,10,a,*,10a,N3,117.705,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.025,1.393,3.288,3
+1952,spring barley,spring barley,10,a,*,10a,N3,117.705,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.025,*,*,"3,4"
+1953,winter barley,winter barley,10,a,*,10a,N2,78.470,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.025,0.828,1.268,3
+1953,spring barley,spring barley,10,a,*,10a,N2,78.470,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.025,1.092,1.142,3
+1954,spring barley,spring barley,10,a,*,10a,N1,39.235,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.050,*,*,2
+1955,spring barley,spring barley,10,a,*,10a,N3,117.705,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.050,0.552,0.979,6
+1956,fallow,spring barley,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,10,a,*,10a,*,0.000,*,1958-03-21,*,*,0.050,*,*,7
+1959,spring barley,spring barley,10,a,*,10a,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.025,2.021,1.280,8
+1959,winter wheat,spring barley,10,a,*,10a,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.025,3.326,4.330,8
+1960,spring barley,spring barley,10,a,*,10a,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.025,2.560,1.707,8
+1960,winter wheat,winter wheat,10,a,*,10a,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.025,3.250,4.367,8
+1961,spring barley,spring barley,10,a,x,10a,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.003,1.820,0.791,"10,12"
+1961,spring wheat,winter wheat,10,a,x,10a,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.003,1.606,1.506,"10,12"
+1961,spring barley,spring barley,10,a,y,10a,*,*,*,*,*,*,*,*,*,9
+1961,spring wheat,winter wheat,10,a,y,10a,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.003,1.845,1.832,"10,12"
+1962,spring oats,spring barley,10,a,x,10a,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.003,2.962,1.217,*
+1962,spring oats,spring wheat,10,a,x,10a,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.003,3.125,1.343,*
+1962,spring oats,spring barley,10,a,y,10a,*,*,*,*,*,*,*,*,*,9
+1962,spring oats,spring wheat,10,a,y,10a,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.003,3.451,1.493,*
+1963,fallow,spring oats,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,10,a,x,10a,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.003,2.711,*,11
+1964,spring beans,spring wheat,10,a,x,10a,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.003,3.112,*,11
+1964,Microplot experiments,spring barley,10,a,y,10a,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring wheat,10,a,y,10a,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.006,2.836,*,11
+1965,fallow,spring beans,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,10,a,*,10a,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,10,b,*,10b,N1,39.235,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.050,0.111,1.171,*
+1944,spring barley,spring barley,10,b,*,10b,N3,117.705,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.050,0.712,2.162,*
+1945,spring barley,spring barley,10,b,*,10b,N2,78.470,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.050,0.582,2.332,*
+1946,spring barley,spring barley,10,b,*,10b,N1,39.235,*,1946-03-13,1946-08-15,Plumage Archer,0.050,0.253,1.234,*
+1947,fallow,spring barley,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,10,b,*,10b,N3,117.705,*,*,*,*,0.050,*,*,1
+1951,spring barley,spring barley,10,b,*,10b,N2,78.470,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.050,*,*,2
+1952,winter barley,spring barley,10,b,*,10b,N1,39.235,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.025,3.564,*,3
+1952,spring barley,spring barley,10,b,*,10b,N1,39.235,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.025,1.418,2.309,3
+1953,spring barley,spring barley,10,b,*,10b,N3,117.705,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.025,1.456,1.230,3
+1953,winter barley,winter barley,10,b,*,10b,N3,117.705,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.025,1.895,2.021,3
+1954,spring barley,spring barley,10,b,*,10b,N2,78.470,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.050,*,*,2
+1955,spring barley,spring barley,10,b,*,10b,N1,39.235,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.050,0.766,0.891,6
+1956,fallow,spring barley,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,10,b,*,10b,*,0.000,*,1958-03-21,*,*,0.050,*,*,7
+1959,spring barley,spring barley,10,b,*,10b,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.025,2.134,1.042,8
+1959,winter wheat,spring barley,10,b,*,10b,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.025,3.213,3.840,8
+1960,spring barley,spring barley,10,b,*,10b,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.025,2.221,1.456,8
+1960,winter wheat,winter wheat,10,b,*,10b,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.025,3.075,4.192,8
+1961,spring barley,spring barley,10,b,x,10b,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.003,1.217,0.602,"10,12"
+1961,spring wheat,winter wheat,10,b,x,10b,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.003,1.883,1.431,"10,12"
+1961,spring barley,spring barley,10,b,y,10b,*,*,*,*,*,*,*,*,*,9
+1961,spring wheat,winter wheat,10,b,y,10b,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.003,2.535,1.669,"10,12"
+1962,spring oats,spring barley,10,b,x,10b,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.003,2.723,0.954,*
+1962,spring oats,spring wheat,10,b,x,10b,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.003,3.301,1.343,*
+1962,spring oats,spring wheat,10,b,y,10b,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.003,3.577,1.594,*
+1962,spring oats,spring barley,10,b,y,10b,*,*,*,*,*,*,*,*,*,9
+1963,fallow,spring oats,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,10,b,x,10b,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.003,2.661,*,11
+1964,spring beans,spring wheat,10,b,x,10b,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.003,3.125,*,11
+1964,Microplot experiments,spring barley,10,b,y,10b,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring wheat,10,b,y,10b,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.006,3.163,*,11
+1965,fallow,spring beans,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,10,b,*,10b,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,11,a,*,11a,N2,78.470,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.050,0.787,1.977,*
+1944,spring barley,spring barley,11,a,*,11a,N1,39.235,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.050,0.749,2.495,*
+1945,spring barley,spring barley,11,a,*,11a,N3,117.705,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.050,0.960,2.401,*
+1946,spring barley,spring barley,11,a,*,11a,N2,78.470,*,1946-03-13,1946-08-15,Plumage Archer,0.050,0.874,2.460,*
+1947,fallow,spring barley,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,11,a,*,11a,N1,39.235,*,*,*,*,0.050,*,*,1
+1951,spring barley,spring barley,11,a,*,11a,N3,117.705,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.050,*,*,2
+1952,winter barley,spring barley,11,a,*,11a,N2,78.470,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.025,3.037,3.050,3
+1952,spring barley,spring barley,11,a,*,11a,N2,78.470,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.025,1.594,1.933,3
+1953,winter barley,winter barley,11,a,*,11a,N1,39.235,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.025,1.920,1.770,3
+1953,spring barley,spring barley,11,a,*,11a,N1,39.235,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.025,1.519,1.142,3
+1954,spring barley,spring barley,11,a,*,11a,N3,117.705,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.050,*,*,2
+1955,spring barley,spring barley,11,a,*,11a,N2,78.470,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.050,1.230,1.493,6
+1956,fallow,spring barley,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,11,a,*,11a,*,0.000,*,1958-03-21,*,*,0.050,*,*,7
+1959,spring barley,spring barley,11,a,*,11a,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.025,2.698,1.669,8
+1959,winter wheat,spring barley,11,a,*,11a,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.025,3.639,4.907,8
+1960,spring barley,spring barley,11,a,*,11a,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.025,2.748,1.795,8
+1960,winter wheat,winter wheat,11,a,*,11a,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.025,3.125,*,8
+1961,spring barley,spring barley,11,a,y,11a,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.003,2.259,0.816,"10,13"
+1961,spring wheat,winter wheat,11,a,y,11a,*,*,*,*,*,*,*,*,*,9
+1961,spring wheat,winter wheat,11,a,z,11a,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.003,1.230,1.744,"10,13"
+1961,spring barley,spring barley,11,a,z,11a,*,*,*,*,*,*,*,*,*,9
+1962,spring oats,spring barley,11,a,y,11a,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.003,3.564,1.694,*
+1962,spring oats,spring wheat,11,a,y,11a,*,*,*,*,*,*,*,*,*,9
+1962,spring oats,spring wheat,11,a,z,11a,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.003,3.702,2.246,*
+1962,spring oats,spring barley,11,a,z,11a,*,*,*,*,*,*,*,*,*,9
+1963,fallow,spring oats,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,16
+1964,spring beans,spring barley,11,a,y,11a,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.006,2.824,*,11
+1964,Microplot experiments,spring wheat,11,a,y,11a,*,*,*,*,*,*,*,*,*,9
+1964,Microplot experiments,spring barley,11,a,z,11a,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring wheat,11,a,z,11a,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.006,3.652,*,11
+1965,fallow,spring beans,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,11,a,*,11a,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,11,b,1,11b,N2,78.470,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.017,1.386,2.843,*
+1944,spring barley,spring barley,11,b,1,11b,N1,39.235,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.017,1.004,2.835,*
+1945,spring barley,spring barley,11,b,1,11b,N3,117.705,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.017,1.127,3.316,*
+1946,spring barley,spring barley,11,b,1,11b,N2,78.470,*,1946-03-13,1946-08-15,Plumage Archer,0.017,0.848,2.781,*
+1947,fallow,spring barley,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,11,b,1,11b,N1,39.235,*,*,*,*,0.017,*,*,1
+1951,spring barley,spring barley,11,b,1,11b,N3,117.705,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.017,0.653,*,2
+1952,winter barley,spring barley,11,b,1,11b ,N2,78.470,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.008,4.681,5.108,3
+1952,spring barley,spring barley,11,b,1,11b ,N2,78.470,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.008,0.828,1.280,3
+1953,winter barley,winter barley,11,b,1,11b ,N1,39.235,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.008,2.548,2.635,3
+1953,spring barley,spring barley,11,b,1,11b ,N1,39.235,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.008,1.782,1.519,3
+1954,spring barley,spring barley,11,b,1,11b ,N3,117.705,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.017,2.698,3.326,*
+1955,spring barley,spring barley,11,b,1,11b ,N2,78.470,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.017,2.485,2.811,6
+1956,fallow,spring barley,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,11,b,1,11b ,*,0.000,*,1958-03-21,*,*,0.017,*,*,7
+1959,spring barley,spring barley,11,b,*,11b,basalN,114.342,1959-03-25 00:00:00,1959-03-16,1959-08-19,Plumage Archer,0.025,3.238,2.083,8
+1959,winter wheat,spring barley,11,b,*,11b,basalN,114.342,1959-03-25 00:00:00,1958-12-05,1959-08-20,Squarehead's Master,0.025,3.941,5.196,8
+1960,spring barley,spring barley,11,b,*,11b,basalN,114.342,1960-03-21 00:00:00,1960-03-21,1960-08-30,Plumage Archer,0.025,2.736,1.669,8
+1960,winter wheat,winter wheat,11,b,*,11b,basalN,114.342,1960-03-21 00:00:00,1959-10-22,1960-08-31,Squarehead's Master,0.025,3.075,5.535,8
+1963,fallow,spring oats,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,16
+1965,fallow,spring beans,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,11,b,1,11b,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,11,b,2,11b,N3,117.705,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.017,0.896,2.325,*
+1944,spring barley,spring barley,11,b,2,11b,N2,78.470,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.017,0.677,2.316,*
+1945,spring barley,spring barley,11,b,2,11b,N1,39.235,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.017,0.815,2.565,*
+1946,spring barley,spring barley,11,b,2,11b,N3,117.705,*,1946-03-13,1946-08-15,Plumage Archer,0.017,1.404,3.674,*
+1947,fallow,spring barley,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,11,b,2,11b,N2,78.470,*,*,*,*,0.017,*,*,1
+1951,spring barley,spring barley,11,b,2,11b,N1,39.235,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.017,0.979,*,2
+1952,winter barley,spring barley,11,b,2,11b ,N3,117.705,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.008,4.229,5.083,3
+1952,spring barley,spring barley,11,b,2,11b ,N3,117.705,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.008,0.816,1.870,3
+1953,winter barley,winter barley,11,b,2,11b ,N2,78.470,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.008,3.313,3.564,3
+1953,spring barley,spring barley,11,b,2,11b ,N2,78.470,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.008,2.472,2.246,3
+1954,spring barley,spring barley,11,b,2,11b ,N1,39.235,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.017,2.849,3.288,*
+1955,spring barley,spring barley,11,b,2,11b ,N3,117.705,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.017,2.811,3.250,6
+1956,fallow,spring barley,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,11,b,2,11b ,*,0.000,*,1958-03-21,*,*,0.017,*,*,7
+1963,fallow,spring oats,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,16
+1965,fallow,spring beans,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,11,b,2,11b,*,0.000,*,*,*,*,*,*,*,*
+1943,spring barley,spring barley,11,b,3,11b,N1,39.235,1943-06-07 00:00:00,1943-03-12,1943-08-27,Plumage Archer,0.017,0.679,2.773,*
+1944,spring barley,spring barley,11,b,3,11b,N3,117.705,1944-03-28 00:00:00,1944-03-08,1944-09-04,Plumage Archer,0.017,1.336,2.852,*
+1945,spring barley,spring barley,11,b,3,11b,N2,78.470,1945-04-03 00:00:00,1945-03-06,1945-08-02,Plumage Archer,0.017,1.218,2.945,*
+1946,spring barley,spring barley,11,b,3,11b,N1,39.235,*,1946-03-13,1946-08-15,Plumage Archer,0.017,1.320,2.898,*
+1947,fallow,spring barley,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,*
+1948,fallow,spring barley,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,*
+1949,fallow,spring barley,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,*
+1950,spring barley,spring barley,11,b,3,11b,N3,117.705,*,*,*,*,0.017,*,*,1
+1951,spring barley,spring barley,11,b,3,11b,N2,78.470,1951-04-23 00:00:00,1951-04-23,1951-09-24,Plumage Archer,0.017,1.092,*,2
+1952,winter barley,spring barley,11,b,3,11b ,N1,39.235,03/17/1952,1951-12-03,1952-07-29,Pioneer,0.008,3.602,3.539,3
+1952,spring barley,spring barley,11,b,3,11b ,N1,39.235,03/17/1952,1952-03-17,1952-07-29,Plumage Archer,0.008,1.205,2.598,3
+1953,winter barley,winter barley,11,b,3,11b ,N3,117.705,1953-03-13 00:00:00,1952-10-09,1953-08-17,Pioneer,0.008,3.903,4.330,3
+1953,spring barley,spring barley,11,b,3,11b ,N3,117.705,1953-03-13 00:00:00,1953-03-05,1953-08-17,Plumage Archer,0.008,3.062,2.761,3
+1954,spring barley,spring barley,11,b,3,11b ,N2,78.470,1954-04-28 00:00:00,1953-10-25,1954-09-08,Plumage Archer,0.017,3.012,3.389,*
+1955,spring barley,spring barley,11,b,3,11b ,N1,39.235,1952-04-12 00:00:00,1955-04-07,1952-08-24,Plumage Archer,0.017,1.468,1.594,6
+1956,fallow,spring barley,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,14
+1957,fallow,fallow,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,15
+1958,spring barley,spring barley,11,b,3,11b ,*,0.000,*,1958-03-21,*,*,0.017,*,*,7
+1963,fallow,spring oats,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,16
+1961,spring barley,spring barley,11,b,y,11b,basalN,114.342,1961-03-09 00:00:00,1961-03-09,1961-08-28,Plumage Archer,0.003,2.397,1.230,"10,13"
+1961,spring wheat,winter wheat,11,b,y,11b,*,*,*,*,*,*,*,*,*,9
+1961,spring wheat,winter wheat,11,b,z,11b,basalN,114.342,1961-03-22 00:00:00,1961-03-22,1961-08-28,Jufy I,0.003,1.569,2.435,"10,13"
+1961,spring barley,spring barley,11,b,z,11b,*,*,*,*,*,*,*,*,*,9
+1962,spring oats,spring barley,11,b,y,11b,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-28,Condor,0.003,3.715,1.757,*
+1962,spring oats,spring wheat,11,b,y,11b,*,*,*,*,*,*,*,*,*,9
+1962,spring oats,spring wheat,11,b,z,11b,basalN,62.776,1962-02-24 00:00:00,1962-02-24,1962-08-27,Condor,0.003,4.254,1.795,*
+1962,spring oats,spring barley,11,b,z,11b,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring barley,11,b,y,11b,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.006,3.188,*,11
+1964,Microplot experiments,spring wheat,11,b,y,11b,*,*,*,*,*,*,*,*,*,9
+1964,Microplot experiments,spring barley,11,b,z,11b,*,*,*,*,*,*,*,*,*,9
+1964,spring beans,spring wheat,11,b,z,11b,*,0.000,*,1964-03-13,1964-09-01,Minor Tick,0.006,3.665,*,11
+1965,fallow,spring beans,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,*
+1966,fallow,spring beans,11,b,3,11b,*,0.000,*,*,*,*,*,*,*,*

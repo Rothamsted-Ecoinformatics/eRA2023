@@ -1,0 +1,4 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows annual FYM treatment,nil,1852-2022,FYM exposure,,0,,,,
+"Factor level shows annual FYM treatment. Applied in autumn usually to stubble of previous crop. Applied to strip 22 since 1843, to strip 21 since 1885 and to strip 1 1968-2000. No FYM applied to oats, 1996-2017. No FYM applied to beans 2018-",FYM,1852-2022,FYM exposure,http://purl.obolibrary.org/obo/AGRO_00000076,35,t FYM ha-1,annual ,farmyard manure from cattle,http://aims.fao.org/aos/agrovoc/c_2810
+"Factor level shows annual FYM treatment. Indicates that FYM was applied, 1968-2000. Strip 1. ",(FYM),2001-2022,FYM exposure,,0,,,,

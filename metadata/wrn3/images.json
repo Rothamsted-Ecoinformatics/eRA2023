@@ -1,0 +1,58 @@
+[
+    {
+        "MediaID": 169,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/wrn3/Woburn-Farm-map-750.jpg",
+        "Caption": "Woburn Farm map",
+        "Type": "metadata",
+        "exptID": "wrn3",
+        "width": 750,
+        "height": 525,
+        "orientation": "landscape",
+        "fileLocation": "metadata/wrn3/Woburn-Farm-map-750.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 170,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/wrn3/Woburn-LTEs-750.jpg",
+        "Caption": "Woburn LTEs",
+        "Type": "metadata",
+        "exptID": "wrn3",
+        "width": 750,
+        "height": 557,
+        "orientation": "landscape",
+        "fileLocation": "metadata/wrn3/Woburn-LTEs-750.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 171,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/wrn3/Woburn-ley-arable-675.jpg",
+        "Caption": "Woburn Ley Arable",
+        "Type": "metadata",
+        "exptID": "wrn3",
+        "width": 675,
+        "height": 278,
+        "orientation": "landscape",
+        "fileLocation": "metadata/wrn3/Woburn-ley-arable-675.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    },
+    {
+        "MediaID": 409,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/wrn3/Woburn-Fields-Stackyard-750.jpg",
+        "Caption": "Woburn Stackyard",
+        "Type": "metadata",
+        "exptID": "wrn3",
+        "width": 750,
+        "height": 1125,
+        "orientation": "portrait",
+        "fileLocation": "metadata/wrn3/Woburn-Fields-Stackyard-750.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    }
+]

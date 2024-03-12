@@ -1,0 +1,244 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 1",
+            "localIdentifier": "Period 1",
+            "name": "Period 1",
+            "url": "Period 1",
+            "description": "11 main plots, receiving different fertilizer and manure treatments. Some were split into up to 4 sub-plots with and without lime, as the soil became more acidic."
+        },
+        "design": {
+            "dateStart": 1877,
+            "dateEnd": 1926,
+            "description": "Continuous spring barley, to mirror the Hoosfield barley experiment at Rothamsted. A range of fertilizer and manure treatments similar to those on Hoosfield, including unmanured. Lime applied to some sub-plots from 1898. First crop sown in spring 1877.",
+            "designType": "Demonstration strip design",
+            "designTypeLabel": "Demonstration strip design",
+            "studyDesign": "Period 1",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 11,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": 2,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21679,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12674,
+                "name": "liming exposure",
+                "description": "Lime applied as treatments to some sub-plots where soils became acidic",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12675,
+                "name": "nitrogen fertilizer exposure",
+                "description": "Testing different types of N (ammonium sulphate v sodium nitrate) in some plots, and different rates of N in others.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            },
+            {
+                "id": 12676,
+                "name": "farmyard manure exposure",
+                "description": "3 rates of FYM: 0, 10 and 20 t/ha.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Grain and straw yields at field moisture content, approximately 85% dry matter.",
+                "crop": 21679
+            },
+            {
+                "variable": "nitrogen content",
+                "unitCode": "kgN/ha",
+                "unitText": "kg nitrogen per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "N content of barley grain 1883-1926.",
+                "crop": 21679
+            },
+            {
+                "variable": "total soil nitrogen",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "infrequent",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured in 1876, 1888, 1898, 1916, 1922, 1927, 1932.",
+                "crop": null
+            },
+            {
+                "variable": "soil pH",
+                "unitCode": null,
+                "unitText": null,
+                "collectionFrequency": "infrequent",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured in 1876, 1888, 1898, 1916, 1922, 1927, 1932",
+                "crop": null
+            },
+            {
+                "variable": "soil total carbon",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "infrequent",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured in 1876, 1888, 1898, 1916, 1922, 1927, 1932",
+                "crop": null
+            },
+            {
+                "variable": "exchangeable Calcium",
+                "unitCode": "%",
+                "unitText": "Percent",
+                "collectionFrequency": "infrequent",
+                "scale": null,
+                "material": "Soil",
+                "description": "Measured in 1876, 1888, 1898, 1916, 1922, 1927, 1932",
+                "crop": null
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 2",
+            "localIdentifier": "Period 2",
+            "name": "Period 2",
+            "url": "Period 2",
+            "description": "Same design as the Woburn Continuous Wheat Experiment. Plots divided into four groups according to previous fertilizer and manure treatment in Period 1. Each group of plots received fertilizer N (39, 78, 118 kgN/ha) over a three year cycle. \nPlots 1, 3, 7 (previously no P or K); Plots 4, 6, 9 (previously PK); Plot 11b (previously FYM); Plots 10a, 10b, 11a (various treatments)."
+        },
+        "design": {
+            "dateStart": 1927,
+            "dateEnd": 1958,
+            "description": "From 1927-1940 there were two cycles of two years fallow (no crop) followed by five years cropping. The bare fallows were in 1927, 1928, 1934, 1935. No manures or fertilizers were applied, except to plots 8, 9, 10a and 11a, which received combinations of NPK. From 1941-1942 N fertilizer was applied to all plots. In 1943 the plots were divided into four groups, and 3 rates of N applied. Plots 2, 5 and 8 (which had received ammonium sulphate in Period 1) were not included in this scheme and were fallowed throughout. All plots were fallowed in 1947, 1948, 1949, 1956, 1957. In 1952 and 1953 the plots were divided to compare winter and spring-sown barley.",
+            "designType": "Demonstration strip design",
+            "designTypeLabel": "Demonstration strip design",
+            "studyDesign": "Period 2",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 10,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": 1,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21680,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": [
+            {
+                "id": 12677,
+                "name": "nitrogen fertilizer exposure",
+                "description": "Three rates applied (39, 78, 118 kgN/ha) as nitro chalk, on four groups of three plots. The N rates were rotated.",
+                "effect": "",
+                "plotApplication": null,
+                "level": []
+            }
+        ],
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "SpecifiedCrop",
+                "description": "Grain and straw yields at 85% dry matter.",
+                "crop": 21680
+            }
+        ]
+    },
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Period 3",
+            "localIdentifier": "Period 3",
+            "name": "Period 3",
+            "url": "Period 3",
+            "description": "Various comparisons of variety, residual effects of P and K, soil structure, etc."
+        },
+        "design": {
+            "dateStart": 1959,
+            "dateEnd": 1966,
+            "description": "Much of the site was used for micro-plot experiments, and soil structure experiments. The rest of the experiment was fallow in 1963, 1965 and 1966.",
+            "designType": "Demonstration strip design",
+            "designTypeLabel": "Demonstration strip design",
+            "studyDesign": "Period 3",
+            "factorCombinationNumber": "NA",
+            "numberOfBlocks": null,
+            "numberOfPlots": 11,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": 1,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21681,
+                "name": "spring barley",
+                "sameAs": "spring barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21682,
+                "name": "spring oats",
+                "sameAs": "spring oats",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21683,
+                "name": "spring beans",
+                "sameAs": "spring beans",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": "NA",
+        "factor": "NA",
+        "factorCombinations": "NA",
+        "measurements": [
+            {
+                "variable": "grain yield trait",
+                "unitCode": "t/ha",
+                "unitText": "tonnes per hectare",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Grain and straw yields at 85% dry matter.",
+                "crop": null
+            }
+        ]
+    }
+]

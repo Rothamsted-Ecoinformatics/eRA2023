@@ -1,0 +1,24 @@
+%0 Dataset
+%T Highfield Ley-arable experiment soil chemical properties 1948-2014 
+%I Electronic Rothamsted Archive, Rothamsted Research 
+%W e-RA - the electronic Rothamsted Archive 
+%D 2023 
+%C Rothamsted Research, Harpenden, Herts, AL5 2JQ, UK. 
+%9 xlsx 
+%7 1.0 
+%G None 
+%U https://doi.org/10.23637/rrn1-HLAsoc4814-01 
+%R 10.23637/rrn1-HLAsoc4814-01 
+%A Blyth, Fergus 
+%A Perryman, Sarah 
+%A Poulton, Paul 
+%A Glendining, Margaret 
+%A Gregory, Andy 
+%K crop rotation; ley farming; long term experiments; nitrogen content; soil organic carbon; soil organic matter; phosphorous; Highfield ley-arable rotation experiment; soil pH; soil; leys; nitrogen; 
+%X This dataset gives the % soil organic carbon (SOC), % total nitrogen (N) and other assorted soil measurements in the topsoil (0-23cm) of selected plots of Blocks 1-4 of the Highfield Ley-arable Experiment, 1948-2014. Not all plots are sampled on every occasion, particularly in the early years of the experiment. Baseline SOC measurements were taken in December 1948 at the start of the experiment, then the soil was sampled at irregular intervals of several years until 2014. Soil N was measured from 1987 onwards. Total C, Inorganic C, Soil pH, Olsen P and exchangeable cations are measured from 2000 onwards. Originally there were 12 blocks, but blocks 5-12 were discontinued from 1968. See Johnston (1973) for a discussion of the effects of ley and arable cropping on SOC in blocks 5-12, 1949-1972.
+
+Highfield Ley-arable experiment is a comparison to the Fosters Ley-arable experiment. The two sites have the same soil type but very different histories. Fosters was in long-term arable, with little SOC at the start, in contrast to Highfield which was old permanent grass and consequently had more SOC at the start.
+
+This dataset was assembled by Fergus Blyth from September 2022 to August 2023 as part of a year spent on placement for an MSci degree from the University of Glasgow.
+
+This work was supported by the Natural Environment Research Council [NE/S007423/1], through the ENVISION Doctoral Training Partnership, Research Experience Placement scheme.  

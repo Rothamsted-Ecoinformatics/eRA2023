@@ -1,0 +1,376 @@
+[
+    {
+        "administrative": {
+            "type": "experiment",
+            "identifier": "Large Scale Rotation Experiment",
+            "localIdentifier": "Large Scale Rotation Experiment",
+            "name": "Large Scale Rotation Experiment",
+            "url": "Large Scale Rotation Experiment",
+            "description": "TO DO"
+        },
+        "design": {
+            "dateStart": 2018,
+            "dateEnd": "current",
+            "description": "The experiment tested large scale. Not established yet",
+            "studyDesign": "Large Scale Rotation Experiment",
+            "factorCombinationNumber": "NA",
+            "numberOdBlocks": null,
+            "numberOfPlots": 6,
+            "numberOfReplicates": 1,
+            "numberOfSubplots": null,
+            "numberOfHarvests": 1
+        },
+        "crops": [
+            {
+                "id": 21596,
+                "name": "turnips",
+                "sameAs": "turnips",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21597,
+                "name": "red clover",
+                "sameAs": "red clover",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21598,
+                "name": "beans",
+                "sameAs": "beans",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21599,
+                "name": "barley",
+                "sameAs": "barley",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21600,
+                "name": "wheat",
+                "sameAs": "wheat",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21601,
+                "name": "fallow",
+                "sameAs": "fallow",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21602,
+                "name": "root vegetables",
+                "sameAs": "root vegetables",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21603,
+                "name": "swedes",
+                "sameAs": "swedes",
+                "dateStart": null,
+                "dateEnd": null
+            },
+            {
+                "id": 21604,
+                "name": "feed legumes",
+                "sameAs": "feed legumes",
+                "dateStart": null,
+                "dateEnd": null
+            }
+        ],
+        "cropRotations": [
+            {
+                "name": "Legumes",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": "Incomplete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 21602,
+                        "description": "turnips or swedes"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21599,
+                        "description": "undersown"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21604,
+                        "description": "red clover or beans"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21600,
+                        "description": null
+                    }
+                ]
+            },
+            {
+                "name": "Fallow",
+                "dateStart": null,
+                "dateEnd": null,
+                "phasing": "Incomplete",
+                "isTreatment": true,
+                "rotationPhases": [
+                    {
+                        "samePhase": false,
+                        "crop": 21602,
+                        "description": "turnips or swedes"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21599,
+                        "description": null
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21601,
+                        "description": "bare fallowed"
+                    },
+                    {
+                        "samePhase": false,
+                        "crop": 21600,
+                        "description": null
+                    }
+                ]
+            }
+        ],
+        "factor": [
+            {
+                "id": 12613,
+                "name": "fertilizer exposure",
+                "description": null,
+                "effect": "",
+                "plotApplication": null,
+                "level": [
+                    {
+                        "id": 31334,
+                        "name": "nitrogen",
+                        "amount": "48",
+                        "unitCode": "kgN/ha",
+                        "unitText": "kg nitrogen per hectare",
+                        "appliedToCrop": 21602,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "Every 4 years",
+                        "method": null,
+                        "chemicalForm": "ammonium sulfate",
+                        "notes": "Until 1912 a mixture of  ammonium chloride and ammonium sulphate"
+                    },
+                    {
+                        "id": 31335,
+                        "name": "phosphorous",
+                        "amount": "41.5",
+                        "unitCode": "kgP/ha",
+                        "unitText": "kg phosphorous per hectare",
+                        "appliedToCrop": 21602,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "Every 4 years",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    },
+                    {
+                        "id": 31336,
+                        "name": "potassium",
+                        "amount": "224",
+                        "unitCode": "kgK/ha",
+                        "unitText": "kg potassium per hectare",
+                        "appliedToCrop": 21602,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "Every 4 years",
+                        "method": null,
+                        "chemicalForm": "potassium chloride",
+                        "notes": null
+                    },
+                    {
+                        "id": 31337,
+                        "name": "sodium",
+                        "amount": "16",
+                        "unitCode": "kgNa/ha",
+                        "unitText": "kg sodium per hectare",
+                        "appliedToCrop": 21602,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "Every 4 years",
+                        "method": null,
+                        "chemicalForm": "sodium sulphate",
+                        "notes": null
+                    },
+                    {
+                        "id": 31338,
+                        "name": "magnesium",
+                        "amount": "11",
+                        "unitCode": "kgMg/ha",
+                        "unitText": "kg magnesium per hectare",
+                        "appliedToCrop": 21602,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "Every 4 years",
+                        "method": null,
+                        "chemicalForm": "magnesium sulphate",
+                        "notes": null
+                    },
+                    {
+                        "id": 31339,
+                        "name": "castor meal",
+                        "amount": "2242",
+                        "unitCode": "kg/ha",
+                        "unitText": "kilogram per hectare",
+                        "appliedToCrop": 21602,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": "Every 4 years",
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": "Supplied approximately 121 kgN/ha. Until 1936 rapeseed cake was used."
+                    },
+                    {
+                        "id": 31340,
+                        "name": "control exposure",
+                        "amount": null,
+                        "unitCode": null,
+                        "unitText": null,
+                        "appliedToCrop": null,
+                        "dateStart": null,
+                        "dateEnd": null,
+                        "frequency": null,
+                        "method": null,
+                        "chemicalForm": null,
+                        "notes": null
+                    }
+                ]
+            }
+        ],
+        "factorCombinations": [
+            {
+                "name": "NPKNaMgR",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Applied to plot 1 (fallow rotation) and plot 2 (clover/beans rotation)",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "nitrogen",
+                        "levelText": "nitrogen",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "sodium",
+                        "levelText": "sodium",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "castor meal",
+                        "levelText": "castor meal",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "PKNaMg",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "Applied to plot 3 (fallow rotation) and plot 4 (clover/beans rotation) (no nitrogen)",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "phosphorous",
+                        "levelText": "phosphorous",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "potassium",
+                        "levelText": "potassium",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "sodium",
+                        "levelText": "sodium",
+                        "Comment": null
+                    },
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "magnesium",
+                        "levelText": "magnesium",
+                        "Comment": null
+                    }
+                ]
+            },
+            {
+                "name": "None",
+                "dateStart": null,
+                "dateEnd": null,
+                "description": "No manures applied to plot 5 (fallow rotation) and plot 6 (clover/beans rotation)",
+                "factor": [
+                    {
+                        "Factor": "fertilizer exposure",
+                        "levelCode": "control exposure",
+                        "levelText": "control exposure",
+                        "Comment": null
+                    }
+                ]
+            }
+        ],
+        "measurements": [
+            {
+                "variable": "yield components",
+                "unitCode": "cwt",
+                "unitText": "hundredweight",
+                "collectionFrequency": "annually",
+                "scale": null,
+                "material": "AllCrops",
+                "description": "Data presented in publications as means, Rothamsted Experimental Station 1970.",
+                "crop": null
+            },
+            {
+                "variable": "phosphorous content",
+                "unitCode": "lb/acre",
+                "unitText": "Pounds per acre",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Phosphorus in crop and soil, published by Johnson and Penny 1972",
+                "crop": null
+            },
+            {
+                "variable": "potassium content",
+                "unitCode": "lb/acre",
+                "unitText": "Pounds per acre",
+                "collectionFrequency": null,
+                "scale": null,
+                "material": null,
+                "description": "Potassium in crop and soil, published by Johnson and Penny 1972",
+                "crop": null
+            }
+        ]
+    }
+]

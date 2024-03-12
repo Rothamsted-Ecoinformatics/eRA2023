@@ -1,0 +1,358 @@
+{
+    "@context": "https://schema.org/",
+    "@type": "Dataset",
+    "identifier": "10.23637/rmsTMRain18532023-01",
+    "name": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023",
+    "shortName": "rmsTMRain5323",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rms/02-rmsTMRain5323",
+    "description": [
+        {
+            "inLanguage": null,
+            "descriptionType": "Abstract",
+            "description": "This dataset contains the total monthly rainfall, and total annual rainfall, at Rothamsted from March 1853 - December 2023 and is based on continuous daily records measured at the site. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Methods",
+            "description": "Daily rainfall is measured as the total (mm) over the 24-hour period 0900 to 0900 GMT. It includes all precipitation - snow, rain, mist and fog. Rainfall was first recorded at Rothamsted in 1853, using a copper funnel rain gauge (5 inch / 12.7 cm diameter) and measured using a graduated cylinder. Data was collected daily, manually, until 2004 and since then by Automatic Weather Station using a standard protocol.  Since 2004 it has been measured using an electronic tipping bucket rain gauge (10 inch / 25.4cm diameter), ARG100, calibrated to tip at 0.2mm (which has since become the minimum amount of rain that can be recorded). The rain gauge is placed within a 30cm deep 1.5m radius turf wall, retained by brick, to reduce wind eddies that may potentially blow rain out of the gauges. Since Sept 9th 2020 it has been recorded with an SBS500 tipping bucket rain gauge, funnel diameter 25.2cm and calibrated to tip at 0.2mm, manufactured by Environmental Measurements Ltd (EML), supplied and calibrated by Campbell Scientific. It is no longer sited within the turf wall, as the aerodynamics of the gauge means that it should not be affected by wind eddies. From December 10th 2003 to 8th Sept 2020 it was measured by an electronic tipping bucket rain gauge of 25.4cm (10 inch) diameter, ARG100 (manufactured by EML, supplied and calibrated by Campbell Scientific), calibrated to tip at 0.2mm, within the original turf wall. The old 5 inch manual copper rain gauge is still used to manually measure precipitation fallen as snow when the tipping bucket rain gauge is blocked with snow or ice. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "An Excel file containing monthly and annual total rainfall for each year, and charts of these data. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "TechnicalInfo",
+            "description": "Location: Rothamsted Meteorological Station, Harpenden, Hertfordshire, England 51.82 N 0.37 W 128 m asl.  \r\n\r\nOver time, there have been changes to the rain gauges used:\r\n06/02/1853 \u2013 1948; 5 inch (12.7cm) diameter (cylindrical gauge), at ground level.\r\n1948 \u2013 11/12/2003; MK2 5 inch (12.7cm) diameter (cylindrical gauge), in  turf wall.\r\n11/12/2003 \u2013 09/09/2020; ARG100 10 inch (25.4cm) (tipping bucket, hourglass), in turf wall.\r\n09/09/2020 \u2013 present; SBS500 9.9 inch (25.1cm) (tipping bucket, hourglass), at ground level. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": "The original raw daily data is available, after registering, from the e-RA database. Please contact the e-RA Curators for an access password and further details.\r\n\r\nWe thank the many weather recorders who have contributed to the collection of these data over the years;\r\nDave Yeoman (past)\r\nJohn Croft - Met Observer (past)\r\nBob Norrish (past)\r\nDenise Legg (past)\r\nChris Hall (past)\r\nPaul Hargreaves (past)\r\nTim Hall (1990s)\r\nHelen Martin (past)\r\nAlan Thornhill (past)\r\nAiming Qi (past)\r\nPhil Styles (past)\r\nAndrew Hunt (past) "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "The monthly summary data contained in this spreadsheet are derived from daily data measured at Rothamsted Meteorological Station, Harpenden. Total monthly data is determined from daily data using MS Excel. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "Verification includes checks for instrument errors, for missing data and outliers. "
+        }
+    ],
+    "publisher": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "publication_year": 2024,
+    "dateCreated": null,
+    "dateModified": null,
+    "datePublished": null,
+    "inLanguage": null,
+    "version": "2.0",
+    "keywords": [
+        "climate",
+        "meteorological factors",
+        "meteorological station",
+        "precipitation",
+        "rain",
+        "rainfall patterns",
+        "Rothamsted Research",
+        "weather",
+        "weather data"
+    ],
+    "creator": [
+        {
+            "type": "Person",
+            "Name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "contributor": [
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Sarah Perryman",
+            "givenName": "Sarah",
+            "familyName": "Perryman",
+            "sameAs": "https://orcid.org/0000-0002-0056-2754",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCurator",
+            "name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Tony Scott",
+            "givenName": "Tony",
+            "familyName": "Scott",
+            "sameAs": "https://orcid.org/0000-0002-6631-0672",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataCollector",
+            "name": "Chris Hall",
+            "givenName": "Chris",
+            "familyName": "Hall",
+            "sameAs": "",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectManager",
+            "name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "DataManager",
+            "name": "Nathalie Castells",
+            "givenName": "Nathalie",
+            "familyName": "Castells",
+            "sameAs": "https://orcid.org/0000-0003-0168-6254",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "jobTitle": "ProjectLeader",
+            "name": "Richard Ostler",
+            "givenName": "Richard",
+            "familyName": "Ostler",
+            "sameAs": "https://orcid.org/0000-0002-1434-9495",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
+            }
+        }
+    ],
+    "encodingFormat": "xlsx",
+    "copyrightHolder": {
+        "type": "organization",
+        "name": "Electronic Rothamsted Archive, Rothamsted Research"
+    },
+    "license": {
+        "type": "CreativeWork",
+        "name": "Attribution 4.0 International (CC BY 4.0)",
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
+    },
+    "spatialCoverage": {
+        "type": "place",
+        "geo": {
+            "type": "GeoCoordinates",
+            "longitude": -0.360086,
+            "latitude": 51.806757
+        },
+        "name": "Rothamsted Met Station"
+    },
+    "relatedIdentifier": [
+        {
+            "relatedIdentifier": "10.23637/RMMRAIN5318",
+            "relatedIdentifierType": "DOI",
+            "name": "Total Monthly Rainfall at Rothamsted March 1853 - July 2018 ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsNewVersionOf",
+            "rt_id": 13,
+            "relationTypeValue": "is new version of"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-2",
+            "relatedIdentifierType": "DOI",
+            "name": "Yates, F. (1969) The Broadbalk Yields: Investigations into the Effects of Weather ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ERADOC-1-34638",
+            "relatedIdentifierType": "DOI",
+            "name": "Penman, H.L. Rothamsted Weather (Rothamsted Annual Report 1974)",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        },
+        {
+            "relatedIdentifier": "10.23637/ROTHAMSTED-LONG-TERM-EXPERIMENTS-GUIDE-2018",
+            "relatedIdentifierType": "DOI",
+            "name": "Macdonald, A. et al. (2018) Guide to the Classical and Long-Term Experiments ",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDescribedBy",
+            "rt_id": 7,
+            "relationTypeValue": "is described by"
+        }
+    ],
+    "funding": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Total monthly and total annual rainfall (mm) Rothamsted 1853-2023",
+            "URL": "rmsTMRain5323-data-v2.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "95 kilobytes"
+        }
+    ],
+    "image": [
+        {
+            "type": "imageObject",
+            "caption": "Total monthly rainfall at Rothamsted 1853-2023",
+            "URL": "rmsTMRain5323.png",
+            "encodingFormat": "png",
+            "fileSize": "102 kilobytes"
+        }
+    ],
+    "grade": 3,
+    "isReady": 2,
+    "isExternal": 0,
+    "dstype": "Other"
+}

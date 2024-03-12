@@ -1,0 +1,58 @@
+[
+    {
+        "MediaID": 224,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn1/Highfield-2015-750.jpg",
+        "Caption": "Highfield 2015 750",
+        "Type": "metadata",
+        "exptID": "rrn1",
+        "width": 750,
+        "height": 500,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rrn1/Highfield-2015-750.jpg",
+        "isWWW": false,
+        "isReviewed": false
+    },
+    {
+        "MediaID": 319,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn1/Plan-Highfield-Experiments.jpg",
+        "Caption": "Plan Highfield Experiments",
+        "Type": "metadata",
+        "exptID": "rrn1",
+        "width": 985,
+        "height": 740,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rrn1/Plan-Highfield-Experiments.jpg",
+        "isWWW": false,
+        "isReviewed": false
+    },
+    {
+        "MediaID": 526,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn1/Highfield-LTE.jpg",
+        "Caption": "Highfield LTE",
+        "Type": "metadata",
+        "exptID": "rrn1",
+        "width": 750,
+        "height": 1125,
+        "orientation": "portrait",
+        "fileLocation": "metadata/rrn1/Highfield-LTE.jpg",
+        "isWWW": false,
+        "isReviewed": false
+    },
+    {
+        "MediaID": 592,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rrn1/Highfield-aerial-with-blocks.jpg",
+        "Caption": "Highfield aerial photo with blocks pre- and post- 1968 indicated",
+        "Type": "metadata",
+        "exptID": "rrn1",
+        "width": 674,
+        "height": 498,
+        "orientation": "landscape",
+        "fileLocation": "metadata/rrn1/Highfield-aerial-with-blocks.jpg",
+        "isWWW": true,
+        "isReviewed": true
+    }
+]

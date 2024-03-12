@@ -1,0 +1,1555 @@
+{
+  "resources": [
+    {
+      "path": "castor_bean_meal_factor_data.csv",
+      "name": "castor_bean_meal_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "b849022359a8c1b5a1553f59d4f00bf1",
+        "bytes": 847,
+        "fields": 12,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of castor bean meal applied"
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which castor bean meal was applied each year"
+          },
+          {
+            "name": "n_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "N amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of nitrogen which was applied in the castor bean meal application each year"
+          },
+          {
+            "name": "n_amount_unit",
+            "type": "string",
+            "format": "default",
+            "title": "N amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the N in the castor bean meal was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form in which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Castor bean meal  treatment factor level description",
+      "description": "Describes the castor bean meal (previously rape cake) treatment factor levels used until 1988."
+    },
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "343082366ea283c5ebfb146c9bff9c32",
+        "bytes": 2717,
+        "fields": 4,
+        "rows": 8
+      },
+      "encoding": "iso8859-1",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "crop name",
+            "rdfType": "http://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "latin name",
+            "rdfType": "http://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdftype",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the crop types"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the different crop types"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop types description",
+      "description": "Describes the different crops grown on the rotational sections: winter wheat, fallow (no crop), potatoes, forage maize, oats and beans."
+    },
+    {
+      "path": "fym_factor_data.csv",
+      "name": "fym_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "78c41f95d03ae9d129a41ff4647b8567",
+        "bytes": 760,
+        "fields": 10,
+        "rows": 3
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used in this dataset. FYM has been applied to strip 21 since 1885 and to strip 22 since 1843."
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Amount of FYM applied"
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which FYM was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form in which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "FYM treatment factor level description",
+      "description": "Describes the FYM (farmyard manure) treatment factor levels used"
+    },
+    {
+      "path": "k_factor_data.csv",
+      "name": "k_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "3c4866b5a3eb3bd3426a971234b16d58",
+        "bytes": 1572,
+        "fields": 10,
+        "rows": 5
+      },
+      "encoding": "iso8859-1",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic potassium (K) fertilizer which was applied to this crop as a treatment factor. This does not include K in FYM."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the K was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic K fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "K fertilizer treatment factor level descriptions",
+      "description": "Describes the K (potassium) fertilizer treatment factor levels used"
+    },
+    {
+      "path": "mg_factor_data.csv",
+      "name": "mg_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "31162b0011ba53b7d757d8c8dcd0c878",
+        "bytes": 2006,
+        "fields": 10,
+        "rows": 6
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic magnesium (Mg) fertilizer which was applied to this crop as a treatment factor. This does not include Mg in FYM."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the Mg was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic magnesium fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Mg fertilizer treatment factor level descriptions",
+      "description": "Describes the Mg (magnesium) fertilizer treatment factor levels used"
+    },
+    {
+      "path": "n_factor_data.csv",
+      "name": "n_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "b8f75b69d6d07546b170e78de545056e",
+        "bytes": 3430,
+        "fields": 10,
+        "rows": 11
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic nitrogen (N) fertilizer which was applied to this crop as a treatment factor. This does not include N in FYM. Note N was applied in spring in a single application or split application. Timings and amounts of N applied are indicated in the yield_data table in the fields spring1_n_kg/ha, spring1_n_date, spring2_n_kg/ha, spring2_n_date."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the N was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic N fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "N fertilizer treatment factor level descriptions",
+      "description": "Describes the different N (nitrogen) fertilizer  treatment factor levels used. "
+    },
+    {
+      "path": "na_factor_data.csv",
+      "name": "na_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "a85b9a344155a0cf25ea3650e1c0b813",
+        "bytes": 1572,
+        "fields": 10,
+        "rows": 7
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic sodium (Na) fertilizer which was applied to this crop as a treatment factor. This does not include Na in FYM."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the Na was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic Na fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Na fertilizer treatment factor level descriptions",
+      "description": "Describes the Na (sodium) fertilizer treatment factor levels used."
+    },
+    {
+      "path": "notes_data.csv",
+      "name": "notes_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "38a59b14a0e1dc423d84af877b39f599",
+        "bytes": 2026,
+        "fields": 2,
+        "rows": 16
+      },
+      "encoding": "cp1252",
+      "schema": {
+        "fields": [
+          {
+            "name": "notes_id",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Note identification",
+            "description": "Note number"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "http://schema.org/description",
+            "description": "Additional explanatory notes for records in the yield_data table"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "notes_id"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Notes",
+      "description": "Additional explanatory notes for records in the yield_data table"
+    },
+    {
+      "path": "p_factor_data.csv",
+      "name": "p_factor_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "13c11ccae5d6f26455d2434f7f74e7c7",
+        "bytes": 1142,
+        "fields": 10,
+        "rows": 4
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "description",
+            "type": "string",
+            "format": "default",
+            "title": "Description",
+            "rdfType": "https://schema.org/description",
+            "description": "A description of the factor level"
+          },
+          {
+            "name": "factor_level_name",
+            "type": "string",
+            "format": "default",
+            "title": "Factor level name",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000265",
+            "description": "The name for a factor level"
+          },
+          {
+            "name": "years",
+            "type": "string",
+            "format": "default",
+            "title": "Years",
+            "description": "The year range for when the factor level was used"
+          },
+          {
+            "name": "treatment_factor",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment factor",
+            "rdfType": "http://purl.obolibrary.org/obo/NCIT_C164385",
+            "description": "The label for the treatment factor"
+          },
+          {
+            "name": "treatment_factor_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment factor rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor"
+          },
+          {
+            "name": "amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount",
+            "rdfType": "https://schema.org/QuantitativeValue",
+            "description": "Total inorganic phosphorus (P) fertilizer which was applied to this crop as a treatment factor. This does not include P in FYM."
+          },
+          {
+            "name": "amount unit",
+            "type": "string",
+            "format": "default",
+            "title": "Amount unit",
+            "rdfType": "https://schema.org/unitText",
+            "description": "Units in which the P fertilizer was applied each year"
+          },
+          {
+            "name": "frequency",
+            "type": "string",
+            "format": "default",
+            "title": "Frequency",
+            "rdfType": "https://schema.org/repeatFrequency",
+            "description": "The frequency at which the factor level treatment was applied"
+          },
+          {
+            "name": "treatment_form",
+            "type": "string",
+            "format": "default",
+            "title": "Treatment form",
+            "rdfType": "http://purl.obolibrary.org/obo/CHEBI_33287",
+            "description": "The form of inorganic P fertilizer applied"
+          },
+          {
+            "name": "treatment_form_rdfType",
+            "type": "string",
+            "format": "uri",
+            "title": "Treatment form rdfType",
+            "rdfType": "https://schema.org/identifier",
+            "description": "A controlled vocabulary URI for the treatment factor level form"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "factor_level_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "P fertilizer treatment factor level descriptions",
+      "description": "Describes the P (phosphorus) fertilizer treatment factor levels used. Not applied to many plots since 2001 due to high levels of crop-available soil P. "
+    },
+    {
+      "path": "yield_data.csv",
+      "name": "yield_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "57cdcce3a752457c5d8873da88526646",
+        "bytes": 73428,
+        "fields": 37,
+        "rows": 399
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "yyyy",
+            "bareNumber": true,
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested."
+          },
+          {
+            "name": "strip",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "title": "strip",
+            "rdfType": "https://schema.org/name",
+            "description": "Treatment strips which extend the whole length of the field and receive the different fertilizer and manure treatments (1-22). There is no Strip 4. Current Strip 21 also known as 2.1, 2a or 2A, current Strip 22 also known as 2.2, 2b or 2B. Strip 1 (Sections 2-7) was started in 1968."
+          },
+          {
+            "name": "section",
+            "type": "integer",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Section number 1968 onwards",
+            "rdfType": "https://schema.org/name",
+            "description": "Since 1968 the treatment strips have been divided into 10 Sections (0-9) some in in rotation with non-wheat crops (2-5, 7), the others in continuous wheat (0, 1, 6, 8 and 9). Only Sections 2-5 and 7 are shown here. See plans for further details."
+          },
+          {
+            "name": "plot",
+            "type": "string",
+            "format": "default",
+            "title": "plot",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Unique whole plot number, determined by Strip (1-22) and Section (0-9) number"
+          },
+          {
+            "name": "section_1926-67",
+            "type": "string",
+            "format": "default",
+            "title": "section 1926-1967",
+            "rdfType": "https://schema.org/name",
+            "description": "Previous Section name, 1926-1967. Originally five Sections (I-V).  1926-1954, Section I divided into IA and IB in 1955, Section V divided in VA and VB in 1955."
+          },
+          {
+            "name": "fertilizer_code",
+            "type": "string",
+            "format": "default",
+            "title": "fertilizer and manure treatment code",
+            "rdfType": "https://schema.org/name",
+            "description": "Code describing the fertilizer or manure applied in that harvest year"
+          },
+          {
+            "name": "crop",
+            "type": "string",
+            "format": "default",
+            "title": "crop",
+            "rdfType": "https://schema.org/name",
+            "description": "Cropping in this harvest year:  forage maize, sown in the spring of this harvest year. See crop_types_data for more information on the other crops grown on Broadbalk (yield data not shown here)."
+          },
+          {
+            "name": "previous_crop",
+            "type": "string",
+            "format": "default",
+            "title": "previous crop",
+            "rdfType": "https://schema.org/name",
+            "description": "Crop grown in previous harvest year: oats. See crop_types_data for more information."
+          },
+          {
+            "name": "fym_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "FYM factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the farmyard manure (FYM) factor level applied in this harvest year"
+          },
+          {
+            "name": "fym_applied",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "FYM applied",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010008",
+            "description": "Amount of farmyard manure (FYM) applied in this harvest year",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "fym_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date FYM applied",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date farmyard manure (FYM) applied, usually in the autumn",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "castor_meal_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Castor meal factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the castor bean meal factor level applied in this harvest year. No castor bean meal applied to forage maize. Shows plots which received castor meal in the past, indicated as (C)"
+          },
+          {
+            "name": "n_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "N factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the inorganic nitrogen (N) fertilizer factor level applied in this harvest year"
+          },
+          {
+            "name": "n_timing",
+            "type": "string",
+            "format": "default",
+            "title": "Timing of fertilizer N",
+            "rdfType": "https://schema.org/name",
+            "description": "When inorganic nitrogen fertilizer was applied:  The spring N is either applied as a single application in the seedbed (late April or May), or in two applications, in the seedbed and post-emergence (approximately May and June). No N is applied in the autumn to forage maize.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring1_n_kg/ha",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "First spring fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of N in first application of inorganic nitrogen fertilizer applied in the spring to this crop. This does not include N in FYM",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring1_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "First spring fertilizer N date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date first application of inorganic nitrogen fertilizer applied in the spring.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring2_n_kg/ha",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Second spring fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00010009",
+            "description": "Amount of N in second application of inorganic nitrogen fertilizer applied in the spring to this crop. This does not include N in FYM",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "spring2_n_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Second spring fertilizer N date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date second application of inorganic nitrogen fertilizer applied in the spring.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "total_fertilizer_n_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Total inorganic nitrogen fertilizer N amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total inorganic nitrogen fertilizer applied in spring to this crop. This does not include N in FYM.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "p_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "P factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the phosphorous (P) fertilizer factor level applied in this harvest year"
+          },
+          {
+            "name": "p_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "P amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic P fertilizer applied in this harvest year. This does not include P in FYM.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "p_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "P fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic P fertilizer applied in this harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "k_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "K factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the potassium (K) fertilizer factor level applied in this harvest year"
+          },
+          {
+            "name": "k_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "K amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic K fertilizer applied in this harvest year. This does not include K in FYM.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "k_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "K fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic K fertilizer applied in this harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "na_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Na factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the sodium (Na) fertilizer factor level applied in this harvest year"
+          },
+          {
+            "name": "na_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Na amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic Na fertilizer applied in this harvest year. This does not include Na in FYM.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "na_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Na fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic Na fertilizer applied in this harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "mg_factor_level",
+            "type": "string",
+            "format": "default",
+            "title": "Mg factor level",
+            "rdfType": "https://schema.org/name",
+            "description": "Code for the magnesium (Mg) fertilizer factor level applied in this harvest year"
+          },
+          {
+            "name": "mg_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "title": "Mg amount",
+            "rdfType": "http://purl.obolibrary.org/obo/AGRO_00000423",
+            "description": "Total amount of inorganic Mg fertilizer applied in this harvest year. This does not include Mg in FYM.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "mg_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Mg fertilizer application date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_27921",
+            "description": "Date inorganic Mg fertilizer applied in this harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "sow_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Sowing date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_16208",
+            "description": "Date the crop was sown, in the spring of the harvest year.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "harvest_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Harvest date",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_29464",
+            "description": "Date the crop was harvested",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "cultivar",
+            "type": "string",
+            "format": "default",
+            "title": "Cultivar",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_8157",
+            "description": "Crop cultivar or variety"
+          },
+          {
+            "name": "dry_matter_%",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Dry matter %",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_2398",
+            "description": "Percentage dry matter of the whole forage maize crop at harvest",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "yield_100%dm",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Yield at 100% dry matter",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_15adb263",
+            "description": "Harvested whole-crop yield at 100% dry matter, grown as a whole-crop for silage. The whole crop was removed, apart from the stubble. This includes, leaves, stems and immature cobs.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "format": "default",
+            "title": "Note",
+            "description": "Whether notes are applied or not"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "foreignKeys": [
+          {
+            "fields": "fym_factor_level",
+            "reference": {
+              "resource": "fym_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "castor_meal_factor_level",
+            "reference": {
+              "resource": "castor_bean_meal_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "n_factor_level",
+            "reference": {
+              "resource": "n_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "p_factor_level",
+            "reference": {
+              "resource": "p_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "k_factor_level",
+            "reference": {
+              "resource": "k_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "na_factor_level",
+            "reference": {
+              "resource": "na_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "mg_factor_level",
+            "reference": {
+              "resource": "mg_factor_data",
+              "fields": "factor_level_name"
+            }
+          },
+          {
+            "fields": "note",
+            "reference": {
+              "resource": "notes_data",
+              "fields": "note_id"
+            }
+          }
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "crop yield data",
+      "description": "The main data table containing annual forage maize (Zea mays) yield data for all plots, and details of all fertilizer and manure treatments, 1997-2017. Also other agronomic information, including sowing and harvest dates, amount, type and date of application of treatments, and cultivars. Forage maize was grown for whole-crop silage as part of the five year wheat>wheat>wheat>oats>maize rotation on Broadbalk rotational Sections 2-5 and 7, from 1997-2017.  Maize received the same fertilizer applications as wheat. The split N applications were divided into two applications, in seedbed and post-emergence (rather than three). No autumn N was applied on strips 17-18, 1985-2000. In 2013, forage maize yields may have been reduced, due to the accidental application of herbicide to the crop in June/July 2013.  The Broadbalk Wheat Experiment was started in autumn 1843 to investigate the effects of fertilizers containing N, P, K, Na and Mg in various combinations, and organic manure, on the yield of winter wheat grown continuously. The treatment STRIPS (3-22) extend the whole length of the field; each strip tests a different fertilizer or manure treatment. In 1926 the strips were divided into five SECTIONS (I-V), bare fallowed in sequence to control weeds. There were further divisions in 1955 making seven Sections (IA-VB). In 1968 the strips were divided into 10 SECTIONS (0-9) and Strip 1 (Sections 2-7 only) was added.  Each PLOT is a unique strip\\section combination. Sections 0, 1, 8 and 9 remained in continuous winter wheat. In Sections 2-7 wheat was grown rotation with other arable crops (potatoes, beans, oats or forage maize) and fallow. In 1979 Section 6 reverted to continuous wheat. Yields of wheat and the other non-wheat crops are published separately. See notes and Broadbalk section_names.pdf for full details of layout and the cropping plans for details of the different crop rotations.  "
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "10.23637/rbk1-fmyld9717-01",
+  "name": "broadbalk-forage-maize-yields-1997-2017",
+  "title": "Broadbalk forage maize yields 1997-2017",
+  "version": "1.0.0",
+  "keywords": [
+    "Broadbalk long-term experiment",
+    "crop yield",
+    "long term experiments",
+    "Rothamsted Research",
+    "maize"
+  ],
+  "description": "### Abstract\nAnnual forage maize (*Zea mays*) whole-crop yields for each treatment plot of the Broadbalk Experiment, with details of all fertilizer and manure applications. Also other agronomic information, including sowing and harvest dates, and maize cultivars. Forage maize was grown for whole-crop silage as part of the five-year wheat>wheat>wheat>oats>maize rotation on Broadbalk rotational Sections 2-5 and 7, from 1997-2017.  \r\n\r\nIn 2013, forage maize yields may have been reduced, due to the accidental application of herbicide to the crop in June/July 2013.\n### Methods\nThe [Broadbalk Wheat Experiment](experiment/rbk1)  was started in autumn 1843 to investigate the effects of fertilizers containing N, P, K, Na and Mg in various combinations, and organic manure, on the yield of winter wheat grown continuously. The treatment STRIPS extend the whole length of the field; each strip tests a different fertilizer or manure treatment. In 1926 the strips were divided into five SECTIONS (I-V), bare fallowed in sequence to control weeds. There were further divisions in 1955 making seven Sections (IA-VB). Each PLOT is a unique strip\\section combination.  In 1968 the experiment was divided into ten SECTIONS (0-9), to allow the comparison of wheat grown continuously with wheat in a three or five-year rotation. Wheat is grown in rotation with other arable crops (forage maize, beans, potatoes or oats) and fallow in Sections 2-5 and 7. Wheat only is grown in the other sections.  Strip 1 was added in 1968, on Sections 2-7 only.  \r\n\r\nYields from wheat and non-wheat crops are published separately. See section_names.pdf for full details of layout and the cropping plans for details of the different crop rotations.\n### Technical Info\nForage maize yields are shown at 100% dry matter. The percentage dry matter of the crop at harvest is also given, this ranges from 17-41%. The whole crop was cut, apart from the stubble.  \r\nMaize received the same fertilizer applications as wheat. The split N applications were divided into two applications, in seedbed and post-emergence (rather than three). No autumn N was applied on strips 17-18, 1985-2000. \r\n\r\nCurrent strip 21 is also known as 2.1, 2a and 2A; current strip 22 is also known as 2.2, 2b and 2B.\n### Other\nWe thank the many other [Rothamsted staff](info/credits) who have been involved in the production of this data, including farm staff, field recorders, laboratory staff and data recorders, too numerous to mention.\n### Provenance\nWhole-crop yields are from the BKFMAIZE dataset in the e-RA database. Treatment details were taken from the Rothamsted Yield Books, published each year with details of each experiment.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate. Once the data were entered into e-RA, they were independently back-checked against the original data sheets.\n",
+  "contributors": [
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Richard Ostler",
+      "path": "https://orcid.org/0000-0002-1434-9495",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Sarah Perryman",
+      "path": "https://orcid.org/0000-0002-0056-2754",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Suzanne Clark",
+      "path": "https://orcid.org/0000-0002-3684-1253",
+      "organization": "Rothamsted Research"
+    },
+    {
+      "title": "Chris Hall",
+      "organization": "Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

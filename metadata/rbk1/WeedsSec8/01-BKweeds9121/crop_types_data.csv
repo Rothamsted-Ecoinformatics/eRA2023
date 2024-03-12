@@ -1,0 +1,4 @@
+crop_name,latin_name,crop_name_rdftype,description
+winter wheat,triticum aestivum,http://aims.fao.org/aos/agrovoc/c_8412,"Winter wheat, sown in the autumn/winter, except in 2015 and 2020 when spring wheat was sown, as wet conditions in the autumn/winter prevented the sowing of winter wheat. "
+spring wheat,triticum aestivum,http://aims.fao.org/aos/agrovoc/c_7337,"Spring wheat, sown in the spring of 2015 and 2020, instead of the usual winter wheat, as wet conditions in the autumn/winter prevented the sowing of the usual winter wheat variety"
+fallow,-,http://aims.fao.org/aos/agrovoc/c_34007,"Bare fallow, no crop, used to control weeds on Section 8 (no herbicides applied) when necessary. Received FYM, castor meal and PKNaMg fertilizers but no fertilizer N. "

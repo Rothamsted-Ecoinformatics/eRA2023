@@ -1,0 +1,241 @@
+{
+  "resources": [
+    {
+      "path": "chalk_data.csv",
+      "name": "chalk_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "7dbf44a54c8c8e8324abb77a40be51c1",
+        "bytes": 404898,
+        "fields": 9,
+        "rows": 6338
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "harvest_year",
+            "type": "year",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Year in which crop harvested",
+            "rdfType": "https://schema.org/Date",
+            "description": "Year in which the crop was harvested. It will generally have been sown the previous year."
+          },
+          {
+            "name": "strip",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Fertilizer strip",
+            "description": "Treatment strip, which runs the whole length of the experiment and crosses all the Sections. Each strip receives a different fertilizer or manure treatment. There are 20 different strips, numbered 01-22."
+          },
+          {
+            "name": "old_section",
+            "type": "string",
+            "format": "default",
+            "title": "Old Section number",
+            "description": "Old Section number. In 1926 the experiment was divided into five Sections (I - V), which crossed the different strips. Wheat was grown in a 5 year rotation with one year fallow, in sequence across the five Sections. In 1955 Section I was divided into Ia and Ib and Section V was divided into Va and Vb. Vb received lime in 1955. In 1968 the original five Sections (I-V) were divided into 10 new Sections (0-9)."
+          },
+          {
+            "name": "section",
+            "type": "string",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Current section number",
+            "description": "Current cropping section number, 0-9, since 1968. The Sections are either in continuous wheat (Sections 0, 1, 6, 8 and 9) or wheat in rotation with other arable crops (Sections 2-5 and 7)."
+          },
+          {
+            "name": "plot_(strip_and_section)",
+            "type": "string",
+            "format": "default",
+            "title": "plot number",
+            "rdfType": "http://purl.obolibrary.org/obo/STATO_0000447",
+            "description": "Each plot is a unique strip and section number, eg 125"
+          },
+          {
+            "name": "fertilizer_code",
+            "type": "string",
+            "format": "default",
+            "title": "fertilizer and manure treatment code",
+            "rdfType": "https://schema.org/name",
+            "description": "Code describing the fertilizer or manure applied in that harvest year"
+          },
+          {
+            "name": "crop",
+            "type": "string",
+            "format": "default",
+            "title": "crop",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_1972",
+            "description": "Crop grown in that harvest year. Usually sown after the chalk was applied. Chalk generally not applied to section in fallow, except in 1968."
+          },
+          {
+            "name": "chalk_date",
+            "type": "date",
+            "format": "dd/mm/yyyy",
+            "title": "Date of chalk application",
+            "rdfType": "https://schema.org/Date",
+            "description": "Date the chalk (lime) was applied, generally in the autumn before ploughing.",
+            "missingValues": [
+              "*"
+            ]
+          },
+          {
+            "name": "chalk_amount",
+            "type": "number",
+            "format": "default",
+            "bareNumber": true,
+            "decimalChar": ".",
+            "groupChar": "",
+            "title": "Amount of chalk applied",
+            "rdfType": "http://aims.fao.org/aos/agrovoc/c_36454",
+            "description": "The amount of ground chalk (lime) applied. Chalk was not usually applied to Sections in fallow that year, unless stated.",
+            "missingValues": [
+              "*"
+            ]
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "chalk application data",
+      "description": "The main data table containing details of the chalk (lime) applications  (t ha-1 CaCO3). Chalk was first applied in 1955. A regular scheme was introduced in 1956 and revised in 1976. The aim was to maintain soil pH above 7.5 and minimize the range of pH values within each section. No chalk was required 1993-2007. As in earlier years, differential chalk applications were made to selected plots in 2008, 2014 and 2019, the amount applied depending on the soil pH. Years when chalk was not applied are not included. "
+    },
+    {
+      "path": "crop_types_data.csv",
+      "name": "crop_types_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "stats": {
+        "hash": "4a363eab1603318664b5bccfffdea545",
+        "bytes": 485,
+        "fields": 3,
+        "rows": 7
+      },
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "crop_name",
+            "type": "string",
+            "format": "default",
+            "title": "Crop name",
+            "rdfType": "http://schema.org/name",
+            "description": "English name of crop type"
+          },
+          {
+            "name": "latin_name",
+            "type": "string",
+            "format": "default",
+            "title": "Latin name",
+            "rdfType": "http://schema.org/name",
+            "description": "Latin botanical name of crop type"
+          },
+          {
+            "name": "crop_name_rdftype",
+            "type": "string",
+            "format": "uri",
+            "title": "Crop name rdfType",
+            "rdfType": "https://schema.org/identifier"
+          }
+        ],
+        "missingValues": [
+          ""
+        ],
+        "primaryKey": "crop_name"
+      },
+      "innerpath": "",
+      "compression": "",
+      "control": {},
+      "dialect": {
+        "delimiter": ",",
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "doubleQuote": true,
+        "skipInitialSpace": false
+      },
+      "layout": {
+        "header": true,
+        "headerRows": [
+          1
+        ],
+        "headerJoin": " ",
+        "headerCase": true
+      },
+      "title": "Crop types",
+      "description": "List of crops grown with Latin names and AGROVOC concepts."
+    }
+  ],
+  "profile": "tabular-data-package",
+  "id": "10.23637/rbk1-chalk-01",
+  "name": "broadbalk-wheat-experiment-chalk-applications",
+  "title": "Broadbalk Wheat Experiment Chalk Applications",
+  "version": "1.0.0",
+  "keywords": [
+    "Broadbalk long-term experiment",
+    "Rothamsted Research",
+    "liming",
+    "arable soils",
+    "wheat"
+  ],
+  "description": "### Abstract\nDetails of the routine chalk (lime) applications to the Broadbalk Wheat Experiment, first applied in 1955. A regular scheme was introduced in 1956 and revised in 1976. The aim was to maintain soil pH above 7.5 and minimize the range of pH values within each Section. No chalk was required 1993-2007. As in earlier years, differential chalk applications were made to selected plots in 2008, 2014 and 2019, the amount applied depending on the soil pH.\n### Technical Info\nChalk application as tonnes CaCO<sub>3</sub> per hectare\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. Data checked by Andy Macdonald, Paul Poulton and Andy Gregory.\n",
+  "contributors": [
+    {
+      "title": "Margaret Glendining",
+      "path": "https://orcid.org/0000-0002-6466-4629",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Andy Gregory",
+      "path": "https://orcid.org/0000-0001-7123-0784",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Paul Poulton",
+      "path": "https://orcid.org/0000-0002-5720-064X",
+      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+    },
+    {
+      "title": "Nathalie Castells-Brooke",
+      "path": "https://orcid.org/0000-0003-0168-6254",
+      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ]
+}

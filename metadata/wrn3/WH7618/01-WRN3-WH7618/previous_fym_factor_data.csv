@@ -1,0 +1,3 @@
+description,factor_level_name,years,treatment_factor,treatment_factor_rdfType,amount,amount unit,frequency,treatment_form,treatment_form_rdfType
+Factor level shows previous FYM treatment (1956-1967) applied to split-plots,nil,1956-1967,FYM exposure,,0,,,,
+Factor level shows previous FYM treatment (1956-1967) applied to split-plots,FYM,1956-1967,FYM exposure,http://purl.obolibrary.org/obo/AGRO_00000076,35,t FYM ha-1,annual,farmyard manure from cattle,http://aims.fao.org/aos/agrovoc/c_2810

@@ -1,0 +1,3 @@
+mediaID,Credit,fileLocation,URL,Caption,Type,extension,Description,width,height,orientation,exptID,forWWW,isReviewed,isGalleries
+,eRA curators,metadata/rms/2011-new-thousand-acre-gauge-23-03-2011.jpg, http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rms/2011-new-thousand-acre-gauge-23-03-2011.jpg,2011 new thousand acre gauge 23 03 2011,Other,jpg, ,750,563,Landscape,rms,0,0,0
+,eRA curators,metadata/rms/stevenson2.jpg, http://local-info.rothamsted.ac.uk/eRA/era2018-new/images/metadata/rms/stevenson2.jpg,stevenson2,Other,jpg, ,750,1157,Portrait,rms,0,0,0

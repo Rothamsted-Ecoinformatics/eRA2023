@@ -1,0 +1,503 @@
+{
+    "id": 7129,
+    "experiment_type_term": null,
+    "experiment_id": 408,
+    "people": [
+        {
+            "id": 8696,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "margaret.glendining@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "data manager",
+            "title": "Dr",
+            "name": "Margaret Glendining",
+            "affiliation": "Rothamsted Research",
+            "department": "West Common, Harpenden, Hertfordshire, AL5 2JQ, United Kingdom",
+            "orcid": "https://orcid.org/0000-0002-6466-4629",
+            "is_contact": true,
+            "role_label": "data manager"
+        },
+        {
+            "id": 8697,
+            "contacts": [
+                {
+                    "contact_type": "Email",
+                    "value": "andy.gregory@rothamsted.ac.uk"
+                }
+            ],
+            "role_term": "principal investigator",
+            "title": "Dr",
+            "name": "Andrew Gregory",
+            "affiliation": "Rothamsted Research",
+            "department": "Rothamsted Long-Term Experiments \u2013 National Bioscience Research Infrastructure",
+            "orcid": "https://orcid.org/0000-0001-7123-0784",
+            "is_contact": false,
+            "role_label": "principal investigator"
+        }
+    ],
+    "organizations": [
+        {
+            "id": 7887,
+            "contacts": [],
+            "role_term": "experimental research station",
+            "name": "Rothamsted Research",
+            "name_uri": null,
+            "abbreviation": "RES",
+            "role_label": "experimental research station"
+        }
+    ],
+    "periods": [
+        {
+            "id": 9559,
+            "design_type_term": null,
+            "crops": [
+                {
+                    "id": 25676,
+                    "crop_term": "spring barley",
+                    "crop_label": "spring barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 25677,
+                    "crop_term": "potatoes",
+                    "crop_label": "potatoes",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 25678,
+                    "crop_term": "winter wheat",
+                    "crop_label": "winter wheat",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 25679,
+                    "crop_term": "winter barley",
+                    "crop_label": "winter barley",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 25680,
+                    "crop_term": "sugar beet",
+                    "crop_label": "sugar beet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 25681,
+                    "crop_term": null,
+                    "crop_label": "fodder beet",
+                    "start_year": null,
+                    "end_year": null
+                },
+                {
+                    "id": 25682,
+                    "crop_term": "fallow",
+                    "crop_label": "fallow",
+                    "start_year": null,
+                    "end_year": null
+                }
+            ],
+            "rotations": [],
+            "factors": [
+                {
+                    "id": 14891,
+                    "factor_term": null,
+                    "levels": [
+                        {
+                            "id": 36016,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "U: up and down the slope",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": 1988,
+                            "end_year": 1998,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Annual",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 36017,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "A: across the slope",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": 1988,
+                            "end_year": 1998,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Annual",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "Cultivation direction",
+                    "description": "Two cultivation directions.",
+                    "plot_application": null,
+                    "effect": ""
+                },
+                {
+                    "id": 14892,
+                    "factor_term": null,
+                    "levels": [
+                        {
+                            "id": 36018,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "M: minimum tillage, cereal straw and potato and beet tops retained, partially incorporated, cultivated to 10cm deep.",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": 1988,
+                            "end_year": 1998,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Annual",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        },
+                        {
+                            "id": 36019,
+                            "factor_variant_term": null,
+                            "factor_variant_label": "S: standard practice, cereal straw baled and removed, potato and beet tops raked and removed. Mouldboard ploughed .",
+                            "amount": null,
+                            "amount_unit_term": null,
+                            "amount_unit_label": null,
+                            "start_year": 1988,
+                            "end_year": 1998,
+                            "crop_id": null,
+                            "all_crops": false,
+                            "note": null,
+                            "application_frequency": "Annual",
+                            "application_method_term": null,
+                            "application_method_label": null,
+                            "chemical_form_term": null,
+                            "chemical_form_label": null
+                        }
+                    ],
+                    "factor_label": "Tillage type",
+                    "description": "Two types of tillage.",
+                    "plot_application": null,
+                    "effect": ""
+                }
+            ],
+            "factor_combinations": [],
+            "measurements": [
+                {
+                    "material": "AllCrops",
+                    "crop_id": null,
+                    "comment": null,
+                    "collection_frequency": "Annual",
+                    "variable_label": "yield trait",
+                    "variable_term": "yield trait",
+                    "unit_label": "tonnes per hectare",
+                    "unit_term": "t/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Water and soil flowing from each plot were chanelled to a collecting trough and through a pipe to two 2000litre storage tanks were they were stored until sampled. The amounts of runoff and soil loss from each plot were measured as soon after each runoff event as practically possible and usually within 48 hours.",
+                    "collection_frequency": null,
+                    "variable_label": "water flow from plot",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Water and soil flowing from each plot were chanelled to a collecting trough and through a pipe to two 2000litre storage tanks were they were stored until sampled. The amounts of runoff and soil loss from each plot were measured as soon after each runoff event as practically possible and usually within 48 hours.",
+                    "collection_frequency": null,
+                    "variable_label": "soil loss from each plot",
+                    "variable_term": null,
+                    "unit_label": "kilogram per hectare",
+                    "unit_term": "kg/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Total P in sediment sampled determined by ICP after aqua regia digest.",
+                    "collection_frequency": null,
+                    "variable_label": "total soil phosphorous",
+                    "variable_term": "total soil phosphorous",
+                    "unit_label": "kg phosphorous per hectare",
+                    "unit_term": "kgP/ha",
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "Molybdate reactive P (MRP) in drainwater and runoff was determined following the method of Murphy and Riley (1962) following filtration using an Alpkem segmented flow colorimetic analyser.",
+                    "collection_frequency": null,
+                    "variable_label": "MRP",
+                    "variable_term": null,
+                    "unit_label": null,
+                    "unit_term": null,
+                    "scale": null
+                },
+                {
+                    "material": null,
+                    "crop_id": null,
+                    "comment": "total nitrogen lost in sediment",
+                    "collection_frequency": null,
+                    "variable_label": "total soil nitrogen",
+                    "variable_term": null,
+                    "unit_label": "kg nitrogen per hectare",
+                    "unit_term": "kgN/ha",
+                    "scale": null
+                },
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": "total potassium lost in sediment",
+                    "collection_frequency": null,
+                    "variable_label": "total soil potassium",
+                    "variable_term": null,
+                    "unit_label": "kg potassium per hectare",
+                    "unit_term": "kgK/ha",
+                    "scale": null
+                },
+                {
+                    "material": "Soil",
+                    "crop_id": null,
+                    "comment": "changes in soil carbon content in soil and soil carbon lost in sediment",
+                    "collection_frequency": null,
+                    "variable_label": "soil total carbon",
+                    "variable_term": "soil total carbon",
+                    "unit_label": "Percent",
+                    "unit_term": "%",
+                    "scale": null
+                }
+            ],
+            "start_year": 1988,
+            "end_year": 1998,
+            "ongoing": false,
+            "name": "Main period",
+            "design_type_label": null,
+            "number_of_blocks": null,
+            "number_of_plots": 8,
+            "number_of_subplots": null,
+            "number_of_replicates": 2,
+            "number_of_factor_combinations": null,
+            "number_of_harvests_per_year": 1,
+            "design_description": "2x2 factorial, two blocks.  Two directions of cultivation (cultivated and drilled parallel to the contour v  up and down the slope). Two types of cultivation (standard cultivation, residue removed v minimal tillage, residues retained). The two blocks had slightly different cropping histories before the experiment began. Standard cultivation was by moldboard plough to approximately 25cm depth. Minimal tillage was by shallow tines or discs to 10cm depth.",
+            "description": "Eight plots approximately 24 x 36m (0.086 ha), bounded by grassed earth bunds 1m wide and 30cm high. The bunds prevent runoff and eroded soil from leaving the plot sides, so that they are conducted towards collector tanks at the foot of each plot.",
+            "factorial": true
+        }
+    ],
+    "data_statement_term": "Available online with registration",
+    "data_license_term": "CC BY",
+    "site_type_term": "research station field",
+    "site_perimeter": [],
+    "site_soil_type_term": "arenosol",
+    "site_soil_properties": [
+        {
+            "id": 12184,
+            "variable_term": null,
+            "unit_term": null,
+            "variable_label": "Coarse sand content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": true,
+            "reference_year": null,
+            "typical_value": 1.7,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "%"
+        },
+        {
+            "id": 12185,
+            "variable_term": null,
+            "unit_term": null,
+            "variable_label": "Medium sand content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": true,
+            "reference_year": null,
+            "typical_value": 44.9,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "%"
+        },
+        {
+            "id": 12186,
+            "variable_term": null,
+            "unit_term": null,
+            "variable_label": "Fine sand content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": true,
+            "reference_year": null,
+            "typical_value": 36.3,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "%"
+        },
+        {
+            "id": 12187,
+            "variable_term": null,
+            "unit_term": null,
+            "variable_label": "Silt content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": true,
+            "reference_year": null,
+            "typical_value": 9.7,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "%"
+        },
+        {
+            "id": 12188,
+            "variable_term": null,
+            "unit_term": null,
+            "variable_label": "Clay content",
+            "min_depth": null,
+            "max_depth": null,
+            "depth_unit": null,
+            "is_estimated": false,
+            "is_baseline": true,
+            "reference_year": null,
+            "typical_value": 5.9,
+            "max_value": null,
+            "min_value": null,
+            "unit_label": "%"
+        }
+    ],
+    "site_climatic_type_term": null,
+    "site_climate_properties": [
+        {
+            "id": 6132,
+            "variable_term": "precipitation",
+            "unit_term": null,
+            "variable_label": "precipitation",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 652.0,
+            "max_value": 870.3,
+            "min_value": 460.5,
+            "unit_label": "mm"
+        },
+        {
+            "id": 6133,
+            "variable_term": "air temperature",
+            "unit_term": "degC",
+            "variable_label": "air temperature",
+            "year_from": 1981,
+            "year_to": 2010,
+            "mean_value": 9.9,
+            "max_value": 10.9,
+            "min_value": 8.7,
+            "unit_label": "degree Celsius"
+        }
+    ],
+    "literature": [
+        {
+            "doi": "https://doi.org/10.1111/j.1475-2743.1998.tb00636.x",
+            "title": "Phosphorus losses from arable land in England. Catt et al, 1998",
+            "language": null
+        },
+        {
+            "doi": "https://doi.org/10.1111/j.1475-2743.2004.tb00379.x",
+            "title": "The effects of minimal tillage and contour cultivation on surface runoff, soil loss and crop yield in the long-term Woburn Erosion Reference Experiment. Quinton and Catt, 2004.",
+            "language": null
+        },
+        {
+            "doi": "https://doi.org/10.1016/j.agee.2005.07.005",
+            "title": "Soil carbon losses by water erosion: Experimentation and modelling at field and national scales in the UK. Quinton et al, 2006",
+            "language": null
+        },
+        {
+            "doi": "https://doi.org/10.2134/jeq2001.302538x",
+            "title": "The selective removal of P from soil: Is event size important? Quinton et al, 2021",
+            "language": null
+        },
+        {
+            "doi": "https://doi.org/10.23637/ws-soil-maps-01",
+            "title": "Woburn Experimental Farm Soil and Field Maps. Watts et al, 2017",
+            "language": null
+        },
+        {
+            "doi": "https://doi.org/10.1021/es062147h",
+            "title": "Enrichment of Heavy Metals in Sediment Resulting from Soil Erosion on Agricultural Fields. Quinton et al, 2007",
+            "language": null
+        },
+        {
+            "doi": "https://doi.org/10.23637/wrn20-yield-01",
+            "title": "Woburn Erosion Reference Experiment crop yields. Glendining et al, 2024",
+            "language": null
+        }
+    ],
+    "saved_time": "2024-02-01T14:34:37.912246Z",
+    "name": "Woburn Erosion Reference Experiment",
+    "local_identifier": "W/RN/20",
+    "experiment_type_label": null,
+    "url": null,
+    "start_year": 1988,
+    "end_year": 1998,
+    "ongoing": false,
+    "establishment_period_end": null,
+    "objective": "To assess the effects of minimal tillage and contour cultivation on soil erosion, surface runoff, soil loss and crop yield on a sandy soil at Woburn, England",
+    "description": "Eight plots situated on a slope of about 5 degrees, (7-13%), each separated by a grass bank. The eroded soil and runoff were collected in tanks at the end of each plot after recent erosion. Four plots were cultivated and drilled parallel to the contour, and four up and down the slope. All plots grew the same crops each year, in a rotation typical of the sand soil of Bedfordshire. Four plots received standard cultivation and four minimal tillage.",
+    "site_name": "Woburn Erosion Reference Experiment",
+    "site_local_code": "W/RN/20",
+    "site_geonames_id": null,
+    "site_doi": null,
+    "site_type_label": "research station field",
+    "site_locality": "Great Hill II/III, Woburn Experimental Farm, Husborne Crawley",
+    "site_region": "Bedfordshire",
+    "site_country": "UK",
+    "site_centroid_latitude": 52.013584,
+    "site_centroid_longitude": -0.602016,
+    "site_elevation": null,
+    "site_elevation_unit": null,
+    "site_slope": 5.0,
+    "site_slope_aspect": null,
+    "site_visits_allowed": false,
+    "site_visiting_arrangements": "None",
+    "site_history": "Arable field, subject to periodic erosion since at least 1950 (Catt, 1996). Field site managed as an experimental farm since 1875. The two blocks had slightly different cropping histories before the experiment began (see Quinton et al, 2006, Table 2).",
+    "site_management": "Conventional management for non-treatment factors.",
+    "site_soil_type_label": "arenosol",
+    "site_soil_description": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998).",
+    "site_climatic_type_label": "temperate oceanic climate",
+    "site_climate_description": null,
+    "data_statement_label": "Available online with registration",
+    "data_url": null,
+    "data_policy_status": "YesOffline",
+    "data_policy_url": null,
+    "data_license_label": "CC BY",
+    "data_contact": null,
+    "farm_operations_data": false,
+    "sample_archive": false,
+    "samples_available": false,
+    "data_access_statement": null
+}
