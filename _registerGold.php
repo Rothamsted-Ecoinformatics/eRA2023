@@ -22,41 +22,56 @@ if ($vprocess == "RGprocess") {
 <p> 
 
 <?php
-    $strRecorded = "<p>This is the information that has been recorded.</p>";
+    $strRecorded = "<p>This is the information that has been recorded in our database.</p>";
 
     $strRecorded .= "<ul>";
-    $strRecorded .= "\n\t<li><b>Name : </b> $RGfname $RGlname </li>";
+    $strRecorded .= "\n\t<li><b>Name: </b> $RGfname $RGlname </li>";
     
-    $strRecorded .= "\n\t<li><b>Email : </b> $RGposition </li>";
-    $strRecorded .= "\n\t<li><b>How did you hear about e-RA : </b> $RGrefer - $vRGreferOtherText </li>";
-    $strRecorded .= "\n\t<li><b>Sector : </b> $strSector</li>";
-    $strRecorded .= "\n\t<li><b>Institution : </b> $RGinstitution </li>";
-    $strRecorded .= "\n\t<li><b>Country : </b> $RGcountry </li>";
+    $strRecorded .= "\n\t<li><b>Email: </b> $RGposition </li>";
+    $strRecorded .= "\n\t<li><b>How did you hear about e-RA: </b> $RGrefer - $vRGreferOtherText </li>";
+    $strRecorded .= "\n\t<li><b>Sector: </b> $strSector</li>";
+    $strRecorded .= "\n\t<li><b>Institution: </b> $RGinstitution </li>";
+    $strRecorded .= "\n\t<li><b>Country: </b> $RGcountry </li>";
 
-    $strRecorded .= "\n\t<li><b>Student : </b> $strStudent</li>";
+    $strRecorded .= "\n\t<li><b>Student: </b> $strStudent</li>";
     if ($RGsupEmail) {
-        $strRecorded .= "\n\t<li><b>Supervisor Email : </b> $RGsupEmail</li>";
+        $strRecorded .= "\n\t<li><b>Supervisor Email: </b> $RGsupEmail</li>";
     }
     if ($RGsupName) {
-        $strRecorded .= "\n\t<li><b>Supervisor Name : </b> $RGsupName</li>";
+        $strRecorded .= "\n\t<li><b>Supervisor Name: </b> $RGsupName</li>";
     }
     if ($RGrothColls) {
-        $strRecorded .= "\n\t<li><b>Collaborators at Rothamsted : </b> $RGrothColls</li>";
+        $strRecorded .= "\n\t<li><b>Collaborators at Rothamsted: </b> $RGrothColls</li>";
     }
     if ($RGfunding) {
-        $strRecorded .= "\n\t<li><b>Funding source : </b> $RGfunding</li>";
+        $strRecorded .= "\n\t<li><b>Funding source: </b> $RGfunding</li>";
     }
     if ($RGISPG) {
-        $strRecorded .= "\n\t<li><b>ISPG : </b> $RGISPG</li>";
+        $strRecorded .= "\n\t<li><b>ISPG: </b> $RGISPG</li>";
     }
 
-    $strRecorded .= "\n\t<li><b>Are you happy to receive occasional emails?  </b>  $strAllowEmails</li>";
-    $strRecorded .= "\n\t<li><b>Data request reason : </b> $RGur_Q1</li>";
+    $strRecorded .= "\n\t<li><b>Are you happy to receive occasional emails? </b>  $strAllowEmails</li>";
+    $strRecorded .= "\n\t<li><b>Data request reason: </b> $RGur_Q1</li>";
 
-    $strRecorded .= "\n\t<li><b>Datasets requested (shortnames) : </b> $ur_ltes</li>";
-    $strRecorded .= "\n\t<li><b>More Specifications : </b> $RGur_Q2</li>";
+    $strRecorded .= "\n\t<li><b>Datasets requested (shortnames): </b> $ur_ltes</li>";
+    $strRecorded .= "\n\t<li><b>More Specifications: </b> $RGur_Q2</li>";
 
     $strRecorded .= "</ul>";
+	$strRecorded .= "<p> <b>The information collected here  is  used to:</b></p><ul>
+	<li>	Assist you specifically - answering your question to the professional level you expect</li>
+	<li>	Set up username and password to e-RAdata if appropriate</li>
+	<li>	Ensure proper usage and citation of the material </li>
+	<li>	Report to our funders</li>
+	</ul>
+
+	<p> <b>You have the right to: </b></p>
+	<ul>
+	<li> Request this information to be updated, forwarded, or deleted</li>
+	<li> Deletion of some of the information we hold may mark the termination of our collaboration</li>
+	</ul>
+	<p>We do not sell or rent your information to other organisations.</p>
+
+	<p>Please refer to our extended <a href=\"info/privacy\">privacy policy</a> </p>";
 
     echo $strRecorded;
 
@@ -69,8 +84,7 @@ if ($vprocess == "RGprocess") {
 ";
     $message .= "<p>Dear " . $RGfname . "</p>";
     $message .= $strRecorded;
-    $message .= "<p>Please refer to our privacy policy</p>
-	<p>A member of our team will contact you shortly. Please reply to this email for correspondence. </p>";
+    $message .= "<p>Please reply to this email for correspondence. </p>";
     $message .= "</body></html>";
 
     // Always set content-type when sending HTML email
