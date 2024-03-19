@@ -28,12 +28,14 @@ if ($vprocess == "RGprocess") {
     $strRecorded .= "\n\t<li><b>Name: </b> $RGfname $RGlname </li>";
     
     $strRecorded .= "\n\t<li><b>Email: </b> $RGposition </li>";
-    $strRecorded .= "\n\t<li><b>How did you hear about e-RA: </b> $RGrefer - $vRGreferOtherText </li>";
+    $strRecorded .= "\n\t<li><b>How did you hear about e-RA: </b> ".$strRGrefer[$RGrefer]. "- ".$vRGreferOtherText." </li>";
     $strRecorded .= "\n\t<li><b>Sector: </b> $strSector</li>";
     $strRecorded .= "\n\t<li><b>Institution: </b> $RGinstitution </li>";
     $strRecorded .= "\n\t<li><b>Country: </b> $RGcountry </li>";
-
-    $strRecorded .= "\n\t<li><b>Student: </b> $strStudent</li>";
+	if ($RGisStudent) {
+		$strRecorded .= "\n\t<li><b>Student: </b> $strStudent</li>";
+    }
+    
     if ($RGsupEmail) {
         $strRecorded .= "\n\t<li><b>Supervisor Email: </b> $RGsupEmail</li>";
     }
@@ -71,7 +73,7 @@ if ($vprocess == "RGprocess") {
 	</ul>
 	<p>We do not sell or rent your information to other organisations.</p>
 
-	<p>Please refer to our extended <a href=\"info/privacy\">privacy policy</a> </p>";
+	<p>Please refer to our extended <a href=\"https://www.era.rothamsted.ac.uk/info/privacy\">privacy policy</a> </p>";
 
     echo $strRecorded;
 
@@ -84,7 +86,7 @@ if ($vprocess == "RGprocess") {
 ";
     $message .= "<p>Dear " . $RGfname . "</p>";
     $message .= $strRecorded;
-    $message .= "<p>Please reply to this email for correspondence. </p>";
+    $message .= "<p>Please reply to this email for correspondence, quoting this request's reference: <b>". $ur_insertID. "</b></p>";
     $message .= "</body></html>";
 
     // Always set content-type when sending HTML email
@@ -97,10 +99,7 @@ if ($vprocess == "RGprocess") {
     $to = $RGposition;
     $subject = "Data Request for ".$RGfname. " " . $RGlname ."- ". $ur_insertID;
     $response = "
-	<p>You have the right to request for this information to be modified or deleted, although deletion of some information could encure the cessation of our service to you</p>
-	<p>We do not pass on any personal data to third parties</p>
-
-An email has  been sent to <span class=\"badge badge-success\">" . $RGposition . "</span> to confirm your request. ";
+		An email has  been sent to <span class=\"badge badge-success\">" . $RGposition . "</span> to confirm your request. ";
     // echo ($to . $subject. $message. $headers);
     if (mail($to, $subject, $message, $headers)) {
 
