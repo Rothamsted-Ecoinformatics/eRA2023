@@ -9,7 +9,7 @@
         {
             "inLanguage": null,
             "descriptionType": "Abstract",
-            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Archived topsoil samples from six years between 1964 and 1989 were re-analysed in 2019 for a range of soil exchangeable cations, by extraction with ammonium nitrate. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997. \r\n\r\nThis work was partially funded by the BBSRC through the Soil to Nutrition programme BBS/E/C/00010310. "
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Archived topsoil samples from six years between 1964 and 1989 were re-analysed in 2019 for a range of soil exchangeable cations, by extraction with ammonium nitrate. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997.  \r\n\r\nThis dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310). "
         },
         {
             "inLanguage": null,
@@ -402,35 +402,9 @@
     "funding": [
         {
             "type": "Grant",
-            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
-            "alternateName": "BBS/E/C/00005189",
-            "url": "https://tinyurl.com/grant000005189",
-            "description": null,
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
             "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
             "alternateName": "BBS/E/C/000J0300",
             "url": "https://tinyurl.com/grant000J0300",
-            "description": null,
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
-            "name": "ISP - S2N - Soil to Nutrition programme (2017-2022)",
-            "alternateName": "BBS/E/C/00010310",
-            "url": "http://tinyurl.com/grant00010310",
             "description": null,
             "disambiguatingDescription": null,
             "funder": {
@@ -450,6 +424,32 @@
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
                 "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - S2N - Soil to Nutrition programme (2017-2022)",
+            "alternateName": "BBS/E/C/00010310",
+            "url": "http://tinyurl.com/grant00010310",
+            "description": null,
+            "disambiguatingDescription": "BBS/E/C/00010310 (WP1)",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "LAT Institute Director's Grant",
+            "alternateName": "N/A",
+            "url": null,
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Lawes Agricultural Trust",
+                "url": "https://ror.org/0347fy350"
             }
         }
     ],

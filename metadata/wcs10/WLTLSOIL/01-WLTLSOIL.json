@@ -9,7 +9,7 @@
         {
             "inLanguage": null,
             "descriptionType": "Abstract",
-            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method) on soil sampled several times between 1962 and 1996.  There was also a baseline sampling before the experiment was established. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997. "
+            "description": "The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method) on soil sampled several times between 1962 and 1996.  There was also a baseline sampling before the experiment was established. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997.  \r\n\r\nThis dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310). "
         },
         {
             "inLanguage": null,
@@ -525,6 +525,32 @@
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
                 "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - S2N - Soil to Nutrition programme (2017-2022)",
+            "alternateName": "BBS/E/C/00010310",
+            "url": "http://tinyurl.com/grant00010310",
+            "description": null,
+            "disambiguatingDescription": "BBS/E/C/00010310 (WP1)",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "LAT Institute Director's Grant",
+            "alternateName": "N/A",
+            "url": null,
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Lawes Agricultural Trust",
+                "url": "https://ror.org/0347fy350"
             }
         }
     ],

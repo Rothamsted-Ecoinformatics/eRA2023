@@ -9,7 +9,7 @@
         {
             "inLanguage": null,
             "descriptionType": "Abstract",
-            "description": "Annual arable crop yields for each plot of the Woburn Erosion Reference Experiment, 1988-1998. Also potato % ware, sugar beet % sugar, and other sugar beet yield components. Also annual fertilizer applications. There were eight plots, in a 2x2 factorial, with two blocks. Treatments were two directions of cultivation (cultivated and drilled parallel to the contour v up and down the slope) and two types of cultivation (standard cultivation, residue removed v minimal tillage, residues retained). All plots grew the same crops each year, in a rotation typical of the sandy soils of Bedfordshire.  \r\n\r\nWe acknowledge support from the Growing Health (BB/X010953/1) and Resilient Farming Futures (BB/X010961/1) Institute Strategic Programmes. "
+            "description": "Annual arable crop yields for each plot of the Woburn Erosion Reference Experiment, 1988-1998. Also potato % ware, sugar beet % sugar, and other sugar beet yield components. Also annual fertilizer applications. There were eight plots, in a 2x2 factorial, with two blocks. Treatments were two directions of cultivation (cultivated and drilled parallel to the contour v up and down the slope) and two types of cultivation (standard cultivation, residue removed v minimal tillage, residues retained). All plots grew the same crops each year, in a rotation typical of the sandy soils of Bedfordshire. "
         },
         {
             "inLanguage": null,
@@ -283,19 +283,6 @@
     "funding": [
         {
             "type": "Grant",
-            "name": "ISP - GH - Growing Health",
-            "alternateName": "BB/X010953/1",
-            "url": null,
-            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Growing Health (BB/X010953/1) Institute Strategic Programme ",
-            "disambiguatingDescription": "WPackage information",
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
             "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
@@ -305,6 +292,58 @@
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
                 "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - GH - Growing Health",
+            "alternateName": "BB/X010953/1",
+            "url": null,
+            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Growing Health (BB/X010953/1) Institute Strategic Programme ",
+            "disambiguatingDescription": "BBS/E/RH/230003A (WP1)",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - RFF - Resilient Farming Futures",
+            "alternateName": "BB/X010961/1",
+            "url": null,
+            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Resilient Farming Futures Institute Strategic Programme (BB/X010961/1)",
+            "disambiguatingDescription": "BBS/E/RH/230004A (WP1), BBS/E/RH/230004C (WP3) ",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "ISP - AgZero+/GreenAg",
+            "alternateName": "NE/W005050/1",
+            "url": null,
+            "description": "AgZero+ : Towards sustainable, climate-neutral farming is an initiative jointly supported by Natural Environment Research Council (NERC) and the Biotechnology and Biological Sciences Research Council (BBSRC)",
+            "disambiguatingDescription": " BBS/E/C/RP1070414 (WP4)",
+            "funder": {
+                "type": "organization",
+                "name": "Natural Environment Research Council",
+                "url": "https://ror.org/02b5d8509"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "LAT Institute Director's Grant",
+            "alternateName": "N/A",
+            "url": null,
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Lawes Agricultural Trust",
+                "url": "https://ror.org/0347fy350"
             }
         }
     ],

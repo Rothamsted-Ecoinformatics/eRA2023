@@ -192,7 +192,21 @@
             "relationTypeValue": "is supplement to"
         }
     ],
-    "funding": [],
+    "funding": [
+        {
+            "type": "Grant",
+            "name": "LAT Institute Director's Grant",
+            "alternateName": "N/A",
+            "url": null,
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Lawes Agricultural Trust",
+                "url": "https://ror.org/0347fy350"
+            }
+        }
+    ],
     "distribution": [],
     "image": [],
     "grade": 2,

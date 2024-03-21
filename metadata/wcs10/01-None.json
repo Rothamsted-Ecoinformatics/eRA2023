@@ -9,7 +9,7 @@
         {
             "inLanguage": null,
             "descriptionType": "Abstract",
-            "description": "Details of the lime applications, fertilizer treatments and basal fertilizer applied to the Long-term Liming Experiment at Woburn 1962-1996. \r\n\r\nThis work was partially funded by the BBSRC Institute Strategic Programme - Soil to Nutrition (BBS/E/C/00010310). "
+            "description": "Details of the lime applications, fertilizer treatments and basal fertilizer applied to the Long-term Liming Experiment at Woburn 1962-1996.  \r\n\r\nThis dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310). "
         },
         {
             "inLanguage": null,
@@ -48,7 +48,7 @@
     },
     "publication_year": 2020,
     "dateCreated": null,
-    "dateModified": null,
+    "dateModified": "2024-03-11",
     "datePublished": null,
     "inLanguage": null,
     "version": "1.0",
@@ -234,7 +234,7 @@
             }
         }
     ],
-    "encodingFormat": "pdf ",
+    "encodingFormat": "csv ",
     "copyrightHolder": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
@@ -308,11 +308,24 @@
         },
         {
             "type": "Grant",
+            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": "[\" \"]",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
             "name": "ISP - S2N - Soil to Nutrition programme (2017-2022)",
             "alternateName": "BBS/E/C/00010310",
             "url": "http://tinyurl.com/grant00010310",
             "description": null,
-            "disambiguatingDescription": null,
+            "disambiguatingDescription": "BBS/E/C/00010310 (WP1)",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
