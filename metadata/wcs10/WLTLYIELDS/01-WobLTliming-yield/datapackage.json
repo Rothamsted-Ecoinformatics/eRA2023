@@ -1322,37 +1322,37 @@
     "phosphorous",
     "liming"
   ],
-  "description": "### Abstract\nThe experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a sandy loam soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There was a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997. The dataset contains plot and sub-plot yields for all plots and years, 1962-1996, details of all treatments applied (lime, P, K, Mg, Mn and S) and agronomic details (crop variety, sowing and harvest dates, basal fertilizer).\n### Methods\nPeriod 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates.\n### Technical Info\n\n### Other\n\n### Provenance\nInformation is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research, and the Annual Rothamsted Yield Books. Verification includes checking of original plot yield data with published mean data from the Rothamsted Yield Books.\n### Quality\n\n",
+  "description": "### Abstract\nThe experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a sandy loam soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. There was a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997. The dataset contains plot and sub-plot yields for all plots and years, 1962-1996, details of all treatments applied (lime, P, K, Mg, Mn and S) and agronomic details (crop variety, sowing and harvest dates, basal fertilizer).  \r\n\r\nThis dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310).\n### Methods\nPeriod 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates.\n### Technical Info\n\n### Other\n\n### Provenance\nInformation is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research, and the Annual Rothamsted Yield Books. Verification includes checking of original plot yield data with published mean data from the Rothamsted Yield Books.\n### Quality\n\n",
   "contributors": [
     {
       "title": "Sarah Perryman",
       "path": "https://orcid.org/0000-0002-0056-2754",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Margaret Glendining",
       "path": "https://orcid.org/0000-0002-6466-4629",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Richard Ostler",
       "path": "https://orcid.org/0000-0002-1434-9495",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Nathalie Castells",
       "path": "https://orcid.org/0000-0003-0168-6254",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Steve McGrath",
       "path": "https://orcid.org/0000-0003-0952-8947",
-      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Keith Goulding",
       "path": "https://orcid.org/0000-0002-6465-1465",
-      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Jonathan Holland",

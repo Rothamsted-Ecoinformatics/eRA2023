@@ -797,17 +797,17 @@
     "phosphorous",
     "liming"
   ],
-  "description": "### Abstract\nThe experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Archived topsoil samples from six years between 1964 and 1989 were re-analysed in 2019 for a range of soil exchangeable cations, by extraction with ammonium nitrate. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997. \r\n\r\nThis work was partially funded by the BBSRC through the Soil to Nutrition programme BBS/E/C/00010310.\n### Methods\nPeriod 1 (1962-1980): four lime levels with and without fertilizer P and K. Period 2 (1981-1996): four lime levels with four P levels. 2 replicates (blocks). \r\n - Topsoil (0-18 or 0-23cm) sampled in 1964, 1967, 1974, 1979, 1983 and 1989\r\n - 12-20 soil cores taken from the central area of each plot and combined to make one sample\r\n - Soil samples taken in autumn, after harvest and before ploughing for the next crop\r\n - Archived air-dried sieved (<2mm) soils re-analysed in 2019. \r\n - Exchangeable cations Al, Ca, Cu, Fe, K, Mg, Mn, Na and Zn, mg/kg dry soil\r\n - Measured by extraction with 1 M ammonium nitrate. \r\n - Cations detected by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).\r\n - Negative values shown as zero.\n### Technical Info\n\n### Other\n**Detection limits (DL) of the ICP-OES.** \r\nThese values provide an indication of the lower values for detection by the ICP-OES. DL (mg/kg dry soil) is calculated as 3x standard deviation of blanks. \r\n| &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  | &nbsp; &nbsp;  Al &nbsp;  &nbsp; &nbsp;  |  &nbsp;  &nbsp; Ca  &nbsp;  &nbsp;  | &nbsp;  &nbsp;  Cu  &nbsp;  &nbsp; | &nbsp;  &nbsp;  Fe &nbsp; &nbsp;  |  &nbsp;  &nbsp; K &nbsp; &nbsp;   |  &nbsp;  &nbsp;  Mg &nbsp; &nbsp;  | &nbsp;  &nbsp;  Mn &nbsp; &nbsp; | &nbsp; &nbsp;  Na &nbsp; &nbsp; | &nbsp;  &nbsp;  Zn &nbsp; &nbsp; |\r\n|--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|\r\n|DL  | 0.33  | 1.43  | 0.02  | 0.23  | 3.18  | 0.21  | 0.06 | 0.76 | 0.02 |\n### Provenance\nThe original archived soil samples were stored in the Rothamsted Sample Archive. The chemical analysis was carried out in the Analytical Unit of Rothamsted Research in 2019.\n### Quality\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\n",
+  "description": "### Abstract\nThe experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Archived topsoil samples from six years between 1964 and 1989 were re-analysed in 2019 for a range of soil exchangeable cations, by extraction with ammonium nitrate. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997.  \r\n\r\nThis dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310).\n### Methods\nPeriod 1 (1962-1980): four lime levels with and without fertilizer P and K. Period 2 (1981-1996): four lime levels with four P levels. 2 replicates (blocks). \r\n - Topsoil (0-18 or 0-23cm) sampled in 1964, 1967, 1974, 1979, 1983 and 1989\r\n - 12-20 soil cores taken from the central area of each plot and combined to make one sample\r\n - Soil samples taken in autumn, after harvest and before ploughing for the next crop\r\n - Archived air-dried sieved (<2mm) soils re-analysed in 2019. \r\n - Exchangeable cations Al, Ca, Cu, Fe, K, Mg, Mn, Na and Zn, mg/kg dry soil\r\n - Measured by extraction with 1 M ammonium nitrate. \r\n - Cations detected by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).\r\n - Negative values shown as zero.\n### Technical Info\n\n### Other\n**Detection limits (DL) of the ICP-OES.** \r\nThese values provide an indication of the lower values for detection by the ICP-OES. DL (mg/kg dry soil) is calculated as 3x standard deviation of blanks. \r\n| &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  | &nbsp; &nbsp;  Al &nbsp;  &nbsp; &nbsp;  |  &nbsp;  &nbsp; Ca  &nbsp;  &nbsp;  | &nbsp;  &nbsp;  Cu  &nbsp;  &nbsp; | &nbsp;  &nbsp;  Fe &nbsp; &nbsp;  |  &nbsp;  &nbsp; K &nbsp; &nbsp;   |  &nbsp;  &nbsp;  Mg &nbsp; &nbsp;  | &nbsp;  &nbsp;  Mn &nbsp; &nbsp; | &nbsp; &nbsp;  Na &nbsp; &nbsp; | &nbsp;  &nbsp;  Zn &nbsp; &nbsp; |\r\n|--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|\r\n|DL  | 0.33  | 1.43  | 0.02  | 0.23  | 3.18  | 0.21  | 0.06 | 0.76 | 0.02 |\n### Provenance\nThe original archived soil samples were stored in the Rothamsted Sample Archive. The chemical analysis was carried out in the Analytical Unit of Rothamsted Research in 2019.\n### Quality\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\n",
   "contributors": [
     {
       "title": "Margaret Glendining",
       "path": "https://orcid.org/0000-0002-6466-4629",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Nathalie Castells",
       "path": "https://orcid.org/0000-0003-0168-6254",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Jonathan Holland",
@@ -817,17 +817,17 @@
     {
       "title": "Cathy Thomas",
       "path": "https://orcid.org/0000-0002-6320-9923",
-      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Stephan Haefele",
       "path": "https://orcid.org/0000-0003-0389-8373",
-      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Mark Durenkamp",
       "path": "https://orcid.org/0000-0002-2195-1855",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     }
   ],
   "licenses": [

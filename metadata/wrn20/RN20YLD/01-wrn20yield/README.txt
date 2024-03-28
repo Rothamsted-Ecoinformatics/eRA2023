@@ -76,6 +76,16 @@ In accordance with the Joint Code of Practice for Research at Rothamsted, data p
 ### Funding
 
 
+|Grant Name|Grant Number|Funder|Work Package|
+|----|-----|----|-----------|
+|The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)|BBS/E/RH/23NB0007|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|GH - Growing Health Institute Strategic Programme |BB/X010953/1|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | BBS/E/RH/230003A (WP1)|
+|RFF - Resilient Farming Futures Institute Strategic Programme |BB/X010961/1|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | BBS/E/RH/230004A (WP1), BBS/E/RH/230004C (WP3) |
+| AgZero+/GreenAg Institute Strategic Programme |NE/W005050/1|[Natural Environment Research Council](https://www.ukri.org/councils/nerc/) -  ROR_ID = 02b5d8509 |  BBS/E/C/RP1070414 (WP4)|
+
+
+The RLTE-NBRI is also supported by the Lawes Agricultural Trust.
+
 ### Supplementary materials
 
 |Resource|link|description|

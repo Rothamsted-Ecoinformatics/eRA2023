@@ -307,12 +307,13 @@
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
             }
         },
         {
             "type": "Grant",
-            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "name": "The Rothamsted Long-Term Experiments - National Capability (2017-2022)",
             "alternateName": "BBS/E/C/000J0300",
             "url": "https://tinyurl.com/grant000J0300",
             "description": null,
@@ -320,7 +321,8 @@
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
             }
         }
     ],

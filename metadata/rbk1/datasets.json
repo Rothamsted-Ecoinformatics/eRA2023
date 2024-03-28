@@ -504,6 +504,27 @@
         "UID": "01-BKNUTRW"
     },
     {
+        "md_id": 152,
+        "title": "Broadbalk experiment organic manure chemical composition",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/02-BKFYM",
+        "identifier": "10.23637/rbk1-FYM-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "xlsx",
+        "description": "Details of the routine chalk (lime) applications to the Broadbalk Wheat Experiment, first applied in 1955. A regular scheme was introduced in 1956 and revised in 1976. The aim was to maintain soil pH above 7.5 and minimize the range of pH values within each Section. No chalk was required 1993-2007. As in earlier years, differential chalk applications were made to selected plots in 2008, 2014 and 2019, the amount applied depending on the soil pH.",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Broadbalk",
+        "experiment_code": "R/BK/1",
+        "grade": 1,
+        "dstype": "Frictionless",
+        "publication_year": 2022,
+        "version": "02",
+        "isReady": 1,
+        "isExternal": 0,
+        "shortName": "BKFYM",
+        "UID": "02-BKFYM"
+    },
+    {
         "md_id": 53,
         "title": "Broadbalk Wheat brown foot rot (Fusarium spp.) 1992-2009",
         "URL": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-BKBFR",

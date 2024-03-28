@@ -37,7 +37,9 @@ YOU MUST CITE AS: Glendining, M. J., Holland, J.E., McGrath, S. P. and Goulding 
 ### Abstract
 The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on the yields of a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. The dataset contains plot and sub-plot yields for all plots and years, 1962-1996, details of all treatments applied (lime, P, K, Mg, Mn and S), and agronomic details (crop variety, sowing and harvest date, basal fertilizer). 
 
-There was a parallel experiment at Woburn Experimental Farm. This experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele.
+There was a parallel experiment at Woburn Experimental Farm. This experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele.  
+
+This dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310).
 ### Methods
 Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was te sted on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates.
 ### Technical Info
@@ -52,20 +54,20 @@ Information is taken from original raw data sheets and analysis files, held in t
 ### Authors
 |Name|ORCID|Affiliation|
 |----|-----|-----------|
-|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Computational and Analytical Sciences, Rothamsted Research|
+|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Rothamsted Research|
 |Jonathan Holland|<https://orcid.org/0000-0001-6661-0168>|The James Hutton Institute|
-|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Sustainable Agricultural Sciences, Rothamsted Research|
-|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Sustainable Agricultural Sciences, Rothamsted Research|
+|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Rothamsted Research|
+|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Rothamsted Research|
 
 ### Contributor Roles
 |Name|ORCID|Role|Affiliation|
 |----|-----|----|-----------|
-|Sarah Perryman|<https://orcid.org/0000-0002-0056-2754>|Data Curator|Computational and Analytical Sciences, Rothamsted Research|
-|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Data Curator|Computational and Analytical Sciences, Rothamsted Research|
-|Richard Ostler|<https://orcid.org/0000-0002-1434-9495>|Project Manager|Computational and Analytical Sciences, Rothamsted Research|
-|Nathalie Castells|<https://orcid.org/0000-0003-0168-6254>|Data Manager|Computational and Analytical Sciences, Rothamsted Research|
-|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Data Collector|Sustainable Agricultural Sciences, Rothamsted Research|
-|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Data Collector|Sustainable Agricultural Sciences, Rothamsted Research|
+|Sarah Perryman|<https://orcid.org/0000-0002-0056-2754>|Data Curator|Rothamsted Research|
+|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Data Curator|Rothamsted Research|
+|Richard Ostler|<https://orcid.org/0000-0002-1434-9495>|Project Manager|Rothamsted Research|
+|Nathalie Castells|<https://orcid.org/0000-0003-0168-6254>|Data Manager|Rothamsted Research|
+|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Data Collector|Rothamsted Research|
+|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Data Collector|Rothamsted Research|
 |Jonathan Holland|<https://orcid.org/0000-0001-6661-0168>|Researcher|The James Hutton Institute|
 
 ### Conditions of Use
@@ -83,6 +85,15 @@ Information is taken from original raw data sheets and analysis files, held in t
 
 ### Funding
 
+
+|Grant Name|Grant Number|Funder|Work Package|
+|----|-----|----|-----------|
+|The Rothamsted Long-Term Experiments - National Capability (2017-2022)|[BBS/E/C/000J0300](https://tinyurl.com/grant000J0300)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)|BBS/E/RH/23NB0007|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|S2N - Soil to Nutrition Institute Strategic Programme (2017-2022)|[BBS/E/C/00010310](http://tinyurl.com/grant00010310)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | BBS/E/C/00010310 (WP1)|
+
+
+The RLTE-NBRI is also supported by the Lawes Agricultural Trust.
 
 ### Supplementary materials
 

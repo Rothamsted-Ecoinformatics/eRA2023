@@ -332,7 +332,7 @@
     "funding": [
         {
             "type": "Grant",
-            "name": "The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
+            "name": "The Rothamsted Long-Term Experiments - National Capability (2017-2022)",
             "alternateName": "BBS/E/C/000J0300",
             "url": "https://tinyurl.com/grant000J0300",
             "description": null,
@@ -340,12 +340,13 @@
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
             }
         },
         {
             "type": "Grant",
-            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "name": "The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)",
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
@@ -353,20 +354,8 @@
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
-            "name": "LAT Institute Director's Grant",
-            "alternateName": "N/A",
-            "url": null,
-            "description": null,
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Lawes Agricultural Trust",
-                "url": "https://ror.org/0347fy350"
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
             }
         }
     ],

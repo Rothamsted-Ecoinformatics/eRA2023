@@ -406,20 +406,8 @@
             "funder": {
                 "type": "organization",
                 "name": "Natural Environment Research Council",
-                "url": "https://ror.org/02b5d8509"
-            }
-        },
-        {
-            "type": "Grant",
-            "name": "LAT Institute Director's Grant",
-            "alternateName": "N/A",
-            "url": null,
-            "description": null,
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Lawes Agricultural Trust",
-                "url": "https://ror.org/0347fy350"
+                "url": "https://www.ukri.org/councils/nerc/",
+                "identifier": "https://ror.org/02b5d8509"
             }
         }
     ],

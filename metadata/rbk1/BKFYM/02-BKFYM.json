@@ -1,10 +1,10 @@
 {
     "@context": "https://schema.org/",
     "@type": "Dataset",
-    "identifier": "10.23637/rbk1-chalk-01",
-    "name": "Broadbalk Wheat Chalk Applications",
-    "shortName": "CHALK",
-    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/01-CHALK",
+    "identifier": "10.23637/rbk1-FYM-01",
+    "name": "Broadbalk experiment organic manure chemical composition",
+    "shortName": "BKFYM",
+    "url": "https://www.era.rothamsted.ac.uk/dataset/rbk1/02-BKFYM",
     "description": [
         {
             "inLanguage": "en",
@@ -32,17 +32,17 @@
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
     "publication_year": 2022,
-    "dateCreated": "2022-08-22",
+    "dateCreated": null,
     "dateModified": null,
-    "datePublished": "2022-09-01",
+    "datePublished": null,
     "inLanguage": "en",
-    "version": "1.0",
+    "version": "2.0",
     "keywords": [
-        "wheat",
-        "Rothamsted Research",
-        "Broadbalk long-term experiment",
         "arable soils",
-        "liming"
+        "Broadbalk long-term experiment",
+        "Rothamsted Research",
+        "nitrogen",
+        "farmyard manure"
     ],
     "creator": [
         {
@@ -67,10 +67,10 @@
         },
         {
             "type": "Person",
-            "Name": "Paul Poulton",
-            "givenName": "Paul",
-            "familyName": "Poulton",
-            "sameAs": "https://orcid.org/0000-0002-5720-064X",
+            "Name": "Andy Gregory",
+            "givenName": "Andy",
+            "familyName": "Gregory",
+            "sameAs": "https://orcid.org/0000-0001-7123-0784",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Rothamsted Research",
@@ -87,10 +87,10 @@
         },
         {
             "type": "Person",
-            "Name": "Andy Gregory",
-            "givenName": "Andy",
-            "familyName": "Gregory",
-            "sameAs": "https://orcid.org/0000-0001-7123-0784",
+            "Name": "Paul Poulton",
+            "givenName": "Paul",
+            "familyName": "Poulton",
+            "sameAs": "https://orcid.org/0000-0002-5720-064X",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Rothamsted Research",
@@ -259,84 +259,11 @@
             "relationTypeValue": "is derived from"
         }
     ],
-    "funding": [
-        {
-            "type": "Grant",
-            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
-            "alternateName": "BBS/E/C/00005189",
-            "url": "https://tinyurl.com/grant000005189",
-            "description": null,
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://www.ukri.org/councils/bbsrc/",
-                "identifier": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
-            "name": "The Rothamsted Long-Term Experiments - National Capability (2017-2022)",
-            "alternateName": "BBS/E/C/000J0300",
-            "url": "https://tinyurl.com/grant000J0300",
-            "description": null,
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://www.ukri.org/councils/bbsrc/",
-                "identifier": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
-            "name": "The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)",
-            "alternateName": "BBS/E/RH/23NB0007",
-            "url": null,
-            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://www.ukri.org/councils/bbsrc/",
-                "identifier": "https://doi.org/10.13039/501100000268"
-            }
-        }
-    ],
-    "distribution": [
-        {
-            "type": "dataDownload",
-            "name": "Broadbalk Wheat Experiment Chalk Applications",
-            "URL": "01-rbk1-chalk.pdf",
-            "encodingFormat": "pdf",
-            "fileSize": "989 kilobytes"
-        },
-        {
-            "type": "dataDownload",
-            "name": "Broadbalk Wheat Experiment Chalk Application",
-            "URL": "rbk1-chalk-01.xlsx",
-            "encodingFormat": "xlsx",
-            "fileSize": "282 kilobytes"
-        },
-        {
-            "type": "dataDownload",
-            "name": "Frictionless data package containing metadata and .csv file",
-            "URL": "01-CHALK.zip",
-            "encodingFormat": "zip",
-            "fileSize": "1281 kilobytes"
-        }
-    ],
-    "image": [
-        {
-            "type": "imageObject",
-            "caption": "Broadbalk Wheat Experiment Chalk Application t/ha- 2008",
-            "URL": "chalk55-75.png",
-            "encodingFormat": "png",
-            "fileSize": "94 kilobytes"
-        }
-    ],
+    "funding": [],
+    "distribution": [],
+    "image": [],
     "grade": 1,
-    "isReady": 2,
+    "isReady": 1,
     "isExternal": 0,
     "dstype": "Frictionless"
 }
