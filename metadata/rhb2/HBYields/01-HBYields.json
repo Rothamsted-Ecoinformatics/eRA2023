@@ -254,12 +254,13 @@
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
             }
         },
         {
             "type": "Grant",
-            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "name": "The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)",
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
@@ -267,7 +268,8 @@
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
             }
         }
     ],

@@ -1,5 +1,14 @@
 //function that has to do with the display of images
-
+function myFunction() {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar");
+  
+    // Add the "show" class to DIV
+    x.className = "show";
+  
+    // After 4 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 4000);
+  }
 
 $(document).ready(function() {
     var $lightbox = $('#lightbox');

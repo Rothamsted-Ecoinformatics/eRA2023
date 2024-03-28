@@ -33,7 +33,9 @@ YOU MUST CITE AS: Jordan-Meille, L., Holland, J. E. McGrath, S. P., Glendining, 
 |notes_data.csv|Notes|Additional explanatory notes for records in the crop_data table|
 
 ### Abstract
-The experiment tests the effects of four different amounts of lime (creating a soil pH range for approximately 4.5 to 7.5) with and without fertilizer P, on the grain mineral composition of three arable crops. The site is a sandy loam soil at Woburn Experimental Farm, from 1962-1996. There was a parallel experiment on a silty clay loam soil at Rothamsted Experimental Farm. This experiment was discontinued in 1997. The dataset contains grain mineral composition for 20 different minerals (mg/kg dry soil), for individual plots, measured in 1978, 1981  and 1995. It includes details  of the lime and fertilizer treatments, and crop yield.
+The experiment tests the effects of four different amounts of lime (creating a soil pH range for approximately 4.5 to 7.5) with and without fertilizer P, on the grain mineral composition of three arable crops. The site is a sandy loam soil at Woburn Experimental Farm, from 1962-1996. There was a parallel experiment on a silty clay loam soil at Rothamsted Experimental Farm. This experiment was discontinued in 1997. The dataset contains grain mineral composition for 20 different minerals (mg/kg dry soil), for individual plots, measured in 1978, 1981  and 1995. It includes details  of the lime and fertilizer treatments, and crop yield.  
+
+This dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310).
 ### Methods
 Grain mineral composition was determined, in 2019 and 2020, on archived ground samples grown in 1978 (barley), 1981 (oats) and 1995 (wheat). Macro-nutrients (Ca, K, Mg, Na, P, S) and Al, Fe and Ti were determined by open tube digestion with HNO<sub>3</sub>/HClO<sub>4</sub> and measured with ICP-OES. Micro-nutrients and trace elements (As, Cd, Co, Cr, Cu, Mn, Mo, Ni, Pb, Se, and Zn) were determined with microwave digestion with HNO<sub>3</sub>/H<sub>2</sub>O<sub>2</sub>, then measured with ICP-MS.
 ### Technical Info
@@ -50,26 +52,26 @@ The original archived grain samples were stored in the Rothamsted Sample Archive
 |----|-----|-----------|
 |Lionel Jordan_Meille|<https://orcid.org/0000-0003-1169-7002>|Bordeaux Sciences Agro|
 |Jonathan Holland|<https://orcid.org/0000-0001-6661-0168>|The James Hutton Institute|
-|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Sustainable Agricultural Sciences, Rothamsted Research|
-|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Computational and Analytical Sciences, Rothamsted Research|
-|Cathy Thomas|<https://orcid.org/0000-0002-6320-9923>|Sustainable Agricultural Sciences, Rothamsted Research|
-|Stephan Haefele|<https://orcid.org/0000-0003-0389-8373>|Sustainable Agricultural Sciences, Rothamsted Research|
+|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Rothamsted Research|
+|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Rothamsted Research|
+|Cathy Thomas|<https://orcid.org/0000-0002-6320-9923>|Rothamsted Research|
+|Stephan Haefele|<https://orcid.org/0000-0003-0389-8373>|Rothamsted Research|
 
 ### Contributor Roles
 |Name|ORCID|Role|Affiliation|
 |----|-----|----|-----------|
-|Sarah Perryman|<https://orcid.org/0000-0002-0056-2754>|Data Curator|Computational and Analytical Sciences, Rothamsted Research|
-|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Data Curator|Computational and Analytical Sciences, Rothamsted Research|
-|Richard Ostler|<https://orcid.org/0000-0002-1434-9495>|Project Manager|Computational and Analytical Sciences, Rothamsted Research|
-|Ruth Skilton|<None>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
-|Nathalie Castells|<https://orcid.org/0000-0003-0168-6254>|Data Manager|Computational and Analytical Sciences, Rothamsted Research|
-|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Project Manager|Sustainable Agricultural Sciences, Rothamsted Research|
+|Sarah Perryman|<https://orcid.org/0000-0002-0056-2754>|Data Curator|Rothamsted Research|
+|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Data Curator|Rothamsted Research|
+|Richard Ostler|<https://orcid.org/0000-0002-1434-9495>|Project Manager|Rothamsted Research|
+|Ruth Skilton|<>|Data Collector|Rothamsted Research|
+|Nathalie Castells|<https://orcid.org/0000-0003-0168-6254>|Data Manager|Rothamsted Research|
+|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Project Manager|Rothamsted Research|
 |Jonathan Holland|<https://orcid.org/0000-0001-6661-0168>|Researcher|The James Hutton Institute|
 |Lionel Jordan_Meille|<https://orcid.org/0000-0003-1169-7002>|Researcher|Bordeaux Sciences Agro|
-|Cathy Thomas|<https://orcid.org/0000-0002-6320-9923>|Researcher|Sustainable Agricultural Sciences, Rothamsted Research|
-|Stephan Haefele|<https://orcid.org/0000-0003-0389-8373>|Project Manager|Sustainable Agricultural Sciences, Rothamsted Research|
-|Mark Durenkamp|<https://orcid.org/0000-0002-2195-1855>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
-|Chloe Garwood|<https://orcid.org/0000-0002-2831-6854>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
+|Cathy Thomas|<https://orcid.org/0000-0002-6320-9923>|Researcher|Rothamsted Research|
+|Stephan Haefele|<https://orcid.org/0000-0003-0389-8373>|Project Manager|Rothamsted Research|
+|Mark Durenkamp|<https://orcid.org/0000-0002-2195-1855>|Data Collector|Rothamsted Research|
+|Chloe Garwood|<https://orcid.org/0000-0002-2831-6854>|Data Collector|Rothamsted Research|
 
 ### Conditions of Use
 **Rights Holder**
@@ -86,15 +88,15 @@ The original archived grain samples were stored in the Rothamsted Sample Archive
 
 ### Funding
 
-**Funder name**
-:    [Biotechnology and Biological Sciences Research Council](https://doi.org/10.13039/501100000268)
 
-**Award**
-:    BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability
+|Grant Name|Grant Number|Funder|Work Package|
+|----|-----|----|-----------|
+|The Rothamsted Long-Term Experiments - National Capability (2017-2022)|[BBS/E/C/000J0300](https://tinyurl.com/grant000J0300)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)|BBS/E/RH/23NB0007|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|S2N - Soil to Nutrition Institute Strategic Programme (2017-2022)|[BBS/E/C/00010310](http://tinyurl.com/grant00010310)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | BBS/E/C/00010310 (WP1)|
 
-**Award info**
-:    [https://doi.org/10.13039/501100000268](Biotechnology and Biological Sciences Research Council)
 
+The RLTE-NBRI is also supported by the Lawes Agricultural Trust.
 
 ### Supplementary materials
 

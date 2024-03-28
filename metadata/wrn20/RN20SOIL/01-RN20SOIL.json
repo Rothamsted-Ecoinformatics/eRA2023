@@ -9,7 +9,7 @@
         {
             "inLanguage": null,
             "descriptionType": "Abstract",
-            "description": "Soil data for each plot of the Woburn Erosion Reference Experiment, 1989-1996. The soil from each plot was sampled once each year in 1991, 1992, 1993 and 1996 and analysed for total carbon (C) and nitrogen (N) concentration (%). Total N was also measured in 1989. Data is for topsoil (0-10, 15 or 20cm) plus 50-60cm in 1992 only. This is the data described by Quinton et al, 2006. Clay content was also measured in 1996, as reported by Quinton and Catt, 2007. The experiment had eight plots, in a 2x2 factorial, with two blocks. Treatments were two directions of cultivation (cultivated and drilled parallel to the contour <i>v</i> up and down the slope) and two types of cultivation (standard cultivation, residue removed <i>v</i> minimal tillage, residues retained).  \r\n\r\nCrop yield and erosion and runoff data is published separately.\r\n\r\nWe acknowledge support from the Growing Health (BB/X010953/1), Resilient Farming Futures (BB/X010961/1) and AgZero+(NE/W005050/1) Institute Strategic Programmes. "
+            "description": "Soil data for each plot of the Woburn Erosion Reference Experiment, 1989-1996. The soil from each plot was sampled once each year in 1991, 1992, 1993 and 1996 and analysed for total carbon (C) and nitrogen (N) concentration (%). Total N was also measured in 1989. Data is for topsoil (0-10, 15 or 20cm) plus 50-60cm in 1992 only. This is the data described by Quinton et al, 2006. Clay content was also measured in 1996, as reported by Quinton and Catt, 2007. The experiment had eight plots, in a 2x2 factorial, with two blocks. Treatments were two directions of cultivation (cultivated and drilled parallel to the contour <i>v</i> up and down the slope) and two types of cultivation (standard cultivation, residue removed <i>v</i> minimal tillage, residues retained).  \r\n\r\nCrop yield and erosion and runoff data is published separately. "
         },
         {
             "inLanguage": null,
@@ -352,20 +352,7 @@
     "funding": [
         {
             "type": "Grant",
-            "name": "ISP - GH - Growing Health",
-            "alternateName": "BB/X010953/1",
-            "url": null,
-            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Growing Health (BB/X010953/1) Institute Strategic Programme ",
-            "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
-            "name": "NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
+            "name": "The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)",
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
@@ -373,7 +360,50 @@
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://doi.org/10.13039/501100000268"
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "GH - Growing Health Institute Strategic Programme ",
+            "alternateName": "BB/X010953/1",
+            "url": null,
+            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Growing Health (BB/X010953/1) Institute Strategic Programme ",
+            "disambiguatingDescription": "BBS/E/RH/230003A (WP1)",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": "RFF - Resilient Farming Futures Institute Strategic Programme ",
+            "alternateName": "BB/X010961/1",
+            "url": null,
+            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Resilient Farming Futures Institute Strategic Programme (BB/X010961/1)",
+            "disambiguatingDescription": "BBS/E/RH/230004A (WP1), BBS/E/RH/230004C (WP3)",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
+            }
+        },
+        {
+            "type": "Grant",
+            "name": " AgZero+/GreenAg Institute Strategic Programme ",
+            "alternateName": "NE/W005050/1",
+            "url": null,
+            "description": "AgZero+ : Towards sustainable, climate-neutral farming is an initiative jointly supported by Natural Environment Research Council (NERC) and the Biotechnology and Biological Sciences Research Council (BBSRC)",
+            "disambiguatingDescription": " BBS/E/C/RP1070414 (WP4)",
+            "funder": {
+                "type": "organization",
+                "name": "Natural Environment Research Council",
+                "url": "https://www.ukri.org/councils/nerc/",
+                "identifier": "https://ror.org/02b5d8509"
             }
         }
     ],

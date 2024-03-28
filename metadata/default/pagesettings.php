@@ -431,5 +431,13 @@ $pageSettings = array(
         "KeyRef" => "KeyRefWobMG",
         "URLCode" => "",
         "prevFolder" => ""
+    ),
+    array(
+        "exp-ID" => 39,
+        "Experiment" => "Woburn Erosion Reference experiment",
+        "ExptCode" => "wrn20",
+        "KeyRef" => "KeyRefWERE",
+        "URLCode" => "",
+        "prevFolder" => ""
     )
 );

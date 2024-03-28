@@ -430,7 +430,8 @@
             "funder": {
                 "type": "organization",
                 "name": "Natural Environment Research Council",
-                "url": "https://ror.org/02b5d8509"
+                "url": "https://www.ukri.org/councils/nerc/",
+                "identifier": "https://ror.org/02b5d8509"
             }
         }
     ],

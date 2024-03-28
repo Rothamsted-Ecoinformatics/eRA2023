@@ -22,41 +22,58 @@ if ($vprocess == "RGprocess") {
 <p> 
 
 <?php
-    $strRecorded = "<p>This is the information that has been recorded.</p>";
+    $strRecorded = "<p>This is the information that has been recorded in our database.</p>";
 
     $strRecorded .= "<ul>";
-    $strRecorded .= "\n\t<li><b>Name : </b> $RGfname $RGlname </li>";
+    $strRecorded .= "\n\t<li><b>Name: </b> $RGfname $RGlname </li>";
     
-    $strRecorded .= "\n\t<li><b>Email : </b> $RGposition </li>";
-    $strRecorded .= "\n\t<li><b>How did you hear about e-RA : </b> $RGrefer - $vRGreferOtherText </li>";
-    $strRecorded .= "\n\t<li><b>Sector : </b> $strSector</li>";
-    $strRecorded .= "\n\t<li><b>Institution : </b> $RGinstitution </li>";
-    $strRecorded .= "\n\t<li><b>Country : </b> $RGcountry </li>";
-
-    $strRecorded .= "\n\t<li><b>Student : </b> $strStudent</li>";
+    $strRecorded .= "\n\t<li><b>Email: </b> $RGposition </li>";
+    $strRecorded .= "\n\t<li><b>How did you hear about e-RA: </b> ".$strRGrefer[$RGrefer]. "- ".$vRGreferOtherText." </li>";
+    $strRecorded .= "\n\t<li><b>Sector: </b> $strSector</li>";
+    $strRecorded .= "\n\t<li><b>Institution: </b> $RGinstitution </li>";
+    $strRecorded .= "\n\t<li><b>Country: </b> $RGcountry </li>";
+	if ($RGisStudent) {
+		$strRecorded .= "\n\t<li><b>Student: </b> $strStudent</li>";
+    }
+    
     if ($RGsupEmail) {
-        $strRecorded .= "\n\t<li><b>Supervisor Email : </b> $RGsupEmail</li>";
+        $strRecorded .= "\n\t<li><b>Supervisor Email: </b> $RGsupEmail</li>";
     }
     if ($RGsupName) {
-        $strRecorded .= "\n\t<li><b>Supervisor Name : </b> $RGsupName</li>";
+        $strRecorded .= "\n\t<li><b>Supervisor Name: </b> $RGsupName</li>";
     }
     if ($RGrothColls) {
-        $strRecorded .= "\n\t<li><b>Collaborators at Rothamsted : </b> $RGrothColls</li>";
+        $strRecorded .= "\n\t<li><b>Collaborators at Rothamsted: </b> $RGrothColls</li>";
     }
     if ($RGfunding) {
-        $strRecorded .= "\n\t<li><b>Funding source : </b> $RGfunding</li>";
+        $strRecorded .= "\n\t<li><b>Funding source: </b> $RGfunding</li>";
     }
     if ($RGISPG) {
-        $strRecorded .= "\n\t<li><b>ISPG : </b> $RGISPG</li>";
+        $strRecorded .= "\n\t<li><b>ISPG: </b> $RGISPG</li>";
     }
 
-    $strRecorded .= "\n\t<li><b>Are you happy to receive occasional emails?  </b>  $strAllowEmails</li>";
-    $strRecorded .= "\n\t<li><b>Data request reason : </b> $RGur_Q1</li>";
+    $strRecorded .= "\n\t<li><b>Are you happy to receive occasional emails? </b>  $strAllowEmails</li>";
+    $strRecorded .= "\n\t<li><b>Data request reason: </b> $RGur_Q1</li>";
 
-    $strRecorded .= "\n\t<li><b>Datasets requested (shortnames) : </b> $ur_ltes</li>";
-    $strRecorded .= "\n\t<li><b>More Specifications : </b> $RGur_Q2</li>";
+    $strRecorded .= "\n\t<li><b>Datasets requested (shortnames): </b> $ur_ltes</li>";
+    $strRecorded .= "\n\t<li><b>More Specifications: </b> $RGur_Q2</li>";
 
     $strRecorded .= "</ul>";
+	$strRecorded .= "<p> <b>The information collected here  is  used to:</b></p><ul>
+	<li>	Assist you specifically - answering your question to the professional level you expect</li>
+	<li>	Set up username and password to e-RAdata if appropriate</li>
+	<li>	Ensure proper usage and citation of the material </li>
+	<li>	Report to our funders</li>
+	</ul>
+
+	<p> <b>You have the right to: </b></p>
+	<ul>
+	<li> Request this information to be updated, forwarded, or deleted</li>
+	<li> Please note that eletion of the information we hold about you may limit or terminate the use of some our services  (example: login into e-RA-data)</li>
+	</ul>
+	<p>We do not sell or rent your information to other organisations.</p>
+
+	<p>Please refer to our extended <a href=\"https://www.era.rothamsted.ac.uk/info/privacy\">privacy policy</a> </p>";
 
     echo $strRecorded;
 
@@ -69,8 +86,7 @@ if ($vprocess == "RGprocess") {
 ";
     $message .= "<p>Dear " . $RGfname . "</p>";
     $message .= $strRecorded;
-    $message .= "<p>Please refer to our privacy policy</p>
-	<p>A member of our team will contact you shortly. Please reply to this email for correspondence. </p>";
+    $message .= "<p>Please reply to this email for correspondence, quoting this request's reference: <b>". $ur_insertID. "</b></p>";
     $message .= "</body></html>";
 
     // Always set content-type when sending HTML email
@@ -83,10 +99,7 @@ if ($vprocess == "RGprocess") {
     $to = $RGposition;
     $subject = "Data Request for ".$RGfname. " " . $RGlname ."- ". $ur_insertID;
     $response = "
-	<p>You have the right to request for this information to be modified or deleted, although deletion of some information could encure the cessation of our service to you</p>
-	<p>We do not pass on any personal data to third parties</p>
-
-An email has  been sent to <span class=\"badge badge-success\">" . $RGposition . "</span> to confirm your request. ";
+		An email has  been sent to <span class=\"badge badge-success\">" . $RGposition . "</span> to confirm your request. ";
     // echo ($to . $subject. $message. $headers);
     if (mail($to, $subject, $message, $headers)) {
 

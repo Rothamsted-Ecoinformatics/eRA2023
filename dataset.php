@@ -25,13 +25,10 @@ $isAuthor = 0;
 $refAuthor = "DEFAULT";
 $onload = "";
 $actualURL = "";
-
 $strDownload = "";
 $strMeta = "";
 $strUserArea = "";
-
 $zipfile = "";
-
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $page_title .= ' dataset: ' . $dataset;
@@ -93,8 +90,8 @@ if ($hasDataset) {
     }
     $DOI = $dsinfo["identifier"];
     $actualURL = "";
-    //$testmbsubstring = substr($DOI, 0,3);
 
+    //$testmbsubstring = substr($DOI, 0,3);
     if (substr($DOI, 0, 3) == "10.") {
         $actualURL = "https://doi.org/".$DOI; 
     }
@@ -125,14 +122,12 @@ if ($hasDataset) {
     /*     $butLogin = "<button type=\"button\" class=\"btn btn-info my-1 mx-3 \" data-toggle=\"modal\"
         data-target=\"#modalLogin\">" . $registeredUser . "</button>"; */
 
-        
-    
     if ($dsinfo["dateCreated"]) {
         $dateCreation .= "<li class=\"list-group-item\"><b>Created: </b> ".$dsinfo["dateCreated"]."</li>";
     } else {
-        
+
     } 
-    
+
     if ($dsinfo["datePublished"]) {
         
         $datePublication .= "<li class=\"list-group-item\"><b>Published: </b> ".$dsinfo["datePublished"]."</li>";
@@ -145,7 +140,6 @@ if ($hasDataset) {
     } else {
         
     }
-
 
     if (is_array($dsinfo['creator'])) {
         foreach ($dsinfo['creator'] as $creator) {
@@ -230,8 +224,12 @@ if ($hasDataset) {
         $strFunders = "<h3 class=\"m-3\">Additional Funding sources</h4> 
         <p  class=\"m-3\">This project also received funding from the following sources<p>
         <ul>";
-        // this lists the 3 which are already harcoded within the text. they don't need to be listed again
-        $default = array("000J0300","00005189", "23NB0007" );
+
+        // -  this lists the 3 or 4  which are already harcoded within the text. They don't need to be listed again 
+        // - N/A represents LAT until something better comes up.
+        // - Because the json file does not have teh id for the funder, (like 1, 2, 7, 14) we use the alternameName which is teh grant number
+        // - Because we use strpos > 0 whatch out that the string we are looking for is not at the start of the altername name. So we look for /A not N/A ! 
+        $default = array("000J0300","00005189", "23NB0007", "/A" );
         foreach ($dsinfo['funding'] as $funder) {
             $isDefault = 0;
             //Lets find out is the funder in hand is a default one or not. 
@@ -445,16 +443,13 @@ if ($hasDataset) {
                 if ($stmt->execute()) { $onload = " onload=\"modal();\" "; }
             }
             
-            
             $strMeta .= " <meta
              http-equiv=\"refresh\"
                  content=\"1; URL=".$root . $zipfile . '?' . time()."\">"; // the Time function to avoid getting the file from the
         } else {
             //No file present - 
             $dlresult = "NO FILE" ;
-
             if ($stmt->execute())  {$strUserArea .= "<li>File Not Found - Team notified </li>"; }
-            
         }
     }
     $strUserArea .= "";

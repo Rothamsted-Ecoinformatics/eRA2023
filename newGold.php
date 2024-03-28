@@ -231,7 +231,9 @@ if (isset($RGisStudent)) {
         $vRGStdCheckedNo = " checked";
         $strStudent = "Not recorded as Student";
     }
-} else {$RGisStudent = 0; }
+} else {
+    $RGisStudent = 0; 
+}
 
 if (isset($RGisRoth)) {
     $vRGisRoth = $RGisRoth;
@@ -250,7 +252,17 @@ if (isset($RGsector)) {
 //how did you hear about it?
 if (isset($RGrefer)) {
     $vRGrefer = $RGrefer;
-} 
+}
+
+$strRGrefer = array(
+    "COL" => "Colleague", 
+    "SEO" => "Search Engine",
+    "TWT" => "X - Twitter",
+    "SNO" => "Social Network",
+    "DOI" => "Doi link in Paper", 
+    "OTHER" => "Other",   
+);
+
 $vRGreferck = array();
 $vRGreferck[$vRGrefer] = "  checked";
 $vRGreferOtherText = "";

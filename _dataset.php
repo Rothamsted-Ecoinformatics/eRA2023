@@ -24,41 +24,35 @@ $dsinfo = $GLOBALS['dsinfo']; //added 2023-02-21 to circumvent undefined variabl
 	<div id="greenTitle" class="d-flex  py-3 p3-3 bg-primary text-white mt-0 ">
 		<h1 class="mx-3"><?php echo $datasetTitle?> </h1>
 
-
 	</div>
 	<div class="row m-3">
-				<div class=" p-3 border border-success rounded b">
-					<div class="pb-3 "><strong>Citation: &nbsp;</strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
-					<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
-					
-					<a target="_blank"
-						href="<?php echo $actualURL;?>"><?php echo $dsinfo['identifier'];?></a></div>
+		<div class=" p-3 border border-success rounded b">
+			<div class="pb-3 "><strong>Citation: &nbsp;</strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
+				<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
+				<a target="_blank" href="<?php echo $actualURL;?>"><?php echo $dsinfo['identifier'];?></a></div>
 
 			<!-- The text field -->
 			<?php 
 $reference = $refAuthor. " (".$year.") ". $dsinfo['name']. " - ". $getPublisher . " - ". $actualURL;
 			?>
-<div class="d-flex justify-content-end align-items-center">
-<div id="div1" class="btn btn-warning m-1 align-items-center" style="display:none">
-<i class="fa fa-copy"></i> <b>Copied to clipboard</b></div>
-<button address="<?php echo $reference; ?>" title="Copy to Clipboard"  class="btn btn-success m-1 copyToClipboard  align-items-center">
-<i class="fa fa-copy"></i> <b id="copyID">to Clipboard</b></a></button>
-<?php if (file_exists($risfile)) {
+			<div class="d-flex justify-content-end align-items-center">
+				<div id="div1" class="btn btn-warning m-1 align-items-center" style="display:none">
+					<i class="fa fa-copy"></i> <b>Copied to clipboard</b></div>
+				<button address="<?php echo $reference; ?>" title="Copy to Clipboard"
+					class="btn btn-success m-1 copyToClipboard  align-items-center">
+					<i class="fa fa-copy"></i> <b id="copyID">to Clipboard</b></a></button>
+				<?php if (file_exists($risfile)) {
         $risURL = "<a title=\"Download Citation\" class=\"btn btn-success m-1  align-items-center\" href=\"".$risfile."\" download>
 		<i class=\"fa-solid fa-quote-right\"></i> <b>to RefMan</b></a>";
 		echo $risURL;
 	}?>
-<?php if (file_exists($enwfile)) {
+				<?php if (file_exists($enwfile)) {
         $enwURL = "<a title=\"Download Citation\" class=\"btn btn-success m-1  align-items-center\" href=\"".$enwfile."\" download>
 		<i class=\"fa-solid fa-quote-right\"></i> <b>to EndNote</b></a>";
 		echo $enwURL;
 	}?>
-</div>
-
-
-
-
-				</div>
+			</div>
+		</div>
 	</div>
 	<div class="row mx-0 mb-3">
 		<?php
@@ -68,11 +62,8 @@ $reference = $refAuthor. " (".$year.") ". $dsinfo['name']. " - ". $getPublisher 
 			} else {
 		?>
 		<div class="col-sm-4">
-
-
 			<div class="card card-summary ">
 				<div class="card-body">
-
 					<ul class="list-group list-group-flush ">
 						<?php
 
@@ -90,9 +81,6 @@ $reference = $refAuthor. " (".$year.") ". $dsinfo['name']. " - ". $getPublisher 
 
     	if ($dsinfo['isExternal'] == 0) { echo $strUserArea;
         ?>
-
-
-
 						<li class="list-group-item"><b>DOI: </b><a
 								href="https://doi.org/<?php echo $dsinfo['identifier'];?>"><?php echo $dsinfo['identifier'];?></a>
 						</li>
@@ -146,8 +134,6 @@ $reference = $refAuthor. " (".$year.") ". $dsinfo['name']. " - ". $getPublisher 
 			</div>
 		</div>
 		<div class="col-sm-8">
-
-
 
 			<p class="text-right">
 				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
@@ -212,9 +198,12 @@ if ($dsinfo['isExternal'] == 0) {
 
 			<h4>License</h4>
 			<p>
-				<a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" target="out"><img
-						style="width: 50px;" alt="Creative Commons License" src="images/logos/cc4.png"
-						align="middle" /></a> This dataset is
+				<a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" target="out">
+					<img
+						style="width: 50px;" 
+						alt="Creative Commons License" 
+						src="images/logos/cc4.png"
+						/></a> This dataset is
 				available under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
 					Attribution Licence (4.0)</a>.
 			</p>
@@ -224,13 +213,11 @@ if ($dsinfo['isExternal'] == 0) {
 				<?php echo $datasetTitle;?> <em><?php echo $getPublisher; ?></em>
 				<a target="_blank"
 					href="https://doi.org/<?php echo $dsinfo['identifier'];?>">https://doi.org/<?php echo $dsinfo['identifier'];?></a>
-
-
-				<p>
+			<p>
 					Please review our <a href="info/howtocredit">How to Credit Datasets</a>
 					guidance for more information.
 				</p>
-				<h5>Conditions of Use</h5>
+				<h4>Conditions of Use</h4>
 
 				<p>
 					Rothamsted relies on the integrity of users to ensure that datasets
@@ -335,10 +322,23 @@ if ($dsinfo['isExternal'] == 0) {
 								<ul class="list-group mx-3">
 									<li class="list-group-item ">The dataset <b><?php echo $dsinfo['name'];?></b>
 										is a published dataset from the e-RA Database.
-										e-RA is part of the Rothamsted Long-Term Experiments - National Bioscience Research Infrastructure (RLTE-NBRI),  which also covers maintenance of the <a href="https://www.rothamsted.ac.uk/national-capability/long-term-experiments-0"> Long-Term Experiments,  </A> the <a href=" https://www.rothamsted.ac.uk/facilities-and-resources/rothamsted-sample-archive"> Rothamsted Sample Archive </a> and Rothamsted's environmental monitoring activities including the weather stations and its role in the <ahref="https://www.rothamsted.ac.uk/facilities-and-resources/environmental-change-network"> UK Environmental Change Network</A>
+										e-RA is part of the Rothamsted Long-Term Experiments - National Bioscience
+										Research Infrastructure (RLTE-NBRI), which also covers maintenance of the <a
+											href="https://www.rothamsted.ac.uk/national-capability/long-term-experiments-0">
+											Long-Term Experiments, </A> the <a
+											href=" https://www.rothamsted.ac.uk/facilities-and-resources/rothamsted-sample-archive">
+											Rothamsted Sample Archive </a> and Rothamsted's environmental monitoring
+										activities including the weather stations and its role in the <a
+											href="https://www.rothamsted.ac.uk/facilities-and-resources/environmental-change-network">
+											UK Environmental Change Network</A>
 
 									</li>
-									<li class="list-group-item ">The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028). The RLTE-NBRI is also supported by the Lawes Agricultural Trust. e-RA has been part of a National Capability since 2012, previous awards from the BBSRC were Grants BBS/E/C/00005189 (2012-2017) and BBS/E/C/000J0300  (2017-2022)
+									<li class="list-group-item ">The RLTE-NBRI is funded by UK Research and Innovation -
+										Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award
+										BBS/E/RH/23NB0007 (2023-2028). The RLTE-NBRI is also supported by the Lawes
+										Agricultural Trust. e-RA has been part of a National Capability since 2012,
+										previous awards from the BBSRC were Grants BBS/E/C/00005189 (2012-2017) and
+										BBS/E/C/000J0300 (2017-2022)
 									</li>
 
 								</ul>
@@ -437,13 +437,7 @@ if ($dsinfo['isExternal'] == 0) {
 				<form method="POST" class="was-validated">
 
 					<div class="<?php echo $formVisible ; ?>">
-						<div class="form-group">
 
-							<label class="form-check-label" for="understandCheck"> <b>e-RA collects information to
-									understand how the data is used and for justification of continued
-									funding</b></label>
-
-						</div>
 						<div class="form-group">
 							<label for="InputName">
 								<h5>Full Name</h5>
@@ -485,7 +479,13 @@ if ($dsinfo['isExternal'] == 0) {
 						</div>
 
 					</div>
+					<div class="form-group">
+						<label class="form-check-label" for="understandCheck"> <b>e-RA collects information to
+								understand how the data is used and for justification of continued
+								funding</b> - Please read our <a target="_BLANK" href="info/privacy">privacy
+								information</a></label>
 
+					</div>
 					<br />
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					<button type="submit" class="btn btn-primary" name="dlform" value="isDownload">Agree and

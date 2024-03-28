@@ -1322,27 +1322,27 @@
     "soil fertility",
     "soil pH"
   ],
-  "description": "### Abstract\nThe experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method) on soil sampled several times between 1962 and 1996.  There was also a baseline sampling before the experiment was established. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997.  **This dataset was updated January 2nd 2024, see technical information**\n### Methods\nPeriod 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. There are two replicates. \r\n\r\n- **Soil pH** measured in water: 1:2.5 soil: water suspension using a standard electrode and pH meter.\r\n- **Olsen P** (plant-available soil P) soil extracted with a solution of 0.5 M NaHCO<sub>3</sub>, buffered at pH8.5, after the method of Olsen et al, 1954. Shown as mg PO<sub>4</sub>-P/kg dry soil. \r\n- **Exchangeable cations** measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).\n### Technical Info\nAir-dried soil, sieved (<2mm). Topsoil (usually 0-23cm) and some sub-soil measurements. For topsoil 12-20 cores were taken from the central area of each plot and combined to make one sample. For subsoil, generally 5-6 cores were taken and combined. Baseline soil pH measurements were taken in February 1962, before the first lime application. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year. The soil was analysed shortly after sampling.  \r\n\r\nOlsen P data for 1982 removed in this version, as the data is unreliable. Olsen P data for plot 50, 1972 removed as this plot was not sampled in 1972 and it was shown in error in V1.\n### Other\n- **Olsen et al, 1954**   Olsen S.R., Cole C.V., Watanabe F.S., Dean L.A. (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate. USDA Circular 939, US Gov. Print. Office, Washington, D.C.\n### Provenance\nInformation is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research. The data is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate.\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\n",
+  "description": "### Abstract\nThe experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a sandy soil at Woburn Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method) on soil sampled several times between 1962 and 1996.  There was also a baseline sampling before the experiment was established. There is a parallel experiment at Rothamsted Experimental Farm. This experiment was discontinued in 1997.  **This dataset was updated January 2nd 2024, see technical information**  \r\n\r\nThis dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310).\n### Methods\nPeriod 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. There are two replicates. \r\n\r\n- **Soil pH** measured in water: 1:2.5 soil: water suspension using a standard electrode and pH meter.\r\n- **Olsen P** (plant-available soil P) soil extracted with a solution of 0.5 M NaHCO<sub>3</sub>, buffered at pH8.5, after the method of Olsen et al, 1954. Shown as mg PO<sub>4</sub>-P/kg dry soil. \r\n- **Exchangeable cations** measured in sieved (<2mm) air-dry soil leached with 1 M ammonium acetate, adjusted to pH 7. Leachates analysed by emission or atomic absorption flame spectrophotometry.  Since 1989, the extracts have been analysed by ICP-OES (Inductively Coupled Plasma - Optical Emission Spectrometer).\n### Technical Info\nAir-dried soil, sieved (<2mm). Topsoil (usually 0-23cm) and some sub-soil measurements. For topsoil 12-20 cores were taken from the central area of each plot and combined to make one sample. For subsoil, generally 5-6 cores were taken and combined. Baseline soil pH measurements were taken in February 1962, before the first lime application. Soil samples were generally taken in the autumn, after the current crop was harvested and before the soil was ploughed for the next harvest year, so that the soil properties could be related to the treatments applied in the previous harvest year. The soil was analysed shortly after sampling.  \r\n\r\nOlsen P data for 1982 removed in this version, as the data is unreliable. Olsen P data for plot 50, 1972 removed as this plot was not sampled in 1972 and it was shown in error in V1.\n### Other\n- **Olsen et al, 1954**   Olsen S.R., Cole C.V., Watanabe F.S., Dean L.A. (1954) Estimation of available phosphorus in soils by extraction with sodium bicarbonate. USDA Circular 939, US Gov. Print. Office, Washington, D.C.\n### Provenance\nInformation is taken from original raw data sheets and analysis files, held in the archives at Rothamsted Research. The data is derived from measurements made by the Analytical Chemistry Unit, Rothamsted Research, Harpenden.\n### Quality\nIn accordance with the Joint Code of Practice for Research at Rothamsted, data processing in e-RA follow rigorous standard operating procedures to ensure the quality and correctness of data collected in the field through to depositing in the e-RA database. To ensure quality control during data inputting, the data sets were typed on two separate occasions (double data entry). During the second typing (verification) the data values were compared with those typed on the earlier occasion, and any discrepancies were resolved before verification continued. This procedure also set out how to handle situations where the written records were illegible or ambiguous. This procedure avoided visual checking of data, which can be very inaccurate.\r\nThe Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and participates in European Quality Assurance programmes. All performance is strictly monitored using certified external standards alongside in-house standard materials. Standards and check samples are monitored and recorded.\n",
   "contributors": [
     {
       "title": "Margaret Glendining",
       "path": "https://orcid.org/0000-0002-6466-4629",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Nathalie Castells",
       "path": "https://orcid.org/0000-0003-0168-6254",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Steve McGrath",
       "path": "https://orcid.org/0000-0003-0952-8947",
-      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Keith Goulding",
       "path": "https://orcid.org/0000-0002-6465-1465",
-      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Jonathan Holland",
@@ -1352,30 +1352,30 @@
     {
       "title": "Melanie Brookman",
       "path": "https://orcid.org/0000-0001-6085-9288",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Wendy Wilmer",
       "path": "https://orcid.org/0000-0002-6463-6636",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Mark Durenkamp",
       "path": "https://orcid.org/0000-0002-2195-1855",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
       "title": "Chloe Garwood",
       "path": "https://orcid.org/0000-0002-2831-6854",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     },
     {
-      "title": "Adrian Crossland",
-      "organization": "Computational and Analytical Sciences, Rothamsted Research"
+      "title": "Adrian Crosland",
+      "organization": "Formerly Rothamsted Research"
     },
     {
       "title": "Ian Shield",
-      "organization": "Sustainable Agricultural Sciences, Rothamsted Research"
+      "organization": "Rothamsted Research"
     }
   ],
   "licenses": [

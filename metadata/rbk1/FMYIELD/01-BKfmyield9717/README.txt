@@ -83,6 +83,15 @@ In accordance with the Joint Code of Practice for Research at Rothamsted, data p
 ### Funding
 
 
+|Grant Name|Grant Number|Funder|Work Package|
+|----|-----|----|-----------|
+|The Rothamsted Long-Term Experiments - National Capability (2017-2022)|[BBS/E/C/000J0300](https://tinyurl.com/grant000J0300)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)|[BBS/E/C/00005189](https://tinyurl.com/grant000005189)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)|BBS/E/RH/23NB0007|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+
+
+The RLTE-NBRI is also supported by the Lawes Agricultural Trust.
+
 ### Supplementary materials
 
 |Resource|link|description|

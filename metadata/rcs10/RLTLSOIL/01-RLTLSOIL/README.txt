@@ -37,7 +37,9 @@ YOU MUST CITE AS: Glendining, M. J., Holland, J.E., McGrath, S. P. and Goulding 
 ### Abstract
 The experiment tests the effects of different amounts of lime (and thus soil pH), P and K on a sequence of arable crops, on a silty clay loam soil at Rothamsted Experimental Farm, from 1962-1996. Mg, Mn and S were tested on split plots at different times. Target soil pH was 4.5, 5.5, 6.5 and 7.5. This dataset contains soil pH, Olsen P and exchangeable cations (Ca, K, Mg and Na, ammonium acetate method), on soil sampled several times between 1962 and 1996. There is also a baseline sampling before the experiment was established. There was a parallel experiment at Woburn Experimental Farm.  
 
-The experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele.
+The experiment was under grass from 1997-2019 and no treatments were applied. In April 2019 the experiment was revived, and is currently being used to investigate the effect of different lime, P and Zn treatments on macro and micro nutrient uptake of wheat varieties. For more details contact Dr SM Haefele.  
+
+This dataset was partially funded by the BBSRC Institute Strategic Programme Soil to Nutrition (BBS/E/C/000I0310).
 ### Methods
 Period 1 (1962-1980): four lime levels with and without fertilizer P and K. Magnesium was tested on split plots 1974-1978. Period 2 (1981-1996): four lime levels with four P levels. Manganese was tested on split plots 1987-1990; Sulphur was tested on split plots 1991-1996. 2 replicates. 
 
@@ -57,25 +59,25 @@ The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and par
 ### Authors
 |Name|ORCID|Affiliation|
 |----|-----|-----------|
-|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Computational and Analytical Sciences, Rothamsted Research|
+|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Rothamsted Research|
 |Jonathan Holland|<https://orcid.org/0000-0001-6661-0168>|The James Hutton Institute|
-|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Sustainable Agricultural Sciences, Rothamsted Research|
-|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Sustainable Agricultural Sciences, Rothamsted Research|
+|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Rothamsted Research|
+|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Rothamsted Research|
 
 ### Contributor Roles
 |Name|ORCID|Role|Affiliation|
 |----|-----|----|-----------|
-|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Data Curator|Computational and Analytical Sciences, Rothamsted Research|
-|Nathalie Castells|<https://orcid.org/0000-0003-0168-6254>|Data Manager|Computational and Analytical Sciences, Rothamsted Research|
-|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Project Manager|Sustainable Agricultural Sciences, Rothamsted Research|
-|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Project Member|Sustainable Agricultural Sciences, Rothamsted Research|
+|Margaret Glendining|<https://orcid.org/0000-0002-6466-4629>|Data Curator|Rothamsted Research|
+|Nathalie Castells|<https://orcid.org/0000-0003-0168-6254>|Data Manager|Rothamsted Research|
+|Steve McGrath|<https://orcid.org/0000-0003-0952-8947>|Project Manager|Rothamsted Research|
+|Keith Goulding|<https://orcid.org/0000-0002-6465-1465>|Project Member|Rothamsted Research|
 |Jonathan Holland|<https://orcid.org/0000-0001-6661-0168>|Researcher|The James Hutton Institute|
-|Melanie Brookman|<https://orcid.org/0000-0001-6085-9288>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
-|Wendy Wilmer|<https://orcid.org/0000-0002-6463-6636>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
-|Chloe Garwood|<https://orcid.org/0000-0002-2831-6854>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
-|Mark Durenkamp|<https://orcid.org/0000-0002-2195-1855>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
-|Adrian Crossland|<None>|Data Collector|Computational and Analytical Sciences, Rothamsted Research|
-|Ian Shield|<None>|Project Manager|Sustainable Agricultural Sciences, Rothamsted Research|
+|Melanie Brookman|<https://orcid.org/0000-0001-6085-9288>|Data Collector|Rothamsted Research|
+|Wendy Wilmer|<https://orcid.org/0000-0002-6463-6636>|Data Collector|Rothamsted Research|
+|Chloe Garwood|<https://orcid.org/0000-0002-2831-6854>|Data Collector|Rothamsted Research|
+|Mark Durenkamp|<https://orcid.org/0000-0002-2195-1855>|Data Collector|Rothamsted Research|
+|Adrian Crosland|<>|Data Collector|Formerly Rothamsted Research|
+|Ian Shield|<>|Project Manager|Rothamsted Research|
 
 ### Conditions of Use
 **Rights Holder**
@@ -92,24 +94,15 @@ The Analytical Chemistry Unit follows the Joint Code of Practice (JCoPR) and par
 
 ### Funding
 
-**Funder name**
-:    [Biotechnology and Biological Sciences Research Council](https://doi.org/10.13039/501100000268)
 
-**Award**
-:    BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database
+|Grant Name|Grant Number|Funder|Work Package|
+|----|-----|----|-----------|
+|The Rothamsted Long-Term Experiments - National Capability (2017-2022)|[BBS/E/C/000J0300](https://tinyurl.com/grant000J0300)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)|BBS/E/RH/23NB0007|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | N/A|
+|S2N - Soil to Nutrition Institute Strategic Programme (2017-2022)|[BBS/E/C/00010310](http://tinyurl.com/grant00010310)|[Biotechnology and Biological Sciences Research Council](https://www.ukri.org/councils/bbsrc/) -  DOI = 10.13039501100000268 | BBS/E/C/00010310 (WP1)|
 
-**Award info**
-:    [https://doi.org/10.13039/501100000268](Biotechnology and Biological Sciences Research Council)
 
-**Funder name**
-:    [Biotechnology and Biological Sciences Research Council](https://doi.org/10.13039/501100000268)
-
-**Award**
-:    BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability
-
-**Award info**
-:    [https://doi.org/10.13039/501100000268](Biotechnology and Biological Sciences Research Council)
-
+The RLTE-NBRI is also supported by the Lawes Agricultural Trust.
 
 ### Supplementary materials
 
