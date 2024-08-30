@@ -9924,5 +9924,33 @@
         "fileLocation": "metadata/rsa/broadbalk-soil-microplastics.png",
         "isWWW": false,
         "isReviewed": false
+    },
+    {
+        "MediaID": 710,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rsa/Broadbalk-soil-C.png",
+        "Caption": "Broadbalk soil C",
+        "Type": "metadata",
+        "exptID": "rsa",
+        "width": 313,
+        "height": 254,
+        "orientation": "lanscape",
+        "fileLocation": "metadata/rsa/Broadbalk-soil-C.png",
+        "isWWW": false,
+        "isReviewed": false
+    },
+    {
+        "MediaID": 711,
+        "Credit": "eRA Curator",
+        "URL": "images/metadata/rsa/The-Barn-Laboratory-near-Rothamsted-Lodge-1839-Capture.png",
+        "Caption": "The Barn Laboratory near Rothamsted Lodge 1839 Capture",
+        "Type": "metadata",
+        "exptID": "rsa",
+        "width": 646,
+        "height": 355,
+        "orientation": "lanscape",
+        "fileLocation": "metadata/rsa/The-Barn-Laboratory-near-Rothamsted-Lodge-1839-Capture.png",
+        "isWWW": false,
+        "isReviewed": false
     }
 ]

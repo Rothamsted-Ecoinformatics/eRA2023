@@ -114,8 +114,8 @@
                 },
                 {
                     "id": 26880,
-                    "crop_term": null,
-                    "crop_label": "kale",
+                    "crop_term": "kales",
+                    "crop_label": "kales",
                     "start_year": null,
                     "end_year": null
                 },
@@ -149,8 +149,8 @@
                 },
                 {
                     "id": 26885,
-                    "crop_term": null,
-                    "crop_label": "lucerne (alfalfa)",
+                    "crop_term": "alfalfa",
+                    "crop_label": "alfalfa",
                     "start_year": null,
                     "end_year": null
                 },
@@ -417,8 +417,8 @@
                 },
                 {
                     "id": 26895,
-                    "crop_term": null,
-                    "crop_label": "forage maize",
+                    "crop_term": "maize",
+                    "crop_label": "maize",
                     "start_year": null,
                     "end_year": null
                 },
@@ -727,10 +727,10 @@
                 },
                 {
                     "id": 15054,
-                    "factor_term": null,
+                    "factor_term": "nitrogen fertilizer exposure",
                     "levels": [],
-                    "factor_label": "split nitrogen fertilizer exposure",
-                    "description": "Split v single N applications to wheat test crop, tested 2001-2005, split plots. Applied to Farmyard manure residue split plots, last applied in 1960s.",
+                    "factor_label": "nitrogen fertilizer exposure",
+                    "description": "Split nitrogen applications.",
                     "plot_application": null,
                     "effect": ""
                 },
@@ -801,36 +801,36 @@
             "crops": [
                 {
                     "id": 26899,
-                    "crop_term": null,
-                    "crop_label": "winter wheat (W)",
+                    "crop_term": "winter wheat",
+                    "crop_label": "winter wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
                     "id": 26900,
                     "crop_term": null,
-                    "crop_label": "winter rye (R)",
+                    "crop_label": "winter rye",
                     "start_year": null,
                     "end_year": null
                 },
                 {
                     "id": 26901,
-                    "crop_term": null,
-                    "crop_label": "beans (BE)",
+                    "crop_term": "beans",
+                    "crop_label": "beans",
                     "start_year": null,
                     "end_year": null
                 },
                 {
                     "id": 26902,
                     "crop_term": null,
-                    "crop_label": "winter oats (O)",
+                    "crop_label": "winter oats",
                     "start_year": null,
                     "end_year": null
                 },
                 {
                     "id": 26903,
-                    "crop_term": null,
-                    "crop_label": "winter barley (WB)",
+                    "crop_term": "winter barley",
+                    "crop_label": "winter barley",
                     "start_year": null,
                     "end_year": null
                 },
@@ -1108,7 +1108,7 @@
     "site_climate_properties": [
         {
             "id": 6175,
-            "variable_term": null,
+            "variable_term": "precipitation",
             "unit_term": null,
             "variable_label": "Annual total precipitation",
             "year_from": 1981,

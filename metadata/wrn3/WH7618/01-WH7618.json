@@ -409,6 +409,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package containing the grain data described here",
             "URL": "01-WH7618.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wrn3/WH7618/01-WH7618.zip",
             "encodingFormat": "zip",
             "fileSize": "321 kilobytes"
         }

@@ -14,7 +14,7 @@
         {
             "inLanguage": null,
             "descriptionType": "Methods",
-            "description": "The experiment was situated on a sandy soil at Woburn Experimental Farm (Great Hill II/III) on a slope of about five degrees (7-13%), which had been subject to periodic erosion since at least 1950. The eight plots were approximately 24 x 36m (0.086 ha), separated by grassed earth banks 1m wide and 30cm high which prevented runoff and eroded soil leaving the plots. The eroded soil and runoff were collected in tanks at the end of each plot after each erosion event. Four plots were cultivated and drilled parallel to the contour, and four up and down the slope. Four plots received standard cultivation and four minimal tillage. All plots grew the same crops each year, in a rotation typical of the sandy soils of Bedfordshire. "
+            "description": "The experiment was situated on a sandy soil at Woburn Experimental Farm (Great Hill II/III) on a slope of about five degrees (7-13%), which had been subject to periodic erosion since at least 1950. The eight plots were approximately 24 x 36m (0.086 ha), separated by grassed earth banks 1m wide and 30cm high which prevented runoff and eroded soil leaving the plots. The eroded soil and runoff were collected in tanks at the end of each plot after each erosion event. Four plots were cultivated and drilled parallel to the contour, and four up and down the slope. Four plots received conventional tilage and four minimal tillage. All plots grew the same crops each year, in a rotation typical of the sandy soils of Bedfordshire. "
         },
         {
             "inLanguage": null,
@@ -24,7 +24,7 @@
         {
             "inLanguage": null,
             "descriptionType": "TechnicalInfo",
-            "description": "**Minimal tillage:** cereal straw chopped, potato haulms pulverised and retained and beet tops retained, both partially incorporated by shallow tines or discs to 10cm depth. Between crops soil was left in post-harvest condition, covered with stubble and crop residues until cultivated for the seedbed. \r\n\r\n**Standard tillage:**  cereal straw baled and removed, potato haulm and beet tops raked up and removed, plots ploughed with a general purpose mouldboard plough to 25cm depth. Between crops soil was in bare fallow after ploughing. The plots can be crossed by farm machinery to allow cultivation.  \r\n\r\n**Particle size distribution** in the sediment was determined by the pipette method of Avery and Bascombe (1974).  \r\n\r\n**Sediment and water elements** P, K, Ca, Mg, Na, Fe, Al, Ti, Ba, Co, Cr, Cu, Mg, Mo, Ni, Pb and Sr concentrations were determined by ICP-OES spectrometry.\r\n\r\n**Total N and C** were measured in the sediment, and **NO<sub>3</sub>-N and NH<sub>4</sub>-N** in the water\r\n\r\nThe sediment heavy metal data described by Quinton and Catt (2007) is from 1989-1994. Most of the raw data for 1992 has been lost and is not included in this dataset.  Data for heavy metals in plot soil is not available. Summaries are reported in Quinton and Catt, 2007. "
+            "description": "**Minimal tillage:** cereal straw chopped, potato haulms pulverised and retained and beet tops retained, both partially incorporated by shallow tines or discs to 10cm depth. Between crops soil was left in post-harvest condition, covered with stubble and crop residues until cultivated for the seedbed. \r\n\r\n**Conventional (standard) tillage:**  cereal straw baled and removed, potato haulm and beet tops raked up and removed, plots ploughed with a general purpose mouldboard plough to 25cm depth. Between crops soil was in bare fallow after ploughing. The plots can be crossed by farm machinery to allow cultivation.  \r\n\r\n**Particle size distribution** in the sediment was determined by the pipette method of Avery and Bascombe (1974).  \r\n\r\n**Sediment and water elements** P, K, Ca, Mg, Na, Fe, Al, Ti, Ba, Co, Cr, Cu, Mg, Mo, Ni, Pb and Sr concentrations were determined by ICP-OES spectrometry.\r\n\r\n**Total N and C** were measured in the sediment, and **NO<sub>3</sub>-N and NH<sub>4</sub>-N** in the water\r\n\r\nThe sediment heavy metal data described by Quinton and Catt (2007) is from 1989-1994. Most of the raw data for 1992 has been lost and is not included in this dataset.  Data for heavy metals in plot soil is not available. Summaries are reported in Quinton and Catt, 2007. "
         },
         {
             "inLanguage": null,
@@ -48,7 +48,7 @@
     },
     "publication_year": 2024,
     "dateCreated": null,
-    "dateModified": null,
+    "dateModified": "2024-06-05",
     "datePublished": null,
     "inLanguage": null,
     "version": "1.0",
@@ -57,31 +57,12 @@
         "minimum tillage",
         "Rothamsted Research",
         "soil erosion",
-        "soil organic carbon",
         "tillage erosion",
-        "runoff"
+        "runoff",
+        "trace elements",
+        "soil organic carbon"
     ],
     "creator": [
-        {
-            "type": "Person",
-            "Name": "Margaret Glendining",
-            "givenName": "Margaret",
-            "familyName": "Glendining",
-            "sameAs": "https://orcid.org/0000-0002-6466-4629",
-            "address": {
-                "type": "PostalAddress",
-                "streetAddress": "Rothamsted Research",
-                "addressLocality": "Harpenden",
-                "addressRegion": null,
-                "postalCode": "AL5 2JQ",
-                "addressCountry": "United Kingdom"
-            },
-            "affiliation": {
-                "type": "Organization",
-                "name": "Rothamsted Research",
-                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
-            }
-        },
         {
             "type": "Person",
             "Name": "John Quinton",
@@ -100,6 +81,26 @@
                 "type": "Organization",
                 "name": "Lancaster University",
                 "address": ", United kingdom"
+            }
+        },
+        {
+            "type": "Person",
+            "Name": "Margaret Glendining",
+            "givenName": "Margaret",
+            "familyName": "Glendining",
+            "sameAs": "https://orcid.org/0000-0002-6466-4629",
+            "address": {
+                "type": "PostalAddress",
+                "streetAddress": "Rothamsted Research",
+                "addressLocality": "Harpenden",
+                "addressRegion": null,
+                "postalCode": "AL5 2JQ",
+                "addressCountry": "United Kingdom"
+            },
+            "affiliation": {
+                "type": "Organization",
+                "name": "Rothamsted Research",
+                "address": ", West Common, Harpenden, AL5 2JQ, United Kingdom"
             }
         },
         {
@@ -399,6 +400,24 @@
             "relationType": "IsSupplementedBy",
             "rt_id": 4,
             "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.23637/wrn20-soil-01",
+            "relatedIdentifierType": "DOI",
+            "name": "Woburn Erosion Reference Experiment plot soil total C and N ",
+            "relatedIdentifierGeneralType": "Dataset",
+            "relationType": "IsSupplementedBy",
+            "rt_id": 4,
+            "relationTypeValue": "is supplemented by"
+        },
+        {
+            "relatedIdentifier": "10.1111/j.1475-2743.1998.tb00636.x",
+            "relatedIdentifierType": "DOI",
+            "name": "Catt et al, 1998. Description of the Woburn Erosion Experiment and details of P loss",
+            "relatedIdentifierGeneralType": "Text",
+            "relationType": "IsDerivedFrom",
+            "rt_id": 28,
+            "relationTypeValue": "is derived from"
         }
     ],
     "funding": [
@@ -409,20 +428,6 @@
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
             "disambiguatingDescription": null,
-            "funder": {
-                "type": "organization",
-                "name": "Biotechnology and Biological Sciences Research Council",
-                "url": "https://www.ukri.org/councils/bbsrc/",
-                "identifier": "https://doi.org/10.13039/501100000268"
-            }
-        },
-        {
-            "type": "Grant",
-            "name": "GH - Growing Health Institute Strategic Programme ",
-            "alternateName": "BB/X010953/1",
-            "url": null,
-            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Growing Health (BB/X010953/1) Institute Strategic Programme ",
-            "disambiguatingDescription": "BBS/E/RH/230003A (WP1)",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -457,20 +462,51 @@
                 "url": "https://www.ukri.org/councils/nerc/",
                 "identifier": "https://ror.org/02b5d8509"
             }
+        },
+        {
+            "type": "Grant",
+            "name": "GH - Growing Health Institute Strategic Programme ",
+            "alternateName": "BB/X010953/1",
+            "url": null,
+            "description": "Rothamsted Research receives strategic funding from the Biotechnology and Biological Sciences Research Council of the United Kingdom. We acknowledge support from the Growing Health (BB/X010953/1) Institute Strategic Programme ",
+            "disambiguatingDescription": "BBS/E/RH/230003C (WP3)",
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
+            }
         }
     ],
-    "distribution": [],
+    "distribution": [
+        {
+            "type": "dataDownload",
+            "name": "Soil sediment and surface runoff data",
+            "URL": "01-wrn20sed.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wrn20/RN20SED/01-wrn20sed.xlsx",
+            "encodingFormat": "xlsx",
+            "fileSize": "191 kilobytes"
+        },
+        {
+            "type": "dataDownload",
+            "name": "Frictionless data package including all the data as csv",
+            "URL": "01-RN20SED.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wrn20/RN20SED/01-RN20SED.zip",
+            "encodingFormat": "zip",
+            "fileSize": "279 kilobytes"
+        }
+    ],
     "image": [
         {
             "type": "imageObject",
             "caption": "Total soil loss from plot 7 on each of the 63 erosion events, 1989-1998",
-            "URL": "Plot 7 soil loss.png",
+            "URL": "Plot7soilloss.png",
             "encodingFormat": "png",
-            "fileSize": "13 kilobytes"
+            "fileSize": "16 kilobytes"
         }
     ],
     "grade": 2,
-    "isReady": 1,
+    "isReady": 2,
     "isExternal": 0,
     "dstype": "Frictionless"
 }

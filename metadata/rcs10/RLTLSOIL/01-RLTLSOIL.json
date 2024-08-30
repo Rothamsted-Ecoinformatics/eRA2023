@@ -536,6 +536,7 @@
             "type": "dataDownload",
             "name": "Soil chemical properties 1962-1996",
             "URL": "01-RLTLSOIL.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLSOIL/01-RLTLSOIL.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "196 kilobytes"
         },
@@ -543,6 +544,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01-RLTLSOIL.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLSOIL/01-RLTLSOIL.zip",
             "encodingFormat": "zip",
             "fileSize": "220 kilobytes"
         }

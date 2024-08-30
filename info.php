@@ -165,7 +165,7 @@ $includeFile = 'metadata/' . $expt . '/' . $FileName.'.'.$ext;
 if ($displayValue == 0) {
     ?>
     <div class="d-flex justify-content-between bg-warning text-white p-3 "> 
-        <h2>To edit this page go to <u>'//INTRANET-SERVER/../era2023/<?php echo $includeFile;?></u> then run your personalized update-NAME.exe tool.</h2>
+        <h2>To edit this page go to <u>'//basset/../era2023/<?php echo $includeFile;?></u> then run the update-all.bat  tool which is in "OneDrive - Rothamsted Research\Documents - e-RA\Website maintenance\update eRA website from eraGILBERT - 2024-04-02."</h2>
     </div>
     <?php
     }

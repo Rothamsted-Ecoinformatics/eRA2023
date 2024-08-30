@@ -328,6 +328,7 @@
             "type": "dataDownload",
             "name": "Broadbalk today",
             "URL": "02-rbk1-today2018.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1//02-rbk1-today2018.pdf",
             "encodingFormat": "pdf",
             "fileSize": "1214 kilobytes"
         }

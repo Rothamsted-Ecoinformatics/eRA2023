@@ -200,6 +200,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Wheat Experiment treatment details and plan, 1876-1926",
             "URL": "01-wxw6-treats.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxw6//01-wxw6-treats.pdf",
             "encodingFormat": "pdf",
             "fileSize": "1284 kilobytes"
         }

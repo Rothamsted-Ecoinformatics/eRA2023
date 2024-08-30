@@ -187,7 +187,7 @@
             "factors": [
                 {
                     "id": 12677,
-                    "factor_term": null,
+                    "factor_term": "nitrogen fertilizer exposure",
                     "levels": [],
                     "factor_label": "nitrogen fertilizer exposure",
                     "description": "Three rates applied (39, 78, 118 kgN/ha) as nitro chalk, on four groups of three plots. The N rates were rotated.",
@@ -306,7 +306,7 @@
         },
         {
             "id": 9063,
-            "variable_term": null,
+            "variable_term": "total soil nitrogen",
             "unit_term": null,
             "variable_label": "total soil nitrogen",
             "min_depth": 0.0,

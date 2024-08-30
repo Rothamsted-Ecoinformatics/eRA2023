@@ -44,7 +44,7 @@
     {
         "md_id": 18,
         "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
-        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/04-RMAAtemp",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/03-RMAAtemp",
         "identifier": "10.23637/rms-RMAAtemp-03",
         "identifier_type": "DOI",
         "dataset_type": "Weather data - Temperature",
@@ -56,11 +56,11 @@
         "grade": 3,
         "dstype": "OA",
         "publication_year": 2024,
-        "version": "04",
+        "version": "03",
         "isReady": 2,
         "isExternal": 0,
         "shortName": "RMAAtemp",
-        "UID": "04-RMAAtemp"
+        "UID": "03-RMAAtemp"
     },
     {
         "md_id": 6,
@@ -103,6 +103,27 @@
         "isExternal": 0,
         "shortName": "rmsSeasonRainTemp",
         "UID": "01-rmsSeasonRainTemp"
+    },
+    {
+        "md_id": 155,
+        "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-rmsMMTemp7823",
+        "identifier": "10.23637/rmsMMAirTemp1878-2023-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Weather data - Temperature",
+        "extension": "xlsx",
+        "description": "The dataset provides the monthly mean air temperature at Rothamsted every year from 1878-2023. The figure shows the monthly mean air temperature for June and December at Rothamsted every year from 1878-2023. ",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 3,
+        "dstype": "OA",
+        "publication_year": 2024,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "rmsMMTemp7823",
+        "UID": "01-rmsMMTemp7823"
     },
     {
         "md_id": 5,
@@ -189,6 +210,27 @@
         "UID": "01-R30YrMeans9120"
     },
     {
+        "md_id": 154,
+        "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-rmsTARain5323",
+        "identifier": "10.23637/rmsTARain1853-2023-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Weather data - Rainfall",
+        "extension": "xlsx",
+        "description": "This dataset contains the total annual rainfall, at Rothamsted from 1853 - 2023 and is based on continuous daily records measured at the site. ",
+        "fieldname": "Rothamsted Met Station",
+        "experiment_name": "Rothamsted Meteorological Station",
+        "experiment_code": "RMS",
+        "grade": 3,
+        "dstype": "OA",
+        "publication_year": 2024,
+        "version": "01",
+        "isReady": 2,
+        "isExternal": 0,
+        "shortName": "rmsTARain5323",
+        "UID": "01-rmsTARain5323"
+    },
+    {
         "md_id": 149,
         "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
         "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/02-rmsTMRain5323",
@@ -273,24 +315,24 @@
         "UID": "01-rmsMMR10850917"
     },
     {
-        "md_id": 9,
-        "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2022",
-        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-RMSTotalMonthyRain18532022",
-        "identifier": "10.23637/RMSTotalMonthyRain18532022",
+        "md_id": 156,
+        "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rms/01-rmsMTsun9323",
+        "identifier": "10.23637/rmsTMASunHours1893-2023-01",
         "identifier_type": "DOI",
-        "dataset_type": "Weather data - Rainfall",
-        "extension": "csv",
-        "description": "This dataset represents the total monthly rainfall at Rothamsted continuously from March 1853 - December 2022 and is derived from continuous daily records measured at the site.",
+        "dataset_type": "Weather Data - Sun",
+        "extension": "xlsx",
+        "description": "The dataset provides both the monthly and annual sun hours recorded at Rothamsted every year from 1878-2023. The figure shows just a subset example of the data - monthly total sun hours for June and December at Rothamsted 1878-2023.  Summary data used for this chart are derived from daily data measured at Rothamsted Meteorological Station. ",
         "fieldname": "Rothamsted Met Station",
         "experiment_name": "Rothamsted Meteorological Station",
         "experiment_code": "RMS",
         "grade": 1,
         "dstype": "OA",
-        "publication_year": 0,
+        "publication_year": 2024,
         "version": "01",
-        "isReady": 1,
+        "isReady": 2,
         "isExternal": 0,
-        "shortName": "rmsMthRain18532022",
-        "UID": "01-rmsMthRain18532022"
+        "shortName": "rmsMTsun9323",
+        "UID": "01-rmsMTsun9323"
     }
 ]

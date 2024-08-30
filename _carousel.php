@@ -23,7 +23,7 @@
 				src="images/banners/Broadbalk-02.jpg" alt="Second slide"></a>
 			<div class="carousel-caption d-none d-md-block">
 				<h2><a class="text-light" href="experiment/rbk1">Broadbalk</a></h2>
-				<p>More than 175 years of data on Winter Wheat
+				<p>Winter Wheat experiment since 1843</p>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -32,7 +32,7 @@
 				alt="All about Park Grass"></a>
 			<div class="carousel-caption d-none d-md-block">
 				<h2><a class="text-light" href="experiment/rpg5">Park Grass</a></h2>
-				<p>150 years of ecological studies</p>
+				<p>Collecting ecological data since 1856</p>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -40,7 +40,7 @@
 				alt="Hoosfield"></a>
 			<div class="carousel-caption d-none d-md-block">
 				<h2><a class="text-light" href="experiment/rhb2">Hoosfield</a></h2>
-				<p>Experiments on Barley</p>
+				<p>Experiments on Barley since 1852</p>
 			</div>
 		</div>
 		<div class="carousel-item">
@@ -49,7 +49,7 @@
 				alt="Gees-Croft"></a>
 			<div class="carousel-caption d-none d-md-block">
 				<h2><a class="text-light" href="experiment/rge9">Geescroft</a></h2>
-				<p>A wilderness experiment</p>
+				<p>A wilderness experiment growing since 1883</p>
 			</div>
 		</div>
 

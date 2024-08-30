@@ -338,6 +338,7 @@
             "type": "dataDownload",
             "name": "Rothamsted 30 year mean weather data 1991-2020",
             "URL": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/R30YrMeans9120/01-Rothamsted_30-year_mean_weather_data_1991-2020",
             "encodingFormat": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
             "fileSize": "16 kilobytes"
         },
@@ -345,6 +346,7 @@
             "type": "dataDownload",
             "name": "Rothamsted 30 year mean weather data 1991-2020",
             "URL": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/R30YrMeans9120/01-Rothamsted_30-year_mean_weather_data_1991-2020",
             "encodingFormat": "01-Rothamsted_30-year_mean_weather_data_1991-2020",
             "fileSize": "2 kilobytes"
         }

@@ -172,6 +172,7 @@
             "type": "dataDownload",
             "name": "Notes describing the Fisher 1921 raw data",
             "URL": "01-Notes-2018-08-01.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/FISHER1921/01-Notes-2018-08-01.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "14 kilobytes"
         },
@@ -179,6 +180,7 @@
             "type": "dataDownload",
             "name": "Fisher 1921 Broadbalk grain yields 1852-1918",
             "URL": "01-yields-1852-1918-2018-08-01.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/FISHER1921/01-yields-1852-1918-2018-08-01.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "7 kilobytes"
         },
@@ -186,6 +188,7 @@
             "type": "dataDownload",
             "name": "Fisher 1921 Broadbalk grain yields 1852-1918",
             "URL": "01-yields-1852-1918-2018-08-01.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/FISHER1921/01-yields-1852-1918-2018-08-01.csv",
             "encodingFormat": "csv",
             "fileSize": "20 kilobytes"
         }

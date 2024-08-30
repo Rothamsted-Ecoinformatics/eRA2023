@@ -382,6 +382,7 @@
             "type": "dataDownload",
             "name": "Fosters Ley Arable cropping systems supplementary information 1949 onwards",
             "URL": "FLAsuppinfo.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2//FLAsuppinfo.pdf",
             "encodingFormat": "pdf",
             "fileSize": "1384 kilobytes"
         }

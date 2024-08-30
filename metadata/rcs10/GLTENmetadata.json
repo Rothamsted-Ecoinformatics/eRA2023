@@ -391,7 +391,7 @@
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         }
                     ],
                     "factor_label": "magnesium nutrient exposure",
@@ -847,7 +847,7 @@
             "id": 11727,
             "variable_term": "coarse sand content",
             "unit_term": "%",
-            "variable_label": "coarse sand content",
+            "variable_label": "course sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -861,9 +861,9 @@
         },
         {
             "id": 11728,
-            "variable_term": "fine sand content",
+            "variable_term": null,
             "unit_term": "%",
-            "variable_label": "fine sand content",
+            "variable_label": "find sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -976,7 +976,7 @@
     "site_climate_properties": [
         {
             "id": 5918,
-            "variable_term": null,
+            "variable_term": "precipitation",
             "unit_term": null,
             "variable_label": "annual total precipitation",
             "year_from": 1981,
@@ -988,7 +988,7 @@
         },
         {
             "id": 5919,
-            "variable_term": null,
+            "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "annual mean air temperature",
             "year_from": 1981,

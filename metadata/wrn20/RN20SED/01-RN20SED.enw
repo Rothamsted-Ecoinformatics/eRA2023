@@ -9,11 +9,11 @@
 %G None 
 %U https://doi.org/10.23637/wrn20-sed-01 
 %R 10.23637/wrn20-sed-01 
-%A Glendining, Margaret 
 %A Quinton, John 
+%A Glendining, Margaret 
 %A Coleman, Kevin 
 %A Ostler, Richard 
-%K long term experiments; minimum tillage; Rothamsted Research; soil erosion; soil organic carbon; tillage erosion; runoff; 
+%K long term experiments; minimum tillage; Rothamsted Research; soil erosion; tillage erosion; runoff; trace elements; soil organic carbon; 
 %X The dataset contains details of the soil loss, runoff, sediment chemistry and texture, and water chemistry data for each erosion and runoff event from each plot of the Woburn Erosion Reference Experiment, 1989-1998. The experiment had eight plots, in a 2x2 factorial, with two blocks. Treatments were two directions of cultivation (cultivated and drilled parallel to the contour <i>v</i> up and down the slope) and two types of cultivation (standard cultivation, residue removed <i>v</i> minimal tillage, residues retained).  
 
 The total number of erosion events was determined by those occurring on Plot 7, which always produced runoff and erosion when any other plot was eroded, and occasionally when no other plot was.  There were a maximum of 63 events, 1989-1998. 

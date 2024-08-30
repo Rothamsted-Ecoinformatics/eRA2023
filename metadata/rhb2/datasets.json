@@ -21,6 +21,27 @@
         "UID": "01-HBYields"
     },
     {
+        "md_id": 153,
+        "title": "Hoosfield Barley Experiment organic manure chemical composition 1852-2019 ",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/rhb2/01-HFFYM",
+        "identifier": "10.23637/rhb2-FYM-01",
+        "identifier_type": "DOI",
+        "dataset_type": "Experiment details",
+        "extension": "xlsx",
+        "description": "Details of the chemical composition of the organic manures applied to the Hoosfield Spring Barley Experiment, 1852-2019. Farmyard manure (FYM) is applied each autumn at 35t/ha to plot 72 since 1852, to plot 71 1852-1871 and to plot 73 since 2001, from cattle housed on cereal straw. Rapeseed cake or castor bean meal was applied to Series C from 1852-1967, to supply 48 kgN/ha .  FYM has been analysed routinely since 1967.  This dataset gives details of the chemical composition: % total N, C, P, K, Ca, Mg, Na and S, and the total amount of each element applied each year in FYM 1967-2019. There is also limited mean data for earlier periods and trace element data for 1982 and 1983, and N, P and K content of the rape cake/castor bean meal 1926-1967.  \r\n\r\nThe FYM supplies on average 236 kgN/ha, 47 kgP/ha and 304 kgK/ha; the rape cake/castor meal 57 kgN/ha, 10 kgP/ha and 11 kgK/ha. For comparison, the standard inorganic fertilizer treatments on Hoosfield receive 0-144 kgN/ha, 35 kgP/ha, and 90 kgK/ha. ",
+        "fieldname": "Hoosfield",
+        "experiment_name": "Hoosfield Spring Barley",
+        "experiment_code": "R/HB/2",
+        "grade": 2,
+        "dstype": "Frictionless",
+        "publication_year": 2024,
+        "version": "01",
+        "isReady": 1,
+        "isExternal": 0,
+        "shortName": "HFFYM",
+        "UID": "01-HFFYM"
+    },
+    {
         "md_id": 88,
         "title": "Hoosfield soil organic carbon content",
         "URL": "https://www.era.rothamsted.ac.uk/dataset/rhb2/01-HBSOC1852",

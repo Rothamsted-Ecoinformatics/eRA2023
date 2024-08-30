@@ -382,6 +382,7 @@
             "type": "dataDownload",
             "name": "Highfield Ley Arable cropping systems supplementary  information 1949 onwards",
             "URL": "HLAsuppinfo.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn1//HLAsuppinfo.pdf",
             "encodingFormat": "pdf",
             "fileSize": "1417 kilobytes"
         }

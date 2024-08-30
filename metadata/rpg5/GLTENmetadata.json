@@ -348,7 +348,7 @@
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         }
                     ],
                     "factor_label": "magnesium nutrient exposure",
@@ -982,7 +982,7 @@
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         }
                     ],
                     "factor_label": "magnesium nutrient exposure",

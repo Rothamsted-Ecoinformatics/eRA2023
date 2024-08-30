@@ -451,6 +451,7 @@
             "type": "dataDownload",
             "name": "Broadbalk wheat grain and straw nutrients",
             "URL": "01-Broadbalk_wheat_grain_and_straw nutrients_1968-2017.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BKNUTRW/01-Broadbalk_wheat_grain_and_straw nutrients_1968-2017.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "479 kilobytes"
         },
@@ -458,6 +459,7 @@
             "type": "dataDownload",
             "name": "Broadbalk nutrients available in grain",
             "URL": "01-BroadbalkSectionsforCropNutrientContent_GRAIN.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BKNUTRW/01-BroadbalkSectionsforCropNutrientContent_GRAIN.pdf",
             "encodingFormat": "pdf",
             "fileSize": "63 kilobytes"
         },
@@ -465,6 +467,7 @@
             "type": "dataDownload",
             "name": "Broadbalk nutrients available in straw",
             "URL": "01-BroadbalkSectionsforCropNutrientContent_STRAW.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BKNUTRW/01-BroadbalkSectionsforCropNutrientContent_STRAW.pdf",
             "encodingFormat": "pdf",
             "fileSize": "63 kilobytes"
         }

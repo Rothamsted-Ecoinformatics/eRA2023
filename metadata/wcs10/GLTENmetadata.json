@@ -230,7 +230,7 @@
                             "application_frequency": "annually",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
+                            "chemical_form_term": "triple superphosphate",
                             "chemical_form_label": "triple superphosphate"
                         }
                     ],
@@ -322,8 +322,8 @@
                             "application_frequency": "Annually in spring",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_term": "magnesium sulphate",
+                            "chemical_form_label": "magnesium sulfate"
                         }
                     ],
                     "factor_label": "magnesium nutrient exposure",
@@ -620,7 +620,7 @@
                         {
                             "id": 31544,
                             "factor_variant_term": null,
-                            "factor_variant_label": "Lime low",
+                            "factor_variant_label": "lime low",
                             "amount": "3",
                             "amount_unit_term": "t/ha",
                             "amount_unit_label": "tonnes per hectare",
@@ -760,7 +760,7 @@
                             "application_frequency": "annually",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
+                            "chemical_form_term": "calcium sulfate",
                             "chemical_form_label": "calcium sulfate"
                         }
                     ],
@@ -832,7 +832,7 @@
             "id": 9070,
             "variable_term": "coarse sand content",
             "unit_term": "%",
-            "variable_label": "coarse sand content",
+            "variable_label": "course sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -846,9 +846,9 @@
         },
         {
             "id": 9071,
-            "variable_term": "fine sand content",
+            "variable_term": null,
             "unit_term": "%",
-            "variable_label": "fine sand content",
+            "variable_label": "find sand content",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -961,7 +961,7 @@
     "site_climate_properties": [
         {
             "id": 4507,
-            "variable_term": null,
+            "variable_term": "precipitation",
             "unit_term": null,
             "variable_label": "annual total precipitation",
             "year_from": 1981,
@@ -973,7 +973,7 @@
         },
         {
             "id": 4508,
-            "variable_term": null,
+            "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "mean annual temperature",
             "year_from": 1981,

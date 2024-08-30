@@ -1,10 +1,10 @@
 {
-    "id": 7129,
+    "id": 7190,
     "experiment_type_term": null,
     "experiment_id": 408,
     "people": [
         {
-            "id": 8696,
+            "id": 8816,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -21,7 +21,7 @@
             "role_label": "data manager"
         },
         {
-            "id": 8697,
+            "id": 8817,
             "contacts": [
                 {
                     "contact_type": "Email",
@@ -40,7 +40,7 @@
     ],
     "organizations": [
         {
-            "id": 7887,
+            "id": 7986,
             "contacts": [],
             "role_term": "experimental research station",
             "name": "Rothamsted Research",
@@ -51,53 +51,53 @@
     ],
     "periods": [
         {
-            "id": 9559,
+            "id": 9711,
             "design_type_term": null,
             "crops": [
                 {
-                    "id": 25676,
+                    "id": 27008,
                     "crop_term": "spring barley",
                     "crop_label": "spring barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 25677,
+                    "id": 27009,
                     "crop_term": "potatoes",
                     "crop_label": "potatoes",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 25678,
+                    "id": 27010,
                     "crop_term": "winter wheat",
                     "crop_label": "winter wheat",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 25679,
+                    "id": 27011,
                     "crop_term": "winter barley",
                     "crop_label": "winter barley",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 25680,
+                    "id": 27012,
                     "crop_term": "sugar beet",
                     "crop_label": "sugar beet",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 25681,
+                    "id": 27013,
                     "crop_term": null,
                     "crop_label": "fodder beet",
                     "start_year": null,
                     "end_year": null
                 },
                 {
-                    "id": 25682,
+                    "id": 27014,
                     "crop_term": "fallow",
                     "crop_label": "fallow",
                     "start_year": null,
@@ -107,11 +107,11 @@
             "rotations": [],
             "factors": [
                 {
-                    "id": 14891,
-                    "factor_term": null,
+                    "id": 15124,
+                    "factor_term": "tillage process",
                     "levels": [
                         {
-                            "id": 36016,
+                            "id": 36211,
                             "factor_variant_term": null,
                             "factor_variant_label": "U: up and down the slope",
                             "amount": null,
@@ -129,7 +129,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 36017,
+                            "id": 36212,
                             "factor_variant_term": null,
                             "factor_variant_label": "A: across the slope",
                             "amount": null,
@@ -147,17 +147,17 @@
                             "chemical_form_label": null
                         }
                     ],
-                    "factor_label": "Cultivation direction",
-                    "description": "Two cultivation directions.",
+                    "factor_label": "tillage process",
+                    "description": "Cultivation direction",
                     "plot_application": null,
                     "effect": ""
                 },
                 {
-                    "id": 14892,
-                    "factor_term": null,
+                    "id": 15125,
+                    "factor_term": "tillage process",
                     "levels": [
                         {
-                            "id": 36018,
+                            "id": 36213,
                             "factor_variant_term": null,
                             "factor_variant_label": "M: minimum tillage, cereal straw and potato and beet tops retained, partially incorporated, cultivated to 10cm deep.",
                             "amount": null,
@@ -175,7 +175,7 @@
                             "chemical_form_label": null
                         },
                         {
-                            "id": 36019,
+                            "id": 36214,
                             "factor_variant_term": null,
                             "factor_variant_label": "S: standard practice, cereal straw baled and removed, potato and beet tops raked and removed. Mouldboard ploughed .",
                             "amount": null,
@@ -193,7 +193,7 @@
                             "chemical_form_label": null
                         }
                     ],
-                    "factor_label": "Tillage type",
+                    "factor_label": "tillage process",
                     "description": "Two types of tillage.",
                     "plot_application": null,
                     "effect": ""
@@ -313,10 +313,10 @@
     "site_soil_type_term": "arenosol",
     "site_soil_properties": [
         {
-            "id": 12184,
-            "variable_term": null,
+            "id": 12260,
+            "variable_term": "coarse sand content",
             "unit_term": null,
-            "variable_label": "Coarse sand content",
+            "variable_label": "course sand content",
             "min_depth": null,
             "max_depth": null,
             "depth_unit": null,
@@ -329,7 +329,7 @@
             "unit_label": "%"
         },
         {
-            "id": 12185,
+            "id": 12261,
             "variable_term": null,
             "unit_term": null,
             "variable_label": "Medium sand content",
@@ -345,10 +345,10 @@
             "unit_label": "%"
         },
         {
-            "id": 12186,
+            "id": 12262,
             "variable_term": null,
             "unit_term": null,
-            "variable_label": "Fine sand content",
+            "variable_label": "find sand content",
             "min_depth": null,
             "max_depth": null,
             "depth_unit": null,
@@ -361,10 +361,10 @@
             "unit_label": "%"
         },
         {
-            "id": 12187,
-            "variable_term": null,
+            "id": 12263,
+            "variable_term": "silt content",
             "unit_term": null,
-            "variable_label": "Silt content",
+            "variable_label": "silt content",
             "min_depth": null,
             "max_depth": null,
             "depth_unit": null,
@@ -377,10 +377,10 @@
             "unit_label": "%"
         },
         {
-            "id": 12188,
-            "variable_term": null,
+            "id": 12264,
+            "variable_term": "clay content",
             "unit_term": null,
-            "variable_label": "Clay content",
+            "variable_label": "clay_content",
             "min_depth": null,
             "max_depth": null,
             "depth_unit": null,
@@ -396,7 +396,7 @@
     "site_climatic_type_term": null,
     "site_climate_properties": [
         {
-            "id": 6132,
+            "id": 6203,
             "variable_term": "precipitation",
             "unit_term": null,
             "variable_label": "precipitation",
@@ -408,7 +408,7 @@
             "unit_label": "mm"
         },
         {
-            "id": 6133,
+            "id": 6204,
             "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "air temperature",
@@ -457,7 +457,7 @@
             "language": null
         }
     ],
-    "saved_time": "2024-02-01T14:34:37.912246Z",
+    "saved_time": "2024-06-06T13:35:48.164783Z",
     "name": "Woburn Erosion Reference Experiment",
     "local_identifier": "W/RN/20",
     "experiment_type_label": null,
@@ -476,8 +476,8 @@
     "site_locality": "Great Hill II/III, Woburn Experimental Farm, Husborne Crawley",
     "site_region": "Bedfordshire",
     "site_country": "UK",
-    "site_centroid_latitude": 52.013584,
-    "site_centroid_longitude": -0.602016,
+    "site_centroid_latitude": 52.012222,
+    "site_centroid_longitude": -0.591111,
     "site_elevation": null,
     "site_elevation_unit": null,
     "site_slope": 5.0,
@@ -487,7 +487,7 @@
     "site_history": "Arable field, subject to periodic erosion since at least 1950 (Catt, 1996). Field site managed as an experimental farm since 1875. The two blocks had slightly different cropping histories before the experiment began (see Quinton et al, 2006, Table 2).",
     "site_management": "Conventional management for non-treatment factors.",
     "site_soil_type_label": "arenosol",
-    "site_soil_description": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998).",
+    "site_soil_description": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998). See Catt et al, 1998 for more details of soil type.",
     "site_climatic_type_label": "temperate oceanic climate",
     "site_climate_description": null,
     "data_statement_label": "Available online with registration",

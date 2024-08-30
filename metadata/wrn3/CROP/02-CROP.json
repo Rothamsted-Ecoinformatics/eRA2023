@@ -446,6 +446,7 @@
             "type": "dataDownload",
             "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
             "URL": "02-wrn3-cropping1938-2020.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wrn3/CROP/02-wrn3-cropping1938-2020.pdf",
             "encodingFormat": "pdf",
             "fileSize": "1038 kilobytes"
         },
@@ -453,6 +454,7 @@
             "type": "dataDownload",
             "name": "Woburn Ley-arable experiment cropping sequence 1938-2020",
             "URL": "02-wrn3-cropping1938-2020.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wrn3/CROP/02-wrn3-cropping1938-2020.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "394 kilobytes"
         }

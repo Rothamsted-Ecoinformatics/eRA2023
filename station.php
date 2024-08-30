@@ -248,7 +248,7 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
          if ($displayValue == 0) {
             ?>
             <div class=" bg-warning text-white p-3 "> 
-                <h2>To edit this page go to <u><?php echo $fileMonthly;?></u></h2><p> then run your personalized update-NAME.exe tool in "OneDrive - Rothamsted Research\e-RA - Documents\Website maintenance\update eRA website from eraGILBERT".</p>
+                <h2>To edit this page go to  <u>'//basset/../era2023/<?php echo $fileMonthly;?></u></h2><p> then run your personalized update-NAME.exe tool in "OneDrive - Rothamsted Research\e-RA - Documents\Website maintenance\update eRA website from eraGILBERT".</p>
             </div>
             <?php
             }                   
@@ -273,7 +273,9 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
     if (isset($sub)) {
         $docpage = $exptFolder . '/' . $sub . '.html';
         echo ('<br />');
-
+        if ($displayValue == 0) {
+            echo "<div class=\"d-flex justify-content-between bg-warning text-white p-3 \"> <h2>To edit this page go to <u>//basset/../era2023/". $docpage. "</u></h2> <p> When all editing use update-all.bat</div>";
+            }
         include $docpage;
     }
 

@@ -69,9 +69,9 @@ if ($vprocess == "RGprocess") {
 	<p> <b>You have the right to: </b></p>
 	<ul>
 	<li> Request this information to be updated, forwarded, or deleted</li>
-	<li> Please note that eletion of the information we hold about you may limit or terminate the use of some our services  (example: login into e-RA-data)</li>
+	<li> Please note that deletion of the information we hold about you may limit or terminate the use of some our services  (example: login into e-RA-data)</li>
 	</ul>
-	<p>We do not sell or rent your information to other organisations.</p>
+	<p>We do not forward your information to other organisations.</p>
 
 	<p>Please refer to our extended <a href=\"https://www.era.rothamsted.ac.uk/info/privacy\">privacy policy</a> </p>";
 

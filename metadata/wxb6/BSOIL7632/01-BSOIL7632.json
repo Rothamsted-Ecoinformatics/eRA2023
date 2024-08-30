@@ -315,6 +315,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Barley Experiment soil data 1876-1932",
             "URL": "01-bsoil7632.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxb6/BSOIL7632/01-bsoil7632.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "90 kilobytes"
         },
@@ -322,6 +323,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01-BSOIL7632.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxb6/BSOIL7632/01-BSOIL7632.zip",
             "encodingFormat": "zip",
             "fileSize": "107 kilobytes"
         }

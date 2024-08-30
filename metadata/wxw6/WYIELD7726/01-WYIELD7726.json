@@ -343,6 +343,7 @@
             "type": "dataDownload",
             "name": "Grain and straw yields Woburn Continuous Wheat experiment 1877-1926 (frictionless and xls)",
             "URL": "01-WYIELD7726.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxw6/WYIELD7726/01-WYIELD7726.zip",
             "encodingFormat": "zip",
             "fileSize": "222 kilobytes"
         }

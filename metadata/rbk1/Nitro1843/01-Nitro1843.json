@@ -271,6 +271,7 @@
             "type": "dataDownload",
             "name": "Long-term changes in soil nitrogen concentration figure",
             "URL": "BroadbalkSoilNFig.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/Nitro1843/BroadbalkSoilNFig.pdf",
             "encodingFormat": "pdf",
             "fileSize": "189 kilobytes"
         },
@@ -278,6 +279,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Soil total N data",
             "URL": "BroadbalkSoilNdata.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/Nitro1843/BroadbalkSoilNdata.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "28 kilobytes"
         },
@@ -285,6 +287,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Soil total N treatment details",
             "URL": "BroadbalkSoilNtreatments.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/Nitro1843/BroadbalkSoilNtreatments.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "27 kilobytes"
         }

@@ -426,6 +426,7 @@
             "type": "dataDownload",
             "name": "Exhaustion Land Experiment annual crop yields 1856-1901",
             "URL": "01-EX4-YLD5601.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rex4/YLD5601/01-EX4-YLD5601.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "124 kilobytes"
         }

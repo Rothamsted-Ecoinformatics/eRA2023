@@ -335,6 +335,7 @@
             "type": "dataDownload",
             "name": "Mean monthly temperature at Rothamsted October 1985-September 2017",
             "URL": "01-rmsMMT10850917-data.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/rmsMMT10850917/01-rmsMMT10850917-data.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "13 kilobytes"
         }

@@ -369,6 +369,7 @@
             "type": "dataDownload",
             "name": "Weather Summary 2021",
             "URL": "Weather-Summary-2021",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms//Weather-Summary-2021",
             "encodingFormat": "Weather-Summary-2021",
             "fileSize": "500 kilobytes"
         }

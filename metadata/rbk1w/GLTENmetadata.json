@@ -174,7 +174,7 @@
     "site_climate_properties": [
         {
             "id": 6026,
-            "variable_term": null,
+            "variable_term": "precipitation",
             "unit_term": null,
             "variable_label": "annual total precipitation",
             "year_from": 1981,
@@ -186,7 +186,7 @@
         },
         {
             "id": 6027,
-            "variable_term": null,
+            "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "annual mean air temperature",
             "year_from": 1981,

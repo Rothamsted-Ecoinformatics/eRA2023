@@ -315,6 +315,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Wheat Experiment soil data 1876-1932",
             "URL": "01-wsoil7632.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxw6/WSOIL7632/01-wsoil7632.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "80 kilobytes"
         },
@@ -322,6 +323,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01-WSOIL7632.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxw6/WSOIL7632/01-WSOIL7632.zip",
             "encodingFormat": "zip",
             "fileSize": "97 kilobytes"
         }

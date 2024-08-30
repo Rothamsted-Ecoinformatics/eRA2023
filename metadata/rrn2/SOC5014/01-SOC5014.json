@@ -440,6 +440,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01-SOC5014.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/SOC5014/01-SOC5014.zip",
             "encodingFormat": "zip",
             "fileSize": "107 kilobytes"
         },
@@ -447,6 +448,7 @@
             "type": "dataDownload",
             "name": "Treatment code summary",
             "URL": "treatment_summary.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/SOC5014/treatment_summary.pdf",
             "encodingFormat": "pdf",
             "fileSize": "128 kilobytes"
         },
@@ -454,6 +456,7 @@
             "type": "dataDownload",
             "name": "FLA soil chemical properties 1948-2014",
             "URL": "01-FLASOC5014.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/SOC5014/01-FLASOC5014.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "92 kilobytes"
         }

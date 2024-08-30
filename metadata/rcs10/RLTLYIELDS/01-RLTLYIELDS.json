@@ -402,7 +402,7 @@
             "alternateName": "BBS/E/C/000J0300",
             "url": "https://tinyurl.com/grant000J0300",
             "description": null,
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -416,7 +416,7 @@
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -444,6 +444,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package containing the yield data described here",
             "URL": "01-RothLTliming-yield.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLYIELDS/01-RothLTliming-yield.zip",
             "encodingFormat": "zip",
             "fileSize": "296 kilobytes"
         },
@@ -451,6 +452,7 @@
             "type": "dataDownload",
             "name": "Rothamsted long-term liming experiment crop yields",
             "URL": "01-RothLTliming-yield.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLYIELDS/01-RothLTliming-yield.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "83 kilobytes"
         }

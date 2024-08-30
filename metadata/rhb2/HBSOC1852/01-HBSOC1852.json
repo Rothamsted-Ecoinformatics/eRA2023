@@ -333,6 +333,7 @@
             "type": "dataDownload",
             "name": "Hoosfield long-term changes in SOC figure",
             "URL": "01-HBSOC1852-fig.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rhb2/HBSOC1852/01-HBSOC1852-fig.pdf",
             "encodingFormat": "pdf",
             "fileSize": "11 kilobytes"
         },
@@ -340,6 +341,7 @@
             "type": "dataDownload",
             "name": "Hoosfield long-term changes in SOC data",
             "URL": "01-HBSOC1852-data.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rhb2/HBSOC1852/01-HBSOC1852-data.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "25 kilobytes"
         },
@@ -347,6 +349,7 @@
             "type": "dataDownload",
             "name": "Hoosfield long-term changes in SOC data",
             "URL": "01-HBSOC1852-data.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rhb2/HBSOC1852/01-HBSOC1852-data.csv",
             "encodingFormat": "csv",
             "fileSize": "2 kilobytes"
         }

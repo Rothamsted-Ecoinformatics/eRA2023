@@ -494,7 +494,7 @@
             "alternateName": "BBS/E/C/000J0300",
             "url": "https://tinyurl.com/grant000J0300",
             "description": null,
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -508,7 +508,7 @@
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -536,6 +536,7 @@
             "type": "dataDownload",
             "name": "Soil chemical properties 1962-1996",
             "URL": "02-WLTLSOIL.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WLTLSOIL/02-WLTLSOIL.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "179 kilobytes"
         },
@@ -543,6 +544,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "02-WLTLSOIL.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WLTLSOIL/02-WLTLSOIL.zip",
             "encodingFormat": "zip",
             "fileSize": "202 kilobytes"
         }

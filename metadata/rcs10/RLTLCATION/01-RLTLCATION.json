@@ -448,6 +448,7 @@
             "type": "dataDownload",
             "name": "Exchangeable cation data",
             "URL": "01-RLTLCATION.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLCATION/01-RLTLCATION.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "80 kilobytes"
         },
@@ -455,6 +456,7 @@
             "type": "dataDownload",
             "name": "Exchangeable cation data as frictionless data package, csv format",
             "URL": "01-RLTLCATION.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLCATION/01-RLTLCATION.zip",
             "encodingFormat": "zip",
             "fileSize": "97 kilobytes"
         }

@@ -4,7 +4,7 @@
     "identifier": "10.23637/wcs10-Treatments-01",
     "name": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996",
     "shortName": "",
-    "url": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments",
+    "url": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
     "description": [
         {
             "inLanguage": null,
@@ -313,7 +313,7 @@
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -341,6 +341,7 @@
             "type": "dataDownload",
             "name": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996",
             "URL": "WobLTliming-Treatments",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wcs10//WobLTliming-Treatments",
             "encodingFormat": "WobLTliming-Treatments",
             "fileSize": "565 kilobytes"
         }

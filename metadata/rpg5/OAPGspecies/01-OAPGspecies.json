@@ -376,6 +376,7 @@
             "type": "dataDownload",
             "name": "Species data and treatments",
             "URL": "Park_Grass_Species_data_2016.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies/Park_Grass_Species_data_2016.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "18 kilobytes"
         },
@@ -383,6 +384,7 @@
             "type": "dataDownload",
             "name": "Park Grass Species Chart",
             "URL": "Park_Grass_Species_Chart_2016.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies/Park_Grass_Species_Chart_2016.pdf",
             "encodingFormat": "pdf",
             "fileSize": "92 kilobytes"
         },
@@ -390,6 +392,7 @@
             "type": "dataDownload",
             "name": "Park Grass Plan 2019",
             "URL": "Park_Grass_Plan_2019.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies/Park_Grass_Plan_2019.pdf",
             "encodingFormat": "pdf",
             "fileSize": "72 kilobytes"
         }

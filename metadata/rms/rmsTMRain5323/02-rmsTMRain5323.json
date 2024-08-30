@@ -338,6 +338,7 @@
             "type": "dataDownload",
             "name": "Total monthly and total annual rainfall (mm) Rothamsted 1853-2023",
             "URL": "rmsTMRain5323-data-v2.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/rmsTMRain5323/rmsTMRain5323-data-v2.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "95 kilobytes"
         }

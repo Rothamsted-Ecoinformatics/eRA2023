@@ -319,6 +319,7 @@
             "type": "dataDownload",
             "name": "Fosters and Highfield Ley Arable Soil Carbon Chart",
             "URL": "Rothamsted_LA_SOC_Fosters.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/FSOC4808/Rothamsted_LA_SOC_Fosters.pdf",
             "encodingFormat": "pdf",
             "fileSize": "25 kilobytes"
         },
@@ -326,6 +327,7 @@
             "type": "dataDownload",
             "name": "Fosters and Highfield Ley Arable Soil Carbon Data",
             "URL": "Rothamsted_ley_arable_SOC_Fosters_data.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/FSOC4808/Rothamsted_ley_arable_SOC_Fosters_data.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "112 kilobytes"
         }

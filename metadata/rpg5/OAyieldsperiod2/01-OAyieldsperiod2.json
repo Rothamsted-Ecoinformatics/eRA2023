@@ -381,6 +381,7 @@
             "type": "dataDownload",
             "name": "Zip file containing all the data in frictionless format",
             "URL": "01-OAyieldsperiod2.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAyieldsperiod2/01-OAyieldsperiod2.zip",
             "encodingFormat": "zip",
             "fileSize": "632 kilobytes"
         }

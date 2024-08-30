@@ -223,6 +223,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Barley Experiment treatment details and plan, 1876-1926",
             "URL": "01-wxb6-treats.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxb6//01-wxb6-treats.pdf",
             "encodingFormat": "pdf",
             "fileSize": "1219 kilobytes"
         }

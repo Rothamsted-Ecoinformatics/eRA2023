@@ -403,6 +403,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Barley Experiment yields 1927-1942",
             "URL": "01-BYIELD2742.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxb6/BYIELD2742/01-BYIELD2742.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "88 kilobytes"
         }

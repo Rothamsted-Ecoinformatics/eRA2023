@@ -334,6 +334,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Wheat Experiment brown foot rot 1992-2009",
             "URL": "01-BKBFR.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BKBFR/01-BKBFR.pdf",
             "encodingFormat": "pdf",
             "fileSize": "68 kilobytes"
         },
@@ -341,6 +342,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Wheat Experiment brown foot rot 1992-2009 data",
             "URL": "01-BKBFR-data.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BKBFR/01-BKBFR-data.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "53 kilobytes"
         }

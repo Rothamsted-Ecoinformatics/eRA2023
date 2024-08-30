@@ -206,6 +206,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Wilderness Carbon Chart",
             "URL": "01-Broadbalk_Wilderness_Carbon_Chart.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1w/BKWoc/01-Broadbalk_Wilderness_Carbon_Chart.pdf",
             "encodingFormat": "pdf",
             "fileSize": "99 kilobytes"
         },
@@ -213,6 +214,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Wilderness Open Access",
             "URL": "01-Broadbalk-Wilderness-Open-Access.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1w/BKWoc/01-Broadbalk-Wilderness-Open-Access.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "20 kilobytes"
         }

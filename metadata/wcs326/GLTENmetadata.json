@@ -75,7 +75,7 @@
             "factors": [
                 {
                     "id": 14701,
-                    "factor_term": "crop residue management exposure",
+                    "factor_term": "crop residue management process",
                     "levels": [
                         {
                             "id": 35367,
@@ -150,7 +150,7 @@
                             "chemical_form_label": null
                         }
                     ],
-                    "factor_label": "crop residue management exposure",
+                    "factor_label": "crop residue management process",
                     "description": "Chopped wheat straw applied annually before sowing.",
                     "plot_application": "Whole plot",
                     "effect": ""

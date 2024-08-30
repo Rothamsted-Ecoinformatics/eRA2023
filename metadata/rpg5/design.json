@@ -236,7 +236,7 @@
                         "dateEnd": null,
                         "frequency": null,
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": null
                     }
                 ]
@@ -794,7 +794,7 @@
                         "dateEnd": null,
                         "frequency": "applied in winter",
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": null
                     }
                 ]

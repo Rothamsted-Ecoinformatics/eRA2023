@@ -173,7 +173,7 @@
             "name": "Lilybelle Cowland-Kellock",
             "givenName": "Lilybelle",
             "familyName": "Cowland-Kellock",
-            "sameAs": "",
+            "sameAs": "https://orcid.org/0009-0000-6937-4260",
             "address": {
                 "type": "PostalAddress",
                 "streetAddress": "Formerly Rothamsted Research",
@@ -276,6 +276,7 @@
             "type": "dataDownload",
             "name": "Sax meteorological summaries 1966-1985 as xlsx",
             "URL": "01-SaxMetDatamonthly1966.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/sms/SaxMet1966/01-SaxMetDatamonthly1966.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "35 kilobytes"
         },
@@ -283,6 +284,7 @@
             "type": "dataDownload",
             "name": "Sax meteorological summaries 1966-1985 as csv",
             "URL": "01-SaxMetDatamonthly1966.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/sms/SaxMet1966/01-SaxMetDatamonthly1966.csv",
             "encodingFormat": "csv",
             "fileSize": "11 kilobytes"
         },
@@ -290,6 +292,7 @@
             "type": "dataDownload",
             "name": "Supplementary information",
             "URL": "01-SaxMetDatamonthly1966-sup.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/sms/SaxMet1966/01-SaxMetDatamonthly1966-sup.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "20 kilobytes"
         }

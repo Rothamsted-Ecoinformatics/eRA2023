@@ -8,14 +8,7 @@
 
 		<ul class="navbar-nav ml-auto">
 			<?php echo ($strMessage . " ");?>
-			<?php if ($loggedIn == 'we are not doing that anymore') {
-?>
-			<li class="nav-item"><a class="btn btn-info m-1" href="#modalLogin" data-toggle="modal"
-					data-backdrop="static"> <i class="fa fa-user"></i> <?php echo $registeredUser; ?>
-				</a></li>
-			<?php
 
-}?>
 
 			<li class="nav-item"><a class="btn btn-info m-1" target="_BLANK"
 					href="http://www3.rothamsted.ac.uk/cdera/extract/pages/data_extraction_prototype6.html"><i
@@ -132,6 +125,7 @@
 								<li><a href="experiment/wcs326">Amounts of straw</a></li>
 								<li><a href="experiment/wxb6">Continuous Barley</a></li>
 								<li><a href="experiment/wxw6">Continuous Wheat</a></li>
+								<li><a href="experiment/wrn20">Erosion Reference Experiment</a></li>
 								<li><a href="experiment/wrn13">Intensive cereals</a></li>
 								<li><a href="experiment/wrn3">Ley-arable</a></li>
 								<li><a href="experiment/wcs10">Long-term Liming</a></li>
@@ -206,6 +200,7 @@
 								<li class="dropdown-header ">Woburn</li>
 								<li><a href="experiment/wxb6#datasets">Continuous Barley</a></li>
 								<li><a href="experiment/wxw6#datasets">Continuous Wheat</a></li>
+								<li><a href="experiment/wrn20#datasets">Erosion Reference Experiment</a></li>
 								<li><a href="experiment/wrn3#datasets">Ley-arable</a></li>
 								<li><a href="experiment/wcs10#datasets">Long-term
 										Liming</a></li>
@@ -294,33 +289,9 @@
 			</li>
 			<!-- *******************   SAMPLE ARCHIVE *********************   -->
            
-			<li class="dropdown menu-large nav-item mx-3"><a href="#" class="dropdown-toggle nav-link"
-					data-toggle="dropdown">SAMPLE ARCHIVE </a>
-				<ul class="dropdown-menu megamenu">
-					<div class="row d-flex align-content-md-end">
-						<li class="col-md-4 dropdown-item">
-							<ul>
-								<li><a href="asset/rsa#inventory/">Inventory</a></li>
-							</ul>	
-								
-							
-						</li>
-						<li class="col-md-4 dropdown-item">
-							<ul>
-								<li><a href="asset/rsa#studies">Case Studies</a></li>
-							</ul>
-						</li>
-						<li class="col-md-4 dropdown-item">
-							<ul>
-								
-								<li><a href="asset/rsa#about">About</a></li>
-								
-							</ul>
-						</li>
-						
-
-					</div>
-				</ul>
+			<li class="dropdown menu-large nav-item mx-3"><a href="asset/rsa" class=" nav-link"
+					>SAMPLE ARCHIVE </a>
+				
 			</li>
 			<!-- *******************   ABOUT  *********************   -->
 			<li class="dropdown menu-large nav-item mx-3"><a href="#" class="dropdown-toggle nav-link"
@@ -347,11 +318,10 @@
 								<li><a href="">Home</a></li>
 								<li><a href="info/about">About e-RA</a></li>
 								<li><a target="_blank"
-										href="https://www.rothamsted.ac.uk/national-capabilities">National
-										Capabilities</a>
+										href="https://www.rothamsted.ac.uk/national-bioscience-research-infrastructures">National Bioscience Research Infrastructures</a>
 								<li><a href="contact.php">Contact us</a></li>
 								<li><a href="info/credits">Credits</a></li>
-
+								<li><a href="info/privacy">Privacy and Cookies</a></li>
 							</ul>
 						</li>
 

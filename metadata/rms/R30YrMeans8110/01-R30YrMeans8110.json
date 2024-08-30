@@ -347,6 +347,7 @@
             "type": "dataDownload",
             "name": "Rothamsted 30-year mean weather data 1981-2010 (CSV)",
             "URL": "Rothamsted_30-year_mean_weather_data_1981-2010_CSV.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/R30YrMeans8110/Rothamsted_30-year_mean_weather_data_1981-2010_CSV.csv",
             "encodingFormat": "csv",
             "fileSize": "2 kilobytes"
         },
@@ -354,6 +355,7 @@
             "type": "dataDownload",
             "name": "Rothamsted 30-year mean weather data 1981-2010 (XLSX)",
             "URL": "Rothamsted_30-year_mean_weather_data_1981-2010_XLXS.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/R30YrMeans8110/Rothamsted_30-year_mean_weather_data_1981-2010_XLXS.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "14 kilobytes"
         }

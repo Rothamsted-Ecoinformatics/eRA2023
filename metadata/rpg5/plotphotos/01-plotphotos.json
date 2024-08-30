@@ -356,6 +356,7 @@
             "type": "dataDownload",
             "name": "Visualisation of species information in Park Grass with images - zip",
             "URL": "01-plotphotos.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/plotphotos/01-plotphotos.zip",
             "encodingFormat": "zip",
             "fileSize": "5000 kilobytes"
         }
