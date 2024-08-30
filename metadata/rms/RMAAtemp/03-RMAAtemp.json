@@ -2,35 +2,55 @@
     "@context": "https://schema.org/",
     "@type": "Dataset",
     "identifier": "10.23637/rms-RMAAtemp-03",
-    "name": "Annual Mean Air Temperature at Rothamsted 1878-2022",
+    "name": "Annual Mean Air Temperature at Rothamsted 1878-2023",
     "shortName": "RMAAtemp",
     "url": "https://www.era.rothamsted.ac.uk/dataset/rms/03-RMAAtemp",
     "description": [
         {
-            "inLanguage": "en",
+            "inLanguage": null,
             "descriptionType": "Abstract",
-            "description": "Rothamsted has one of the longest running continuous sets of meteorological recordings in the world. The figure shows the annual mean air temperature at Rothamsted every year from 1878-2022. Also shown is the mean over each five-year period, 1878-1882, 1883-1887, etc. The red line shows the mean temperature, 1878-1987. Mean annual air temperature has fluctuated considerably, however, when the variation in annual temperature is smoothed using five-year means, it is apparent that air temperatures have risen sharply since 1987 (Scott, 2015). The mean air temperature at Rothamsted in 2022 was 11.23&deg;C which is 2.17&deg;C higher than the 1878-1987 average (9.06&deg;C). The 10 warmest years on record occurred since 1999. Much of the rise in annual mean temperatures is due to temperature increases in the autumn and winter months, and in night-time temperatures."
+            "description": "Rothamsted has one of the longest running continuous sets of meteorological recordings in the world. The figure shows the annual mean air temperature at Rothamsted every year from 1878-2022. Also shown is the mean over each five-year period, 1878-1882, 1883-1887, etc. The red line shows the mean temperature, 1878-1987. Mean annual air temperature has fluctuated considerably, however, when the variation in annual temperature is smoothed using five-year means, it is apparent that air temperatures have risen sharply since 1987 (Scott, 2015). The mean air temperature at Rothamsted in 2022 was 11.23&deg;C which is 2.17&deg;C higher than the 1878-1987 average (9.06&deg;C). The 10 warmest years on record occurred since 1999. Much of the rise in annual mean temperatures is due to temperature increases in the autumn and winter months, and in night-time temperatures. "
         },
         {
-            "inLanguage": "en",
+            "inLanguage": null,
             "descriptionType": "Methods",
-            "description": "Summary data used for this chart are derived from annual daily data measured at Rothamsted Meteorological Station. The mean daily temperature is measured over a 24-hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily temperature = (Tmax = Tmin)/2."
+            "description": "Summary data used for this chart are derived from annual daily data measured at Rothamsted Meteorological Station. The mean daily temperature is measured over a 24-hour period 0900 to 0900 GMT and calculated from the daily maximum (Tmax) and minimum temperatures (Tmin); the mean daily temperature = (Tmax = Tmin)/2. "
         },
         {
-            "inLanguage": "en",
+            "inLanguage": null,
+            "descriptionType": "TableOfContents",
+            "description": "An Excel file containing annual mean temperature for each year and a chart of these data. "
+        },
+        {
+            "inLanguage": null,
             "descriptionType": "TechnicalInfo",
-            "description": "First recorded in 1878, Tmax was then measured using a mercury column thermometer and Tmin using a spirit-in-glass with indicator bar minimum thermometer. Since 2004 temperature is recorded by thermistors (electronic temperature probes, Campbell Scientific, type 107)."
+            "description": "First recorded in 1878, Tmax was then measured using a mercury column thermometer and Tmin using a spirit-in-glass with indicator bar minimum thermometer. Since 2004 temperature is recorded by thermistors (electronic temperature probes, Campbell Scientific, type 107). "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Other",
+            "description": " "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Provenance",
+            "description": "The annual summary data contained in this spreadsheet are derived from daily data measured at Rothamsted Meteorological Station, Harpenden using MS Excel. "
+        },
+        {
+            "inLanguage": null,
+            "descriptionType": "Quality",
+            "description": "Verification includes checks for instrument errors, for missing data and outliers. "
         }
     ],
     "publisher": {
         "type": "organization",
         "name": "Electronic Rothamsted Archive, Rothamsted Research"
     },
-    "publication_year": 2023,
+    "publication_year": 2024,
     "dateCreated": "2023-03-01",
     "dateModified": null,
     "datePublished": null,
-    "inLanguage": "en",
+    "inLanguage": null,
     "version": "3.0",
     "keywords": [
         "Rothamsted Research",
@@ -262,8 +282,8 @@
     "license": {
         "type": "CreativeWork",
         "name": "Attribution 4.0 International (CC BY 4.0)",
-        "license": "http://creativecommons.org/licenses/by/4.0",
-        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License"
+        "license": "http://creativecommons.org/licenses/by/4.0 ",
+        "text": "This work is licensed under the terms of the Creative Commons Attribution 4.0 International License "
     },
     "spatialCoverage": {
         "type": "place",
@@ -321,18 +341,9 @@
             "relationTypeValue": "is referenced by"
         },
         {
-            "relatedIdentifier": "10.23637/KeyRefOARESmatemp",
-            "relatedIdentifierType": "DOI",
-            "name": "Annual Mean Air Temperature at Rothamsted 1878-2013",
-            "relatedIdentifierGeneralType": "Dataset",
-            "relationType": "IsNewVersionOf",
-            "rt_id": 13,
-            "relationTypeValue": "is new version of"
-        },
-        {
             "relatedIdentifier": "10.23637/rms-RMAAtempanomaly-1",
             "relatedIdentifierType": "DOI",
-            "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+            "name": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
             "relatedIdentifierGeneralType": "Dataset",
             "relationType": "IsReferencedBy",
             "rt_id": 17,
@@ -348,53 +359,73 @@
             "relationTypeValue": "is new version of"
         }
     ],
-    "funder": [
+    "funding": [
         {
-            "type": "organization",
-            "name": "Biotechnology and Biological Sciences Research Council",
-            "sameAs": "https://doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/00005189 - The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
-            "identifier": "https://tinyurl.com/grant000005189",
-            "description": null
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments including Sample Archive and e-RA database (2012-2017)",
+            "alternateName": "BBS/E/C/00005189",
+            "url": "https://tinyurl.com/grant000005189",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
+            }
         },
         {
-            "type": "organization",
-            "name": "Biotechnology and Biological Sciences Research Council",
-            "sameAs": "https://doi.org/10.13039/501100000268",
-            "award": "BBS/E/C/000J0300 - The Rothamsted Long - Term Experiments - National Capability (2017-2022)",
-            "identifier": "https://tinyurl.com/grant000J0300",
-            "description": null
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments - National Capability (2017-2022)",
+            "alternateName": "BBS/E/C/000J0300",
+            "url": "https://tinyurl.com/grant000J0300",
+            "description": null,
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
+            }
         },
         {
-            "type": "organization",
-            "name": "Biotechnology and Biological Sciences Research Council",
-            "sameAs": "https://doi.org/10.13039/501100000268",
-            "award": "BBS/E/RH/23NB0007 - NBRI - RLTE - The Rothamsted Long-Term Experiments - NBRI (2023-2028)",
-            "identifier": null,
-            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)"
+            "type": "Grant",
+            "name": "The Rothamsted Long-Term Experiments -  National Biosciences Research Infrastructure (RLTE-NBRI)  (2023-2028)",
+            "alternateName": "BBS/E/RH/23NB0007",
+            "url": null,
+            "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
+            "disambiguatingDescription": null,
+            "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+                "url": "https://www.ukri.org/councils/bbsrc/",
+                "identifier": "https://doi.org/10.13039/501100000268"
+            }
         }
     ],
     "distribution": [
         {
             "type": "dataDownload",
-            "name": "Annual Mean Rothamsted Temperature 1878-2022 (data)",
-            "URL": "03-data_1878-2022.xlsx",
+            "name": "Annual Mean Rothamsted Temperature 1878-2023 (data) ",
+            "URL": "03-data_1878-2023.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/RMAAtemp/03-data_1878-2023.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "39 kilobytes"
         },
         {
             "type": "dataDownload",
             "name": "Annual Mean Rothamsted Temperature 1878-2022 (figure)",
-            "URL": "03-fig_1878-2022.pdf",
+            "URL": "03-fig_1878-2023.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/RMAAtemp/03-fig_1878-2023.pdf",
             "encodingFormat": "pdf",
-            "fileSize": "103 kilobytes"
+            "fileSize": "68 kilobytes"
         }
     ],
     "image": [
         {
             "type": "imageObject",
-            "caption": "Annual Mean Rothamsted Temperature 1878-2022 (figure)",
-            "URL": "03-fig_1878-2022.png",
+            "caption": "Annual Mean Rothamsted Temperature 1878-2022 (figure) ",
+            "URL": "03-fig_1878-2023.png",
             "encodingFormat": "png",
             "fileSize": "51 kilobytes"
         }

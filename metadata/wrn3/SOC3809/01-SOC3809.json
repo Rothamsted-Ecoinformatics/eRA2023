@@ -361,6 +361,7 @@
             "type": "dataDownload",
             "name": "Woburn Ley-arable soil organic carbon 1938-2009",
             "URL": "01-wrn3-soc3809.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wrn3/SOC3809/01-wrn3-soc3809.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "100 kilobytes"
         }

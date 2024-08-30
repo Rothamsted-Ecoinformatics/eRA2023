@@ -184,6 +184,7 @@
             "type": "dataDownload",
             "name": "Saxmundham Rotation II experimental details, 1969-1986",
             "URL": "srn2-details1969-01",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/srn2//srn2-details1969-01",
             "encodingFormat": "srn2-details1969-01",
             "fileSize": "607 kilobytes"
         }

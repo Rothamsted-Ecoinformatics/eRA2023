@@ -198,6 +198,7 @@
             "type": "dataDownload",
             "name": "Hoosfield plans 1968-2000",
             "URL": "01-rhb2-plans1968-2000.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rhb2//01-rhb2-plans1968-2000.pdf",
             "encodingFormat": "pdf",
             "fileSize": "507 kilobytes"
         }

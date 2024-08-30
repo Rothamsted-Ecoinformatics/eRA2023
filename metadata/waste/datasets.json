@@ -103,5 +103,26 @@
         "isExternal": 0,
         "shortName": "PLAYBKBFR",
         "UID": "02-PLAYBKBFR"
+    },
+    {
+        "md_id": 9,
+        "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2022 ",
+        "URL": "https://www.era.rothamsted.ac.uk/dataset/waste/01-rmsMthRain18532022",
+        "identifier": "10.23637/RMSTotalMonthyRain18532022",
+        "identifier_type": "DOI",
+        "dataset_type": "Weather data - Rainfall",
+        "extension": "csv ",
+        "description": "This dataset represents the total monthly rainfall at Rothamsted continuously from March 1853 - December 2022 and is derived from continuous daily records measured at the site. ",
+        "fieldname": "Broadbalk",
+        "experiment_name": "Discarded Metadata",
+        "experiment_code": "WASTE",
+        "grade": 1,
+        "dstype": "OA",
+        "publication_year": 2010,
+        "version": "01",
+        "isReady": 1,
+        "isExternal": 0,
+        "shortName": "rmsMthRain18532022",
+        "UID": "01-rmsMthRain18532022"
     }
 ]

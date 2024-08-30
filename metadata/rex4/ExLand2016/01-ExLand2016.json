@@ -187,6 +187,7 @@
             "type": "dataDownload",
             "name": "Exhaustion Land yields (spring barley and winter wheat) and all crop and soil P data",
             "URL": "01-yieldandPdata.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rex4/ExLand2016/01-yieldandPdata.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "82 kilobytes"
         },
@@ -194,6 +195,7 @@
             "type": "dataDownload",
             "name": "Exhaustion Land yields (spring barley and winter wheat) and all crop and soil P data",
             "URL": "01-yieldandPdata.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rex4/ExLand2016/01-yieldandPdata.csv",
             "encodingFormat": "csv",
             "fileSize": "42 kilobytes"
         }

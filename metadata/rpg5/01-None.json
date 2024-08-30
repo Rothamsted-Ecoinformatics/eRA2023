@@ -185,6 +185,7 @@
             "type": "dataDownload",
             "name": "Park Grass experiment plan since 1965 updated 2018",
             "URL": "01-rpg5-plan1965.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5//01-rpg5-plan1965.pdf",
             "encodingFormat": "pdf",
             "fileSize": "236 kilobytes"
         }

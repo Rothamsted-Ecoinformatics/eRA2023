@@ -438,6 +438,7 @@
             "type": "dataDownload",
             "name": "Broadbalk section names",
             "URL": "section_names.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/YLD6822/section_names.pdf",
             "encodingFormat": "pdf",
             "fileSize": "161 kilobytes"
         },
@@ -445,6 +446,7 @@
             "type": "dataDownload",
             "name": "Broadbalk wheat yields 1868-2022",
             "URL": "01-BKyld6822.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/YLD6822/01-BKyld6822.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "1688 kilobytes"
         },
@@ -452,6 +454,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01_YLD6822.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/YLD6822/01_YLD6822.zip",
             "encodingFormat": "zip",
             "fileSize": "2 megabytes"
         }

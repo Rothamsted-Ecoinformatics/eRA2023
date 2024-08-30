@@ -574,6 +574,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package containing the grain data described here",
             "URL": "01-RLTLGRAIN.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLGRAIN/01-RLTLGRAIN.zip",
             "encodingFormat": "zip",
             "fileSize": "117 kilobytes"
         },
@@ -581,6 +582,7 @@
             "type": "dataDownload",
             "name": "Grain mineral composition 1978, 1981 and 1995",
             "URL": "01-RothLTliming-grain.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RLTLGRAIN/01-RothLTliming-grain.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "97 kilobytes"
         }

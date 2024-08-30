@@ -222,6 +222,7 @@
             "type": "dataDownload",
             "name": "Seasonal Air Temperature and Total Seasonal Rain at Rothamsted 1968-2022",
             "URL": "RMS-Seas-Temp-Rain-68-22.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/rmsSeasonRainTemp/RMS-Seas-Temp-Rain-68-22.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "26 kilobytes"
         }

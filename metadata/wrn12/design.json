@@ -114,7 +114,7 @@
                         "dateEnd": 1972,
                         "frequency": "annually in autumn",
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "straw",
                         "notes": "barley straw"
                     },
                     {
@@ -583,7 +583,7 @@
                         "dateEnd": null,
                         "frequency": null,
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "straw",
                         "notes": "Plus 140 kgP/ha; 280 kgK/ha; 50 kgMg/ha"
                     },
                     {
@@ -1036,7 +1036,7 @@
                         "dateEnd": null,
                         "frequency": null,
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "straw",
                         "notes": "Previous straw plot"
                     },
                     {

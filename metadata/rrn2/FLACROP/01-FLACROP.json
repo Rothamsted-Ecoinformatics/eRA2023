@@ -415,6 +415,7 @@
             "type": "dataDownload",
             "name": "Fosters Ley-arable Experiment cropping sequence 1949-2023",
             "URL": "01-rrn2FLA-crop4923.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/FLACROP/01-rrn2FLA-crop4923.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "253 kilobytes"
         },
@@ -422,6 +423,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01-FLACROP.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/FLACROP/01-FLACROP.zip",
             "encodingFormat": "zip",
             "fileSize": "265 kilobytes"
         },
@@ -429,6 +431,7 @@
             "type": "dataDownload",
             "name": "Treatment code summary",
             "URL": "treatment_summary.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn2/FLACROP/treatment_summary.pdf",
             "encodingFormat": "pdf",
             "fileSize": "128 kilobytes"
         }

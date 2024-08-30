@@ -24,49 +24,49 @@
         },
         "crops": [
             {
-                "id": 25676,
+                "id": 27008,
                 "name": "spring barley",
                 "sameAs": "spring barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 25677,
+                "id": 27009,
                 "name": "potatoes",
                 "sameAs": "potatoes",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 25678,
+                "id": 27010,
                 "name": "winter wheat",
                 "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 25679,
+                "id": 27011,
                 "name": "winter barley",
                 "sameAs": "winter barley",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 25680,
+                "id": 27012,
                 "name": "sugar beet",
                 "sameAs": "sugar beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 25681,
+                "id": 27013,
                 "name": "fodder beet",
                 "sameAs": "fodder beet",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
-                "id": 25682,
+                "id": 27014,
                 "name": "fallow",
                 "sameAs": "fallow",
                 "dateStart": null,
@@ -76,14 +76,14 @@
         "cropRotations": "NA",
         "factor": [
             {
-                "id": 14891,
-                "name": "Cultivation direction",
-                "description": "Two cultivation directions.",
+                "id": 15124,
+                "name": "tillage process",
+                "description": "Cultivation direction",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 36016,
+                        "id": 36211,
                         "name": "U: up and down the slope",
                         "amount": null,
                         "unitCode": null,
@@ -97,7 +97,7 @@
                         "notes": null
                     },
                     {
-                        "id": 36017,
+                        "id": 36212,
                         "name": "A: across the slope",
                         "amount": null,
                         "unitCode": null,
@@ -113,14 +113,14 @@
                 ]
             },
             {
-                "id": 14892,
-                "name": "Tillage type",
+                "id": 15125,
+                "name": "tillage process",
                 "description": "Two types of tillage.",
                 "effect": "",
                 "plotApplication": null,
                 "level": [
                     {
-                        "id": 36018,
+                        "id": 36213,
                         "name": "M: minimum tillage, cereal straw and potato and beet tops retained, partially incorporated, cultivated to 10cm deep.",
                         "amount": null,
                         "unitCode": null,
@@ -134,7 +134,7 @@
                         "notes": null
                     },
                     {
-                        "id": 36019,
+                        "id": 36214,
                         "name": "S: standard practice, cereal straw baled and removed, potato and beet tops raked and removed. Mouldboard ploughed .",
                         "amount": null,
                         "unitCode": null,

@@ -453,6 +453,7 @@
             "type": "dataDownload",
             "name": "Park Grass Species 2010-2012",
             "URL": "01-OAPGspecies0012.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies0012/01-OAPGspecies0012.zip",
             "encodingFormat": "zip",
             "fileSize": "170 kilobytes"
         }

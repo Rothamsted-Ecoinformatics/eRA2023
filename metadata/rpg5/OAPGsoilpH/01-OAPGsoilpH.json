@@ -465,6 +465,7 @@
             "type": "dataDownload",
             "name": "Park Grass Soil pH graph",
             "URL": "Park_Grass_pH_2016.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGsoilpH/Park_Grass_pH_2016.pdf",
             "encodingFormat": "pdf",
             "fileSize": "92 kilobytes"
         },
@@ -472,6 +473,7 @@
             "type": "dataDownload",
             "name": "Park Grass Soil pH data and treatments",
             "URL": "Park_Grass_pH_2016_data.xls",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGsoilpH/Park_Grass_pH_2016_data.xls",
             "encodingFormat": "xls",
             "fileSize": "48 kilobytes"
         },
@@ -479,6 +481,7 @@
             "type": "dataDownload",
             "name": "Park Grass",
             "URL": "Park_Grass_Plan_2019.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGsoilpH/Park_Grass_Plan_2019.pdf",
             "encodingFormat": "pdf",
             "fileSize": "72 kilobytes"
         }

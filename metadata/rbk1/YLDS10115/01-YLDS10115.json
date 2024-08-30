@@ -324,6 +324,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package containing the yield and N uptake data described here",
             "URL": "01-YLDS10115.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/YLDS10115/01-YLDS10115.zip",
             "encodingFormat": "zip",
             "fileSize": "132 kilobytes"
         }

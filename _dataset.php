@@ -17,6 +17,30 @@
 $Parsedown = new Parsedown();
 $dsinfo = $GLOBALS['dsinfo']; //added 2023-02-21 to circumvent undefined variable error
 
+if ($dsinfo['isReady'] == 1  ) {
+	$info .= $checkThisOne;
+	$identifierLink = "";
+	$actualURL = "";
+	$datasetCheckURL = "<span class=\"text-warning\">DRAFT VERSION: </span>" ;
+	if (substr($dsinfo['identifier'],0,3)=== '10.') {
+		$identifierLink = "<b>DOI :  https://doi.org/". $dsinfo['identifier']. "</b>"; # DOI not minted so no link
+		$actualURL = "DOI: https://doi.org/". $dsinfo['identifier'];
+		} else {
+		$identifierLink =  "<b>URL : " . $dsinfo['url']." - " .$dsinfo['identifier']. "</b>";   
+		$actualURL = "URL : " . $dsinfo['url']." - " .$dsinfo['identifier'];
+		}
+	}
+		else 
+	{
+		if (substr($dsinfo['identifier'],0,3) === '10.') {
+		$identifierLink =  "<b>DOI : <a  target=\"_BLANK\"  href=\"https://doi.org/". $dsinfo['identifier']."\">https://doi.org/". $dsinfo['identifier']."</a>. </b>"; # DOI not minted so no link
+			$actualURL = "DOI: https://doi.org/". $dsinfo['identifier'];
+		} else {
+			$actualURL = "URL : " . $dsinfo['url']." - " .$dsinfo['identifier'];
+		$identifierLink =  "<a target=\"_BLANK\"  href=\"dsinfo/".$expt."/". $dsinfo['version']."-".$dsinfo['shortName'] . "\">".$expt."/". $dsinfo['version']."-".$dataset['shortName'] . " - ". $dataset['identifier']."</a>. </b>";   
+		
+	}
+	}
 ?>
 
 <div id="idExpt">
@@ -28,19 +52,22 @@ $dsinfo = $GLOBALS['dsinfo']; //added 2023-02-21 to circumvent undefined variabl
 	<div class="row m-3">
 		<div class=" p-3 border border-success rounded b">
 			<div class="pb-3 "><strong>Citation: &nbsp;</strong><?php echo $refAuthor; ?> (<?php echo $year;?>).
-				<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em>
-				<a target="_blank" href="<?php echo $actualURL;?>"><?php echo $dsinfo['identifier'];?></a></div>
+				<?php echo $dsinfo['name'];?> <em><?php echo $getPublisher; ?></em> 
+				<?php echo $identifierLink ?></div>
 
 			<!-- The text field -->
 			<?php 
 $reference = $refAuthor. " (".$year.") ". $dsinfo['name']. " - ". $getPublisher . " - ". $actualURL;
+
 			?>
 			<div class="d-flex justify-content-end align-items-center">
 				<div id="div1" class="btn btn-warning m-1 align-items-center" style="display:none">
 					<i class="fa fa-copy"></i> <b>Copied to clipboard</b></div>
 				<button address="<?php echo $reference; ?>" title="Copy to Clipboard"
 					class="btn btn-success m-1 copyToClipboard  align-items-center">
-					<i class="fa fa-copy"></i> <b id="copyID">to Clipboard</b></a></button>
+					<i class="fa fa-copy"></i> <b id="copyID">to Clipboard</b></button>
+
+				
 				<?php if (file_exists($risfile)) {
         $risURL = "<a title=\"Download Citation\" class=\"btn btn-success m-1  align-items-center\" href=\"".$risfile."\" download>
 		<i class=\"fa-solid fa-quote-right\"></i> <b>to RefMan</b></a>";

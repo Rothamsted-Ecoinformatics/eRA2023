@@ -21,48 +21,7 @@
  *
  *
  */
-function niceChop($text, $length)
-{
-    $prestr = explode('.', $text);
-    $sents = array();
-    $sents[0] = '';
-    $desc = '';
-    $next = '';
-    $j = 0;
-    for ($i = 0; $i < count($prestr); $i ++) {
 
-        $isInitial = 0;
-        $sentLen = strlen($prestr[$i]);
-        /* testing for single letters last word */
-        if ($sentLen > 2) {
-            if ($prestr[$i][$sentLen - 2] == ' ') {
-                $isInitial = 1;
-            }
-        } else {
-            $isInitial = 1;
-        }
-
-        if ($isInitial == 1) {
-            $sents[$j] .= '. ' . $prestr[$i];
-        } else {
-            $sents[$j] .= '. ' . $prestr[$i];
-            $next = $desc . $sents[$j];
-            $j ++;
-            $sents[$j] = '';
-        }
-
-        if (strlen($desc) > $length) {
-
-            break;
-        } else {
-            $desc = $next;
-        }
-        $desc = ltrim($desc, '.');
-        $desc = str_replace('..', '.', $desc);
-        $desc .= '.';
-    }
-    return $desc;
-}
 $fileDataset = 'metadata/default/datasets.json';
 
 $hasDatasets = file_exists($fileDataset);
@@ -143,19 +102,32 @@ if (! $hasDatasets) {
                 <path d=\"M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z\"/>
               </svg></i>";
               $datasetURL = "";
-              if ($dataset['isReady'] == 1  ) {
-                $info.=$checkThisOne;
-                $datasetURL = "<br /><B class=\"text-warning\">DRAFT VERSION</B><br /> <a  href=\"dataset/".$exptFolder."/". $dataset['version']."-".$dataset['shortName'] . "\">dataset/".$exptFolder."/". $dataset['version']."-".$dataset['shortName'] . "</a>";
-            }
-
+     
+            $datasetCheckURL = "";
+            if ($dataset['isReady'] == 1  ) {
+              $info .= $checkThisOne;
+              $datasetCheckURL = "<B class=\"text-warning\">DRAFT VERSION</B><br />" ;
+              if (substr($dataset['identifier'],0,3)=== '10.') {
+                  $identifierLink = "https://doi.org/". $dataset['identifier']; # DOI not minted so no link
+                  } else {
+                  $identifierLink =  $dataset['url']." - " .$dataset['identifier'];   
+                  }
+              }
+                  else 
+              {
+                  if (substr($dataset['identifier'],0,3) === '10.') {
+                  $identifierLink =  "<a  href=\"https://doi.org/". $dataset['identifier']."\">https://doi.org/". $dataset['identifier']."</a>"; # DOI not minted so no link
+                  } else {
+                  $identifierLink =  "<a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">".$expt."/". $dataset['version']."-".$dataset['shortName'] . " - ". $dataset['identifier']."</a>";;   
+                  }
+              }
             
                 $info.="</td>";
 
                 $info .= "\n    \t     \t <td class=\"pr-4 \"><a href=\"experiment/".$exptFolder."#datasets\">".$dataset['experiment_code']."</a></td>";
                 $info .= "\n    \t     \t <td class=\"pr-4 \">".$dataset['publication_year']."</td>";
                 $info .= "\n    \t     \t <td class=\"pr-4 \">".$dstype."</td>";
-                $info .= "\n    \t     \t <td class=\"pr-4 \"><a  href=\"dataset/".$exptFolder."/". $dataset['version']."-".$dataset['shortName'] . "\">". $dataset['identifier']."</a>".$datasetURL." </td>";
-                
+                $info .= "\n    \t     \t <td class=\"pr-4 \">".$identifierLink."</td>"; 
                 $info .= "\n    \t     \t <td class=\"pr-4 \">". $dataset['version']."</a></td>";
                 $info .= "\n    \t  </tr>";
                 

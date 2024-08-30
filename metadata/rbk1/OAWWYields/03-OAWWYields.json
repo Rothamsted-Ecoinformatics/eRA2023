@@ -491,6 +491,7 @@
             "type": "dataDownload",
             "name": "Data and figure: Mean long-term winter wheat grain yields 1852-2022",
             "URL": "03-Yields-2022.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/OAWWYields/03-Yields-2022.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "45 kilobytes"
         },
@@ -498,6 +499,7 @@
             "type": "dataDownload",
             "name": "Figure: Mean long-term winter wheat grain yields 1852-2022",
             "URL": "03-Figure-2022.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/OAWWYields/03-Figure-2022.pdf",
             "encodingFormat": "pdf",
             "fileSize": "91 kilobytes"
         }

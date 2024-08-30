@@ -394,6 +394,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Wheat yields 1943-1966",
             "URL": "01-WYIELD4366.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxw6/WYIELD4366/01-WYIELD4366.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "80 kilobytes"
         }

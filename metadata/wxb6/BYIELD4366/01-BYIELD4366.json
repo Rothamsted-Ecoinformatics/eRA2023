@@ -412,6 +412,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Barley yields 1943-1966",
             "URL": "01-BYIELD4366.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxb6/BYIELD4366/01-BYIELD4366.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "80 kilobytes"
         }

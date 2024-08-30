@@ -385,6 +385,7 @@
             "type": "dataDownload",
             "name": "Woburn Continuous Wheat Experiment yields 1927-1942",
             "URL": "01-WYIELD2742.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxw6/WYIELD2742/01-WYIELD2742.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "69 kilobytes"
         }

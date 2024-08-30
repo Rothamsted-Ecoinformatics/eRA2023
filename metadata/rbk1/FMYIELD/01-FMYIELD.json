@@ -291,7 +291,7 @@
             "alternateName": "BBS/E/C/000J0300",
             "url": "https://tinyurl.com/grant000J0300",
             "description": null,
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -305,7 +305,7 @@
             "alternateName": "BBS/E/C/00005189",
             "url": "https://tinyurl.com/grant000005189",
             "description": null,
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -319,7 +319,7 @@
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",
@@ -333,6 +333,7 @@
             "type": "dataDownload",
             "name": "Broadbalk section names ",
             "URL": "section_names.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/FMYIELD/section_names.pdf",
             "encodingFormat": "pdf",
             "fileSize": "128 kilobytes"
         },
@@ -340,6 +341,7 @@
             "type": "dataDownload",
             "name": "Broadbalk forage maize yields 1997-2017",
             "URL": "01-BKfmyield9717.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/FMYIELD/01-BKfmyield9717.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "139 kilobytes"
         },
@@ -347,6 +349,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all data as csv",
             "URL": "01_FMYIELD.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/FMYIELD/01_FMYIELD.zip",
             "encodingFormat": "zip",
             "fileSize": "279 kilobytes"
         }

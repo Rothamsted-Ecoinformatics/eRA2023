@@ -295,6 +295,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Wheat Experiment plan and cropping 1926-1967",
             "URL": "02-rbk1-plan1926-1967.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1//02-rbk1-plan1926-1967.pdf",
             "encodingFormat": "pdf",
             "fileSize": "931 kilobytes"
         }

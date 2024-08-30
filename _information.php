@@ -28,9 +28,6 @@ array_multisort($order, SORT_DESC, $caption, SORT_ASC, $arrFilteredfiles);
 
 
 
-
-
-
 $strTab = "<div class=\"row\">";
 $strTab .= "\n\t  <div class=\"col-12\">";
 //$strTab .= "\n\t \t   <h2 class=\"mx-3\">Additional Information</h2>";
@@ -104,7 +101,7 @@ foreach ($arrFilteredfiles as $file) {
         //$content = " - GOTIT ";
     } else {$content = " - NOT ";}
     if ($displayValue == 0) {
-    $strTab .= "<div class=\"d-flex justify-content-between bg-warning text-white p-3 \"> <h2>To edit this page go to <u>". $contentFile. "</u></h2></div>";
+    $strTab .= "<div class=\"d-flex justify-content-between bg-warning text-white p-3 \"> <h2>To edit this page go to <u>//basset/../era2023/". $contentFile. "</u></h2> <p> When all editing use update-all.bat</div>";
     }
     $strTab .= "<a href=\"info/".$file['exptID']."/".$file['FileName']."\" target=\"_BLANK\"><b>Open in other tab</b></a>";
     

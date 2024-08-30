@@ -396,6 +396,7 @@
             "type": "dataDownload",
             "name": "Broadbalk grain and straw yields 1926-1967",
             "URL": "01-BKyld2667.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/YLD192667/01-BKyld2667.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "846 kilobytes"
         },
@@ -403,6 +404,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Section Names",
             "URL": "section_names.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/YLD192667/section_names.pdf",
             "encodingFormat": "pdf",
             "fileSize": "160 kilobytes"
         },
@@ -410,6 +412,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all data as csv",
             "URL": "01-YLD192667.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/YLD192667/01-YLD192667.zip",
             "encodingFormat": "zip",
             "fileSize": "1 megabytes"
         }

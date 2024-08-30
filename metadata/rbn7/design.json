@@ -126,7 +126,7 @@
                     },
                     {
                         "id": 31076,
-                        "name": "ammonium sulphate",
+                        "name": "ammonium sulfate",
                         "amount": "93",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
@@ -135,7 +135,7 @@
                         "dateEnd": null,
                         "frequency": null,
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "ammonium sulfate",
                         "notes": "Until 1916 equal parts of ammonium sulphate and ammonium chloride"
                     },
                     {
@@ -191,7 +191,7 @@
                         "dateEnd": null,
                         "frequency": null,
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": null
                     },
                     {
@@ -248,7 +248,7 @@
                 "factor": [
                     {
                         "Factor": "fertilizer exposure",
-                        "levelCode": "ammonium sulphate",
+                        "levelCode": "ammonium sulfate",
                         "levelText": "ammonium sulphate",
                         "Comment": null
                     }
@@ -262,7 +262,7 @@
                 "factor": [
                     {
                         "Factor": "fertilizer exposure",
-                        "levelCode": "ammonium sulphate",
+                        "levelCode": "ammonium sulfate",
                         "levelText": "ammonium sulphate",
                         "Comment": null
                     },
@@ -825,7 +825,7 @@
                         "dateEnd": null,
                         "frequency": "every fourth year",
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": "(as kiersite since 1974)"
                     }
                 ]

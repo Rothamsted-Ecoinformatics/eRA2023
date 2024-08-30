@@ -280,7 +280,7 @@
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         },
                         {
                             "id": 31339,
@@ -678,7 +678,7 @@
     "site_climate_properties": [
         {
             "id": 4482,
-            "variable_term": null,
+            "variable_term": "precipitation",
             "unit_term": "mm",
             "variable_label": "mean total precipitation",
             "year_from": 1981,
@@ -690,7 +690,7 @@
         },
         {
             "id": 4483,
-            "variable_term": null,
+            "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "mean annual air temperature",
             "year_from": 1981,

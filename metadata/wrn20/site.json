@@ -14,8 +14,8 @@
         "addressRegion": "Bedfordshire",
         "addressCountry": "UK",
         "geoLocationPoint": {
-            "pointLongitude": -0.602016,
-            "pointLatitude": 52.013584
+            "pointLongitude": -0.591111,
+            "pointLatitude": 52.012222
         },
         "geoLocationPlace": "UK",
         "polygon": "NOT IN GLTEN",
@@ -26,11 +26,11 @@
     },
     "soil": {
         "soilTypeLabel": "arenosol",
-        "soilDescription": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998)."
+        "soilDescription": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998). See Catt et al, 1998 for more details of soil type."
     },
     "soilProperty": [
         {
-            "variableMeasured": "Coarse sand content",
+            "variableMeasured": "coarse sand content",
             "isEstimated": false,
             "isBaseline": true,
             "valueReference": 1.7,
@@ -60,7 +60,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": "Fine sand content",
+            "variableMeasured": "find sand content",
             "isEstimated": false,
             "isBaseline": true,
             "valueReference": 36.3,
@@ -75,7 +75,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": "Silt content",
+            "variableMeasured": "silt content",
             "isEstimated": false,
             "isBaseline": true,
             "valueReference": 9.7,
@@ -90,7 +90,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": "Clay content",
+            "variableMeasured": "clay content",
             "isEstimated": false,
             "isBaseline": true,
             "valueReference": 5.9,
@@ -107,7 +107,7 @@
     ],
     "climate": {
         "name": "temperate oceanic climate",
-        "description": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998).",
+        "description": "Derived from Lower Greensand, ranging in texture from loamy sand to sandy loam, corresponding to the Cottenham and Lowlands series, defined by Claydon and Hollis (1984). In the US Soil Taxonomy (Soil Survey Staff 1999) these correspond to Lamellic Ustipsamment and Udic Haplustept respectively.  Classified as Lamellic Arenosol and Fluvic Cambisol  in the FAO system (FAO, 1998). See Catt et al, 1998 for more details of soil type.",
         "weatherStation": {
             "weatherStationID": "NOT IN GLTEN",
             "name": "NOT IN GLTEN",

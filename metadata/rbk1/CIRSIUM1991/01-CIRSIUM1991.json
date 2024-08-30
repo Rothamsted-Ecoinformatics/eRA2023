@@ -265,6 +265,7 @@
             "type": "dataDownload",
             "name": "Data Broadbalk Section 8 (1991-2018)",
             "URL": "01-data-Section-8-1991-2018.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/CIRSIUM1991/01-data-Section-8-1991-2018.csv",
             "encodingFormat": "csv",
             "fileSize": "2 kilobytes"
         },
@@ -272,6 +273,7 @@
             "type": "dataDownload",
             "name": "Data Broadbalk Section 8 (1991-2018)",
             "URL": "01-data-Section-8-1991-2018.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/CIRSIUM1991/01-data-Section-8-1991-2018.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "12 kilobytes"
         },
@@ -279,6 +281,7 @@
             "type": "dataDownload",
             "name": "Data and fertiliser treatments Broadbalk Section 8 (1991-2018)",
             "URL": "01-data-with_fertiliser-1991-2018.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/CIRSIUM1991/01-data-with_fertiliser-1991-2018.csv",
             "encodingFormat": "csv",
             "fileSize": "16 kilobytes"
         },
@@ -286,6 +289,7 @@
             "type": "dataDownload",
             "name": "Data and fertiliser treatments Broadbalk Section 8 (1991-2018)",
             "URL": "01-data-with_fertiliser-1991-2018.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/CIRSIUM1991/01-data-with_fertiliser-1991-2018.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "26 kilobytes"
         }

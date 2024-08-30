@@ -835,6 +835,7 @@
             "type": "dataDownload",
             "name": "Broadbalk weed survey data 1991-2021",
             "URL": "01-BKweeds9121.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/WeedsSec8/01-BKweeds9121.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "325 kilobytes"
         },
@@ -842,6 +843,7 @@
             "type": "dataDownload",
             "name": "Package containing the data in csv format (frictionless)",
             "URL": "WeedsSec8.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/WeedsSec8/WeedsSec8.zip",
             "encodingFormat": "zip",
             "fileSize": "378 kilobytes"
         }

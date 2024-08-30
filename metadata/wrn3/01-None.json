@@ -331,6 +331,7 @@
             "type": "dataDownload",
             "name": "Woburn Ley-arable experiment fertilizer and lime applications 1938-2020",
             "URL": "01-wrn3-fert1938-2020.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wrn3//01-wrn3-fert1938-2020.pdf",
             "encodingFormat": "pdf",
             "fileSize": "1397 kilobytes"
         }

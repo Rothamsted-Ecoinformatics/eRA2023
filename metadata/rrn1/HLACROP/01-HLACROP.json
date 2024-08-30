@@ -416,6 +416,7 @@
             "type": "dataDownload",
             "name": "Highfield Ley-arable Experiment cropping sequence 1949-2023",
             "URL": "01-rrn1HLA-crop4923.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn1/HLACROP/01-rrn1HLA-crop4923.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "300 kilobytes"
         },
@@ -423,6 +424,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01-HLACROP.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn1/HLACROP/01-HLACROP.zip",
             "encodingFormat": "zip",
             "fileSize": "320 kilobytes"
         },
@@ -430,6 +432,7 @@
             "type": "dataDownload",
             "name": "Treatment code summary",
             "URL": "treatment_summary.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn1/HLACROP/treatment_summary.pdf",
             "encodingFormat": "pdf",
             "fileSize": "137 kilobytes"
         }

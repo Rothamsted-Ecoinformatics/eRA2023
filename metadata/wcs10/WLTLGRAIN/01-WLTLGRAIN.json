@@ -565,6 +565,7 @@
             "type": "dataDownload",
             "name": "Grain mineral composition 1978, 1981 and 1995",
             "URL": "01-WobLTliming-grain.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WLTLGRAIN/01-WobLTliming-grain.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "99 kilobytes"
         },
@@ -572,6 +573,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package containing the grain data described here",
             "URL": "01-WLTLGRAIN.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WLTLGRAIN/01-WLTLGRAIN.zip",
             "encodingFormat": "zip",
             "fileSize": "117 kilobytes"
         }

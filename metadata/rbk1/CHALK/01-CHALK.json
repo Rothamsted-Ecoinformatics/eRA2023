@@ -308,6 +308,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Wheat Experiment Chalk Applications",
             "URL": "01-rbk1-chalk.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/CHALK/01-rbk1-chalk.pdf",
             "encodingFormat": "pdf",
             "fileSize": "989 kilobytes"
         },
@@ -315,6 +316,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Wheat Experiment Chalk Application",
             "URL": "rbk1-chalk-01.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/CHALK/rbk1-chalk-01.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "282 kilobytes"
         },
@@ -322,6 +324,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package containing metadata and .csv file",
             "URL": "01-CHALK.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/CHALK/01-CHALK.zip",
             "encodingFormat": "zip",
             "fileSize": "1281 kilobytes"
         }

@@ -697,8 +697,8 @@
                             "application_frequency": null,
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "straw",
+                            "chemical_form_label": "straw"
                         },
                         {
                             "id": 23375,
@@ -739,7 +739,7 @@
                         {
                             "id": 23377,
                             "factor_variant_term": null,
-                            "factor_variant_label": "None",
+                            "factor_variant_label": "none",
                             "amount": null,
                             "amount_unit_term": null,
                             "amount_unit_label": null,

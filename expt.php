@@ -49,6 +49,7 @@ if ($hasDatacite) {
     $datacite = utf8_encode($datacite);
     $experiment = json_decode($datacite, true);
     $page_description = htmlentities($experiment['administrative']['description']);
+    # $page_keywords .= htmlentities(implode(' , ', $experiment['keywords']));
 }
 
 $fileExperiments = 'metadata/default/experiments.json';
@@ -291,6 +292,17 @@ For more information please <a href=\"mailto:era@rothamsted.ac.uk\">contact the 
 
 
                         <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
+                        <h2 class="mx-3">License</h2>
+			<p  class="mx-3">
+				<a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/" target="out">
+					<img
+						style="width: 50px;" 
+						alt="Creative Commons License" 
+						src="images/logos/cc4.png"
+						/></a> These media (images and videos) are
+				available under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+					Attribution Licence (4.0)</a> with attribution to Rothamsted Research.
+			</p>
                             <?php if ($hasMedia) {
                                 include $fileMedia;
                             } ?>

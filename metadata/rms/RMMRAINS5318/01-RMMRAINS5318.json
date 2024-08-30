@@ -348,6 +348,7 @@
             "type": "dataDownload",
             "name": "Total monthly rainfall as Excel",
             "URL": "RMMRAIN5318-data-v3.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/RMMRAINS5318/RMMRAIN5318-data-v3.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "33 kilobytes"
         },
@@ -355,6 +356,7 @@
             "type": "dataDownload",
             "name": "Total monthly rainfall as csv",
             "URL": "RMMRAIN5318-data-v2.csv",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/RMMRAINS5318/RMMRAIN5318-data-v2.csv",
             "encodingFormat": "csv",
             "fileSize": "12 kilobytes"
         }

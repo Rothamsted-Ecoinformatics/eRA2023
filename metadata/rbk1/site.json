@@ -105,7 +105,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": "plant available phosphorous (Olsen P)",
+            "variableMeasured": "plant available phosphorous",
             "isEstimated": true,
             "isBaseline": false,
             "valueReference": 10.0,
@@ -120,7 +120,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": "soil bulk density",
+            "variableMeasured": "soil density",
             "isEstimated": true,
             "isBaseline": false,
             "valueReference": 1.25,

@@ -352,6 +352,7 @@
             "type": "dataDownload",
             "name": "Grain and straw yields from the Woburn Continuous Barley experiment 1877-1926",
             "URL": "01-BYIELD7726.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wxb6/BYIELD7726/01-BYIELD7726.zip",
             "encodingFormat": "zip",
             "fileSize": "264 kilobytes"
         }

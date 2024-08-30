@@ -250,7 +250,7 @@
                         "dateEnd": 1925,
                         "frequency": "annually",
                         "method": "fertilizer basal application",
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": "Applied in the autumn, omitted 1915"
                     }
                 ]
@@ -1485,7 +1485,7 @@
                         "dateEnd": null,
                         "frequency": "Annually in autumn",
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": "11kgMg until 1973. 35 kgMg every 3rd year 1974-2000."
                     },
                     {
@@ -1499,7 +1499,7 @@
                         "dateEnd": 2005,
                         "frequency": "Annually in autumn",
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": "Plus 60 kg Mg in autumn 2000 only"
                     },
                     {
@@ -1513,7 +1513,7 @@
                         "dateEnd": 2000,
                         "frequency": "Annually in autumn",
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": "31kgMg as magnesium sulphate until 1973"
                     }
                 ]
@@ -1536,7 +1536,7 @@
                         "dateEnd": null,
                         "frequency": "Annually in autumn",
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "farmyard manure",
                         "notes": "Derived from cattle. Not applied to beans from 2018, not applied to oats 1996-2017."
                     },
                     {

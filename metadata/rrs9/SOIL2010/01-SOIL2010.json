@@ -312,6 +312,7 @@
             "type": "dataDownload",
             "name": "Acid Strip soil pH and P data 2010",
             "URL": "01-RS9-SOIL2010.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrs9/SOIL2010/01-RS9-SOIL2010.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "38 kilobytes"
         }

@@ -270,6 +270,7 @@
             "type": "dataDownload",
             "name": "Broadbalk Yields and Treatments",
             "URL": "01-Yields-June2017.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/OAWWYields/01-Yields-June2017.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "17 kilobytes"
         },
@@ -277,6 +278,7 @@
             "type": "dataDownload",
             "name": "Figure: mean long-term winter wheat grain yields",
             "URL": "01-fig-June2017.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/OAWWYields/01-fig-June2017.pdf",
             "encodingFormat": "pdf",
             "fileSize": "196 kilobytes"
         }

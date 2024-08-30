@@ -246,6 +246,7 @@
             "type": "dataDownload",
             "name": "Broadbalk 10-year mean grain and straw yields, 1852-1967 ",
             "URL": "01-MEANYLD5267-data.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/MEANYLD5267/01-MEANYLD5267-data.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "27 kilobytes"
         }

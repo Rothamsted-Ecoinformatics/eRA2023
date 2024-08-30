@@ -316,6 +316,7 @@
             "type": "dataDownload",
             "name": "Broadbalk: Changes in soil organic carbon t/ha (0-23cm ) figure",
             "URL": "01-BKSOC1843.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BKSOC1843/01-BKSOC1843.pdf",
             "encodingFormat": "pdf",
             "fileSize": "178 kilobytes"
         },
@@ -323,6 +324,7 @@
             "type": "dataDownload",
             "name": "Changes in Broadbalk SOC data and treatments 1843-2010",
             "URL": "01-BKSOC1843-data.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BKSOC1843/01-BKSOC1843-data.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "28 kilobytes"
         }

@@ -486,6 +486,7 @@
             "type": "dataDownload",
             "name": "Park Grass Species 1991-2000",
             "URL": "rpg5_species_1991-2000_01.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAPGspecies9100/rpg5_species_1991-2000_01.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "474 kilobytes"
         }

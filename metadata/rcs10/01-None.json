@@ -4,7 +4,7 @@
     "identifier": "10.23637/rcs10-Treatments-01",
     "name": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996",
     "shortName": "",
-    "url": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+    "url": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
     "description": [
         {
             "inLanguage": null,
@@ -300,7 +300,7 @@
             "alternateName": "BBS/E/RH/23NB0007",
             "url": null,
             "description": "The RLTE-NBRI is funded by UK Research and Innovation - Biotechnology and Biological Sciences Research Council (UKRI-BBSRC) under award BBS/E/RH/23NB0007 (2023-2028)",
-            "disambiguatingDescription": "[\" \"]",
+            "disambiguatingDescription": "",
             "funder": {
                 "type": "organization",
                 "name": "Biotechnology and Biological Sciences Research Council",

@@ -344,7 +344,7 @@
                             "application_method_term": "fertilizer basal application",
                             "application_method_label": "fertilizer basal application",
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         }
                     ],
                     "factor_label": "magnesium nutrient exposure",
@@ -1013,7 +1013,7 @@
                             "application_frequency": "twice",
                             "application_method_term": "broadcast application method",
                             "application_method_label": "broadcast application method",
-                            "chemical_form_term": null,
+                            "chemical_form_term": "ammonium sulfate",
                             "chemical_form_label": "ammonium sulfate"
                         },
                         {
@@ -1530,7 +1530,7 @@
                             "application_frequency": "annually in mid-April",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
+                            "chemical_form_term": "ammonium nitrate",
                             "chemical_form_label": "ammonium nitrate"
                         },
                         {
@@ -1859,7 +1859,7 @@
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         },
                         {
                             "id": 36138,
@@ -1877,7 +1877,7 @@
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         },
                         {
                             "id": 36139,
@@ -1895,7 +1895,7 @@
                             "application_method_term": null,
                             "application_method_label": null,
                             "chemical_form_term": "magnesium sulphate",
-                            "chemical_form_label": "magnesium sulphate"
+                            "chemical_form_label": "magnesium sulfate"
                         }
                     ],
                     "factor_label": "magnesium nutrient exposure",
@@ -1922,8 +1922,8 @@
                             "application_frequency": "Annually in autumn",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "farmyard manure",
+                            "chemical_form_label": "farmyard manure"
                         },
                         {
                             "id": 36141,
@@ -3531,9 +3531,9 @@
         },
         {
             "id": 12210,
-            "variable_term": null,
+            "variable_term": "plant available phosphorous",
             "unit_term": "mg/kg",
-            "variable_label": "plant available phosphorous (Olsen P)",
+            "variable_label": "plant available phosphorus",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -3547,9 +3547,9 @@
         },
         {
             "id": 12211,
-            "variable_term": null,
+            "variable_term": "soil density",
             "unit_term": "g/cm3",
-            "variable_label": "soil bulk density",
+            "variable_label": "soil density",
             "min_depth": 0.0,
             "max_depth": 23.0,
             "depth_unit": "Centimetres",
@@ -3582,7 +3582,7 @@
     "site_climate_properties": [
         {
             "id": 6180,
-            "variable_term": null,
+            "variable_term": "precipitation",
             "unit_term": null,
             "variable_label": "annual total precipitation",
             "year_from": 1981,
@@ -3594,7 +3594,7 @@
         },
         {
             "id": 6181,
-            "variable_term": null,
+            "variable_term": "air temperature",
             "unit_term": "degC",
             "variable_label": "annual mean air temperature",
             "year_from": 1981,

@@ -504,6 +504,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv",
             "URL": "01-SOC4814.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn1/SOC4814/01-SOC4814.zip",
             "encodingFormat": "zip",
             "fileSize": "227 kilobytes"
         },
@@ -511,6 +512,7 @@
             "type": "dataDownload",
             "name": "Treatment code summary",
             "URL": "treatment_summary.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn1/SOC4814/treatment_summary.pdf",
             "encodingFormat": "pdf",
             "fileSize": "137 kilobytes"
         },
@@ -518,6 +520,7 @@
             "type": "dataDownload",
             "name": "Highfield Ley-arable soil chemical properties 1948-2014",
             "URL": "01-HLA-SOC4814.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rrn1/SOC4814/01-HLA-SOC4814.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "100 kilobytes"
         }

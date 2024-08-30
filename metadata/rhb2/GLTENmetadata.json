@@ -82,8 +82,8 @@
                     "levels": [
                         {
                             "id": 31406,
-                            "factor_variant_term": null,
-                            "factor_variant_label": "ammonium sulphate (Series A)",
+                            "factor_variant_term": "ammonium sulphate",
+                            "factor_variant_label": "ammonium sulfate (Series A)",
                             "amount": "48",
                             "amount_unit_term": "kgN/ha",
                             "amount_unit_label": "kg nitrogen per hectare",
@@ -233,8 +233,8 @@
                             "application_frequency": "annuallty",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "farmyard manure",
+                            "chemical_form_label": "farmyard manure"
                         },
                         {
                             "id": 31413,
@@ -251,8 +251,8 @@
                             "application_frequency": "annually",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "farmyard manure",
+                            "chemical_form_label": "farmyard manure"
                         },
                         {
                             "id": 31414,
@@ -434,8 +434,8 @@
                 },
                 {
                     "id": 21635,
-                    "crop_term": null,
-                    "crop_label": "field beans",
+                    "crop_term": "beans",
+                    "crop_label": "beans",
                     "start_year": null,
                     "end_year": null
                 }
@@ -887,8 +887,8 @@
                             "application_frequency": "annually",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "farmyard manure",
+                            "chemical_form_label": "farmyard manure"
                         },
                         {
                             "id": 31431,
@@ -905,8 +905,8 @@
                             "application_frequency": "annually",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "farmyard manure",
+                            "chemical_form_label": "farmyard manure"
                         },
                         {
                             "id": 31432,

@@ -388,6 +388,7 @@
             "type": "dataDownload",
             "name": "Annual Mean Rothamsted Temperature 1878-2013 (data)",
             "URL": "01-data_1878-2013.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/RMAAtemp/01-data_1878-2013.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "14 kilobytes"
         },
@@ -395,6 +396,7 @@
             "type": "dataDownload",
             "name": "Annual Mean Rothamsted Temperature 1878-2013 (figure)",
             "URL": "01-fig_1878-2013.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rms/RMAAtemp/01-fig_1878-2013.pdf",
             "encodingFormat": "pdf",
             "fileSize": "97 kilobytes"
         }

@@ -45,7 +45,7 @@
             "description": "NOT IN GLTN"
         },
         {
-            "variableMeasured": "fine sand content",
+            "variableMeasured": "find sand content",
             "isEstimated": false,
             "isBaseline": false,
             "valueReference": 27.0,

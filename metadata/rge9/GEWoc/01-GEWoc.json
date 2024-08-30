@@ -427,6 +427,7 @@
             "type": "dataDownload",
             "name": "Geescroft Wilderness Carbon Chart",
             "URL": "Geescroft_Wilderness_Carbon_Chart.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rge9/GEWoc/Geescroft_Wilderness_Carbon_Chart.pdf",
             "encodingFormat": "pdf",
             "fileSize": "97 kilobytes"
         },
@@ -434,6 +435,7 @@
             "type": "dataDownload",
             "name": "rge9 open access data",
             "URL": "Geescroft Wilderness Open Access.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rge9/GEWoc/Geescroft Wilderness Open Access.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "22 kilobytes"
         }

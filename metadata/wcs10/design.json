@@ -239,7 +239,7 @@
                         "dateEnd": 1978,
                         "frequency": "Annually in spring",
                         "method": null,
-                        "chemicalForm": "magnesium sulphate",
+                        "chemicalForm": "magnesium sulfate",
                         "notes": "Not applied in 1975. Applied as Epsom salts 1974-1977 and as Kieserite in 1978."
                     }
                 ]
@@ -508,7 +508,7 @@
                     },
                     {
                         "id": 31544,
-                        "name": "Lime low",
+                        "name": "lime low",
                         "amount": "3",
                         "unitCode": "t/ha",
                         "unitText": "tonnes per hectare",

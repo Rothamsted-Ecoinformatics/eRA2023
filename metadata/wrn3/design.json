@@ -74,8 +74,8 @@
             },
             {
                 "id": 26880,
-                "name": "kale",
-                "sameAs": "kale",
+                "name": "kales",
+                "sameAs": "kales",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -109,8 +109,8 @@
             },
             {
                 "id": 26885,
-                "name": "lucerne (alfalfa)",
-                "sameAs": "lucerne (alfalfa)",
+                "name": "alfalfa",
+                "sameAs": "alfalfa",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -376,8 +376,8 @@
             },
             {
                 "id": 26895,
-                "name": "forage maize",
-                "sameAs": "forage maize",
+                "name": "maize",
+                "sameAs": "maize",
                 "dateStart": null,
                 "dateEnd": null
             },
@@ -678,8 +678,8 @@
             },
             {
                 "id": 15054,
-                "name": "split nitrogen fertilizer exposure",
-                "description": "Split v single N applications to wheat test crop, tested 2001-2005, split plots. Applied to Farmyard manure residue split plots, last applied in 1960s.",
+                "name": "nitrogen fertilizer exposure",
+                "description": "Split nitrogen applications.",
                 "effect": "",
                 "plotApplication": null,
                 "level": []
@@ -753,36 +753,36 @@
         "crops": [
             {
                 "id": 26899,
-                "name": "winter wheat (W)",
-                "sameAs": "winter wheat (W)",
+                "name": "winter wheat",
+                "sameAs": "winter wheat",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 26900,
-                "name": "winter rye (R)",
-                "sameAs": "winter rye (R)",
+                "name": "winter rye",
+                "sameAs": "winter rye",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 26901,
-                "name": "beans (BE)",
-                "sameAs": "beans (BE)",
+                "name": "beans",
+                "sameAs": "beans",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 26902,
-                "name": "winter oats (O)",
-                "sameAs": "winter oats (O)",
+                "name": "winter oats",
+                "sameAs": "winter oats",
                 "dateStart": null,
                 "dateEnd": null
             },
             {
                 "id": 26903,
-                "name": "winter barley (WB)",
-                "sameAs": "winter barley (WB)",
+                "name": "winter barley",
+                "sameAs": "winter barley",
                 "dateStart": null,
                 "dateEnd": null
             },

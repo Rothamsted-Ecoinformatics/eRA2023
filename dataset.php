@@ -32,19 +32,22 @@ $zipfile = "";
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $page_title .= ' dataset: ' . $dataset;
+$page_description = "";
+$page_keywords .="";
 $datasetParts = explode("-", $dataset);
 $pageinfo = getPageInfo($expt);
 $KeyRef = $pageinfo['KeyRef'];
 $exptFolder = 'metadata/' . $expt;
 $fileDataset = $exptFolder . '/' . $datasetParts[1] . '/' . $dataset . '.json';
 $dsinfo = "";
-$page_description = "";
+
 $hasDataset = file_exists($fileDataset);
 if ($hasDataset) {
     $jdataset = file_get_contents($fileDataset);
     $jdataset8 = utf8_encode($jdataset);
     $dsinfo = json_decode($jdataset8, true);
     $page_description = htmlentities($dsinfo['description'][0]['description']);
+    $page_keywords .= htmlentities(implode(' , ', $dsinfo['keywords']));
 }
 if (isset($_SESSION['visitedPages'])) {
     $_SESSION['visitedPages'][] = array(
@@ -87,10 +90,11 @@ if ($hasDataset) {
     else 
     {
         $datasetTitle = 'Dataset: '. $dsinfo['name'];
+
     }
     $DOI = $dsinfo["identifier"];
     $actualURL = "";
-
+$page_title =  'eRA Dataset: '.  $dataset. ' - '. $dsinfo['name'];
     //$testmbsubstring = substr($DOI, 0,3);
     if (substr($DOI, 0, 3) == "10.") {
         $actualURL = "https://doi.org/".$DOI; 
@@ -240,16 +244,32 @@ if ($hasDataset) {
                 } 
             }
             if ($isDefault == 0 ) {
-                //we can add this info to the string as this is not found in the default list. 
+                //we can add this info to the string as this is not found in the default list.
+                /*
+                  "funding": [{
+            "type": "Grant",
+            Title of the grant is: "name": "S2N - Soil to Nutrition Institute Strategic Programme (2017-2022)",
+            Grant number is: "alternateName": "BBS/E/C/00010310",
+            URL to the actual grant is: "url": "http://tinyurl.com/grant00010310",
+            A text to replace all information is : "description": null,
+            List of work packages is: "disambiguatingDescription": "BBS/E/C/00010310 (WP1)",
+            this is the fuunding organisationL "funder": {
+                "type": "organization",
+                "name": "Biotechnology and Biological Sciences Research Council",
+               The URL of the funder "url": "https://www.ukri.org/councils/bbsrc/",
+               The DOi or ROR information for the funder:  "identifier": "https://doi.org/10.13039/501100000268"
+            }
+        },
+                */
                 if ($funder['description']) {
                     $strFunders .= "<li>".$funder['description']."<br />";
                     if ($funder['url']) {
-                    $strFunders .= "<a target = \"_blank\" href=\"".  $funder['url'] . "\">  " . $funder['alternateName'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup>";
+                    $strFunders .= "<a target = \"_blank\" href=\"".  $funder['url'] . "\">  " . $funder['alternateName'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup> - ";
                     }
                     $strFunders .= (isset($funder['disambiguatingDescription']))? " - ". $funder['disambiguatingDescription'] : ""; 
                     $strFunders .=  "</li>";
                 } else {
-                    $strFunders .= "<li>  <a target = \"_blank\" href=\"".  $funder['identifier'] . "\">  " . $funder['alternateName'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup> - ".  $funder['disambiguatingDescription']  ." from <a href=\"".$funder['funder']['url']."\">".$funder['funder']['name']. "</li>";
+                    $strFunders .= "<li>".$funder['name']."  <a target = \"_blank\" href=\"".  $funder['identifier'] . "\">  " . $funder['alternateName'] . "</a> <sup><i class=\"fa fa-external-link\" aria-hidden=\"true\"></i></sup> - ".   $funder['disambiguatingDescription']  ." from <a href=\"".$funder['funder']['url']."\">".$funder['funder']['name']. "</li>";
                     }
                     $countFunders ++;
             }

@@ -367,6 +367,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package including all the data as csv ",
             "URL": "01-BEANYLD.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BEANYLD/01-BEANYLD.zip",
             "encodingFormat": "zip",
             "fileSize": "291 kilobytes"
         },
@@ -374,6 +375,7 @@
             "type": "dataDownload",
             "name": "Broadbalk section names",
             "URL": "section_names.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BEANYLD/section_names.pdf",
             "encodingFormat": "pdf",
             "fileSize": "161 kilobytes"
         },
@@ -381,6 +383,7 @@
             "type": "dataDownload",
             "name": "Broadbalk bean yields 1968-2022",
             "URL": "01-BKbeans6822.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/BEANYLD/01-BKbeans6822.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "121 kilobytes"
         }

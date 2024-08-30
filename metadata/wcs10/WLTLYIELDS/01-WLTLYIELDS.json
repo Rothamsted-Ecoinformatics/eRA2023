@@ -426,6 +426,7 @@
             "type": "dataDownload",
             "name": "Woburn long-term liming experiment crop yields 1962-1996",
             "URL": "01-WobLTliming-yield.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WLTLYIELDS/01-WobLTliming-yield.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "280 kilobytes"
         },
@@ -433,6 +434,7 @@
             "type": "dataDownload",
             "name": "Frictionless data package containing the yield data described here",
             "URL": "01-WLTLYIELDS.zip",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WLTLYIELDS/01-WLTLYIELDS.zip",
             "encodingFormat": "zip",
             "fileSize": "291 kilobytes"
         }

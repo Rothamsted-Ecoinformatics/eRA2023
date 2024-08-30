@@ -593,7 +593,7 @@
                         "dateEnd": null,
                         "frequency": null,
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "straw",
                         "notes": "As chopped barley straw"
                     },
                     {
@@ -626,7 +626,7 @@
                     },
                     {
                         "id": 23377,
-                        "name": "None",
+                        "name": "none",
                         "amount": null,
                         "unitCode": null,
                         "unitText": null,

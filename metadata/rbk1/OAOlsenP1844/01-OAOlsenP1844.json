@@ -336,6 +336,7 @@
             "type": "dataDownload",
             "name": "Olsen P data and treatments",
             "URL": "01-data-and-treatments.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/OAOlsenP1844/01-data-and-treatments.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "15 kilobytes"
         },
@@ -343,6 +344,7 @@
             "type": "dataDownload",
             "name": "Open Access BK Olsen P figure",
             "URL": "01-fig-olsenP.pdf",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rbk1/OAOlsenP1844/01-fig-olsenP.pdf",
             "encodingFormat": "pdf",
             "fileSize": "95 kilobytes"
         }

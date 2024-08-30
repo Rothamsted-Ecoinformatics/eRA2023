@@ -410,6 +410,7 @@
             "type": "dataDownload",
             "name": "Park Grass Hay Yields 1965-2018",
             "URL": "rpg5_yields_1965-2018_01.xlsx",
+            "contentURL": "https://www.era.rothamsted.ac.uk/metadata/rpg5/OAyieldsperiod3/rpg5_yields_1965-2018_01.xlsx",
             "encodingFormat": "xlsx",
             "fileSize": "943 kilobytes"
         }

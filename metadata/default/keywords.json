@@ -14,7 +14,20 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            }
+        ]
     },
     {
         "keyword": "air temperature",
@@ -74,7 +87,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -85,7 +98,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -93,6 +106,12 @@
                 "DOI": "10.23637/rms-RothSeasonTotRainMeanTemp1968-2022",
                 "URL": "dataset/rms/01-rmsSeasonRainTemp",
                 "title": "Mean Seasonal Air Temperature and Total Seasonal Rain at Rothamsted 1968-2022 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -104,7 +123,74 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/monthly",
+                "title": "Rothamsted Met Data Monthly Updates",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "arable farming",
@@ -231,13 +317,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
                 "title": "Rothamsted long-term liming experiment plans 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
                 "title": "Woburn long-term liming experiment plans 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -249,13 +335,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
                 "title": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
                 "title": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -346,6 +432,12 @@
                 "URL": "dataset/wcs10/02-WLTLSOIL",
                 "title": "Woburn long-term liming experiment soil chemical properties 1962-1996 ",
                 "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/rbk1-FYM-01",
+                "URL": "dataset/rbk1/01-BKFYM",
+                "title": "Broadbalk Wheat Experiment organic manure chemical composition ",
+                "exptID": "rbk1"
             }
         ],
         "documents": [
@@ -420,7 +512,26 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "barley",
@@ -522,7 +633,56 @@
                 "exptID": "rex4"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/history",
+                "title": "History of the Woburm Station",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/wxb6/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wxb6"
+            }
+        ]
     },
     {
         "keyword": "biogeochemical cycle",
@@ -574,7 +734,20 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            }
+        ]
     },
     {
         "keyword": "Broadbalk long-term experiment",
@@ -707,6 +880,12 @@
                 "DOI": "10.23637/rbk1-fmyield9717-01",
                 "URL": "dataset/rbk1/01-FMYIELD",
                 "title": "Broadbalk forage maize yields 1997-2017 ",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-FYM-01",
+                "URL": "dataset/rbk1/01-BKFYM",
+                "title": "Broadbalk Wheat Experiment organic manure chemical composition ",
                 "exptID": "rbk1"
             }
         ],
@@ -844,7 +1023,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -855,7 +1034,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -875,6 +1054,24 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -970,7 +1167,32 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            }
+        ]
     },
     {
         "keyword": "climate change",
@@ -1030,7 +1252,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -1041,7 +1263,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -1049,6 +1271,18 @@
                 "DOI": "10.23637/rms-RothSeasonTotRainMeanTemp1968-2022",
                 "URL": "dataset/rms/01-rmsSeasonRainTemp",
                 "title": "Mean Seasonal Air Temperature and Total Seasonal Rain at Rothamsted 1968-2022 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -1159,6 +1393,94 @@
         "pages": []
     },
     {
+        "keyword": "compost",
+        "slug": "compost",
+        "identifier": "c_1795",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_1795",
+        "datasets": [],
+        "documents": [],
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/grainquality",
+                "title": "Grain quality assessment",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
+    },
+    {
+        "keyword": "copper",
+        "slug": "copper",
+        "identifier": "c_1868",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_1868",
+        "datasets": [],
+        "documents": [],
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
+    },
+    {
         "keyword": "crop rotation",
         "slug": "crop-rotation",
         "identifier": "c_6662",
@@ -1234,7 +1556,14 @@
                 "exptID": "rrn2"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "crop yield",
@@ -1366,7 +1695,32 @@
                 "exptID": "docs"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/broomsbarn/experiments",
+                "title": "Brooms Barn Experiments",
+                "pageType": "site",
+                "exptID": "broomsbarn"
+            },
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "cropping system",
@@ -1528,7 +1882,20 @@
                 "exptID": "rrn2"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rrn1/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rrn1"
+            },
+            {
+                "URL": "info/rrn2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rrn2"
+            }
+        ]
     },
     {
         "keyword": "ecological metagenomes",
@@ -1714,13 +2081,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
                 "title": "Rothamsted long-term liming experiment plans 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
                 "title": "Woburn long-term liming experiment plans 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -1937,6 +2304,12 @@
                 "URL": "dataset/rbk1/02-OAWWYields",
                 "title": "Broadbalk mean long-term yields of winter wheat 1852-2018 ",
                 "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rbk1-FYM-01",
+                "URL": "dataset/rbk1/01-BKFYM",
+                "title": "Broadbalk Wheat Experiment organic manure chemical composition ",
+                "exptID": "rbk1"
             }
         ],
         "documents": [
@@ -2146,13 +2519,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
                 "title": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
                 "title": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -2283,7 +2656,164 @@
                 "exptID": "rex4"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/broomsbarn/experiments",
+                "title": "Brooms Barn Experiments",
+                "pageType": "site",
+                "exptID": "broomsbarn"
+            },
+            {
+                "URL": "info/broomsbarn/history",
+                "title": "History of Broom's Barn",
+                "pageType": "site",
+                "exptID": "broomsbarn"
+            },
+            {
+                "URL": "info/default/CF",
+                "title": "Conversion Factors",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/earthworms",
+                "title": "Earthworms",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/grainquality",
+                "title": "Grain quality assessment",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rcs10/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rcs10"
+            },
+            {
+                "URL": "info/rex4/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rex4"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/plot-photos",
+                "title": "Park Grass Plots",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/saxmundham/experiments",
+                "title": "Experiments done at Saxmundham",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/srn2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "srn2"
+            },
+            {
+                "URL": "info/wcs10/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wcs10"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/wrn3/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wrn3"
+            },
+            {
+                "URL": "info/wxb6/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wxb6"
+            },
+            {
+                "URL": "info/wxw6/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wxw6"
+            }
+        ]
     },
     {
         "keyword": "field beans",
@@ -2300,7 +2830,14 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "flora",
@@ -2417,7 +2954,14 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/disease",
+                "title": "Disease surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "Geescroft Wilderness experiment",
@@ -2511,7 +3055,26 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/weeds",
+                "title": "Weeds surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields",
+                "title": "Wheat yield background information",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "hay",
@@ -2552,7 +3115,26 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/harvesting",
+                "title": "Harvesting methods",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            }
+        ]
     },
     {
         "keyword": "herbicides",
@@ -2581,7 +3163,32 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/weeds",
+                "title": "Weeds surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields",
+                "title": "Wheat yield background information",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "Highfield bare fallow experiment",
@@ -2695,6 +3302,119 @@
             }
         ],
         "pages": []
+    },
+    {
+        "keyword": "iron",
+        "slug": "iron",
+        "identifier": "c_3950",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_3950",
+        "datasets": [],
+        "documents": [],
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/bms/overview",
+                "title": "bms Overview",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/about",
+                "title": "About e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/credits",
+                "title": "Credits: past and present staff involved in eRA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/overview",
+                "title": "Overview of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rpg5/links",
+                "title": "Links",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/sms/overview",
+                "title": "Overview of the Woburn Weather Station",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/wms/overview",
+                "title": "Overview of the Saxmundham Weather Station",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/woburn/history",
+                "title": "History of the Woburm Station",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "ley farming",
@@ -2838,7 +3558,32 @@
                 "exptID": "rrn2"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/saxmundham/site",
+                "title": "The Saxmundham site",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/overview",
+                "title": "Overview",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "liming",
@@ -2941,7 +3686,7 @@
         "documents": [
             {
                 "DOI": "10.23637/rcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
                 "title": "Rothamsted long-term liming experiment plans 1962-1996 ",
                 "exptID": "rcs10"
             },
@@ -2953,13 +3698,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
                 "title": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
                 "title": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -2994,7 +3739,56 @@
                 "exptID": "wrn3"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rcs10/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rcs10"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/wcs10/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wcs10"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "long term experiments",
@@ -3344,6 +4138,18 @@
                 "URL": "dataset/wcs10/02-WLTLSOIL",
                 "title": "Woburn long-term liming experiment soil chemical properties 1962-1996 ",
                 "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/wrn20-soil-01",
+                "URL": "dataset/wrn20/01-RN20SOIL",
+                "title": "Woburn Erosion Reference Experiment plot soil total C and N ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
+                "exptID": "wrn20"
             }
         ],
         "documents": [
@@ -3361,13 +4167,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
                 "title": "Rothamsted long-term liming experiment plans 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
                 "title": "Woburn long-term liming experiment plans 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -3379,13 +4185,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
                 "title": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
                 "title": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -3531,6 +4337,41 @@
         "pages": []
     },
     {
+        "keyword": "magnesium",
+        "slug": "magnesium",
+        "identifier": "c_4517",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_4517",
+        "datasets": [],
+        "documents": [],
+        "pages": [
+            {
+                "URL": "info/default/CF",
+                "title": "Conversion Factors",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            }
+        ]
+    },
+    {
         "keyword": "maize",
         "slug": "maize",
         "identifier": "c_12332",
@@ -3545,7 +4386,38 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "meteorological factors",
@@ -3580,7 +4452,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -3600,6 +4472,24 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -3749,7 +4639,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -3768,6 +4658,12 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -3857,7 +4753,68 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/overview",
+                "title": "bms Overview",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/broomsbarn/overview",
+                "title": "Brooms Barn: overview",
+                "pageType": "site",
+                "exptID": "broomsbarn"
+            },
+            {
+                "URL": "info/default/about",
+                "title": "About e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/credits",
+                "title": "Credits: past and present staff involved in eRA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/howtoaccessdata",
+                "title": "How to access data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/background",
+                "title": "Background information on the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/sms/overview",
+                "title": "Overview of the Woburn Weather Station",
+                "pageType": "experiment",
+                "exptID": "sms"
+            }
+        ]
     },
     {
         "keyword": "microbial ecology",
@@ -3879,6 +4836,16 @@
                 "exptID": "rpg5"
             }
         ],
+        "documents": [],
+        "pages": []
+    },
+    {
+        "keyword": "micronutrient",
+        "slug": "micronutrient",
+        "identifier": "_27027",
+        "schema": "Chemical Entities of Biological Interest",
+        "URL": "http://purl.obolibrary.org/obo/chebi.owl_27027",
+        "datasets": [],
         "documents": [],
         "pages": []
     },
@@ -3915,13 +4882,25 @@
         "keyword": "minimum tillage",
         "slug": "minimum-tillage",
         "identifier": "c_32734",
-        "schema": "Agronomy Ontology",
-        "URL": "http://purl.obolibrary.org/obo/agro-edit.owlc_32734",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_32734",
         "datasets": [
             {
                 "DOI": "10.23637/wrn20-yield-01",
                 "URL": "dataset/wrn20/01-RN20YLD",
                 "title": "Woburn Erosion Reference Experiment crop yields. ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-soil-01",
+                "URL": "dataset/wrn20/01-RN20SOIL",
+                "title": "Woburn Erosion Reference Experiment plot soil total C and N ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
                 "exptID": "wrn20"
             }
         ],
@@ -3974,7 +4953,68 @@
                 "exptID": "rbk1"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/howtocredit",
+                "title": "How to credit materials",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/earthworms",
+                "title": "Earthworms",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/weeds",
+                "title": "Weeds surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rex4/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rex4"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            }
+        ]
     },
     {
         "keyword": "nitrogen content",
@@ -4036,10 +5076,35 @@
                 "URL": "dataset/rrn2/01-SOC5014",
                 "title": "Fosters Ley-arable experiment soil chemical properties 1948-2014 ",
                 "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/rbk1-FYM-01",
+                "URL": "dataset/rbk1/01-BKFYM",
+                "title": "Broadbalk Wheat Experiment organic manure chemical composition ",
+                "exptID": "rbk1"
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/howtocredit",
+                "title": "How to credit materials",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            }
+        ]
     },
     {
         "keyword": "nitrogen fertilizers",
@@ -4140,7 +5205,44 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/grainquality",
+                "title": "Grain quality assessment",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/woburn/history",
+                "title": "History of the Woburm Station",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "Park grass long-term experiment",
@@ -4218,7 +5320,14 @@
                 "exptID": "rpg5"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rpg5/plot-photos",
+                "title": "Park Grass Plots",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            }
+        ]
     },
     {
         "keyword": "pathogenic fungi",
@@ -4234,6 +5343,16 @@
                 "exptID": "rrn1"
             }
         ],
+        "documents": [],
+        "pages": []
+    },
+    {
+        "keyword": "peat",
+        "slug": "peat",
+        "identifier": "c_5647",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_5647",
+        "datasets": [],
         "documents": [],
         "pages": []
     },
@@ -4337,7 +5456,20 @@
                 "exptID": "rrn2"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            }
+        ]
     },
     {
         "keyword": "phosphorous",
@@ -4416,13 +5548,13 @@
         "documents": [
             {
                 "DOI": "10.23637/rcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
                 "title": "Rothamsted long-term liming experiment plans 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
                 "title": "Woburn long-term liming experiment plans 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -4573,7 +5705,26 @@
                 "exptID": "rex4"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            }
+        ]
     },
     {
         "keyword": "potassium fertilizers",
@@ -4680,7 +5831,50 @@
                 "exptID": "rex4"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/weeds",
+                "title": "Weeds surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            }
+        ]
     },
     {
         "keyword": "precipitation",
@@ -4747,6 +5941,12 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -4884,7 +6084,56 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/dataQuality",
+                "title": "Data Quality in e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/monthly",
+                "title": "Rothamsted Met Data Monthly Updates",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            }
+        ]
     },
     {
         "keyword": "rain",
@@ -4945,6 +6194,12 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -5034,7 +6289,218 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/bms/overview",
+                "title": "bms Overview",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/credits",
+                "title": "Credits: past and present staff involved in eRA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/dataQuality",
+                "title": "Data Quality in e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/disease",
+                "title": "Disease surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/earthworms",
+                "title": "Earthworms",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/grainquality",
+                "title": "Grain quality assessment",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/weeds",
+                "title": "Weeds surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields",
+                "title": "Wheat yield background information",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/background",
+                "title": "Background information on the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/history",
+                "title": "History of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/overview",
+                "title": "Overview of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/monthly",
+                "title": "Rothamsted Met Data Monthly Updates",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/site",
+                "title": "The Rothamsted Weather station site",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/saxmundham/site",
+                "title": "The Saxmundham site",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/sms/overview",
+                "title": "Overview of the Woburn Weather Station",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/srn2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "srn2"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/wms/overview",
+                "title": "Overview of the Saxmundham Weather Station",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "rainfall patterns",
@@ -5077,6 +6543,12 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -5219,7 +6691,14 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            }
+        ]
     },
     {
         "keyword": "residual effects",
@@ -5315,7 +6794,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -5518,7 +6997,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -5599,6 +7078,42 @@
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
                 "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/wrn20-soil-01",
+                "URL": "dataset/wrn20/01-RN20SOIL",
+                "title": "Woburn Erosion Reference Experiment plot soil total C and N ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/rbk1-FYM-01",
+                "URL": "dataset/rbk1/01-BKFYM",
+                "title": "Broadbalk Wheat Experiment organic manure chemical composition ",
+                "exptID": "rbk1"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
+                "exptID": "rms"
             }
         ],
         "documents": [
@@ -5622,13 +7137,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
                 "title": "Rothamsted long-term liming experiment plans 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
                 "title": "Woburn long-term liming experiment plans 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -5640,13 +7155,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Treatments.pdf",
                 "title": "Rothamsted long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Treatments-01",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Treatments.pdf",
                 "title": "Woburn long-term liming experiments lime and fertilizer treatments 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -5801,17 +7316,169 @@
                 "exptID": "rbk1"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/about",
+                "title": "About e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/conditions",
+                "title": "Conditions of Use",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/credits",
+                "title": "Credits: past and present staff involved in eRA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/dataQuality",
+                "title": "Data Quality in e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/howtoaccessdata",
+                "title": "How to access data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/howtocredit",
+                "title": "How to credit materials",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/privacy",
+                "title": "Privacy and Cookies information",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rothamsted/history",
+                "title": "History of Rothamsted Experimental station",
+                "pageType": "site",
+                "exptID": "rothamsted"
+            },
+            {
+                "URL": "info/rothamsted/overview",
+                "title": "Overview of the Rothamsted experimental station",
+                "pageType": "site",
+                "exptID": "rothamsted"
+            },
+            {
+                "URL": "info/rothamsted/summary",
+                "title": "Summary",
+                "pageType": "site",
+                "exptID": "rothamsted"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/wrn3/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wrn3"
+            }
+        ]
     },
     {
         "keyword": "runoff",
         "slug": "runoff",
         "identifier": "c_35388",
-        "schema": "Agronomy Ontology",
-        "URL": "http://purl.obolibrary.org/obo/agro-edit.owlc_35388",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_35388",
+        "datasets": [
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
+                "exptID": "wrn20"
+            }
+        ],
+        "documents": [],
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
+    },
+    {
+        "keyword": "selenium",
+        "slug": "selenium",
+        "identifier": "c_6953",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_6953",
         "datasets": [],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "soil",
@@ -5894,7 +7561,254 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/broomsbarn/site",
+                "title": "Brooms Bar site",
+                "pageType": "site",
+                "exptID": "broomsbarn"
+            },
+            {
+                "URL": "info/broomsbarn/experiments",
+                "title": "Brooms Barn Experiments",
+                "pageType": "site",
+                "exptID": "broomsbarn"
+            },
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/credits",
+                "title": "Credits: past and present staff involved in eRA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/howtocredit",
+                "title": "How to credit materials",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/disease",
+                "title": "Disease surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/earthworms",
+                "title": "Earthworms",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/site",
+                "title": "The Rothamsted Weather station site",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rothamsted/overview",
+                "title": "Overview of the Rothamsted experimental station",
+                "pageType": "site",
+                "exptID": "rothamsted"
+            },
+            {
+                "URL": "info/rothamsted/site",
+                "title": "The Rothamsted site",
+                "pageType": "site",
+                "exptID": "rothamsted"
+            },
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/plot-photos",
+                "title": "Park Grass Plots",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/saxmundham/experiments",
+                "title": "Experiments done at Saxmundham",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/saxmundham/overview",
+                "title": "Overview of the Saxmundham Experimental Site",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/saxmundham/site",
+                "title": "The Saxmundham site",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/sms/overview",
+                "title": "Overview of the Woburn Weather Station",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/srn2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "srn2"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/wms/overview",
+                "title": "Overview of the Saxmundham Weather Station",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/history",
+                "title": "History of the Woburm Station",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/overview",
+                "title": "Overview",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/summary",
+                "title": "Summary",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/site",
+                "title": "The Woburn site",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "soil biology",
@@ -5917,18 +7831,37 @@
         "keyword": "soil erosion",
         "slug": "soil-erosion",
         "identifier": "c_2651",
-        "schema": "Agronomy Ontology",
-        "URL": "http://purl.obolibrary.org/obo/agro-edit.owlc_2651",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_2651",
         "datasets": [
             {
                 "DOI": "10.23637/wrn20-yield-01",
                 "URL": "dataset/wrn20/01-RN20YLD",
                 "title": "Woburn Erosion Reference Experiment crop yields. ",
                 "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-soil-01",
+                "URL": "dataset/wrn20/01-RN20SOIL",
+                "title": "Woburn Erosion Reference Experiment plot soil total C and N ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
+                "exptID": "wrn20"
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "soil fertility",
@@ -5976,7 +7909,20 @@
                 "exptID": "docs"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "soil microbiome",
@@ -6108,6 +8054,18 @@
                 "URL": "dataset/rrn2/01-SOC5014",
                 "title": "Fosters Ley-arable experiment soil chemical properties 1948-2014 ",
                 "exptID": "rrn2"
+            },
+            {
+                "DOI": "10.23637/wrn20-soil-01",
+                "URL": "dataset/wrn20/01-RN20SOIL",
+                "title": "Woburn Erosion Reference Experiment plot soil total C and N ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
+                "exptID": "wrn20"
             }
         ],
         "documents": [
@@ -6118,7 +8076,26 @@
                 "exptID": "docs"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            }
+        ]
     },
     {
         "keyword": "soil organic matter",
@@ -6153,7 +8130,38 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/overview",
+                "title": "Overview",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "soil pH",
@@ -6280,13 +8288,13 @@
             },
             {
                 "DOI": "10.23637/rcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/rcs10/RothLTliming-Plans.pdf",
                 "title": "Rothamsted long-term liming experiment plans 1962-1996 ",
                 "exptID": "rcs10"
             },
             {
                 "DOI": "10.23637/wcs10-Plans",
-                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/NOTSUPPLIED",
+                "URL": "https://www.era.rothamsted.ac.uk/metadata/wcs10/WobLTliming-Plans.pdf",
                 "title": "Woburn long-term liming experiment plans 1962-1996 ",
                 "exptID": "wcs10"
             },
@@ -6297,7 +8305,38 @@
                 "exptID": "srn2"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/rpg5/pgcomposition1",
+                "title": "Botanical composition",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            },
+            {
+                "URL": "info/rpg5/pgsoils",
+                "title": "Soil properties",
+                "pageType": "experiment",
+                "exptID": "rpg5"
+            }
+        ]
     },
     {
         "keyword": "soil temperature",
@@ -6338,7 +8377,74 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/srn2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "srn2"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "sown pastures",
@@ -6454,7 +8560,26 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/conditions",
+                "title": "Conditions of Use",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/credits",
+                "title": "Credits: past and present staff involved in eRA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/privacy",
+                "title": "Privacy and Cookies information",
+                "pageType": "default",
+                "exptID": "default"
+            }
+        ]
     },
     {
         "keyword": "straw",
@@ -6477,7 +8602,74 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/disease",
+                "title": "Disease surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/earthworms",
+                "title": "Earthworms",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/grainquality",
+                "title": "Grain quality assessment",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields",
+                "title": "Wheat yield background information",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/nutrients",
+                "title": "Crop nutrients",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            }
+        ]
     },
     {
         "keyword": "sugarbeet",
@@ -6500,7 +8692,14 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            }
+        ]
     },
     {
         "keyword": "sun",
@@ -6508,7 +8707,14 @@
         "identifier": "c_7db9368a",
         "schema": "AGROVOC",
         "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_7db9368a",
-        "datasets": [],
+        "datasets": [
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
+                "exptID": "rms"
+            }
+        ],
         "documents": [
             {
                 "DOI": "10.23637/rms-MonAnnSum-2020",
@@ -6523,7 +8729,104 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/bms/overview",
+                "title": "bms Overview",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/background",
+                "title": "Background information on the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/overview",
+                "title": "Overview of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/monthly",
+                "title": "Rothamsted Met Data Monthly Updates",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/wms/overview",
+                "title": "Overview of the Saxmundham Weather Station",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "sunshine recorders",
@@ -6600,7 +8903,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -6611,7 +8914,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -6619,6 +8922,12 @@
                 "DOI": "10.23637/rms-RothSeasonTotRainMeanTemp1968-2022",
                 "URL": "dataset/rms/01-rmsSeasonRainTemp",
                 "title": "Mean Seasonal Air Temperature and Total Seasonal Rain at Rothamsted 1968-2022 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -6714,7 +9023,140 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/bms/overview",
+                "title": "bms Overview",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/CF",
+                "title": "Conversion Factors",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/background",
+                "title": "Background information on the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/history",
+                "title": "History of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/overview",
+                "title": "Overview of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/monthly",
+                "title": "Rothamsted Met Data Monthly Updates",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/saxmundham/site",
+                "title": "The Saxmundham site",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/sms/overview",
+                "title": "Overview of the Woburn Weather Station",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/srn2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "srn2"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/wms/overview",
+                "title": "Overview of the Saxmundham Weather Station",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "thermometer",
@@ -6738,12 +9180,12 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -6751,6 +9193,18 @@
                 "DOI": "10.23637/rms-RothSeasonTotRainMeanTemp1968-2022",
                 "URL": "dataset/rms/01-rmsSeasonRainTemp",
                 "title": "Mean Seasonal Air Temperature and Total Seasonal Rain at Rothamsted 1968-2022 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -6846,19 +9300,80 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/history",
+                "title": "History of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "tillage erosion",
         "slug": "tillage-erosion",
         "identifier": "c_924f2195",
-        "schema": "Agronomy Ontology",
-        "URL": "http://purl.obolibrary.org/obo/agro-edit.owlc_924f2195",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_924f2195",
         "datasets": [
             {
                 "DOI": "10.23637/wrn20-yield-01",
                 "URL": "dataset/wrn20/01-RN20YLD",
                 "title": "Woburn Erosion Reference Experiment crop yields. ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-soil-01",
+                "URL": "dataset/wrn20/01-RN20SOIL",
+                "title": "Woburn Erosion Reference Experiment plot soil total C and N ",
+                "exptID": "wrn20"
+            },
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
                 "exptID": "wrn20"
             }
         ],
@@ -6883,6 +9398,12 @@
                 "URL": "dataset/wcs10/01-WLTLGRAIN",
                 "title": "Woburn long-term liming experiment grain mineral composition ",
                 "exptID": "wcs10"
+            },
+            {
+                "DOI": "10.23637/wrn20-sed-01",
+                "URL": "dataset/wrn20/01-RN20SED",
+                "title": "Woburn Erosion Reference Experiment soil erosion and surface runoff data ",
+                "exptID": "wrn20"
             }
         ],
         "documents": [],
@@ -6946,7 +9467,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -6957,7 +9478,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -6971,6 +9492,24 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -7066,7 +9605,128 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/bms/overview",
+                "title": "bms Overview",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/about",
+                "title": "About e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/dataQuality",
+                "title": "Data Quality in e-RA",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/history",
+                "title": "History of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/overview",
+                "title": "Overview of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/monthly",
+                "title": "Rothamsted Met Data Monthly Updates",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/saxmundham/site",
+                "title": "The Saxmundham site",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/sms/overview",
+                "title": "Overview of the Woburn Weather Station",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/wms/overview",
+                "title": "Overview of the Saxmundham Weather Station",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "weather data",
@@ -7120,7 +9780,7 @@
             {
                 "DOI": "10.23637/rms-RMAAtempanomaly-1",
                 "URL": "dataset/rms/01-RMAAtempanom",
-                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019",
+                "title": "Annual Mean Air Temperature Anomaly at Rothamsted 1878-2019 ",
                 "exptID": "rms"
             },
             {
@@ -7131,7 +9791,7 @@
             },
             {
                 "DOI": "10.23637/rms-RMAAtemp-03",
-                "URL": "dataset/rms/04-RMAAtemp",
+                "URL": "dataset/rms/03-RMAAtemp",
                 "title": "Annual Mean Air Temperature at Rothamsted 1878-2023 ",
                 "exptID": "rms"
             },
@@ -7151,6 +9811,24 @@
                 "DOI": "10.23637/rmsTMRain18532023-01",
                 "URL": "dataset/rms/02-rmsTMRain5323",
                 "title": "Total Monthly Rainfall at Rothamsted March 1853 - December 2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTARain1853-2023-01",
+                "URL": "dataset/rms/01-rmsTARain5323",
+                "title": "Total Annual Rainfall at Rothamsted 1853-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsMMAirTemp1878-2023-01",
+                "URL": "dataset/rms/01-rmsMMTemp7823",
+                "title": "Monthly Mean Average Air Temperature at Rothamsted 1878-2023 ",
+                "exptID": "rms"
+            },
+            {
+                "DOI": "10.23637/rmsTMASunHours1893-2023-01",
+                "URL": "dataset/rms/01-rmsMTsun9323",
+                "title": "Total Monthly and Annual Sunshine Hours at Rothamsted 1893-2023 ",
                 "exptID": "rms"
             }
         ],
@@ -7246,7 +9924,44 @@
                 "exptID": "rms"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/extreme",
+                "title": "Extreme weather recordings",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/overview",
+                "title": "Overview of the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            }
+        ]
     },
     {
         "keyword": "weeds",
@@ -7269,7 +9984,26 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/weeds",
+                "title": "Weeds surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     },
     {
         "keyword": "wheat",
@@ -7491,7 +10225,128 @@
                 "exptID": "rbk1"
             }
         ],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/broomsbarn/history",
+                "title": "History of Broom's Barn",
+                "pageType": "site",
+                "exptID": "broomsbarn"
+            },
+            {
+                "URL": "info/default/experiments",
+                "title": "All the experiments",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/schools",
+                "title": "Weather data for schools",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rbk1/outreach",
+                "title": "Broadbalk Dataset for School",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/disease",
+                "title": "Disease surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/earthworms",
+                "title": "Earthworms",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/grainquality",
+                "title": "Grain quality assessment",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields_other_crops",
+                "title": "Other crops and fallow",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilchem",
+                "title": "Soil chemical properties",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/soilphys",
+                "title": "Soil physical properties and site details",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/weeds",
+                "title": "Weeds surveys",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rbk1/yields",
+                "title": "Wheat yield background information",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            },
+            {
+                "URL": "info/rhb2/hfsoils",
+                "title": "Soil chemical and physical properties",
+                "pageType": "experiment",
+                "exptID": "rhb2"
+            },
+            {
+                "URL": "info/saxmundham/experiments",
+                "title": "Experiments done at Saxmundham",
+                "pageType": "site",
+                "exptID": "saxmundham"
+            },
+            {
+                "URL": "info/woburn/experiments",
+                "title": "Experiments done at Woburn",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/woburn/history",
+                "title": "History of the Woburm Station",
+                "pageType": "site",
+                "exptID": "woburn"
+            },
+            {
+                "URL": "info/wxw6/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wxw6"
+            }
+        ]
     },
     {
         "keyword": "wind speed",
@@ -7532,7 +10387,92 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/bms/measurements",
+                "title": "bms measurements",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/bms/overview",
+                "title": "bms Overview",
+                "pageType": "experiment",
+                "exptID": "bms"
+            },
+            {
+                "URL": "info/default/CF",
+                "title": "Conversion Factors",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/default/instrumentdescription",
+                "title": "Description of the instruments for measuring met data",
+                "pageType": "default",
+                "exptID": "default"
+            },
+            {
+                "URL": "info/met/derived_variables",
+                "title": "Derived Meterological Variables",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/instrumentdescription",
+                "title": "Measuring the weather",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/met/public",
+                "title": "Weather data for the public",
+                "pageType": "default",
+                "exptID": "met"
+            },
+            {
+                "URL": "info/rms/30yearmean",
+                "title": "30 years mean data",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/background",
+                "title": "Background information on the Rothamsted Weather Station",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/rms/measurements",
+                "title": "Data available and how it is measured",
+                "pageType": "experiment",
+                "exptID": "rms"
+            },
+            {
+                "URL": "info/sms/measurements",
+                "title": "Measuring the weather at Saxmundham",
+                "pageType": "experiment",
+                "exptID": "sms"
+            },
+            {
+                "URL": "info/srn2/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "srn2"
+            },
+            {
+                "URL": "info/wms/measurements",
+                "title": "Measuring the weather at at Woburn",
+                "pageType": "experiment",
+                "exptID": "wms"
+            },
+            {
+                "URL": "info/wms/overview",
+                "title": "Overview of the Saxmundham Weather Station",
+                "pageType": "experiment",
+                "exptID": "wms"
+            }
+        ]
     },
     {
         "keyword": "Woburn Continuous Barley experiment",
@@ -7549,7 +10489,14 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/wxb6/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wxb6"
+            }
+        ]
     },
     {
         "keyword": "Woburn Continuous Wheat experiment",
@@ -7566,7 +10513,14 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/wxw6/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wxw6"
+            }
+        ]
     },
     {
         "keyword": "Woburn Ley-arable experiment",
@@ -7595,7 +10549,14 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/wrn3/plans",
+                "title": "Plans and treatments",
+                "pageType": "experiment",
+                "exptID": "wrn3"
+            }
+        ]
     },
     {
         "keyword": "woodland",
@@ -7618,6 +10579,30 @@
             }
         ],
         "documents": [],
-        "pages": []
+        "pages": [
+            {
+                "URL": "info/default/RLTEdatavailable",
+                "title": "Summary of all experiments and data",
+                "pageType": "default",
+                "exptID": "default"
+            }
+        ]
+    },
+    {
+        "keyword": "zinc",
+        "slug": "zinc",
+        "identifier": "c_8517",
+        "schema": "AGROVOC",
+        "URL": "https://agrovoc.fao.org/browse/agrovoc/en/page/c_8517",
+        "datasets": [],
+        "documents": [],
+        "pages": [
+            {
+                "URL": "info/rbk1/nutrients",
+                "title": "Crop nutrient content",
+                "pageType": "experiment",
+                "exptID": "rbk1"
+            }
+        ]
     }
 ]

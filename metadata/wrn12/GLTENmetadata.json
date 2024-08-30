@@ -159,8 +159,8 @@
                             "application_frequency": "annually in autumn",
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "straw",
+                            "chemical_form_label": "straw"
                         },
                         {
                             "id": 31478,
@@ -700,8 +700,8 @@
                             "application_frequency": null,
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "straw",
+                            "chemical_form_label": "straw"
                         },
                         {
                             "id": 31498,
@@ -1217,8 +1217,8 @@
                             "application_frequency": null,
                             "application_method_term": null,
                             "application_method_label": null,
-                            "chemical_form_term": null,
-                            "chemical_form_label": null
+                            "chemical_form_term": "straw",
+                            "chemical_form_label": "straw"
                         },
                         {
                             "id": 31516,

@@ -9,73 +9,24 @@
  */
 ?>
 
-<h2 class="mx-3">Datasets available</h2>
-
 
 
 <?php
+# We will be printing $list at the end - there might be some subpart along the way! 
+$list = "<h2 class=\"mx-3\">Datasets available</h2>"; # the one we print at the end
 
-/*
- * function niceChop -
- * to chop a paragrapgh to the length $length, but to previous or next full stop, whichever is teh closest
- * Note that an abbreviation can be mistaken for a full stop. We will filter out the full stop following single letters.
- *
- *
- */
-function niceChop($text, $length)
-{
-    $prestr = explode('.', $text);
-    $sents = array();
-    $sents[0] = '';
-    $desc = '';
-    $next = '';
-    $j = 0;
-    for ($i = 0; $i < count($prestr); $i ++) {
-
-        $isInitial = 0;
-        $sentLen = strlen($prestr[$i]);
-        /* testing for single letters last word */
-        if ($sentLen > 2) {
-            if ($prestr[$i][$sentLen - 2] == ' ') {
-                $isInitial = 1;
-            }
-        } else {
-            $isInitial = 1;
-        }
-
-        if ($isInitial == 1) {
-            $sents[$j] .= '. ' . $prestr[$i];
-        } else {
-            $sents[$j] .= '. ' . $prestr[$i];
-            $next = $desc . $sents[$j];
-            $j ++;
-            $sents[$j] = '';
-        }
-
-        if (strlen($desc) > $length) {
-
-            break;
-        } else {
-            $desc = $next;
-        }
-        $desc = ltrim($desc, '.');
-        $desc = str_replace('..', '.', $desc);
-        $desc .= '.';
-    }
-    return $desc;
-}
-
+$info = ""; 
 if (! $hasDatasets) {
-    $info = "<p>There are no datasets for this experiments yet. </p>";
-} else {
-    $list = "";
-    
+    $list .= "<p>There are no datasets for this experiments yet. </p>";
+} 
+else 
+{  
     $prefix = "10.23637/";
     /*
-     *
      * the function group_by then also sort them
      */
-    //obtain a list of columns
+
+    # obtain a list of columns
     $years  = array_column($datasets, 'publication_year');
     $shortname= array_column($datasets, 'shortName');
     $version= array_column($datasets, 'version');
@@ -88,26 +39,33 @@ if (! $hasDatasets) {
     $gpDS = group_by('dataset_type', $datasets);
 
     $list .= "\n<div class=\"table-responsive-sm mx-3 rounded p-3 mb-3\">";
-        $list .= "\n\n<table class = \"table  table-responsive-sxm table-sm bg-white table-bordered  table-condensed\">";
-        $list .= "\n<thead class=\"thead-light\">\n\t<tr>";
-        
-        $list .= "\n\t\t<th scope=\"col\">Title <small>(hover for a longer description)</small></th>";
-        $list .= "\n\t\t<th scope=\"col\">Year of Publication</th>";
+    $list .= "\n\n<table class = \"table  table-responsive-sxm table-sm bg-white table-bordered  table-condensed\">";
+    $list .= "\n<thead class=\"thead-light\">\n\t<tr>";
     
-        $list .= "\n\t\t<th scope=\"col\">Identifier</th>";
-        $list .= "\n\t\t<th scope=\"col\">Version </th>";
-        $list .= "\n\t</tr>\n</thead>\n<tbody>";
+    $list .= "\n\t\t<th scope=\"col\">Title <small>(hover for a longer description)</small></th>";
+    $list .= "\n\t\t<th scope=\"col\">Year of Publication</th>";
+
+    $list .= "\n\t\t<th scope=\"col\">Identifier</th>";
+    $list .= "\n\t\t<th scope=\"col\">Version </th>";
+    $list .= "\n\t</tr>\n</thead>\n<tbody>";
 
     foreach ($gpDS as $groupName => $groupedDatasets) {
         
         $notEmptyGr = 0;
-        
         $listGr = "<tr>";
         $listGr .= "\n    \t     \t <td colspan=\"4\" class=\"pr-4 \">\n\t<h3 class=\"mt-3 text-primary\">\n\t".$groupName."</h3></td>";
         $listGr .= "</tr>";
 
         
         foreach ($groupedDatasets as $dataset) {
+    
+            # each dataset will be either ready of not
+            # a ready dataset will have the identifier only and link to the DOI or url - if the identifier is a DOI: link the DOI - else link the url
+            # a draft dataset will have a link to the draft version on the local site - relative and a disabled DOI link as it won't be minted;
+            # a draft dataset will also have a ORANGE warning that the dataset is in DRAFT
+            # all that will be working seaminglessly. 
+
+            # the dataset is ready and minted
             if ($dataset['isReady'] >  $displayValue) {
                 $notEmptyGr = 1;
                 if ($dataset['UID']) {
@@ -131,8 +89,6 @@ if (! $hasDatasets) {
                     $strCount = strval($countVersion);
                 }
 
-
-
                 $info  = "\n    \t  <tr>";
                 
                 $info .= "\n    \t     \t <td class=\"px-4 \"><b>".$dataset['title']." </b><i class=\"bi bi-file-text\"  title=\"". $subDescription   ."\">
@@ -140,18 +96,33 @@ if (! $hasDatasets) {
                 <path d=\"M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z\"/>
                 <path d=\"M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z\"/>
               </svg></i>";
-              $datasetCheckURL = "";
+              $datasetCheckURL = "DRAFT VERSION";
               if ($dataset['isReady'] == 1  ) {
-                $info.=$checkThisOne;
-                $datasetCheckURL = "<B class=\"text-warning\">DRAFT VERSION</B><br />" ;
-            }
+                $info .= $checkThisOne;
+                $datasetCheckURL = "<span class=\"text-warning\">DRAFT VERSION: </span>" ;
+                if (substr($dataset['identifier'],0,3)=== '10.') {
+                    $identifierLink = "https://doi.org/". $dataset['identifier']; # DOI not minted so no link
+                    } else {
+                    $identifierLink =  $dataset['url']." - " .$dataset['identifier'];   
+                    }
+                }
+                    else 
+                {
+                    if (substr($dataset['identifier'],0,3) === '10.') {
+                    $identifierLink =  "<a  href=\"https://doi.org/". $dataset['identifier']."\">https://doi.org/". $dataset['identifier']."</a>"; # DOI not minted so no link
+                    } else {
+                    $identifierLink =  "<a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">".$expt."/". $dataset['version']."-".$dataset['shortName'] . " - ". $dataset['identifier']."</a>";;   
+                    }
+                }
                 $info.="</td>";
                 $info .= "\n    \t     \t <td class=\"pr-4 \">".$dataset['publication_year']."</td>";
                 
-                $info .= "\n    \t     \t <td class=\"pr-4 \"><a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">". $dataset['identifier']."</a><br />".$datasetCheckURL;
-                if ($displayValue == 0) {
-                $info .= "\n    \t     \t Shortname: <a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">".$expt."/". $dataset['version']."-".$dataset['shortName'] . "</a>";
-                
+                $info .= "\n    \t     \t <td class=\"pr-4 \">".$identifierLink."<br />";
+               
+                # if the site is intranet - displayvalue is 0 then we need a link to the draft version 
+                if ($displayValue == 0) { 
+                $info .= $datasetCheckURL;
+                $info .= "\n    \t     \t <a  href=\"dataset/".$expt."/". $dataset['version']."-".$dataset['shortName'] . "\">".$expt."/". $dataset['version']."-".$dataset['shortName'] . "</a>";
                 }
                 $info .= "\n    \t     \t</td>";
                 $info .= "\n    \t     \t <td class=\"pr-4 \">". $dataset['version']."</a></td>";
@@ -191,7 +162,9 @@ if (! $hasDatasets) {
         }
     }
     $list .= "</table></div>";
-    echo $list;
+    
 }
 
 ?>
+
+<?php echo  $list ?>

@@ -42,7 +42,7 @@
                 "level": [
                     {
                         "id": 31406,
-                        "name": "ammonium sulphate (Series A)",
+                        "name": "ammonium sulfate (Series A)",
                         "amount": "48",
                         "unitCode": "kgN/ha",
                         "unitText": "kg nitrogen per hectare",
@@ -162,7 +162,7 @@
                         "dateEnd": 1967,
                         "frequency": "annuallty",
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "farmyard manure",
                         "notes": "Applied before ploughing usually in the autumn"
                     },
                     {
@@ -176,7 +176,7 @@
                         "dateEnd": 1871,
                         "frequency": "annually",
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "farmyard manure",
                         "notes": "Applied before ploughing usually in the autumn for 20 years only"
                     },
                     {
@@ -339,8 +339,8 @@
             },
             {
                 "id": 21635,
-                "name": "field beans",
-                "sameAs": "field beans",
+                "name": "beans",
+                "sameAs": "beans",
                 "dateStart": null,
                 "dateEnd": null
             }
@@ -735,7 +735,7 @@
                         "dateEnd": null,
                         "frequency": "annually",
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "farmyard manure",
                         "notes": "Applied before ploughing in autumn. Continuation of FYM treatment from early and middle period."
                     },
                     {
@@ -749,7 +749,7 @@
                         "dateEnd": 1871,
                         "frequency": "annually",
                         "method": null,
-                        "chemicalForm": null,
+                        "chemicalForm": "farmyard manure",
                         "notes": "Continuation of FYM-residue treatment from early and middle period."
                     },
                     {
