@@ -53,18 +53,19 @@ $(document).ready(function () {
     //location.reload();
     //$('.nav-link[href="' + selectedTab + '"]' ).parent().addClass('active');
 
-    // watch that copy to clipboard function
     $('.copyToClipboard').click(function () {
-        // Lets find that text we need: it is at the address in this element 
-        let copyText = $(this).attr('address');
-        // we put it in the clipboard
+        
+        let copyText = $(this).attr('address');  
+        let x = document.getElementById("div1");    
         navigator.clipboard.writeText(copyText);
-        // a bit of feed back that is happened
+        
+        // Show a div for a bit of feedback 
+        
         x.style.display = 'inline';
-        // and we fade out the feed back 
+        // remove it after 3 seconds
         setTimeout(function () {
         x.style.display = 'none';
-        }, 3000);
+    }, 3000);
     })
 
 });
