@@ -12,7 +12,6 @@ function myFunction() {
     }, 4000);
 }
 
-
 $(document).ready(function () {
     var $lightbox = $('#lightbox');
 
@@ -54,18 +53,18 @@ $(document).ready(function () {
     //$('.nav-link[href="' + selectedTab + '"]' ).parent().addClass('active');
 
     $('.copyToClipboard').click(function () {
-        
-        let copyText = $(this).attr('address');  
-        let x = document.getElementById("div1");    
+
+        let copyText = $(this).attr('address');
+        let x = document.getElementById("div1");
         navigator.clipboard.writeText(copyText);
-        
+
         // Show a div for a bit of feedback 
-        
+
         x.style.display = 'inline';
         // remove it after 3 seconds
         setTimeout(function () {
-        x.style.display = 'none';
-    }, 3000);
+            x.style.display = 'none';
+        }, 3000);
     })
 
 });
